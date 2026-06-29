@@ -1,0 +1,9 @@
+{
+  "entity": {
+    "KR_ACCOUNT": 2.5
+  },
+  "thresholds": {
+    "confidential": 5.5,
+    "sensitive": 1.5
+  }
+}

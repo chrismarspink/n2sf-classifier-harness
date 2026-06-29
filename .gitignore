@@ -1,0 +1,21 @@
+# 가상환경 / 캐시
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+.cache/
+
+# 대용량 산출물 — 코드/요약/리포트만 버전관리 (DB·코퍼스는 재생성 가능)
+*.db
+*.db-journal
+**/corpus/
+**/corpus_tmp/
+weekend/autoloop.log
+weekend/autoloop.pid
+
+# 모델 가중치/체크포인트(있다면)
+*.bin
+*.safetensors
+*.pt
+
+# 보존: report.html, *.md, recommended_weights.json, optimized_config.json 등 소형 산출물은 추적함
