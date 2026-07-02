@@ -25,6 +25,8 @@ def main(argv=None):
     ap = argparse.ArgumentParser(description="data_classifier 자동 평가·최적화 하네스")
     ap.add_argument("--seed", type=int, default=0)
     ap.add_argument("--per-cell", type=int, default=6, help="등급×난이도 셀당 문서 수")
+    ap.add_argument("--difficulty", type=int, default=1, help="코퍼스 난이도 1~4(높을수록 적대 케이스 포함)")
+    ap.add_argument("--normalize", action="store_true", help="① 전처리 정규화(전각→반각 등) 적용")
     ap.add_argument("--out", default="harness_out", help="작업/산출 디렉터리")
     ap.add_argument("--formats", default=",".join(ALL_FORMATS))
     ap.add_argument("--models", default="minilm,ko-sroberta,mdeberta",
@@ -54,7 +56,7 @@ def main(argv=None):
     # ── 1. 코퍼스 생성 ──
     print("[1/6] 코퍼스 생성")
     gen = CorpusGen(seed=args.seed, locale=args.locale)
-    docs = gen.build(per_cell=args.per_cell)
+    docs = gen.build(per_cell=args.per_cell, difficulty=args.difficulty)
     manifest = render_all(docs, corpus_dir, formats=formats)
     splits = OPT.assign_splits([m["doc_id"] for m in manifest], seed=args.seed + 7)
     n_err = sum(1 for m in manifest if m["render_error"])
@@ -73,7 +75,7 @@ def main(argv=None):
 
     # ── 2. 탐지(추출+NER+뉴럴) 캐시 ──
     print("[2/6] 탐지(추출+Presidio NER+뉴럴) — 1회 캐시")
-    DET.run_detection(db, corpus_rows, locale=args.locale, models=models)
+    DET.run_detection(db, corpus_rows, locale=args.locale, models=models, normalize=args.normalize)
 
     detections = DET.load_detection(db)
     meta = {(r["doc_id"], r["fmt"]): {"grade": r["grade"], "category": r["category"],

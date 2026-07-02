@@ -1,0 +1,1 @@
+{"tier":{"rules":0.3,"ner":0.3,"neural":3.0},"thresholds":{"confidential":8.0,"sensitive":2.0},"entity":{"KR_ACCOUNT":1.0}}

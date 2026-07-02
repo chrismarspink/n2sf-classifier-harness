@@ -1,0 +1,12 @@
+[finalize] 대기 시작 Tue Jun 30 11:56:44 KST 2026
+[finalize2] 대기 시작 Tue Jun 30 13:21:10 KST 2026
+[finalize2] 모델 확인 Tue Jun 30 13:21:10 KST 2026
+[finalize2] L3 반복 3 도달 — 평가루프 정지 후 Gemma 비교
+[finalize2] 기준 반복(run_id)=L3i0  (도달난이도 [3])
+[finalize2] 대상 문서 720 / 탐지캐시 720 — Gemma 분류 시작
+  ollama(gemma2:9b) 분류 대상: 파일 240 → 고유 텍스트 123 (conc=1)
+  ollama 완료: 파일 240 저장, 오류 0, 지연 p50=10609.4ms p95=15316.2ms
+[finalize2] Gemma 결과: {'available': True, 'model': 'gemma2:9b', 'files_scored': 240, 'unique_texts': 123, 'errors': 0, 'latency_p50_ms': 10609.4, 'latency_p95_ms': 15316.2, 'wall_s': 1308.7, 'input_tokens': 78607, 'output_tokens': 6778, 'cache_read_tokens': 0}
+[finalize2] 최종 웹 리포트 생성 → test2/report.html
+[finalize2] 완료.
+[finalize2] 완료 Tue Jun 30 14:16:32 KST 2026

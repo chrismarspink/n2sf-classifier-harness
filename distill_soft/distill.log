@@ -1,0 +1,956 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+[train_soft] device=mps KD 학습쌍=400
+Loading weights:   0%|          | 0/202 [00:00<?, ?it/s]Loading weights:   2%|▏         | 5/202 [00:00<00:06, 28.44it/s]Loading weights: 100%|██████████| 202/202 [00:00<00:00, 1130.28it/s]
+/Users/carina/projects/classifier/harness/train_soft.py:110: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /Users/runner/work/pytorch/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:839.)
+  tot += float(loss) * args.accum; nb += 1
+[train_soft] ep0 step0/25 loss=4.341 (2s)
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.03s/it]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.03s/it]
+[train_soft] ep0 저장 loss_avg=1.702
+[train_soft] ep1 step0/25 loss=0.857 (1s)
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  1.16it/s]Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  1.15it/s]
+[train_soft] ep1 저장 loss_avg=0.690
+[train_soft] ep2 step0/25 loss=0.676 (1s)
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.35s/it]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.35s/it]
+[train_soft] ep2 저장 loss_avg=0.530
+[train_soft] 완료 → models/mdeberta-n2sf
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+== distill(soft-label) 시작 out=distill_soft 예산=12.0h ==
+
+=== 증류 사이클 0 === 16:22
+  교사 라벨 +400 (누적 400)
+  학생 KD 학습(mdeberta-n2sf)…
+  held-out 평가…
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 7298.97it/s]
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 6836.82it/s]
+Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]Loading weights: 100%|██████████| 197/197 [00:00<00:00, 6887.31it/s]
+[transformers] [1mRobertaModel LOAD REPORT[0m from: klue/roberta-base
+Key                       | Status     | 
+--------------------------+------------+-
+lm_head.layer_norm.weight | UNEXPECTED | 
+lm_head.dense.bias        | UNEXPECTED | 
+lm_head.dense.weight      | UNEXPECTED | 
+lm_head.bias              | UNEXPECTED | 
+lm_head.layer_norm.bias   | UNEXPECTED | 
+pooler.dense.weight       | MISSING    | 
+pooler.dense.bias         | MISSING    | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+Loading weights:   0%|          | 0/202 [00:00<?, ?it/s]Loading weights: 100%|██████████| 202/202 [00:00<00:00, 8707.96it/s]
+Loading weights:   0%|          | 0/202 [00:00<?, ?it/s]Loading weights: 100%|██████████| 202/202 [00:00<00:00, 8424.39it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+[train_soft] device=mps KD 학습쌍=800
+Loading weights:   0%|          | 0/202 [00:00<?, ?it/s]Loading weights:   2%|▏         | 5/202 [00:00<00:10, 19.17it/s]Loading weights: 100%|██████████| 202/202 [00:00<00:00, 766.05it/s]
+/Users/carina/projects/classifier/harness/train_soft.py:110: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /Users/runner/work/pytorch/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:839.)
+  tot += float(loss) * args.accum; nb += 1
+[train_soft] ep0 step0/50 loss=4.743 (2s)
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.24s/it]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.24s/it]
+[train_soft] ep0 저장 loss_avg=1.268
+[train_soft] ep1 step0/50 loss=0.609 (1s)
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.70s/it]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.70s/it]
+[train_soft] ep1 저장 loss_avg=0.530
+[train_soft] ep2 step0/50 loss=0.514 (1s)
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.82s/it]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.83s/it]
+[train_soft] ep2 저장 loss_avg=0.386
+[train_soft] 완료 → models/mdeberta-n2sf
+    rules          F1=0.558 Crec=1.0 under=0.0 over=0.3611
+    minilm         F1=0.5097 Crec=1.0 under=0.0 over=0.4306
+    ko-sroberta    F1=0.3527 Crec=1.0 under=0.0 over=0.5833
+    klue-roberta   F1=0.5469 Crec=1.0 under=0.0 over=0.375
+    mdeberta       F1=0.4425 Crec=1.0 under=0.0 over=0.5
+    mdeberta-n2sf  F1=0.558 Crec=1.0 under=0.0 over=0.3611
+  사이클 0 완료 (618s, 라벨 400)
+
+=== 증류 사이클 1 === 16:32
+  교사 라벨 +400 (누적 800)
+  학생 KD 학습(mdeberta-n2sf)…
+  held-out 평가…
+Loading weights:   0%|          | 0/202 [00:00<?, ?it/s]Loading weights: 100%|██████████| 202/202 [00:00<00:00, 5720.25it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+[train_soft] device=mps KD 학습쌍=1200
+Loading weights:   0%|          | 0/202 [00:00<?, ?it/s]Loading weights:   2%|▏         | 5/202 [00:00<00:11, 17.51it/s]Loading weights: 100%|██████████| 202/202 [00:00<00:00, 700.96it/s]
+/Users/carina/projects/classifier/harness/train_soft.py:110: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /Users/runner/work/pytorch/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:839.)
+  tot += float(loss) * args.accum; nb += 1
+[train_soft] ep0 step0/75 loss=4.899 (2s)
+[train_soft] ep0 step50/75 loss=0.789 (97s)
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  1.19it/s]Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  1.19it/s]
+[train_soft] ep0 저장 loss_avg=0.984
+[train_soft] ep1 step0/75 loss=0.470 (1s)
+[train_soft] ep1 step50/75 loss=0.223 (97s)
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.24s/it]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.25s/it]
+[train_soft] ep1 저장 loss_avg=0.403
+[train_soft] ep2 step0/75 loss=0.396 (1s)
+[train_soft] ep2 step50/75 loss=0.270 (97s)
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.31s/it]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.31s/it]
+[train_soft] ep2 저장 loss_avg=0.325
+[train_soft] 완료 → models/mdeberta-n2sf
+    rules          F1=0.558 Crec=1.0 under=0.0 over=0.3611
+    minilm         F1=0.5097 Crec=1.0 under=0.0 over=0.4306
+    ko-sroberta    F1=0.3527 Crec=1.0 under=0.0 over=0.5833
+    klue-roberta   F1=0.5469 Crec=1.0 under=0.0 over=0.375
+    mdeberta       F1=0.4425 Crec=1.0 under=0.0 over=0.5
+    mdeberta-n2sf  F1=0.5491 Crec=1.0 under=0.0 over=0.375
+  사이클 1 완료 (736s, 라벨 800)
+
+=== 증류 사이클 2 === 16:44
+  교사 라벨 +400 (누적 1200)
+  학생 KD 학습(mdeberta-n2sf)…
+  held-out 평가…
+Loading weights:   0%|          | 0/202 [00:00<?, ?it/s]Loading weights: 100%|██████████| 202/202 [00:00<00:00, 8160.20it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+[train_soft] device=mps KD 학습쌍=1600
+Loading weights:   0%|          | 0/202 [00:00<?, ?it/s]Loading weights:   2%|▏         | 5/202 [00:00<00:10, 18.89it/s]Loading weights: 100%|██████████| 202/202 [00:00<00:00, 755.08it/s]
+/Users/carina/projects/classifier/harness/train_soft.py:110: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /Users/runner/work/pytorch/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:839.)
+  tot += float(loss) * args.accum; nb += 1
+[train_soft] ep0 step0/100 loss=5.513 (2s)
+[train_soft] ep0 step50/100 loss=0.433 (98s)
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.01s/it]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.01s/it]
+[train_soft] ep0 저장 loss_avg=0.837
+[train_soft] ep1 step0/100 loss=0.243 (2s)
+[train_soft] ep1 step50/100 loss=0.448 (96s)
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.51s/it]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.53s/it]
+[train_soft] ep1 저장 loss_avg=0.383
+[train_soft] ep2 step0/100 loss=0.344 (1s)
+[train_soft] ep2 step50/100 loss=0.262 (95s)
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.50s/it]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.50s/it]
+[train_soft] ep2 저장 loss_avg=0.296
+[train_soft] 완료 → models/mdeberta-n2sf
+    rules          F1=0.558 Crec=1.0 under=0.0 over=0.3611
+    minilm         F1=0.5097 Crec=1.0 under=0.0 over=0.4306
+    ko-sroberta    F1=0.3527 Crec=1.0 under=0.0 over=0.5833
+    klue-roberta   F1=0.5469 Crec=1.0 under=0.0 over=0.375
+    mdeberta       F1=0.4425 Crec=1.0 under=0.0 over=0.5
+    mdeberta-n2sf  F1=0.5491 Crec=1.0 under=0.0 over=0.375
+  사이클 2 완료 (889s, 라벨 1200)
+
+=== 증류 사이클 3 === 16:59
+  교사 라벨 +400 (누적 1600)
+  학생 KD 학습(mdeberta-n2sf)…
+  held-out 평가…
+Loading weights:   0%|          | 0/202 [00:00<?, ?it/s]Loading weights: 100%|██████████| 202/202 [00:00<00:00, 8154.39it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+[train_soft] device=mps KD 학습쌍=2000
+Loading weights:   0%|          | 0/202 [00:00<?, ?it/s]Loading weights:   2%|▏         | 5/202 [00:00<00:10, 18.24it/s]Loading weights: 100%|██████████| 202/202 [00:00<00:00, 729.31it/s]
+/Users/carina/projects/classifier/harness/train_soft.py:110: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /Users/runner/work/pytorch/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:839.)
+  tot += float(loss) * args.accum; nb += 1
+[train_soft] ep0 step0/125 loss=5.061 (2s)
+[train_soft] ep0 step50/125 loss=0.629 (96s)
+[train_soft] ep0 step100/125 loss=0.326 (184s)
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  1.09it/s]Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  1.09it/s]
+[train_soft] ep0 저장 loss_avg=0.810
+[train_soft] ep1 step0/125 loss=0.636 (2s)
+[train_soft] ep1 step50/125 loss=0.400 (92s)
+[train_soft] ep1 step100/125 loss=0.271 (180s)
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.73s/it]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.74s/it]
+[train_soft] ep1 저장 loss_avg=0.359
+[train_soft] ep2 step0/125 loss=0.491 (1s)
+[train_soft] ep2 step50/125 loss=0.464 (94s)
+[train_soft] ep2 step100/125 loss=0.338 (185s)
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.42s/it]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.42s/it]
+[train_soft] ep2 저장 loss_avg=0.296
+[train_soft] 완료 → models/mdeberta-n2sf
+    rules          F1=0.558 Crec=1.0 under=0.0 over=0.3611
+    minilm         F1=0.5097 Crec=1.0 under=0.0 over=0.4306
+    ko-sroberta    F1=0.3527 Crec=1.0 under=0.0 over=0.5833
+    klue-roberta   F1=0.5469 Crec=1.0 under=0.0 over=0.375
+    mdeberta       F1=0.4425 Crec=1.0 under=0.0 over=0.5
+    mdeberta-n2sf  F1=0.5491 Crec=1.0 under=0.0 over=0.375
+  사이클 3 완료 (1035s, 라벨 1600)
+
+=== 증류 사이클 4 === 17:17
+  교사 라벨 +400 (누적 2000)
+  학생 KD 학습(mdeberta-n2sf)…
+  held-out 평가…
+Loading weights:   0%|          | 0/202 [00:00<?, ?it/s]Loading weights: 100%|██████████| 202/202 [00:00<00:00, 8483.86it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+[train_soft] device=mps KD 학습쌍=2154
+Loading weights:   0%|          | 0/202 [00:00<?, ?it/s]Loading weights:   2%|▏         | 5/202 [00:00<00:10, 19.48it/s]Loading weights: 100%|██████████| 202/202 [00:00<00:00, 778.72it/s]
+/Users/carina/projects/classifier/harness/train_soft.py:110: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /Users/runner/work/pytorch/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:839.)
+  tot += float(loss) * args.accum; nb += 1
+[train_soft] ep0 step0/135 loss=3.204 (2s)
+[train_soft] ep0 step50/135 loss=0.555 (101s)
+[train_soft] ep0 step100/135 loss=0.613 (192s)
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  1.34it/s]Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  1.34it/s]
+[train_soft] ep0 저장 loss_avg=0.722
+[train_soft] ep1 step0/135 loss=0.573 (1s)
+[train_soft] ep1 step50/135 loss=0.402 (92s)
+[train_soft] ep1 step100/135 loss=0.340 (182s)
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.72s/it]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.72s/it]
+[train_soft] ep1 저장 loss_avg=0.345
+[train_soft] ep2 step0/135 loss=0.270 (2s)
+[train_soft] ep2 step50/135 loss=0.193 (121s)
+[train_soft] ep2 step100/135 loss=0.146 (220s)
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.81s/it]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.82s/it]
+[train_soft] ep2 저장 loss_avg=0.289
+[train_soft] 완료 → models/mdeberta-n2sf
+    rules          F1=0.558 Crec=1.0 under=0.0 over=0.3611
+    minilm         F1=0.5097 Crec=1.0 under=0.0 over=0.4306
+    ko-sroberta    F1=0.3527 Crec=1.0 under=0.0 over=0.5833
+    klue-roberta   F1=0.5469 Crec=1.0 under=0.0 over=0.375
+    mdeberta       F1=0.4425 Crec=1.0 under=0.0 over=0.5
+    mdeberta-n2sf  F1=0.5469 Crec=1.0 under=0.0 over=0.375
+  사이클 4 완료 (1146s, 라벨 2000)
+
+=== 증류 사이클 5 === 17:36
+  다양화 문서 +95 생성(gen_texts.jsonl)
+  교사 라벨 +154 (누적 2154)
+  학생 KD 학습(mdeberta-n2sf)…
+  held-out 평가…
+Loading weights:   0%|          | 0/202 [00:00<?, ?it/s]Loading weights: 100%|██████████| 202/202 [00:00<00:00, 8176.82it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+[train_soft] device=mps KD 학습쌍=2250
+Loading weights:   0%|          | 0/202 [00:00<?, ?it/s]Loading weights:   2%|▏         | 5/202 [00:00<00:15, 12.92it/s]Loading weights: 100%|██████████| 202/202 [00:00<00:00, 518.31it/s]
+/Users/carina/projects/classifier/harness/train_soft.py:110: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /Users/runner/work/pytorch/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:839.)
+  tot += float(loss) * args.accum; nb += 1
+[train_soft] ep0 step0/141 loss=3.640 (3s)
+[train_soft] ep0 step50/141 loss=0.781 (97s)
+[train_soft] ep0 step100/141 loss=0.350 (187s)
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  1.20it/s]Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  1.20it/s]
+[train_soft] ep0 저장 loss_avg=0.718
+[train_soft] ep1 step0/141 loss=0.205 (2s)
+[train_soft] ep1 step50/141 loss=0.184 (97s)
+[train_soft] ep1 step100/141 loss=0.281 (191s)
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.37s/it]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.37s/it]
+[train_soft] ep1 저장 loss_avg=0.339
+[train_soft] ep2 step0/141 loss=0.314 (2s)
+[train_soft] ep2 step50/141 loss=0.271 (106s)
+[train_soft] ep2 step100/141 loss=0.401 (201s)
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.26s/it]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.27s/it]
+[train_soft] ep2 저장 loss_avg=0.285
+[train_soft] 완료 → models/mdeberta-n2sf
+    rules          F1=0.558 Crec=1.0 under=0.0 over=0.3611
+    minilm         F1=0.5097 Crec=1.0 under=0.0 over=0.4306
+    ko-sroberta    F1=0.3527 Crec=1.0 under=0.0 over=0.5833
+    klue-roberta   F1=0.5469 Crec=1.0 under=0.0 over=0.375
+    mdeberta       F1=0.4425 Crec=1.0 under=0.0 over=0.5
+    mdeberta-n2sf  F1=0.5469 Crec=1.0 under=0.0 over=0.375
+  사이클 5 완료 (1928s, 라벨 2154)
+
+=== 증류 사이클 6 === 18:08
+  다양화 문서 +96 생성(gen_texts.jsonl)
+  교사 라벨 +96 (누적 2250)
+  학생 KD 학습(mdeberta-n2sf)…
+  held-out 평가…
+Loading weights:   0%|          | 0/202 [00:00<?, ?it/s]Loading weights: 100%|██████████| 202/202 [00:00<00:00, 8054.54it/s]
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+[train_soft] device=mps KD 학습쌍=2346
+Loading weights:   0%|          | 0/202 [00:00<?, ?it/s]Loading weights:   2%|▏         | 5/202 [00:00<00:10, 19.16it/s]Loading weights: 100%|██████████| 202/202 [00:00<00:00, 765.82it/s]
+/Users/carina/projects/classifier/harness/train_soft.py:110: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /Users/runner/work/pytorch/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:839.)
+  tot += float(loss) * args.accum; nb += 1
+[train_soft] ep0 step0/147 loss=4.747 (2s)
+[train_soft] ep0 step50/147 loss=0.973 (99s)
+[train_soft] ep0 step100/147 loss=0.267 (191s)
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.25s/it]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.25s/it]
+[train_soft] ep0 저장 loss_avg=0.694
+[train_soft] ep1 step0/147 loss=0.272 (1s)
+[train_soft] ep1 step50/147 loss=0.544 (102s)
+[train_soft] ep1 step100/147 loss=0.187 (197s)
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.65s/it]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.65s/it]
+[train_soft] ep1 저장 loss_avg=0.324
+[train_soft] ep2 step0/147 loss=0.222 (2s)
+[train_soft] ep2 step50/147 loss=0.251 (97s)
+[train_soft] ep2 step100/147 loss=0.254 (195s)
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.66s/it]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.66s/it]
+[train_soft] ep2 저장 loss_avg=0.283
+[train_soft] 완료 → models/mdeberta-n2sf
+    rules          F1=0.558 Crec=1.0 under=0.0 over=0.3611
+    minilm         F1=0.5097 Crec=1.0 under=0.0 over=0.4306
+    ko-sroberta    F1=0.3527 Crec=1.0 under=0.0 over=0.5833
+    klue-roberta   F1=0.5469 Crec=1.0 under=0.0 over=0.375
+    mdeberta       F1=0.4425 Crec=1.0 under=0.0 over=0.5
+    mdeberta-n2sf  F1=0.5355 Crec=1.0 under=0.0 over=0.3889
+  사이클 6 완료 (1830s, 라벨 2250)
+
+=== 증류 사이클 7 === 18:38
+  다양화 문서 +96 생성(gen_texts.jsonl)
+  교사 라벨 +96 (누적 2346)
+  학생 KD 학습(mdeberta-n2sf)…
+  held-out 평가…
+Loading weights:   0%|          | 0/202 [00:00<?, ?it/s]Loading weights: 100%|██████████| 202/202 [00:00<00:00, 7598.85it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+[train_soft] device=mps KD 학습쌍=2442
+Loading weights:   0%|          | 0/202 [00:00<?, ?it/s]Loading weights:   2%|▏         | 5/202 [00:00<00:10, 19.26it/s]Loading weights: 100%|██████████| 202/202 [00:00<00:00, 769.39it/s]
+/Users/carina/projects/classifier/harness/train_soft.py:110: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /Users/runner/work/pytorch/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:839.)
+  tot += float(loss) * args.accum; nb += 1
+[train_soft] ep0 step0/153 loss=4.948 (2s)
+[train_soft] ep0 step50/153 loss=0.547 (97s)
+[train_soft] ep0 step100/153 loss=0.472 (185s)
+[train_soft] ep0 step150/153 loss=0.263 (275s)
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  1.06it/s]Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  1.06it/s]
+[train_soft] ep0 저장 loss_avg=0.679
+[train_soft] ep1 step0/153 loss=0.240 (1s)
+[train_soft] ep1 step50/153 loss=0.234 (94s)
+[train_soft] ep1 step100/153 loss=0.254 (186s)
+[train_soft] ep1 step150/153 loss=0.160 (278s)
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.66s/it]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.66s/it]
+[train_soft] ep1 저장 loss_avg=0.325
+[train_soft] ep2 step0/153 loss=0.369 (1s)
+[train_soft] ep2 step50/153 loss=0.218 (98s)
+[train_soft] ep2 step100/153 loss=0.299 (188s)
+[train_soft] ep2 step150/153 loss=0.206 (278s)
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.41s/it]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.41s/it]
+[train_soft] ep2 저장 loss_avg=0.282
+[train_soft] 완료 → models/mdeberta-n2sf
+    rules          F1=0.558 Crec=1.0 under=0.0 over=0.3611
+    minilm         F1=0.5097 Crec=1.0 under=0.0 over=0.4306
+    ko-sroberta    F1=0.3527 Crec=1.0 under=0.0 over=0.5833
+    klue-roberta   F1=0.5469 Crec=1.0 under=0.0 over=0.375
+    mdeberta       F1=0.4425 Crec=1.0 under=0.0 over=0.5
+    mdeberta-n2sf  F1=0.5398 Crec=1.0 under=0.0 over=0.3889
+  사이클 7 완료 (1843s, 라벨 2346)
+
+=== 증류 사이클 8 === 19:09
+  다양화 문서 +96 생성(gen_texts.jsonl)
+  교사 라벨 +96 (누적 2442)
+  학생 KD 학습(mdeberta-n2sf)…
+  held-out 평가…
+Loading weights:   0%|          | 0/202 [00:00<?, ?it/s]Loading weights: 100%|██████████| 202/202 [00:00<00:00, 8074.58it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+[train_soft] device=mps KD 학습쌍=2538
+Loading weights:   0%|          | 0/202 [00:00<?, ?it/s]Loading weights:   2%|▏         | 5/202 [00:00<00:09, 20.82it/s]Loading weights: 100%|██████████| 202/202 [00:00<00:00, 831.36it/s]
+/Users/carina/projects/classifier/harness/train_soft.py:110: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /Users/runner/work/pytorch/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:839.)
+  tot += float(loss) * args.accum; nb += 1
+[train_soft] ep0 step0/159 loss=4.514 (2s)
+[train_soft] ep0 step50/159 loss=0.909 (97s)
+[train_soft] ep0 step100/159 loss=0.340 (189s)
+[train_soft] ep0 step150/159 loss=0.268 (279s)
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.17s/it]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.18s/it]
+[train_soft] ep0 저장 loss_avg=0.683
+[train_soft] ep1 step0/159 loss=0.608 (2s)
+[train_soft] ep1 step50/159 loss=0.125 (101s)
+[train_soft] ep1 step100/159 loss=0.220 (196s)
+[train_soft] ep1 step150/159 loss=0.548 (288s)
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.31s/it]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.31s/it]
+[train_soft] ep1 저장 loss_avg=0.335
+[train_soft] ep2 step0/159 loss=0.271 (2s)
+[train_soft] ep2 step50/159 loss=0.371 (96s)
+[train_soft] ep2 step100/159 loss=0.236 (195s)
+[train_soft] ep2 step150/159 loss=0.324 (287s)
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.22s/it]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.22s/it]
+[train_soft] ep2 저장 loss_avg=0.275
+[train_soft] 완료 → models/mdeberta-n2sf
+    rules          F1=0.558 Crec=1.0 under=0.0 over=0.3611
+    minilm         F1=0.5097 Crec=1.0 under=0.0 over=0.4306
+    ko-sroberta    F1=0.3527 Crec=1.0 under=0.0 over=0.5833
+    klue-roberta   F1=0.5469 Crec=1.0 under=0.0 over=0.375
+    mdeberta       F1=0.4425 Crec=1.0 under=0.0 over=0.5
+    mdeberta-n2sf  F1=0.5491 Crec=1.0 under=0.0 over=0.375
+  사이클 8 완료 (1858s, 라벨 2442)
+
+=== 증류 사이클 9 === 19:40
+  다양화 문서 +96 생성(gen_texts.jsonl)
+  교사 라벨 +96 (누적 2538)
+  학생 KD 학습(mdeberta-n2sf)…
+  held-out 평가…
+Loading weights:   0%|          | 0/202 [00:00<?, ?it/s]Loading weights: 100%|██████████| 202/202 [00:00<00:00, 8189.78it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+[train_soft] device=mps KD 학습쌍=2632
+Loading weights:   0%|          | 0/202 [00:00<?, ?it/s]Loading weights:   2%|▏         | 5/202 [00:00<00:09, 21.24it/s]Loading weights: 100%|██████████| 202/202 [00:00<00:00, 848.14it/s]
+/Users/carina/projects/classifier/harness/train_soft.py:110: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /Users/runner/work/pytorch/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:839.)
+  tot += float(loss) * args.accum; nb += 1
+[train_soft] ep0 step0/165 loss=4.856 (2s)
+[train_soft] ep0 step50/165 loss=0.660 (98s)
+[train_soft] ep0 step100/165 loss=0.372 (187s)
+[train_soft] ep0 step150/165 loss=0.283 (283s)
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  1.24it/s]Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  1.24it/s]
+[train_soft] ep0 저장 loss_avg=0.679
+[train_soft] ep1 step0/165 loss=0.312 (2s)
+[train_soft] ep1 step50/165 loss=0.346 (96s)
+[train_soft] ep1 step100/165 loss=0.260 (188s)
+[train_soft] ep1 step150/165 loss=0.190 (284s)
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.50s/it]
+[train_soft] ep1 저장 loss_avg=0.328
+[train_soft] ep2 step0/165 loss=0.287 (2s)
+[train_soft] ep2 step50/165 loss=0.296 (98s)
+[train_soft] ep2 step100/165 loss=0.369 (192s)
+[train_soft] ep2 step150/165 loss=0.172 (284s)
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.40s/it]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.41s/it]
+[train_soft] ep2 저장 loss_avg=0.281
+[train_soft] 완료 → models/mdeberta-n2sf
+    rules          F1=0.558 Crec=1.0 under=0.0 over=0.3611
+    minilm         F1=0.5097 Crec=1.0 under=0.0 over=0.4306
+    ko-sroberta    F1=0.3527 Crec=1.0 under=0.0 over=0.5833
+    klue-roberta   F1=0.5469 Crec=1.0 under=0.0 over=0.375
+    mdeberta       F1=0.4425 Crec=1.0 under=0.0 over=0.5
+    mdeberta-n2sf  F1=0.5376 Crec=1.0 under=0.0 over=0.3889
+  사이클 9 완료 (1893s, 라벨 2538)
+
+=== 증류 사이클 10 === 20:12
+  다양화 문서 +94 생성(gen_texts.jsonl)
+  교사 라벨 +94 (누적 2632)
+  학생 KD 학습(mdeberta-n2sf)…
+  held-out 평가…
+Loading weights:   0%|          | 0/202 [00:00<?, ?it/s]Loading weights: 100%|██████████| 202/202 [00:00<00:00, 8329.48it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+[train_soft] device=mps KD 학습쌍=2728
+Loading weights:   0%|          | 0/202 [00:00<?, ?it/s]Loading weights:   2%|▏         | 5/202 [00:00<00:10, 19.09it/s]Loading weights: 100%|██████████| 202/202 [00:00<00:00, 762.46it/s]
+/Users/carina/projects/classifier/harness/train_soft.py:110: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /Users/runner/work/pytorch/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:839.)
+  tot += float(loss) * args.accum; nb += 1
+[train_soft] ep0 step0/171 loss=3.706 (2s)
+[train_soft] ep0 step50/171 loss=0.815 (99s)
+[train_soft] ep0 step100/171 loss=0.261 (189s)
+[train_soft] ep0 step150/171 loss=0.546 (279s)
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  1.19it/s]Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  1.19it/s]
+[train_soft] ep0 저장 loss_avg=0.675
+[train_soft] ep1 step0/171 loss=0.153 (2s)
+[train_soft] ep1 step50/171 loss=0.246 (102s)
+[train_soft] ep1 step100/171 loss=0.297 (198s)
+[train_soft] ep1 step150/171 loss=0.297 (289s)
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.26s/it]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.26s/it]
+[train_soft] ep1 저장 loss_avg=0.320
+[train_soft] ep2 step0/171 loss=0.214 (1s)
+[train_soft] ep2 step50/171 loss=0.456 (96s)
+[train_soft] ep2 step100/171 loss=0.303 (193s)
+[train_soft] ep2 step150/171 loss=0.290 (289s)
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.15s/it]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.15s/it]
+[train_soft] ep2 저장 loss_avg=0.288
+[train_soft] 완료 → models/mdeberta-n2sf
+    rules          F1=0.558 Crec=1.0 under=0.0 over=0.3611
+    minilm         F1=0.5097 Crec=1.0 under=0.0 over=0.4306
+    ko-sroberta    F1=0.3527 Crec=1.0 under=0.0 over=0.5833
+    klue-roberta   F1=0.5469 Crec=1.0 under=0.0 over=0.375
+    mdeberta       F1=0.4425 Crec=1.0 under=0.0 over=0.5
+    mdeberta-n2sf  F1=0.5491 Crec=1.0 under=0.0 over=0.375
+  사이클 10 완료 (1994s, 라벨 2632)
+
+=== 증류 사이클 11 === 20:45
+  다양화 문서 +96 생성(gen_texts.jsonl)
+  교사 라벨 +96 (누적 2728)
+  학생 KD 학습(mdeberta-n2sf)…
+  held-out 평가…
+Loading weights:   0%|          | 0/202 [00:00<?, ?it/s]Loading weights: 100%|██████████| 202/202 [00:00<00:00, 8212.73it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+[train_soft] device=mps KD 학습쌍=2823
+Loading weights:   0%|          | 0/202 [00:00<?, ?it/s]Loading weights:   2%|▏         | 5/202 [00:00<00:10, 19.51it/s]Loading weights: 100%|██████████| 202/202 [00:00<00:00, 779.75it/s]
+/Users/carina/projects/classifier/harness/train_soft.py:110: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /Users/runner/work/pytorch/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:839.)
+  tot += float(loss) * args.accum; nb += 1
+[train_soft] ep0 step0/177 loss=3.026 (2s)
+[train_soft] ep0 step50/177 loss=0.715 (95s)
+[train_soft] ep0 step100/177 loss=0.585 (186s)
+[train_soft] ep0 step150/177 loss=0.309 (275s)
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  1.51it/s]Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  1.51it/s]
+[train_soft] ep0 저장 loss_avg=0.665
+[train_soft] ep1 step0/177 loss=0.332 (1s)
+[train_soft] ep1 step50/177 loss=0.248 (91s)
+[train_soft] ep1 step100/177 loss=0.391 (181s)
+[train_soft] ep1 step150/177 loss=0.199 (271s)
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:02<00:00,  2.01s/it]Writing model shards: 100%|██████████| 1/1 [00:02<00:00,  2.01s/it]
+[train_soft] ep1 저장 loss_avg=0.333
+[train_soft] ep2 step0/177 loss=0.278 (2s)
+[train_soft] ep2 step50/177 loss=0.272 (97s)
+[train_soft] ep2 step100/177 loss=0.230 (191s)
+[train_soft] ep2 step150/177 loss=0.245 (280s)
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.71s/it]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.71s/it]
+[train_soft] ep2 저장 loss_avg=0.279
+[train_soft] 완료 → models/mdeberta-n2sf
+    rules          F1=0.558 Crec=1.0 under=0.0 over=0.3611
+    minilm         F1=0.5097 Crec=1.0 under=0.0 over=0.4306
+    ko-sroberta    F1=0.3527 Crec=1.0 under=0.0 over=0.5833
+    klue-roberta   F1=0.5469 Crec=1.0 under=0.0 over=0.375
+    mdeberta       F1=0.4425 Crec=1.0 under=0.0 over=0.5
+    mdeberta-n2sf  F1=0.5398 Crec=1.0 under=0.0 over=0.3889
+  사이클 11 완료 (2065s, 라벨 2728)
+
+=== 증류 사이클 12 === 21:19
+  다양화 문서 +95 생성(gen_texts.jsonl)
+  교사 라벨 +95 (누적 2823)
+  학생 KD 학습(mdeberta-n2sf)…
+  held-out 평가…
+Loading weights:   0%|          | 0/202 [00:00<?, ?it/s]Loading weights: 100%|██████████| 202/202 [00:00<00:00, 8156.67it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+[train_soft] device=mps KD 학습쌍=2919
+Loading weights:   0%|          | 0/202 [00:00<?, ?it/s]Loading weights:   2%|▏         | 5/202 [00:00<00:10, 19.23it/s]Loading weights: 100%|██████████| 202/202 [00:00<00:00, 768.90it/s]
+/Users/carina/projects/classifier/harness/train_soft.py:110: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /Users/runner/work/pytorch/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:839.)
+  tot += float(loss) * args.accum; nb += 1
+[train_soft] ep0 step0/183 loss=5.698 (2s)
+[train_soft] ep0 step50/183 loss=0.396 (95s)
+[train_soft] ep0 step100/183 loss=0.569 (184s)
+[train_soft] ep0 step150/183 loss=0.548 (269s)
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.25s/it]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.25s/it]
+[train_soft] ep0 저장 loss_avg=0.640
+[train_soft] ep1 step0/183 loss=0.157 (2s)
+[train_soft] ep1 step50/183 loss=0.418 (93s)
+[train_soft] ep1 step100/183 loss=0.311 (184s)
+[train_soft] ep1 step150/183 loss=0.393 (275s)
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.54s/it]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.54s/it]
+[train_soft] ep1 저장 loss_avg=0.318
+[train_soft] ep2 step0/183 loss=0.240 (1s)
+[train_soft] ep2 step50/183 loss=0.317 (95s)
+[train_soft] ep2 step100/183 loss=0.269 (187s)
+[train_soft] ep2 step150/183 loss=0.376 (279s)
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.75s/it]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.76s/it]
+[train_soft] ep2 저장 loss_avg=0.277
+[train_soft] 완료 → models/mdeberta-n2sf
+    rules          F1=0.558 Crec=1.0 under=0.0 over=0.3611
+    minilm         F1=0.5097 Crec=1.0 under=0.0 over=0.4306
+    ko-sroberta    F1=0.3527 Crec=1.0 under=0.0 over=0.5833
+    klue-roberta   F1=0.5469 Crec=1.0 under=0.0 over=0.375
+    mdeberta       F1=0.4425 Crec=1.0 under=0.0 over=0.5
+    mdeberta-n2sf  F1=0.5491 Crec=1.0 under=0.0 over=0.375
+  사이클 12 완료 (2010s, 라벨 2823)
+
+=== 증류 사이클 13 === 21:53
+  다양화 문서 +96 생성(gen_texts.jsonl)
+  교사 라벨 +96 (누적 2919)
+  학생 KD 학습(mdeberta-n2sf)…
+  held-out 평가…
+Loading weights:   0%|          | 0/202 [00:00<?, ?it/s]Loading weights: 100%|██████████| 202/202 [00:00<00:00, 8101.76it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+[train_soft] device=mps KD 학습쌍=3015
+Loading weights:   0%|          | 0/202 [00:00<?, ?it/s]Loading weights:   2%|▏         | 5/202 [00:00<00:10, 19.19it/s]Loading weights: 100%|██████████| 202/202 [00:00<00:00, 766.66it/s]
+/Users/carina/projects/classifier/harness/train_soft.py:110: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /Users/runner/work/pytorch/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:839.)
+  tot += float(loss) * args.accum; nb += 1
+[train_soft] ep0 step0/189 loss=4.447 (2s)
+[train_soft] ep0 step50/189 loss=0.306 (94s)
+[train_soft] ep0 step100/189 loss=0.241 (183s)
+[train_soft] ep0 step150/189 loss=0.317 (271s)
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  1.18it/s]Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  1.18it/s]
+[train_soft] ep0 저장 loss_avg=0.633
+[train_soft] ep1 step0/189 loss=0.240 (2s)
+[train_soft] ep1 step50/189 loss=0.254 (92s)
+[train_soft] ep1 step100/189 loss=0.291 (181s)
+[train_soft] ep1 step150/189 loss=0.258 (271s)
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.29s/it]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.30s/it]
+[train_soft] ep1 저장 loss_avg=0.326
+[train_soft] ep2 step0/189 loss=0.306 (1s)
+[train_soft] ep2 step50/189 loss=0.304 (92s)
+[train_soft] ep2 step100/189 loss=0.232 (179s)
+[train_soft] ep2 step150/189 loss=0.222 (268s)
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.21s/it]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.21s/it]
+[train_soft] ep2 저장 loss_avg=0.278
+[train_soft] 완료 → models/mdeberta-n2sf
+    rules          F1=0.558 Crec=1.0 under=0.0 over=0.3611
+    minilm         F1=0.5097 Crec=1.0 under=0.0 over=0.4306
+    ko-sroberta    F1=0.3527 Crec=1.0 under=0.0 over=0.5833
+    klue-roberta   F1=0.5469 Crec=1.0 under=0.0 over=0.375
+    mdeberta       F1=0.4425 Crec=1.0 under=0.0 over=0.5
+    mdeberta-n2sf  F1=0.5491 Crec=1.0 under=0.0 over=0.375
+  사이클 13 완료 (2008s, 라벨 2919)
+
+=== 증류 사이클 14 === 22:26
+  다양화 문서 +96 생성(gen_texts.jsonl)
+  교사 라벨 +96 (누적 3015)
+  학생 KD 학습(mdeberta-n2sf)…
+  held-out 평가…
+Loading weights:   0%|          | 0/202 [00:00<?, ?it/s]Loading weights: 100%|██████████| 202/202 [00:00<00:00, 8106.25it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+[train_soft] device=mps KD 학습쌍=3111
+Loading weights:   0%|          | 0/202 [00:00<?, ?it/s]Loading weights:   2%|▏         | 5/202 [00:00<00:10, 18.31it/s]Loading weights: 100%|██████████| 202/202 [00:00<00:00, 732.21it/s]
+/Users/carina/projects/classifier/harness/train_soft.py:110: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /Users/runner/work/pytorch/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:839.)
+  tot += float(loss) * args.accum; nb += 1
+[train_soft] ep0 step0/195 loss=4.614 (2s)
+[train_soft] ep0 step50/195 loss=0.798 (99s)
+[train_soft] ep0 step100/195 loss=0.459 (187s)
+[train_soft] ep0 step150/195 loss=0.376 (275s)
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  1.23it/s]Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  1.23it/s]
+[train_soft] ep0 저장 loss_avg=0.595
+[train_soft] ep1 step0/195 loss=0.203 (1s)
+[train_soft] ep1 step50/195 loss=0.332 (97s)
+[train_soft] ep1 step100/195 loss=0.395 (189s)
+[train_soft] ep1 step150/195 loss=0.079 (281s)
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.27s/it]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.27s/it]
+[train_soft] ep1 저장 loss_avg=0.310
+[train_soft] ep2 step0/195 loss=0.319 (2s)
+[train_soft] ep2 step50/195 loss=0.342 (95s)
+[train_soft] ep2 step100/195 loss=0.319 (188s)
+[train_soft] ep2 step150/195 loss=0.237 (281s)
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.81s/it]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.81s/it]
+[train_soft] ep2 저장 loss_avg=0.267
+[train_soft] 완료 → models/mdeberta-n2sf
+    rules          F1=0.558 Crec=1.0 under=0.0 over=0.3611
+    minilm         F1=0.5097 Crec=1.0 under=0.0 over=0.4306
+    ko-sroberta    F1=0.3527 Crec=1.0 under=0.0 over=0.5833
+    klue-roberta   F1=0.5469 Crec=1.0 under=0.0 over=0.375
+    mdeberta       F1=0.4425 Crec=1.0 under=0.0 over=0.5
+    mdeberta-n2sf  F1=0.5491 Crec=1.0 under=0.0 over=0.375
+  사이클 14 완료 (2126s, 라벨 3015)
+
+=== 증류 사이클 15 === 23:02
+  다양화 문서 +96 생성(gen_texts.jsonl)
+  교사 라벨 +96 (누적 3111)
+  학생 KD 학습(mdeberta-n2sf)…
+  held-out 평가…
+Loading weights:   0%|          | 0/202 [00:00<?, ?it/s]Loading weights: 100%|██████████| 202/202 [00:00<00:00, 8142.79it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+[train_soft] device=mps KD 학습쌍=3205
+Loading weights:   0%|          | 0/202 [00:00<?, ?it/s]Loading weights:   2%|▏         | 5/202 [00:00<00:10, 19.46it/s]Loading weights: 100%|██████████| 202/202 [00:00<00:00, 777.63it/s]
+/Users/carina/projects/classifier/harness/train_soft.py:110: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /Users/runner/work/pytorch/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:839.)
+  tot += float(loss) * args.accum; nb += 1
+[train_soft] ep0 step0/201 loss=3.726 (2s)
+[train_soft] ep0 step50/201 loss=0.695 (98s)
+[train_soft] ep0 step100/201 loss=0.449 (192s)
+[train_soft] ep0 step150/201 loss=0.556 (284s)
+[train_soft] ep0 step200/201 loss=0.541 (379s)
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  1.17it/s]Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  1.17it/s]
+[train_soft] ep0 저장 loss_avg=0.591
+[train_soft] ep1 step0/201 loss=0.266 (2s)
+[train_soft] ep1 step50/201 loss=0.243 (98s)
+[train_soft] ep1 step100/201 loss=0.161 (197s)
+[train_soft] ep1 step150/201 loss=0.320 (292s)
+[train_soft] ep1 step200/201 loss=0.142 (384s)
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.26s/it]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.26s/it]
+[train_soft] ep1 저장 loss_avg=0.307
+[train_soft] ep2 step0/201 loss=0.294 (1s)
+[train_soft] ep2 step50/201 loss=0.218 (95s)
+[train_soft] ep2 step100/201 loss=0.341 (192s)
+[train_soft] ep2 step150/201 loss=0.313 (288s)
+[train_soft] ep2 step200/201 loss=0.139 (380s)
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.58s/it]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.58s/it]
+[train_soft] ep2 저장 loss_avg=0.276
+[train_soft] 완료 → models/mdeberta-n2sf
+    rules          F1=0.558 Crec=1.0 under=0.0 over=0.3611
+    minilm         F1=0.5097 Crec=1.0 under=0.0 over=0.4306
+    ko-sroberta    F1=0.3527 Crec=1.0 under=0.0 over=0.5833
+    klue-roberta   F1=0.5469 Crec=1.0 under=0.0 over=0.375
+    mdeberta       F1=0.4425 Crec=1.0 under=0.0 over=0.5
+    mdeberta-n2sf  F1=0.5469 Crec=1.0 under=0.0 over=0.375
+  사이클 15 완료 (2101s, 라벨 3111)
+
+=== 증류 사이클 16 === 23:37
+  다양화 문서 +94 생성(gen_texts.jsonl)
+  교사 라벨 +94 (누적 3205)
+  학생 KD 학습(mdeberta-n2sf)…
+  held-out 평가…
+Loading weights:   0%|          | 0/202 [00:00<?, ?it/s]Loading weights: 100%|██████████| 202/202 [00:00<00:00, 7988.32it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+[train_soft] device=mps KD 학습쌍=3301
+Loading weights:   0%|          | 0/202 [00:00<?, ?it/s]Loading weights:   2%|▏         | 5/202 [00:00<00:10, 18.99it/s]Loading weights: 100%|██████████| 202/202 [00:00<00:00, 758.91it/s]
+/Users/carina/projects/classifier/harness/train_soft.py:110: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /Users/runner/work/pytorch/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:839.)
+  tot += float(loss) * args.accum; nb += 1
+[train_soft] ep0 step0/207 loss=4.642 (2s)
+[train_soft] ep0 step50/207 loss=0.685 (98s)
+[train_soft] ep0 step100/207 loss=0.390 (187s)
+[train_soft] ep0 step150/207 loss=0.577 (278s)
+[train_soft] ep0 step200/207 loss=0.335 (370s)
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  1.33it/s]Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  1.33it/s]
+[train_soft] ep0 저장 loss_avg=0.602
+[train_soft] ep1 step0/207 loss=0.251 (1s)
+[train_soft] ep1 step50/207 loss=0.281 (94s)
+[train_soft] ep1 step100/207 loss=0.570 (189s)
+[train_soft] ep1 step150/207 loss=0.225 (283s)
+[train_soft] ep1 step200/207 loss=0.699 (374s)
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.71s/it]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.71s/it]
+[train_soft] ep1 저장 loss_avg=0.308
+[train_soft] ep2 step0/207 loss=0.312 (1s)
+[train_soft] ep2 step50/207 loss=0.300 (93s)
+[train_soft] ep2 step100/207 loss=0.453 (184s)
+[train_soft] ep2 step150/207 loss=0.243 (277s)
+[train_soft] ep2 step200/207 loss=0.272 (367s)
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.55s/it]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.55s/it]
+[train_soft] ep2 저장 loss_avg=0.273
+[train_soft] 완료 → models/mdeberta-n2sf
+    rules          F1=0.558 Crec=1.0 under=0.0 over=0.3611
+    minilm         F1=0.5097 Crec=1.0 under=0.0 over=0.4306
+    ko-sroberta    F1=0.3527 Crec=1.0 under=0.0 over=0.5833
+    klue-roberta   F1=0.5469 Crec=1.0 under=0.0 over=0.375
+    mdeberta       F1=0.4425 Crec=1.0 under=0.0 over=0.5
+    mdeberta-n2sf  F1=0.5469 Crec=1.0 under=0.0 over=0.375
+  사이클 16 완료 (2209s, 라벨 3205)
+
+=== 증류 사이클 17 === 00:13
+  다양화 문서 +96 생성(gen_texts.jsonl)
+  교사 라벨 +96 (누적 3301)
+  학생 KD 학습(mdeberta-n2sf)…
+  held-out 평가…
+Loading weights:   0%|          | 0/202 [00:00<?, ?it/s]Loading weights: 100%|██████████| 202/202 [00:00<00:00, 8412.10it/s]
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+[train_soft] device=mps KD 학습쌍=3396
+Loading weights:   0%|          | 0/202 [00:00<?, ?it/s]Loading weights:   2%|▏         | 5/202 [00:00<00:09, 20.98it/s]Loading weights: 100%|██████████| 202/202 [00:00<00:00, 837.90it/s]
+/Users/carina/projects/classifier/harness/train_soft.py:110: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /Users/runner/work/pytorch/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:839.)
+  tot += float(loss) * args.accum; nb += 1
+[train_soft] ep0 step0/213 loss=4.915 (2s)
+[train_soft] ep0 step50/213 loss=0.605 (97s)
+[train_soft] ep0 step100/213 loss=0.593 (186s)
+[train_soft] ep0 step150/213 loss=0.201 (278s)
+[train_soft] ep0 step200/213 loss=0.363 (373s)
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  1.19it/s]Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  1.19it/s]
+[train_soft] ep0 저장 loss_avg=0.637
+[train_soft] ep1 step0/213 loss=0.291 (1s)
+[train_soft] ep1 step50/213 loss=0.373 (95s)
+[train_soft] ep1 step100/213 loss=0.253 (188s)
+[train_soft] ep1 step150/213 loss=0.331 (279s)
+[train_soft] ep1 step200/213 loss=0.215 (368s)
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.59s/it]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.60s/it]
+[train_soft] ep1 저장 loss_avg=0.328
+[train_soft] ep2 step0/213 loss=0.230 (1s)
+[train_soft] ep2 step50/213 loss=0.167 (96s)
+[train_soft] ep2 step100/213 loss=0.341 (189s)
+[train_soft] ep2 step150/213 loss=0.260 (280s)
+[train_soft] ep2 step200/213 loss=0.400 (376s)
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:02<00:00,  2.23s/it]Writing model shards: 100%|██████████| 1/1 [00:02<00:00,  2.24s/it]
+[train_soft] ep2 저장 loss_avg=0.290
+[train_soft] 완료 → models/mdeberta-n2sf
+    rules          F1=0.558 Crec=1.0 under=0.0 over=0.3611
+    minilm         F1=0.5097 Crec=1.0 under=0.0 over=0.4306
+    ko-sroberta    F1=0.3527 Crec=1.0 under=0.0 over=0.5833
+    klue-roberta   F1=0.5469 Crec=1.0 under=0.0 over=0.375
+    mdeberta       F1=0.4425 Crec=1.0 under=0.0 over=0.5
+    mdeberta-n2sf  F1=0.5376 Crec=1.0 under=0.0 over=0.3889
+  사이클 17 완료 (2117s, 라벨 3301)
+
+=== 증류 사이클 18 === 00:49
+  다양화 문서 +95 생성(gen_texts.jsonl)
+  교사 라벨 +95 (누적 3396)
+  학생 KD 학습(mdeberta-n2sf)…
+  held-out 평가…
+Loading weights:   0%|          | 0/202 [00:00<?, ?it/s]Loading weights: 100%|██████████| 202/202 [00:00<00:00, 8187.65it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+[train_soft] device=mps KD 학습쌍=3491
+Loading weights:   0%|          | 0/202 [00:00<?, ?it/s]Loading weights:   2%|▏         | 5/202 [00:00<00:17, 10.98it/s]Loading weights: 100%|██████████| 202/202 [00:00<00:00, 440.84it/s]
+/Users/carina/projects/classifier/harness/train_soft.py:110: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /Users/runner/work/pytorch/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:839.)
+  tot += float(loss) * args.accum; nb += 1
+[train_soft] ep0 step0/219 loss=3.078 (2s)
+[train_soft] ep0 step50/219 loss=0.423 (96s)
+[train_soft] ep0 step100/219 loss=0.226 (185s)
+[train_soft] ep0 step150/219 loss=0.242 (274s)
+[train_soft] ep0 step200/219 loss=0.334 (364s)
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  1.31it/s]Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  1.30it/s]
+[train_soft] ep0 저장 loss_avg=0.607
+[train_soft] ep1 step0/219 loss=0.239 (1s)
+[train_soft] ep1 step50/219 loss=0.293 (97s)
+[train_soft] ep1 step100/219 loss=0.173 (188s)
+[train_soft] ep1 step150/219 loss=0.311 (280s)
+[train_soft] ep1 step200/219 loss=0.240 (371s)
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.81s/it]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.81s/it]
+[train_soft] ep1 저장 loss_avg=0.309
+[train_soft] ep2 step0/219 loss=0.238 (1s)
+[train_soft] ep2 step50/219 loss=0.256 (99s)
+[train_soft] ep2 step100/219 loss=0.175 (188s)
+[train_soft] ep2 step150/219 loss=0.228 (279s)
+[train_soft] ep2 step200/219 loss=0.302 (370s)
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.47s/it]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.47s/it]
+[train_soft] ep2 저장 loss_avg=0.267
+[train_soft] 완료 → models/mdeberta-n2sf
+    rules          F1=0.558 Crec=1.0 under=0.0 over=0.3611
+    minilm         F1=0.5097 Crec=1.0 under=0.0 over=0.4306
+    ko-sroberta    F1=0.3527 Crec=1.0 under=0.0 over=0.5833
+    klue-roberta   F1=0.5469 Crec=1.0 under=0.0 over=0.375
+    mdeberta       F1=0.4425 Crec=1.0 under=0.0 over=0.5
+    mdeberta-n2sf  F1=0.5237 Crec=1.0 under=0.0 over=0.4028
+  사이클 18 완료 (2205s, 라벨 3396)
+
+=== 증류 사이클 19 === 01:25
+  다양화 문서 +95 생성(gen_texts.jsonl)
+  교사 라벨 +95 (누적 3491)
+  학생 KD 학습(mdeberta-n2sf)…
+  held-out 평가…
+Loading weights:   0%|          | 0/202 [00:00<?, ?it/s]Loading weights: 100%|██████████| 202/202 [00:00<00:00, 8045.52it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+[train_soft] device=mps KD 학습쌍=3587
+Loading weights:   0%|          | 0/202 [00:00<?, ?it/s]Loading weights:   2%|▏         | 5/202 [00:00<00:10, 19.10it/s]Loading weights: 100%|██████████| 202/202 [00:00<00:00, 763.19it/s]
+/Users/carina/projects/classifier/harness/train_soft.py:110: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /Users/runner/work/pytorch/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:839.)
+  tot += float(loss) * args.accum; nb += 1
+[train_soft] ep0 step0/225 loss=5.768 (2s)
+[train_soft] ep0 step50/225 loss=0.624 (94s)
+[train_soft] ep0 step100/225 loss=0.370 (183s)
+[train_soft] ep0 step150/225 loss=0.244 (275s)
+[train_soft] ep0 step200/225 loss=0.374 (368s)
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  1.04it/s]Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  1.04it/s]
+[train_soft] ep0 저장 loss_avg=0.565
+[train_soft] ep1 step0/225 loss=0.168 (2s)
+[train_soft] ep1 step50/225 loss=0.199 (96s)
+[train_soft] ep1 step100/225 loss=0.490 (189s)
+[train_soft] ep1 step150/225 loss=0.219 (279s)
+[train_soft] ep1 step200/225 loss=0.235 (367s)
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.36s/it]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.36s/it]
+[train_soft] ep1 저장 loss_avg=0.307
+[train_soft] ep2 step0/225 loss=0.259 (1s)
+[train_soft] ep2 step50/225 loss=0.145 (93s)
+[train_soft] ep2 step100/225 loss=0.434 (185s)
+[train_soft] ep2 step150/225 loss=0.361 (278s)
+[train_soft] ep2 step200/225 loss=0.235 (367s)
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.95s/it]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.95s/it]
+[train_soft] ep2 저장 loss_avg=0.262
+[train_soft] 완료 → models/mdeberta-n2sf
+    rules          F1=0.558 Crec=1.0 under=0.0 over=0.3611
+    minilm         F1=0.5097 Crec=1.0 under=0.0 over=0.4306
+    ko-sroberta    F1=0.3527 Crec=1.0 under=0.0 over=0.5833
+    klue-roberta   F1=0.5469 Crec=1.0 under=0.0 over=0.375
+    mdeberta       F1=0.4425 Crec=1.0 under=0.0 over=0.5
+    mdeberta-n2sf  F1=0.5469 Crec=1.0 under=0.0 over=0.375
+  사이클 19 완료 (2170s, 라벨 3491)
+
+=== 증류 사이클 20 === 02:02
+  다양화 문서 +96 생성(gen_texts.jsonl)
+  교사 라벨 +96 (누적 3587)
+  학생 KD 학습(mdeberta-n2sf)…
+  held-out 평가…
+Loading weights:   0%|          | 0/202 [00:00<?, ?it/s]Loading weights: 100%|██████████| 202/202 [00:00<00:00, 8063.90it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+[train_soft] device=mps KD 학습쌍=3683
+Loading weights:   0%|          | 0/202 [00:00<?, ?it/s]Loading weights:   2%|▏         | 5/202 [00:00<00:10, 19.22it/s]Loading weights: 100%|██████████| 202/202 [00:00<00:00, 768.16it/s]
+/Users/carina/projects/classifier/harness/train_soft.py:110: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /Users/runner/work/pytorch/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:839.)
+  tot += float(loss) * args.accum; nb += 1
+[train_soft] ep0 step0/231 loss=4.076 (2s)
+[train_soft] ep0 step50/231 loss=0.405 (98s)
+[train_soft] ep0 step100/231 loss=0.597 (191s)
+[train_soft] ep0 step150/231 loss=0.388 (284s)
+[train_soft] ep0 step200/231 loss=0.340 (376s)
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  1.22it/s]Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  1.22it/s]
+[train_soft] ep0 저장 loss_avg=0.584
+[train_soft] ep1 step0/231 loss=0.612 (1s)
+[train_soft] ep1 step50/231 loss=0.333 (97s)
+[train_soft] ep1 step100/231 loss=0.454 (187s)
+[train_soft] ep1 step150/231 loss=0.245 (280s)
+[train_soft] ep1 step200/231 loss=0.485 (374s)
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.45s/it]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.45s/it]
+[train_soft] ep1 저장 loss_avg=0.296
+[train_soft] ep2 step0/231 loss=0.371 (1s)
+[train_soft] ep2 step50/231 loss=0.206 (96s)
+[train_soft] ep2 step100/231 loss=0.242 (188s)
+[train_soft] ep2 step150/231 loss=0.231 (282s)
+[train_soft] ep2 step200/231 loss=0.276 (374s)
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:02<00:00,  2.18s/it]Writing model shards: 100%|██████████| 1/1 [00:02<00:00,  2.18s/it]
+[train_soft] ep2 저장 loss_avg=0.266
+[train_soft] 완료 → models/mdeberta-n2sf
+    rules          F1=0.558 Crec=1.0 under=0.0 over=0.3611
+    minilm         F1=0.5097 Crec=1.0 under=0.0 over=0.4306
+    ko-sroberta    F1=0.3527 Crec=1.0 under=0.0 over=0.5833
+    klue-roberta   F1=0.5469 Crec=1.0 under=0.0 over=0.375
+    mdeberta       F1=0.4425 Crec=1.0 under=0.0 over=0.5
+    mdeberta-n2sf  F1=0.5469 Crec=1.0 under=0.0 over=0.375
+  사이클 20 완료 (2086s, 라벨 3587)
+
+=== 증류 사이클 21 === 02:36
+  다양화 문서 +96 생성(gen_texts.jsonl)
+  교사 라벨 +96 (누적 3683)
+  학생 KD 학습(mdeberta-n2sf)…
+  held-out 평가…
+Loading weights:   0%|          | 0/202 [00:00<?, ?it/s]Loading weights: 100%|██████████| 202/202 [00:00<00:00, 8200.01it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+[train_soft] device=mps KD 학습쌍=3777
+Loading weights:   0%|          | 0/202 [00:00<?, ?it/s]Loading weights:   2%|▏         | 5/202 [00:00<00:14, 14.05it/s]Loading weights: 100%|██████████| 202/202 [00:00<00:00, 562.97it/s]
+/Users/carina/projects/classifier/harness/train_soft.py:110: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /Users/runner/work/pytorch/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:839.)
+  tot += float(loss) * args.accum; nb += 1
+[train_soft] ep0 step0/237 loss=5.759 (2s)
+[train_soft] ep0 step50/237 loss=0.760 (98s)
+[train_soft] ep0 step100/237 loss=0.130 (187s)
+[train_soft] ep0 step150/237 loss=0.499 (275s)
+[train_soft] ep0 step200/237 loss=0.193 (365s)
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.01s/it]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.01s/it]
+[train_soft] ep0 저장 loss_avg=0.591
+[train_soft] ep1 step0/237 loss=0.304 (2s)
+[train_soft] ep1 step50/237 loss=0.305 (95s)
+[train_soft] ep1 step100/237 loss=0.271 (186s)
+[train_soft] ep1 step150/237 loss=0.187 (279s)
+[train_soft] ep1 step200/237 loss=0.364 (372s)
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.15s/it]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.16s/it]
+[train_soft] ep1 저장 loss_avg=0.302
+[train_soft] ep2 step0/237 loss=0.171 (1s)
+[train_soft] ep2 step50/237 loss=0.199 (95s)
+[train_soft] ep2 step100/237 loss=0.251 (183s)
+[train_soft] ep2 step150/237 loss=0.185 (275s)
+[train_soft] ep2 step200/237 loss=0.254 (367s)
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.81s/it]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.81s/it]
+[train_soft] ep2 저장 loss_avg=0.266
+[train_soft] 완료 → models/mdeberta-n2sf
+    rules          F1=0.558 Crec=1.0 under=0.0 over=0.3611
+    minilm         F1=0.5097 Crec=1.0 under=0.0 over=0.4306
+    ko-sroberta    F1=0.3527 Crec=1.0 under=0.0 over=0.5833
+    klue-roberta   F1=0.5469 Crec=1.0 under=0.0 over=0.375
+    mdeberta       F1=0.4425 Crec=1.0 under=0.0 over=0.5
+    mdeberta-n2sf  F1=0.5469 Crec=1.0 under=0.0 over=0.375
+  사이클 21 완료 (2223s, 라벨 3683)
+
+=== 증류 사이클 22 === 03:13
+  다양화 문서 +94 생성(gen_texts.jsonl)
+  교사 라벨 +94 (누적 3777)
+  학생 KD 학습(mdeberta-n2sf)…
+  held-out 평가…
+Loading weights:   0%|          | 0/202 [00:00<?, ?it/s]Loading weights: 100%|██████████| 202/202 [00:00<00:00, 8085.14it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+[train_soft] device=mps KD 학습쌍=3873
+Loading weights:   0%|          | 0/202 [00:00<?, ?it/s]Loading weights:   2%|▏         | 5/202 [00:00<00:10, 19.37it/s]Loading weights: 100%|██████████| 202/202 [00:00<00:00, 774.24it/s]
+/Users/carina/projects/classifier/harness/train_soft.py:110: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /Users/runner/work/pytorch/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:839.)
+  tot += float(loss) * args.accum; nb += 1
+[train_soft] ep0 step0/243 loss=4.446 (2s)
+[train_soft] ep0 step50/243 loss=0.419 (98s)
+[train_soft] ep0 step100/243 loss=0.607 (192s)
+[train_soft] ep0 step150/243 loss=0.339 (282s)
+[train_soft] ep0 step200/243 loss=0.332 (374s)
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  1.09it/s]Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  1.09it/s]
+[train_soft] ep0 저장 loss_avg=0.582
+[train_soft] ep1 step0/243 loss=0.125 (1s)
+[train_soft] ep1 step50/243 loss=0.539 (102s)
+[train_soft] ep1 step100/243 loss=0.308 (195s)
+[train_soft] ep1 step150/243 loss=0.262 (290s)
+[train_soft] ep1 step200/243 loss=0.231 (384s)
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.90s/it]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.90s/it]
+[train_soft] ep1 저장 loss_avg=0.304
+[train_soft] ep2 step0/243 loss=0.157 (2s)
+[train_soft] ep2 step50/243 loss=0.179 (101s)
+[train_soft] ep2 step100/243 loss=0.170 (197s)
+[train_soft] ep2 step150/243 loss=0.198 (295s)
+[train_soft] ep2 step200/243 loss=0.171 (389s)
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.78s/it]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.78s/it]
+[train_soft] ep2 저장 loss_avg=0.264
+[train_soft] 완료 → models/mdeberta-n2sf
+    rules          F1=0.558 Crec=1.0 under=0.0 over=0.3611
+    minilm         F1=0.5097 Crec=1.0 under=0.0 over=0.4306
+    ko-sroberta    F1=0.3527 Crec=1.0 under=0.0 over=0.5833
+    klue-roberta   F1=0.5469 Crec=1.0 under=0.0 over=0.375
+    mdeberta       F1=0.4425 Crec=1.0 under=0.0 over=0.5
+    mdeberta-n2sf  F1=0.5469 Crec=1.0 under=0.0 over=0.375
+  사이클 22 완료 (2231s, 라벨 3777)
+
+=== 증류 사이클 23 === 03:51
+  다양화 문서 +96 생성(gen_texts.jsonl)
+  교사 라벨 +96 (누적 3873)
+  학생 KD 학습(mdeberta-n2sf)…
+  held-out 평가…
+Loading weights:   0%|          | 0/202 [00:00<?, ?it/s]Loading weights: 100%|██████████| 202/202 [00:00<00:00, 8000.32it/s]
+    rules          F1=0.558 Crec=1.0 under=0.0 over=0.3611
+    minilm         F1=0.5097 Crec=1.0 under=0.0 over=0.4306
+    ko-sroberta    F1=0.3527 Crec=1.0 under=0.0 over=0.5833
+    klue-roberta   F1=0.5469 Crec=1.0 under=0.0 over=0.375
+    mdeberta       F1=0.4425 Crec=1.0 under=0.0 over=0.5
+    mdeberta-n2sf  F1=0.5376 Crec=1.0 under=0.0 over=0.3889
+  사이클 23 완료 (2364s, 라벨 3873)
+== distill 종료. 사이클 24, 교사라벨 3873. 결과 distill_soft/report.html ==

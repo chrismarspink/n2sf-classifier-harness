@@ -1,0 +1,52 @@
+{
+  "n2sf-small": {
+    "macro_f1": 0.7091,
+    "accuracy": 0.75,
+    "c_recall": 1.0,
+    "under_rate": 0.0,
+    "over_rate": 0.25,
+    "latency_p50_ms": 13.2,
+    "size_mb": 57.3,
+    "params_m": 14
+  },
+  "n2sf-base": {
+    "macro_f1": 0.7192,
+    "accuracy": 0.75,
+    "c_recall": 1.0,
+    "under_rate": 0.0,
+    "over_rate": 0.25,
+    "latency_p50_ms": 121.6,
+    "size_mb": 1131.3,
+    "params_m": 279
+  },
+  "n2sf-klue-large": {
+    "macro_f1": 0.8721,
+    "accuracy": 0.875,
+    "c_recall": 1.0,
+    "under_rate": 0.0,
+    "over_rate": 0.125,
+    "latency_p50_ms": 204.7,
+    "size_mb": 1347.4,
+    "params_m": 337
+  },
+  "n2sf-xlmr-large": {
+    "macro_f1": 0.9171,
+    "accuracy": 0.9167,
+    "c_recall": 1.0,
+    "under_rate": 0.0,
+    "over_rate": 0.0833,
+    "latency_p50_ms": 202.5,
+    "size_mb": 2256.7,
+    "params_m": 560
+  },
+  "n2sf-large-ensemble(KLUE+XLMR)": {
+    "macro_f1": 0.8736,
+    "accuracy": 0.875,
+    "c_recall": 1.0,
+    "under_rate": 0.0,
+    "over_rate": 0.125,
+    "latency_p50_ms": 407.2,
+    "size_mb": 3604.1,
+    "params_m": 897
+  }
+}

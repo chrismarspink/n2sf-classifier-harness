@@ -1,0 +1,218 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+[train_soft] device=mps KD 학습쌍=3968
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 51794.38it/s]
+[transformers] [1mElectraForSequenceClassification LOAD REPORT[0m from: monologg/koelectra-small-v3-discriminator
+Key                                               | Status     | 
+--------------------------------------------------+------------+-
+discriminator_predictions.dense.bias              | UNEXPECTED | 
+discriminator_predictions.dense_prediction.bias   | UNEXPECTED | 
+discriminator_predictions.dense.weight            | UNEXPECTED | 
+discriminator_predictions.dense_prediction.weight | UNEXPECTED | 
+classifier.dense.weight                           | MISSING    | 
+classifier.dense.bias                             | MISSING    | 
+classifier.out_proj.bias                          | MISSING    | 
+classifier.out_proj.weight                        | MISSING    | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+/Users/carina/projects/classifier/harness/train_soft.py:127: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /Users/runner/work/pytorch/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:839.)
+  tot += float(loss) * args.accum; nb += 1
+[train_soft] ep0 step0/124 loss=1.097 (1s)
+[train_soft] ep0 step50/124 loss=0.914 (20s)
+[train_soft] ep0 step100/124 loss=0.777 (40s)
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:00<00:00, 12.73it/s]
+[train_soft] ep0 저장 loss_avg=0.892
+[train_soft] ep1 step0/124 loss=0.747 (0s)
+[train_soft] ep1 step50/124 loss=0.624 (20s)
+[train_soft] ep1 step100/124 loss=0.564 (40s)
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:00<00:00, 11.78it/s]
+[train_soft] ep1 저장 loss_avg=0.568
+[train_soft] ep2 step0/124 loss=0.447 (0s)
+[train_soft] ep2 step50/124 loss=0.569 (20s)
+[train_soft] ep2 step100/124 loss=0.370 (39s)
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:00<00:00, 11.53it/s]
+[train_soft] ep2 저장 loss_avg=0.398
+[train_soft] 완료 → models/n2sf-small
+== lineup 시작 교사라벨=distill_o4/teacher_labels.jsonl held-out=72 ==
+
+=== 증류: n2sf-small (monologg/koelectra-small-v3-discriminator) ===
+  평가: n2sf-small …
+Loading weights:   0%|          | 0/203 [00:00<?, ?it/s]Loading weights: 100%|██████████| 203/203 [00:00<00:00, 8611.14it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+[train_soft] device=mps KD 학습쌍=3968
+Loading weights:   0%|          | 0/202 [00:00<?, ?it/s]Loading weights:   2%|▏         | 5/202 [00:00<00:14, 13.34it/s]Loading weights: 100%|██████████| 202/202 [00:00<00:00, 534.82it/s]
+/Users/carina/projects/classifier/harness/train_soft.py:127: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /Users/runner/work/pytorch/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:839.)
+  tot += float(loss) * args.accum; nb += 1
+[train_soft] ep0 step0/248 loss=3.409 (2s)
+[train_soft] ep0 step50/248 loss=0.494 (103s)
+[train_soft] ep0 step100/248 loss=0.516 (203s)
+[train_soft] ep0 step150/248 loss=0.421 (291s)
+[train_soft] ep0 step200/248 loss=0.331 (388s)
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  1.11it/s]Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  1.11it/s]
+[train_soft] ep0 저장 loss_avg=0.553
+[train_soft] ep1 step0/248 loss=0.220 (2s)
+[train_soft] ep1 step50/248 loss=0.139 (96s)
+[train_soft] ep1 step100/248 loss=0.174 (191s)
+[train_soft] ep1 step150/248 loss=0.218 (282s)
+[train_soft] ep1 step200/248 loss=0.518 (372s)
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.58s/it]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.58s/it]
+[train_soft] ep1 저장 loss_avg=0.295
+[train_soft] ep2 step0/248 loss=0.143 (2s)
+[train_soft] ep2 step50/248 loss=0.317 (117s)
+[train_soft] ep2 step100/248 loss=0.351 (214s)
+[train_soft] ep2 step150/248 loss=0.244 (307s)
+[train_soft] ep2 step200/248 loss=0.100 (399s)
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.64s/it]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.64s/it]
+[train_soft] ep2 저장 loss_avg=0.260
+[train_soft] 완료 → models/n2sf-base
+    F1=0.7091 Crec=1.0 p50=13.2ms size=57.3MB params=14M
+
+=== 증류: n2sf-base (MoritzLaurer/mDeBERTa-v3-base-mnli-xnli) ===
+  평가: n2sf-base …
+Loading weights:   0%|          | 0/202 [00:00<?, ?it/s]Loading weights: 100%|██████████| 202/202 [00:00<00:00, 7049.13it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+[train_soft] device=mps KD 학습쌍=3968
+Loading weights:   0%|          | 0/389 [00:00<?, ?it/s]Loading weights: 100%|██████████| 389/389 [00:00<00:00, 16224.50it/s]
+[transformers] [1mRobertaForSequenceClassification LOAD REPORT[0m from: klue/roberta-large
+Key                        | Status     | 
+---------------------------+------------+-
+lm_head.bias               | UNEXPECTED | 
+lm_head.dense.weight       | UNEXPECTED | 
+lm_head.layer_norm.bias    | UNEXPECTED | 
+lm_head.dense.bias         | UNEXPECTED | 
+lm_head.layer_norm.weight  | UNEXPECTED | 
+classifier.out_proj.weight | MISSING    | 
+classifier.out_proj.bias   | MISSING    | 
+classifier.dense.weight    | MISSING    | 
+classifier.dense.bias      | MISSING    | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+/Users/carina/projects/classifier/harness/train_soft.py:127: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /Users/runner/work/pytorch/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:839.)
+  tot += float(loss) * args.accum; nb += 1
+[train_soft] 레이어 동결: 상위 6개+헤드만 학습(학습 파라미터 77M)
+[train_soft] ep0 step0/496 loss=1.060 (2s)
+[train_soft] ep0 step50/496 loss=0.330 (41s)
+[train_soft] ep0 step100/496 loss=0.309 (81s)
+[train_soft] ep0 step150/496 loss=1.421 (120s)
+[train_soft] ep0 step200/496 loss=0.301 (159s)
+[train_soft] ep0 step250/496 loss=0.318 (199s)
+[train_soft] ep0 step300/496 loss=0.127 (238s)
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  1.36it/s]Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  1.36it/s]
+[train_soft] ep0 step350/496 loss=0.202 (278s)
+[train_soft] ep0 step400/496 loss=0.414 (318s)
+[train_soft] ep0 step450/496 loss=0.481 (357s)
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  1.13it/s]Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  1.13it/s]
+[train_soft] ep0 저장 loss_avg=0.347
+[train_soft] ep1 step0/496 loss=0.299 (1s)
+[train_soft] ep1 step50/496 loss=0.221 (40s)
+[train_soft] ep1 step100/496 loss=0.212 (79s)
+[train_soft] ep1 step150/496 loss=0.132 (119s)
+[train_soft] ep1 step200/496 loss=0.135 (158s)
+[train_soft] ep1 step250/496 loss=0.406 (197s)
+[train_soft] ep1 step300/496 loss=0.143 (237s)
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  1.10it/s]Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  1.10it/s]
+[train_soft] ep1 step350/496 loss=0.392 (277s)
+[train_soft] ep1 step400/496 loss=0.466 (316s)
+[train_soft] ep1 step450/496 loss=0.238 (356s)
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  1.15it/s]Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  1.15it/s]
+[train_soft] ep1 저장 loss_avg=0.261
+[train_soft] ep2 step0/496 loss=0.367 (1s)
+[train_soft] ep2 step50/496 loss=0.142 (40s)
+[train_soft] ep2 step100/496 loss=0.175 (79s)
+[train_soft] ep2 step150/496 loss=0.206 (119s)
+[train_soft] ep2 step200/496 loss=0.967 (158s)
+[train_soft] ep2 step250/496 loss=0.157 (198s)
+[train_soft] ep2 step300/496 loss=0.057 (238s)
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  1.21it/s]Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  1.20it/s]
+[train_soft] ep2 step350/496 loss=0.144 (278s)
+[train_soft] ep2 step400/496 loss=0.153 (318s)
+[train_soft] ep2 step450/496 loss=0.408 (358s)
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  1.14it/s]Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  1.14it/s]
+[train_soft] ep2 저장 loss_avg=0.245
+[train_soft] 완료 → models/n2sf-klue-large
+    F1=0.7192 Crec=1.0 p50=121.6ms size=1131.3MB params=279M
+
+=== 증류: n2sf-klue-large (klue/roberta-large) ===
+  평가: n2sf-klue-large …
+Loading weights:   0%|          | 0/393 [00:00<?, ?it/s]Loading weights: 100%|██████████| 393/393 [00:00<00:00, 8917.05it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+[train_soft] device=mps KD 학습쌍=3968
+Loading weights:   0%|          | 0/389 [00:00<?, ?it/s]Loading weights: 100%|██████████| 389/389 [00:00<00:00, 18110.00it/s]
+[transformers] [1mXLMRobertaForSequenceClassification LOAD REPORT[0m from: xlm-roberta-large
+Key                         | Status     | 
+----------------------------+------------+-
+lm_head.bias                | UNEXPECTED | 
+lm_head.dense.weight        | UNEXPECTED | 
+roberta.pooler.dense.bias   | UNEXPECTED | 
+lm_head.layer_norm.bias     | UNEXPECTED | 
+lm_head.dense.bias          | UNEXPECTED | 
+lm_head.layer_norm.weight   | UNEXPECTED | 
+roberta.pooler.dense.weight | UNEXPECTED | 
+classifier.out_proj.weight  | MISSING    | 
+classifier.dense.weight     | MISSING    | 
+classifier.dense.bias       | MISSING    | 
+classifier.out_proj.bias    | MISSING    | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+/Users/carina/projects/classifier/harness/train_soft.py:127: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /Users/runner/work/pytorch/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:839.)
+  tot += float(loss) * args.accum; nb += 1
+[train_soft] 레이어 동결: 상위 6개+헤드만 학습(학습 파라미터 77M)
+[train_soft] ep0 step0/662 loss=1.311 (1s)
+[train_soft] ep0 step50/662 loss=1.174 (31s)
+[train_soft] ep0 step100/662 loss=0.707 (61s)
+[train_soft] ep0 step150/662 loss=0.486 (90s)
+[train_soft] ep0 step200/662 loss=0.202 (120s)
+[train_soft] ep0 step250/662 loss=0.544 (150s)
+[train_soft] ep0 step300/662 loss=0.779 (179s)
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.17s/it]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.17s/it]
+[train_soft] ep0 step350/662 loss=0.247 (210s)
+[train_soft] ep0 step400/662 loss=0.420 (240s)
+[train_soft] ep0 step450/662 loss=0.552 (269s)
+[train_soft] ep0 step500/662 loss=0.215 (299s)
+[train_soft] ep0 step550/662 loss=0.120 (328s)
+[train_soft] ep0 step600/662 loss=0.230 (358s)
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.28s/it]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.28s/it]
+[train_soft] ep0 step650/662 loss=0.249 (389s)
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.23s/it]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.23s/it]
+[train_soft] ep0 저장 loss_avg=0.437
+[train_soft] ep1 step0/662 loss=0.515 (1s)
+[train_soft] ep1 step50/662 loss=0.337 (30s)
+[train_soft] ep1 step100/662 loss=0.376 (60s)
+[train_soft] ep1 step150/662 loss=0.300 (89s)
+[train_soft] ep1 step200/662 loss=0.255 (119s)
+[train_soft] ep1 step250/662 loss=0.363 (149s)
+[train_soft] ep1 step300/662 loss=0.430 (178s)
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.29s/it]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.29s/it]
+[train_soft] ep1 step350/662 loss=0.260 (209s)
+[train_soft] ep1 step400/662 loss=0.430 (239s)
+[train_soft] ep1 step450/662 loss=0.372 (268s)
+[train_soft] ep1 step500/662 loss=0.366 (298s)
+[train_soft] ep1 step550/662 loss=0.452 (328s)
+[train_soft] ep1 step600/662 loss=0.355 (357s)
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.30s/it]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.30s/it]
+[train_soft] ep1 step650/662 loss=0.456 (388s)
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.34s/it]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.34s/it]
+[train_soft] ep1 저장 loss_avg=0.276
+[train_soft] 완료 → models/n2sf-xlmr-large
+    F1=0.8721 Crec=1.0 p50=204.7ms size=1347.4MB params=337M
+
+=== 증류: n2sf-xlmr-large (xlm-roberta-large) ===
+  평가: n2sf-xlmr-large …
+Loading weights:   0%|          | 0/393 [00:00<?, ?it/s]Loading weights: 100%|██████████| 393/393 [00:00<00:00, 8874.80it/s]
+    F1=0.9171 Crec=1.0 p50=202.5ms size=2256.7MB params=560M
+  앙상블(KLUE+XLMR): F1=0.8736 Crec=1.0
+
+== lineup 완료 → lineup/matrix.json, lineup/report.html ==

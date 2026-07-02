@@ -1,0 +1,14 @@
+{
+  "entity": {
+    "KR_ACCOUNT": 6.0
+  },
+  "thresholds": {
+    "confidential": 5.5,
+    "sensitive": 1.5
+  },
+  "tier": {
+    "rules": 1.0,
+    "ner": 1.0,
+    "neural": 1.5
+  }
+}

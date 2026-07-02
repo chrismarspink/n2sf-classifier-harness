@@ -1,0 +1,17 @@
+{
+  "thresholds": {
+    "confidential": 5.5,
+    "sensitive": 1.5
+  },
+  "entity": {
+    "KR_ACCOUNT": 6.0
+  },
+  "supersede": {
+    "KR_ACCOUNT": [
+      "KR_PHONE"
+    ]
+  },
+  "llm_mode": true,
+  "model": "ko-sroberta",
+  "ensemble": "max-rank"
+}

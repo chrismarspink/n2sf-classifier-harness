@@ -1,0 +1,9 @@
+{
+  "model": "mdeberta-n2sf",
+  "llm_mode": true,
+  "ensemble": "soft",
+  "tier": {"rules": 0.3, "ner": 0.3, "neural": 3.0},
+  "thresholds": {"confidential": 8.0, "sensitive": 2.0},
+  "entity": {"KR_ACCOUNT": 1.0},
+  "_note": "soft-label 증류(GPT-4o 교사)로 재학습한 mdeberta-n2sf + 뉴럴 우선 앙상블. held-out F1 0.797 / C재현율 1.00"
+}
