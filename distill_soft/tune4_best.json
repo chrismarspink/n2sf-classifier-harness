@@ -1,0 +1,72 @@
+{
+  "config": {
+    "llm_mode": true,
+    "model": "mdeberta-n2sf",
+    "ensemble": "soft",
+    "tier": {
+      "rules": 0.3,
+      "ner": 0.3,
+      "neural": 2.0
+    },
+    "thresholds": {
+      "confidential": 8.0,
+      "sensitive": 1.5
+    },
+    "entity": {
+      "KR_ACCOUNT": 1.0
+    }
+  },
+  "metrics": {
+    "n": 72,
+    "objective": 0.79735,
+    "macro_f1": 0.7974,
+    "weighted_f1": 0.7974,
+    "accuracy": 0.8056,
+    "c_recall": 1.0,
+    "c_precision": 0.6486,
+    "under_rate": 0.0,
+    "over_rate": 0.1944,
+    "p50_ms": 0.0,
+    "p95_ms": 0.0,
+    "confusion": {
+      "O": {
+        "O": 22,
+        "S": 1,
+        "C": 1
+      },
+      "S": {
+        "O": 0,
+        "S": 12,
+        "C": 12
+      },
+      "C": {
+        "O": 0,
+        "S": 0,
+        "C": 24
+      }
+    },
+    "per_grade": {
+      "O": {
+        "precision": 1.0,
+        "recall": 0.9167,
+        "f1": 0.9565,
+        "support": 24
+      },
+      "S": {
+        "precision": 0.9231,
+        "recall": 0.5,
+        "f1": 0.6486,
+        "support": 24
+      },
+      "C": {
+        "precision": 0.6486,
+        "recall": 1.0,
+        "f1": 0.7869,
+        "support": 24
+      }
+    },
+    "by_format": {},
+    "by_category": {},
+    "c_target": 0.98
+  }
+}

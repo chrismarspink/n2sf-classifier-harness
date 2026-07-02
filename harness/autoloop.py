@@ -55,7 +55,8 @@ def _rules_only_f1(db: DB, run_id: str) -> float:
 
 
 def run_iteration(db: DB, out: Path, level: int, git: int, base_seed: int,
-                  per_cell: int, models, locale: str, c_target: float, log=print) -> dict:
+                  per_cell: int, models, locale: str, c_target: float,
+                  normalize: bool = False, log=print) -> dict:
     tag = f"L{level}i{git}"
     seed = base_seed + git
     t0 = time.perf_counter()
@@ -74,7 +75,8 @@ def run_iteration(db: DB, out: Path, level: int, git: int, base_seed: int,
     corpus_rows = db.query("SELECT * FROM corpus WHERE doc_id LIKE ?", (tag + "-%",))
 
     # 2) 탐지 (캐시). 생성 파일은 corpus/ 에 보존(요구사항: 생성 데이터 파일 산출).
-    DET.run_detection(db, corpus_rows, locale=locale, models=models, log=lambda *_: None)
+    DET.run_detection(db, corpus_rows, locale=locale, models=models, normalize=normalize,
+                      log=lambda *_: None)
     detections = DET.load_detection(db, doc_prefix=tag + "-")
     meta = {(r["doc_id"], r["fmt"]): {"grade": r["grade"], "category": r["category"],
                                       "split": r["split"]} for r in corpus_rows}
@@ -128,6 +130,7 @@ def main(argv=None):
     ap.add_argument("--start-level", type=int, default=1)
     ap.add_argument("--max-level", type=int, default=4)
     ap.add_argument("--max-per-cell", type=int, default=24)
+    ap.add_argument("--normalize", action="store_true", help="① 전처리 정규화(전각→반각 등) 적용")
     args = ap.parse_args(argv)
 
     out = Path(args.out); out.mkdir(parents=True, exist_ok=True)
@@ -146,7 +149,7 @@ def main(argv=None):
     while time.time() < deadline:
         try:
             res = run_iteration(db, out, level, git, args.seed, per_cell, models,
-                                args.locale, args.c_target)
+                                args.locale, args.c_target, normalize=args.normalize)
         except Exception as exc:
             import traceback; traceback.print_exc()
             print(f"  반복 {git} 실패: {exc} — 다음으로")

@@ -1,0 +1,22 @@
+{
+  "thresholds": {
+    "confidential": 5.5,
+    "sensitive": 1.5
+  },
+  "entity": {
+    "KR_ACCOUNT": 6.0
+  },
+  "supersede": {
+    "KR_ACCOUNT": [
+      "KR_PHONE"
+    ]
+  },
+  "llm_mode": true,
+  "model": "mdeberta",
+  "ensemble": "soft",
+  "tier": {
+    "rules": 1.0,
+    "ner": 1.0,
+    "neural": 1.5
+  }
+}

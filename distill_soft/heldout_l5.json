@@ -1,0 +1,506 @@
+[
+  {
+    "text": "取扱注意\n\n本メモはプロジェクトAlphaに関する制限資料を含みます。無断開示を禁じます。\n添付識別子：860409-11447819\n添付識別子：4448-0013-4099-7832\n次のセクションでは、チームの背景情報と今後のステップを要約します。",
+    "grade": "C",
+    "gen": "template:ja",
+    "diff": 5,
+    "lang": "ja"
+  },
+  {
+    "text": "CONFIDENTIAL — Internal Use Only\n\nThis memo contains restricted material related to project Silence. Unauthorized disclosure is prohibited.\nAttached identifier: M41042346\nAttached identifier: 800425-28232810\nThe following section summarizes background information and next steps for the team.",
+    "grade": "C",
+    "gen": "template:en",
+    "diff": 5,
+    "lang": "en"
+  },
+  {
+    "text": "This newsletter shares our quarterly community activities and upcoming public events open to everyone.\nThe following section summarizes background information and next steps for the team.\nThe following section summarizes background information and next steps for the team.",
+    "grade": "O",
+    "gen": "template:en",
+    "diff": 5,
+    "lang": "en"
+  },
+  {
+    "text": "Handle with care\n\nPlease find below the contact details for the applicant handled by HR.\nContact: 010-9604-9111\nThe following section summarizes background information and next steps for the team.",
+    "grade": "S",
+    "gen": "template:en",
+    "diff": 5,
+    "lang": "en"
+  },
+  {
+    "text": "社内確認用\n\n以下は人事部が扱う応募者の連絡先です。\n連絡先：atnqvvfu2@daum.net\n次のセクションでは、チームの背景情報と今後のステップを要約します。",
+    "grade": "S",
+    "gen": "template:ja",
+    "diff": 5,
+    "lang": "ja"
+  },
+  {
+    "text": "This newsletter shares our quarterly community activities and upcoming public events open to everyone.\nThe following section summarizes background information and next steps for the team.\nThe following section summarizes background information and next steps for the team.",
+    "grade": "O",
+    "gen": "template:en",
+    "diff": 5,
+    "lang": "en"
+  },
+  {
+    "text": "本通讯分享我们本季度的社区活动以及面向公众的公开活动信息。\n以下部分概述了团队的背景信息与后续步骤。\n以下部分概述了团队的背景信息与后续步骤。",
+    "grade": "O",
+    "gen": "template:zh",
+    "diff": 5,
+    "lang": "zh"
+  },
+  {
+    "text": "本ニュースレターは四半期の地域活動と一般公開イベントの情報をお届けします。\n次のセクションでは、チームの背景情報と今後のステップを要約します。\n次のセクションでは、チームの背景情報と今後のステップを要約します。",
+    "grade": "O",
+    "gen": "template:ja",
+    "diff": 5,
+    "lang": "ja"
+  },
+  {
+    "text": "绝密\n\n本备忘录包含与项目Omega相关的受限资料，未经授权不得披露。\n所附标识：5212-3308-0516-9780\n所附标识：740227-26400971\n以下部分概述了团队的背景信息与后续步骤。",
+    "grade": "C",
+    "gen": "template:zh",
+    "diff": 5,
+    "lang": "zh"
+  },
+  {
+    "text": "本通讯分享我们本季度的社区活动以及面向公众的公开活动信息。\n以下部分概述了团队的背景信息与后续步骤。\n以下部分概述了团队的背景信息与后续步骤。",
+    "grade": "O",
+    "gen": "template:zh",
+    "diff": 5,
+    "lang": "zh"
+  },
+  {
+    "text": "本通讯分享我们本季度的社区活动以及面向公众的公开活动信息。\n以下部分概述了团队的背景信息与后续步骤。\n以下部分概述了团队的背景信息与后续步骤。",
+    "grade": "O",
+    "gen": "template:zh",
+    "diff": 5,
+    "lang": "zh"
+  },
+  {
+    "text": "机密 — 仅限内部使用\n\n本备忘录包含与项目Omega相关的受限资料，未经授权不得披露。\n所附标识：670220-13616159\n所附标识：930410-10045734\n以下部分概述了团队的背景信息与后续步骤。",
+    "grade": "C",
+    "gen": "template:zh",
+    "diff": 5,
+    "lang": "zh"
+  },
+  {
+    "text": "取扱注意\n\n本メモはプロジェクトSilenceに関する制限資料を含みます。無断開示を禁じます。\n添付識別子：4995-9029-4963-6662\n添付識別子：5545-9956-8230-7519\n次のセクションでは、チームの背景情報と今後のステップを要約します。",
+    "grade": "C",
+    "gen": "template:ja",
+    "diff": 5,
+    "lang": "ja"
+  },
+  {
+    "text": "TOP SECRET\n\nThis memo contains restricted material related to project Alpha. Unauthorized disclosure is prohibited.\nAttached identifier: AKIAWBQCABM6P4G37ZTN\nAttached identifier: 830618-22563208\nThe following section summarizes background information and next steps for the team.",
+    "grade": "C",
+    "gen": "template:en",
+    "diff": 5,
+    "lang": "en"
+  },
+  {
+    "text": "This newsletter shares our quarterly community activities and upcoming public events open to everyone.\nThe following section summarizes background information and next steps for the team.\nThe following section summarizes background information and next steps for the team.",
+    "grade": "O",
+    "gen": "template:en",
+    "diff": 5,
+    "lang": "en"
+  },
+  {
+    "text": "本通讯分享我们本季度的社区活动以及面向公众的公开活动信息。\n以下部分概述了团队的背景信息与后续步骤。\n以下部分概述了团队的背景信息与后续步骤。",
+    "grade": "O",
+    "gen": "template:zh",
+    "diff": 5,
+    "lang": "zh"
+  },
+  {
+    "text": "取扱注意\n\n本メモはプロジェクトOmegaに関する制限資料を含みます。無断開示を禁じます。\n添付識別子：600628-18247470\n添付識別子：5390-5597-7221-5267\n次のセクションでは、チームの背景情報と今後のステップを要約します。",
+    "grade": "C",
+    "gen": "template:ja",
+    "diff": 5,
+    "lang": "ja"
+  },
+  {
+    "text": "内部审阅\n\n以下为人力资源部处理的申请人联系方式。\n联系方式：vbtembga19@kakao.com\n以下部分概述了团队的背景信息与后续步骤。",
+    "grade": "S",
+    "gen": "template:zh",
+    "diff": 5,
+    "lang": "zh"
+  },
+  {
+    "text": "This newsletter shares our quarterly community activities and upcoming public events open to everyone.\nThe following section summarizes background information and next steps for the team.\nThe following section summarizes background information and next steps for the team.",
+    "grade": "O",
+    "gen": "template:en",
+    "diff": 5,
+    "lang": "en"
+  },
+  {
+    "text": "Handle with care\n\nPlease find below the contact details for the applicant handled by HR.\nContact: nnchc55@kakao.com\nThe following section summarizes background information and next steps for the team.",
+    "grade": "S",
+    "gen": "template:en",
+    "diff": 5,
+    "lang": "en"
+  },
+  {
+    "text": "For internal review\n\nPlease find below the contact details for the applicant handled by HR.\nContact: emubcrd75@daum.net\nThe following section summarizes background information and next steps for the team.",
+    "grade": "S",
+    "gen": "template:en",
+    "diff": 5,
+    "lang": "en"
+  },
+  {
+    "text": "取扱注意\n\n本メモはプロジェクトAlphaに関する制限資料を含みます。無断開示を禁じます。\n添付識別子：api_key=8265E3moZ7Ht9FQUkOpF96qgZLc2KX9PuOL\n添付識別子：4349-9717-5546-1575\n次のセクションでは、チームの背景情報と今後のステップを要約します。",
+    "grade": "C",
+    "gen": "template:ja",
+    "diff": 5,
+    "lang": "ja"
+  },
+  {
+    "text": "本通讯分享我们本季度的社区活动以及面向公众的公开活动信息。\n以下部分概述了团队的背景信息与后续步骤。\n以下部分概述了团队的背景信息与后续步骤。",
+    "grade": "O",
+    "gen": "template:zh",
+    "diff": 5,
+    "lang": "zh"
+  },
+  {
+    "text": "CONFIDENTIAL — Internal Use Only\n\nThis memo contains restricted material related to project Alpha. Unauthorized disclosure is prohibited.\nAttached identifier: S13735379\nAttached identifier: 600821-28384878\nThe following section summarizes background information and next steps for the team.",
+    "grade": "C",
+    "gen": "template:en",
+    "diff": 5,
+    "lang": "en"
+  },
+  {
+    "text": "Handle with care\n\nPlease find below the contact details for the applicant handled by HR.\nContact: bssmbhbre54@daum.net\nThe following section summarizes background information and next steps for the team.",
+    "grade": "S",
+    "gen": "template:en",
+    "diff": 5,
+    "lang": "en"
+  },
+  {
+    "text": "This newsletter shares our quarterly community activities and upcoming public events open to everyone.\nThe following section summarizes background information and next steps for the team.\nThe following section summarizes background information and next steps for the team.",
+    "grade": "O",
+    "gen": "template:en",
+    "diff": 5,
+    "lang": "en"
+  },
+  {
+    "text": "取り扱い注意\n\n以下は人事部が扱う応募者の連絡先です。\n連絡先：qauzlqkn27@company.co.kr\n次のセクションでは、チームの背景情報と今後のステップを要約します。",
+    "grade": "S",
+    "gen": "template:ja",
+    "diff": 5,
+    "lang": "ja"
+  },
+  {
+    "text": "Handle with care\n\nPlease find below the contact details for the applicant handled by HR.\nContact: rvfdssu48@naver.com\nThe following section summarizes background information and next steps for the team.",
+    "grade": "S",
+    "gen": "template:en",
+    "diff": 5,
+    "lang": "en"
+  },
+  {
+    "text": "This newsletter shares our quarterly community activities and upcoming public events open to everyone.\nThe following section summarizes background information and next steps for the team.\nThe following section summarizes background information and next steps for the team.",
+    "grade": "O",
+    "gen": "template:en",
+    "diff": 5,
+    "lang": "en"
+  },
+  {
+    "text": "内部审阅\n\n以下为人力资源部处理的申请人联系方式。\n联系方式：wyddcjqs50@naver.com\n以下部分概述了团队的背景信息与后续步骤。",
+    "grade": "S",
+    "gen": "template:zh",
+    "diff": 5,
+    "lang": "zh"
+  },
+  {
+    "text": "個人情報を含む\n\n以下は人事部が扱う応募者の連絡先です。\n連絡先：010-3563-5096\n次のセクションでは、チームの背景情報と今後のステップを要約します。",
+    "grade": "S",
+    "gen": "template:ja",
+    "diff": 5,
+    "lang": "ja"
+  },
+  {
+    "text": "本ニュースレターは四半期の地域活動と一般公開イベントの情報をお届けします。\n次のセクションでは、チームの背景情報と今後のステップを要約します。\n次のセクションでは、チームの背景情報と今後のステップを要約します。",
+    "grade": "O",
+    "gen": "template:ja",
+    "diff": 5,
+    "lang": "ja"
+  },
+  {
+    "text": "请谨慎处理\n\n以下为人力资源部处理的申请人联系方式。\n联系方式：010-5977-3096\n以下部分概述了团队的背景信息与后续步骤。",
+    "grade": "S",
+    "gen": "template:zh",
+    "diff": 5,
+    "lang": "zh"
+  },
+  {
+    "text": "本ニュースレターは四半期の地域活動と一般公開イベントの情報をお届けします。\n次のセクションでは、チームの背景情報と今後のステップを要約します。\n次のセクションでは、チームの背景情報と今後のステップを要約します。",
+    "grade": "O",
+    "gen": "template:ja",
+    "diff": 5,
+    "lang": "ja"
+  },
+  {
+    "text": "本ニュースレターは四半期の地域活動と一般公開イベントの情報をお届けします。\n次のセクションでは、チームの背景情報と今後のステップを要約します。\n次のセクションでは、チームの背景情報と今後のステップを要約します。",
+    "grade": "O",
+    "gen": "template:ja",
+    "diff": 5,
+    "lang": "ja"
+  },
+  {
+    "text": "CONFIDENTIAL — Internal Use Only\n\nThis memo contains restricted material related to project Omega. Unauthorized disclosure is prohibited.\nAttached identifier: AKIAJC3IBOFBCIXGY4DB\nAttached identifier: 791019-10130748\nThe following section summarizes background information and next steps for the team.",
+    "grade": "C",
+    "gen": "template:en",
+    "diff": 5,
+    "lang": "en"
+  },
+  {
+    "text": "社内確認用\n\n以下は人事部が扱う応募者の連絡先です。\n連絡先：jxmqhz60@company.co.kr\n次のセクションでは、チームの背景情報と今後のステップを要約します。",
+    "grade": "S",
+    "gen": "template:ja",
+    "diff": 5,
+    "lang": "ja"
+  },
+  {
+    "text": "This newsletter shares our quarterly community activities and upcoming public events open to everyone.\nThe following section summarizes background information and next steps for the team.\nThe following section summarizes background information and next steps for the team.",
+    "grade": "O",
+    "gen": "template:en",
+    "diff": 5,
+    "lang": "en"
+  },
+  {
+    "text": "机密 — 仅限内部使用\n\n本备忘录包含与项目Silence相关的受限资料，未经授权不得披露。\n所附标识：api_key=zXpMZuZN8Ab5KbH0FZk4XdxKIADjJpz6ZFkn7Xvg\n所附标识：910410-18779643\n以下部分概述了团队的背景信息与后续步骤。",
+    "grade": "C",
+    "gen": "template:zh",
+    "diff": 5,
+    "lang": "zh"
+  },
+  {
+    "text": "绝密\n\n本备忘录包含与项目Alpha相关的受限资料，未经授权不得披露。\n所附标识：api_key=Ez6DQMvE5mVXRV99nCQvtsU7RTAuwm6zo88\n所附标识：680806-18415530\n以下部分概述了团队的背景信息与后续步骤。",
+    "grade": "C",
+    "gen": "template:zh",
+    "diff": 5,
+    "lang": "zh"
+  },
+  {
+    "text": "本通讯分享我们本季度的社区活动以及面向公众的公开活动信息。\n以下部分概述了团队的背景信息与后续步骤。\n以下部分概述了团队的背景信息与后续步骤。",
+    "grade": "O",
+    "gen": "template:zh",
+    "diff": 5,
+    "lang": "zh"
+  },
+  {
+    "text": "本ニュースレターは四半期の地域活動と一般公開イベントの情報をお届けします。\n次のセクションでは、チームの背景情報と今後のステップを要約します。\n次のセクションでは、チームの背景情報と今後のステップを要約します。",
+    "grade": "O",
+    "gen": "template:ja",
+    "diff": 5,
+    "lang": "ja"
+  },
+  {
+    "text": "Do Not Distribute Externally\n\nThis memo contains restricted material related to project Omega. Unauthorized disclosure is prohibited.\nAttached identifier: AKIA5OGZ7KOK3ZV2MWUF\nAttached identifier: 4401-4193-1417-0589\nThe following section summarizes background information and next steps for the team.",
+    "grade": "C",
+    "gen": "template:en",
+    "diff": 5,
+    "lang": "en"
+  },
+  {
+    "text": "取り扱い注意\n\n以下は人事部が扱う応募者の連絡先です。\n連絡先：rgfwzgq13@daum.net\n次のセクションでは、チームの背景情報と今後のステップを要約します。",
+    "grade": "S",
+    "gen": "template:ja",
+    "diff": 5,
+    "lang": "ja"
+  },
+  {
+    "text": "本ニュースレターは四半期の地域活動と一般公開イベントの情報をお届けします。\n次のセクションでは、チームの背景情報と今後のステップを要約します。\n次のセクションでは、チームの背景情報と今後のステップを要約します。",
+    "grade": "O",
+    "gen": "template:ja",
+    "diff": 5,
+    "lang": "ja"
+  },
+  {
+    "text": "Do Not Distribute Externally\n\nThis memo contains restricted material related to project Alpha. Unauthorized disclosure is prohibited.\nAttached identifier: 5244-6347-8612-2136\nAttached identifier: 5301-6877-3132-2813\nThe following section summarizes background information and next steps for the team.",
+    "grade": "C",
+    "gen": "template:en",
+    "diff": 5,
+    "lang": "en"
+  },
+  {
+    "text": "机密 — 仅限内部使用\n\n本备忘录包含与项目Alpha相关的受限资料，未经授权不得披露。\n所附标识：AKIAMJ2M2LTETD6AY35F\n所附标识：980413-24950751\n以下部分概述了团队的背景信息与后续步骤。",
+    "grade": "C",
+    "gen": "template:zh",
+    "diff": 5,
+    "lang": "zh"
+  },
+  {
+    "text": "取り扱い注意\n\n以下は人事部が扱う応募者の連絡先です。\n連絡先：010-7771-8669\n次のセクションでは、チームの背景情報と今後のステップを要約します。",
+    "grade": "S",
+    "gen": "template:ja",
+    "diff": 5,
+    "lang": "ja"
+  },
+  {
+    "text": "Personal data enclosed\n\nPlease find below the contact details for the applicant handled by HR.\nContact: 010-8628-8424\nThe following section summarizes background information and next steps for the team.",
+    "grade": "S",
+    "gen": "template:en",
+    "diff": 5,
+    "lang": "en"
+  },
+  {
+    "text": "本通讯分享我们本季度的社区活动以及面向公众的公开活动信息。\n以下部分概述了团队的背景信息与后续步骤。\n以下部分概述了团队的背景信息与后续步骤。",
+    "grade": "O",
+    "gen": "template:zh",
+    "diff": 5,
+    "lang": "zh"
+  },
+  {
+    "text": "严禁外传\n\n本备忘录包含与项目Alpha相关的受限资料，未经授权不得披露。\n所附标识：5452-6114-9131-6770\n所附标识：5440-1995-3055-2030\n以下部分概述了团队的背景信息与后续步骤。",
+    "grade": "C",
+    "gen": "template:zh",
+    "diff": 5,
+    "lang": "zh"
+  },
+  {
+    "text": "Handle with care\n\nPlease find below the contact details for the applicant handled by HR.\nContact: jtcdqnfy20@daum.net\nThe following section summarizes background information and next steps for the team.",
+    "grade": "S",
+    "gen": "template:en",
+    "diff": 5,
+    "lang": "en"
+  },
+  {
+    "text": "社外秘\n\n本メモはプロジェクトOmegaに関する制限資料を含みます。無断開示を禁じます。\n添付識別子：AKIA3FXJTYDFUIWAANES\n添付識別子：5380-7727-3728-9028\n次のセクションでは、チームの背景情報と今後のステップを要約します。",
+    "grade": "C",
+    "gen": "template:ja",
+    "diff": 5,
+    "lang": "ja"
+  },
+  {
+    "text": "严禁外传\n\n本备忘录包含与项目Silence相关的受限资料，未经授权不得披露。\n所附标识：R18583694\n所附标识：5103-2711-2464-0089\n以下部分概述了团队的背景信息与后续步骤。",
+    "grade": "C",
+    "gen": "template:zh",
+    "diff": 5,
+    "lang": "zh"
+  },
+  {
+    "text": "含个人信息\n\n以下为人力资源部处理的申请人联系方式。\n联系方式：owkxdcfk24@naver.com\n以下部分概述了团队的背景信息与后续步骤。",
+    "grade": "S",
+    "gen": "template:zh",
+    "diff": 5,
+    "lang": "zh"
+  },
+  {
+    "text": "本通讯分享我们本季度的社区活动以及面向公众的公开活动信息。\n以下部分概述了团队的背景信息与后续步骤。\n以下部分概述了团队的背景信息与后续步骤。",
+    "grade": "O",
+    "gen": "template:zh",
+    "diff": 5,
+    "lang": "zh"
+  },
+  {
+    "text": "本ニュースレターは四半期の地域活動と一般公開イベントの情報をお届けします。\n次のセクションでは、チームの背景情報と今後のステップを要約します。\n次のセクションでは、チームの背景情報と今後のステップを要約します。",
+    "grade": "O",
+    "gen": "template:ja",
+    "diff": 5,
+    "lang": "ja"
+  },
+  {
+    "text": "社外秘\n\n本メモはプロジェクトSilenceに関する制限資料を含みます。無断開示を禁じます。\n添付識別子：661206-12862749\n添付識別子：4630-4145-2109-8411\n次のセクションでは、チームの背景情報と今後のステップを要約します。",
+    "grade": "C",
+    "gen": "template:ja",
+    "diff": 5,
+    "lang": "ja"
+  },
+  {
+    "text": "内部审阅\n\n以下为人力资源部处理的申请人联系方式。\n联系方式：010-1479-7747\n以下部分概述了团队的背景信息与后续步骤。",
+    "grade": "S",
+    "gen": "template:zh",
+    "diff": 5,
+    "lang": "zh"
+  },
+  {
+    "text": "社内確認用\n\n以下は人事部が扱う応募者の連絡先です。\n連絡先：010-7890-6769\n次のセクションでは、チームの背景情報と今後のステップを要約します。",
+    "grade": "S",
+    "gen": "template:ja",
+    "diff": 5,
+    "lang": "ja"
+  },
+  {
+    "text": "This newsletter shares our quarterly community activities and upcoming public events open to everyone.\nThe following section summarizes background information and next steps for the team.\nThe following section summarizes background information and next steps for the team.",
+    "grade": "O",
+    "gen": "template:en",
+    "diff": 5,
+    "lang": "en"
+  },
+  {
+    "text": "严禁外传\n\n本备忘录包含与项目Alpha相关的受限资料，未经授权不得披露。\n所附标识：5581-5516-6160-5343\n所附标识：5370-0663-8470-2496\n以下部分概述了团队的背景信息与后续步骤。",
+    "grade": "C",
+    "gen": "template:zh",
+    "diff": 5,
+    "lang": "zh"
+  },
+  {
+    "text": "極秘 — 社内限り\n\n本メモはプロジェクトOmegaに関する制限資料を含みます。無断開示を禁じます。\n添付識別子：750322-14906260\n添付識別子：5542-0785-8270-8426\n次のセクションでは、チームの背景情報と今後のステップを要約します。",
+    "grade": "C",
+    "gen": "template:ja",
+    "diff": 5,
+    "lang": "ja"
+  },
+  {
+    "text": "内部审阅\n\n以下为人力资源部处理的申请人联系方式。\n联系方式：010-4732-7952\n以下部分概述了团队的背景信息与后续步骤。",
+    "grade": "S",
+    "gen": "template:zh",
+    "diff": 5,
+    "lang": "zh"
+  },
+  {
+    "text": "内部审阅\n\n以下为人力资源部处理的申请人联系方式。\n联系方式：bwkwnlvm1@naver.com\n以下部分概述了团队的背景信息与后续步骤。",
+    "grade": "S",
+    "gen": "template:zh",
+    "diff": 5,
+    "lang": "zh"
+  },
+  {
+    "text": "本ニュースレターは四半期の地域活動と一般公開イベントの情報をお届けします。\n次のセクションでは、チームの背景情報と今後のステップを要約します。\n次のセクションでは、チームの背景情報と今後のステップを要約します。",
+    "grade": "O",
+    "gen": "template:ja",
+    "diff": 5,
+    "lang": "ja"
+  },
+  {
+    "text": "含个人信息\n\n以下为人力资源部处理的申请人联系方式。\n联系方式：gjyghohi14@daum.net\n以下部分概述了团队的背景信息与后续步骤。",
+    "grade": "S",
+    "gen": "template:zh",
+    "diff": 5,
+    "lang": "zh"
+  },
+  {
+    "text": "Do Not Distribute Externally\n\nThis memo contains restricted material related to project Alpha. Unauthorized disclosure is prohibited.\nAttached identifier: api_key=aWr4Y9OJFLJOqOAf1lLQSAJaiXnkU8Is2g8nprv\nAttached identifier: 630403-14620304\nThe following section summarizes background information and next steps for the team.",
+    "grade": "C",
+    "gen": "template:en",
+    "diff": 5,
+    "lang": "en"
+  },
+  {
+    "text": "極秘 — 社内限り\n\n本メモはプロジェクトOmegaに関する制限資料を含みます。無断開示を禁じます。\n添付識別子：5356-6125-0090-5188\n添付識別子：901025-18273549\n次のセクションでは、チームの背景情報と今後のステップを要約します。",
+    "grade": "C",
+    "gen": "template:ja",
+    "diff": 5,
+    "lang": "ja"
+  },
+  {
+    "text": "For internal review\n\nPlease find below the contact details for the applicant handled by HR.\nContact: 010-6737-9137\nThe following section summarizes background information and next steps for the team.",
+    "grade": "S",
+    "gen": "template:en",
+    "diff": 5,
+    "lang": "en"
+  },
+  {
+    "text": "個人情報を含む\n\n以下は人事部が扱う応募者の連絡先です。\n連絡先：nwssxu30@company.co.kr\n次のセクションでは、チームの背景情報と今後のステップを要約します。",
+    "grade": "S",
+    "gen": "template:ja",
+    "diff": 5,
+    "lang": "ja"
+  },
+  {
+    "text": "CONFIDENTIAL — Internal Use Only\n\nThis memo contains restricted material related to project Silence. Unauthorized disclosure is prohibited.\nAttached identifier: api_key=l05ha064gIiJhgB3cxLmAxzJLJenuHjDUrhhje\nAttached identifier: 5298-9834-7887-8389\nThe following section summarizes background information and next steps for the team.",
+    "grade": "C",
+    "gen": "template:en",
+    "diff": 5,
+    "lang": "en"
+  }
+]

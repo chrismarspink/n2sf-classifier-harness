@@ -1,0 +1,60 @@
+=== [1/2] mdeberta-n2sf 파인튜닝 시작  Tue Jun 30 09:53:03 KST 2026  ===
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+[train] device=mps
+[train] 학습 32400 / 검증 3600
+Loading weights:   0%|          | 0/202 [00:00<?, ?it/s]Loading weights:   2%|▏         | 5/202 [00:00<00:13, 14.39it/s]Loading weights: 100%|██████████| 202/202 [00:00<00:00, 576.71it/s]
+/Users/carina/projects/classifier/harness/train.py:121: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /Users/runner/work/pytorch/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:839.)
+  tot += float(loss); nb += 1
+[train] ep0 step0/2025 loss=3.162 (7s)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/carina/projects/classifier/harness/train.py", line 156, in <module>
+    main()
+  File "/Users/carina/projects/classifier/harness/train.py", line 120, in main
+    opt.zero_grad(); loss.backward(); opt.step()
+                                      ^^^^^^^^^^
+  File "/Users/carina/projects/classifier/.venv/lib/python3.12/site-packages/torch/optim/optimizer.py", line 535, in wrapper
+    out = func(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/carina/projects/classifier/.venv/lib/python3.12/site-packages/torch/optim/optimizer.py", line 80, in _use_grad
+    ret = func(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/carina/projects/classifier/.venv/lib/python3.12/site-packages/torch/optim/adam.py", line 248, in step
+    adam(
+  File "/Users/carina/projects/classifier/.venv/lib/python3.12/site-packages/torch/optim/optimizer.py", line 148, in maybe_fallback
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/carina/projects/classifier/.venv/lib/python3.12/site-packages/torch/optim/adam.py", line 970, in adam
+    func(
+  File "/Users/carina/projects/classifier/.venv/lib/python3.12/site-packages/torch/optim/adam.py", line 544, in _single_tensor_adam
+    denom = (exp_avg_sq.sqrt() / bias_correction2_sqrt).add_(eps)
+             ~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~
+RuntimeError: MPS backend out of memory (MPS allocated: 14.70 GiB, other allocations: 4.77 GiB, max allowed: 20.13 GiB). Tried to allocate 735.35 MiB on shared pool. Use PYTORCH_MPS_HIGH_WATERMARK_RATIO=0.0 to disable upper limit for memory allocations (may cause system failure).
+=== [2/2] L3 자동 평가 루프 시작  Tue Jun 30 10:00:46 KST 2026  ===
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+== autoloop 시작  out=test2  예산=10.0h  모델 5종  시작레벨=3 (재개 git=0) ==
+
+=== L3i0  난이도=3 per_cell=8 seed=1000 ===
+Loading weights:   0%|          | 0/202 [00:00<?, ?it/s]Loading weights: 100%|██████████| 202/202 [00:00<00:00, 7785.36it/s]
+Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]Loading weights: 100%|██████████| 197/197 [00:00<00:00, 7257.03it/s]
+[transformers] [1mRobertaModel LOAD REPORT[0m from: klue/roberta-base
+Key                       | Status     | 
+--------------------------+------------+-
+lm_head.dense.weight      | UNEXPECTED | 
+lm_head.layer_norm.weight | UNEXPECTED | 
+lm_head.layer_norm.bias   | UNEXPECTED | 
+lm_head.bias              | UNEXPECTED | 
+lm_head.dense.bias        | UNEXPECTED | 
+pooler.dense.bias         | MISSING    | 
+pooler.dense.weight       | MISSING    | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 7404.45it/s]
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 7901.87it/s]
+/opt/homebrew/Cellar/python@3.12/3.12.13_2/Frameworks/Python.framework/Versions/3.12/lib/python3.12/multiprocessing/resource_tracker.py:279: UserWarning: resource_tracker: There appear to be 1 leaked semaphore objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '

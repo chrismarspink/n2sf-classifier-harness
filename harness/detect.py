@@ -27,11 +27,31 @@ def _text_hash(t: str) -> str:
     return hashlib.md5(norm.encode("utf-8", "ignore")).hexdigest()
 
 
+def normalize_text(t: str) -> str:
+    """① 전처리 정규화 — 전각→반각, 공백 정리. L3 위장(전각 주민번호 등) 무력화용.
+    정규식 tier 적중률을 높인다. (키워드 난독 `대 외 비`는 finetuned 모델이 의미로 처리)"""
+    # 전각 ASCII(U+FF01–FF5E) → 반각, 전각 공백 → 일반 공백
+    out = []
+    for ch in t:
+        o = ord(ch)
+        if 0xFF01 <= o <= 0xFF5E:
+            out.append(chr(o - 0xFEE0))
+        elif o == 0x3000:
+            out.append(" ")
+        else:
+            out.append(ch)
+    s = "".join(out)
+    s = re.sub(r"[ \t]{2,}", " ", s)
+    return s
+
+
 def detect_one(path: str, locale: str, models: List[str],
-               neural_cache: Dict[str, dict]) -> dict:
+               neural_cache: Dict[str, dict], normalize: bool = False) -> dict:
     """단일 파일 → 추출 + presidio + 뉴럴(텍스트해시 캐시). 결과 dict."""
     t0 = time.perf_counter()
     text, ftype, warnings = dc.extract_text(path)
+    if normalize:
+        text = normalize_text(text)
     extract_ms = (time.perf_counter() - t0) * 1000
 
     t1 = time.perf_counter()
@@ -57,7 +77,7 @@ def detect_one(path: str, locale: str, models: List[str],
 
 def run_detection(db: DB, corpus_rows: List[dict], locale: str = "ko",
                   models: Optional[List[str]] = None, det_config: str = "base",
-                  log=print) -> int:
+                  normalize: bool = False, log=print) -> int:
     """코퍼스 전체 탐지 실행·캐시. 이미 캐시된 (doc,fmt,det_config) 는 건너뜀. 처리 건수 반환."""
     models = DEFAULT_MODELS if models is None else models
     neural_cache: Dict[str, dict] = {}
@@ -72,7 +92,7 @@ def run_detection(db: DB, corpus_rows: List[dict], locale: str = "ko",
         if cached:
             continue
         try:
-            res = detect_one(row["path"], locale, models, neural_cache)
+            res = detect_one(row["path"], locale, models, neural_cache, normalize=normalize)
         except Exception as exc:
             log(f"  detect FAIL {row['doc_id']}.{row['fmt']}: {exc}")
             continue

@@ -1,0 +1,53 @@
+{
+  "updated": "2026-06-30T11:09:38.355469",
+  "level": 3,
+  "git": 3,
+  "per_cell": 20,
+  "hours_left": 8.85,
+  "trajectory": [
+    {
+      "run_id": "L3i0",
+      "level": 3,
+      "iteration": 0,
+      "best_model": "mdeberta",
+      "best_ensemble": "soft",
+      "test_macro_f1": 0.88,
+      "test_over": 0.0,
+      "rules_only_f1": 0.6651,
+      "elapsed_s": 606.5
+    },
+    {
+      "run_id": "L3i1",
+      "level": 3,
+      "iteration": 1,
+      "best_model": "ko-sroberta",
+      "best_ensemble": "max-rank",
+      "test_macro_f1": 0.5738,
+      "test_over": 0.337,
+      "rules_only_f1": 0.6556,
+      "elapsed_s": 920.3
+    },
+    {
+      "run_id": "L3i2",
+      "level": 3,
+      "iteration": 2,
+      "best_model": "mdeberta",
+      "best_ensemble": "soft",
+      "test_macro_f1": 0.8864,
+      "test_over": 0.0,
+      "rules_only_f1": 0.6877,
+      "elapsed_s": 1169.2
+    },
+    {
+      "run_id": "L3i3",
+      "level": 3,
+      "iteration": 3,
+      "best_model": "mdeberta",
+      "best_ensemble": "soft",
+      "test_macro_f1": 0.8796,
+      "test_over": 0.0,
+      "rules_only_f1": 0.6771,
+      "elapsed_s": 1435.1
+    }
+  ]
+}

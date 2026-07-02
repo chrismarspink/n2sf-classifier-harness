@@ -1,0 +1,17 @@
+# N²SF 등급분류 참조 구현 — 추론 의존성 (외부 LLM·GPU 불필요, CPU로 동작)
+# Python 3.12 권장. 설치: pip install -r requirements.txt
+#   + 한국어 spaCy 모델:  python -m spacy download ko_core_news_lg (또는 sm)
+
+transformers>=4.44
+torch>=2.2                    # CPU 빌드로 충분 (GPU 불필요)
+presidio-analyzer>=2.2
+presidio-anonymizer>=2.2
+spacy>=3.7
+
+# 문서 포맷 추출
+openpyxl>=3.1                 # xlsx 셀 파싱
+pypdf>=4.0                    # pdf 텍스트 추출
+# docx/pptx/hwpx 는 표준 zipfile 로 처리(추가 패키지 불필요)
+
+# (선택) 설명가능성 확장 — 뉴럴 티어 SHAP
+# shap>=0.45

@@ -1,0 +1,160 @@
+{
+  "n_iterations": 3,
+  "levels_reached": [
+    3
+  ],
+  "trajectory": [
+    {
+      "run_id": "L3i0",
+      "level": 3,
+      "test_macro_f1": 1.0,
+      "test_c_recall": 1.0,
+      "test_under": 0.0,
+      "test_over": 0.0,
+      "rules_only_f1": 0.6651,
+      "best_model": "mdeberta-n2sf",
+      "best_ensemble": "soft",
+      "elapsed_s": 630.6
+    },
+    {
+      "run_id": "L3i1",
+      "level": 3,
+      "test_macro_f1": 0.998,
+      "test_c_recall": 0.9952,
+      "test_under": 0.0019,
+      "test_over": 0.0,
+      "rules_only_f1": 0.6556,
+      "best_model": "mdeberta-n2sf",
+      "best_ensemble": "soft",
+      "elapsed_s": 978.0
+    },
+    {
+      "run_id": "L3i2",
+      "level": 3,
+      "test_macro_f1": 1.0,
+      "test_c_recall": 1.0,
+      "test_under": 0.0,
+      "test_over": 0.0,
+      "rules_only_f1": 0.6877,
+      "best_model": "mdeberta-n2sf",
+      "best_ensemble": "soft",
+      "elapsed_s": 1221.1
+    }
+  ],
+  "per_model": {
+    "rules+NER": {
+      "iters": 3,
+      "wins": 0,
+      "avg_test_f1": 0.6695,
+      "best_test_f1": 0.6877,
+      "avg_c_recall": 0.7038
+    },
+    "mdeberta-n2sf": {
+      "iters": 3,
+      "wins": 3,
+      "avg_test_f1": 1.0,
+      "best_test_f1": 1.0,
+      "avg_c_recall": 1.0
+    },
+    "mdeberta": {
+      "iters": 3,
+      "wins": 0,
+      "avg_test_f1": 0.8424,
+      "best_test_f1": 0.881,
+      "avg_c_recall": 0.7038
+    },
+    "klue-roberta": {
+      "iters": 3,
+      "wins": 0,
+      "avg_test_f1": 0.6695,
+      "best_test_f1": 0.6877,
+      "avg_c_recall": 0.7038
+    },
+    "ko-sroberta": {
+      "iters": 3,
+      "wins": 0,
+      "avg_test_f1": 0.552,
+      "best_test_f1": 0.5738,
+      "avg_c_recall": 0.9266
+    },
+    "minilm": {
+      "iters": 3,
+      "wins": 0,
+      "avg_test_f1": 0.6771,
+      "best_test_f1": 0.6877,
+      "avg_c_recall": 0.7038
+    }
+  },
+  "per_level": {
+    "3": {
+      "run_id": "L3i0",
+      "best_model": "mdeberta-n2sf",
+      "best_ensemble": "soft",
+      "config": {
+        "thresholds": {
+          "confidential": 5.5,
+          "sensitive": 1.5
+        },
+        "entity": {
+          "KR_ACCOUNT": 6.0
+        },
+        "supersede": {
+          "KR_ACCOUNT": [
+            "KR_PHONE"
+          ]
+        },
+        "llm_mode": true,
+        "model": "mdeberta-n2sf",
+        "ensemble": "soft",
+        "tier": {
+          "rules": 1.0,
+          "ner": 1.0,
+          "neural": 1.5
+        }
+      },
+      "test_macro_f1": 1.0,
+      "test_accuracy": 1.0,
+      "test_c_recall": 1.0,
+      "test_under": 0.0,
+      "test_over": 0.0,
+      "n_docs": 80,
+      "_und0": true,
+      "_f1": 1.0
+    }
+  },
+  "recommended": {
+    "run_id": "L3i0",
+    "best_model": "mdeberta-n2sf",
+    "best_ensemble": "soft",
+    "config": {
+      "thresholds": {
+        "confidential": 5.5,
+        "sensitive": 1.5
+      },
+      "entity": {
+        "KR_ACCOUNT": 6.0
+      },
+      "supersede": {
+        "KR_ACCOUNT": [
+          "KR_PHONE"
+        ]
+      },
+      "llm_mode": true,
+      "model": "mdeberta-n2sf",
+      "ensemble": "soft",
+      "tier": {
+        "rules": 1.0,
+        "ner": 1.0,
+        "neural": 1.5
+      }
+    },
+    "test_macro_f1": 1.0,
+    "test_accuracy": 1.0,
+    "test_c_recall": 1.0,
+    "test_under": 0.0,
+    "test_over": 0.0,
+    "n_docs": 80,
+    "_und0": true,
+    "_f1": 1.0
+  }
+}

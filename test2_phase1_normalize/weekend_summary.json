@@ -1,0 +1,162 @@
+{
+  "n_iterations": 4,
+  "levels_reached": [
+    3
+  ],
+  "trajectory": [
+    {
+      "run_id": "L3i0",
+      "level": 3,
+      "test_macro_f1": 0.88,
+      "test_c_recall": 0.7059,
+      "test_under": 0.125,
+      "test_over": 0.0,
+      "rules_only_f1": 0.6651,
+      "best_model": "mdeberta",
+      "best_ensemble": "soft",
+      "elapsed_s": 606.5
+    },
+    {
+      "run_id": "L3i1",
+      "level": 3,
+      "test_macro_f1": 0.5738,
+      "test_c_recall": 1.0,
+      "test_under": 0.0,
+      "test_over": 0.337,
+      "rules_only_f1": 0.6556,
+      "best_model": "ko-sroberta",
+      "best_ensemble": "max-rank",
+      "elapsed_s": 920.3
+    },
+    {
+      "run_id": "L3i2",
+      "level": 3,
+      "test_macro_f1": 0.8864,
+      "test_c_recall": 0.7097,
+      "test_under": 0.1125,
+      "test_over": 0.0,
+      "rules_only_f1": 0.6877,
+      "best_model": "mdeberta",
+      "best_ensemble": "soft",
+      "elapsed_s": 1169.2
+    },
+    {
+      "run_id": "L3i3",
+      "level": 3,
+      "test_macro_f1": 0.8796,
+      "test_c_recall": 0.7,
+      "test_under": 0.12,
+      "test_over": 0.0,
+      "rules_only_f1": 0.6771,
+      "best_model": "mdeberta",
+      "best_ensemble": "soft",
+      "elapsed_s": 1435.1
+    }
+  ],
+  "per_model": {
+    "rules+NER": {
+      "iters": 4,
+      "wins": 0,
+      "avg_test_f1": 0.6714,
+      "best_test_f1": 0.6877,
+      "avg_c_recall": 0.7028
+    },
+    "mdeberta-n2sf": {
+      "iters": 4,
+      "wins": 0,
+      "avg_test_f1": 0.6714,
+      "best_test_f1": 0.6877,
+      "avg_c_recall": 0.7028
+    },
+    "mdeberta": {
+      "iters": 4,
+      "wins": 3,
+      "avg_test_f1": 0.8697,
+      "best_test_f1": 0.8864,
+      "avg_c_recall": 0.7028
+    },
+    "klue-roberta": {
+      "iters": 4,
+      "wins": 0,
+      "avg_test_f1": 0.6714,
+      "best_test_f1": 0.6877,
+      "avg_c_recall": 0.7028
+    },
+    "ko-sroberta": {
+      "iters": 4,
+      "wins": 1,
+      "avg_test_f1": 0.5433,
+      "best_test_f1": 0.5738,
+      "avg_c_recall": 0.9089
+    },
+    "minilm": {
+      "iters": 4,
+      "wins": 0,
+      "avg_test_f1": 0.6808,
+      "best_test_f1": 0.6921,
+      "avg_c_recall": 0.7028
+    }
+  },
+  "per_level": {
+    "3": {
+      "run_id": "L3i1",
+      "best_model": "ko-sroberta",
+      "best_ensemble": "max-rank",
+      "config": {
+        "thresholds": {
+          "confidential": 5.5,
+          "sensitive": 1.5
+        },
+        "entity": {
+          "KR_ACCOUNT": 6.0
+        },
+        "supersede": {
+          "KR_ACCOUNT": [
+            "KR_PHONE"
+          ]
+        },
+        "llm_mode": true,
+        "model": "ko-sroberta",
+        "ensemble": "max-rank"
+      },
+      "test_macro_f1": 0.5738,
+      "test_accuracy": 0.663,
+      "test_c_recall": 1.0,
+      "test_under": 0.0,
+      "test_over": 0.337,
+      "n_docs": 120,
+      "_und0": true,
+      "_f1": 0.5738
+    }
+  },
+  "recommended": {
+    "run_id": "L3i1",
+    "best_model": "ko-sroberta",
+    "best_ensemble": "max-rank",
+    "config": {
+      "thresholds": {
+        "confidential": 5.5,
+        "sensitive": 1.5
+      },
+      "entity": {
+        "KR_ACCOUNT": 6.0
+      },
+      "supersede": {
+        "KR_ACCOUNT": [
+          "KR_PHONE"
+        ]
+      },
+      "llm_mode": true,
+      "model": "ko-sroberta",
+      "ensemble": "max-rank"
+    },
+    "test_macro_f1": 0.5738,
+    "test_accuracy": 0.663,
+    "test_c_recall": 1.0,
+    "test_under": 0.0,
+    "test_over": 0.337,
+    "n_docs": 120,
+    "_und0": true,
+    "_f1": 0.5738
+  }
+}

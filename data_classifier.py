@@ -346,6 +346,23 @@ NEURAL_BACKENDS: Dict[str, Dict[str, str]] = {
     "kcbert":    {"label": "KcBERT-base (한국어 구어체)", "kind": "embed",
                   "model": "beomi/kcbert-base",
                   "langs": "ko", "note": "댓글·구어체 한국어 특화"},
+    # ── finetuned: 우리 데이터로 학습한 직접 3-class(O/S/C) 분류기 (harness/train.py 산출) ──
+    "mdeberta-n2sf": {"label": "mDeBERTa-n2sf (파인튜닝 3-class)", "kind": "finetuned",
+                  "model": "models/mdeberta-n2sf",
+                  "langs": "ko", "note": "N²SF 라벨로 파인튜닝. 위장(L3) 대응 강화"},
+    # ── N²SF 라인업 (soft-label 증류, harness/train_soft·train_kd 산출) — 용도별 3-티어 ──
+    "n2sf-small": {"label": "N²SF-small (KoELECTRA-small 증류)", "kind": "finetuned",
+                  "model": "models/n2sf-small",
+                  "langs": "ko", "note": "Fast 티어. 14M/57MB/~13ms. 엣지·실시간·저사양"},
+    "n2sf-base": {"label": "N²SF-base (mDeBERTa 증류, 기본)", "kind": "finetuned",
+                  "model": "models/n2sf-base",
+                  "langs": "ko,ja,en,zh", "note": "Balanced 티어(기본). 279M/1.1GB. 표준 업무 PC"},
+    "n2sf-klue-large": {"label": "N²SF-klue-large (KLUE-RoBERTa-large 증류)", "kind": "finetuned",
+                  "model": "models/n2sf-klue-large",
+                  "langs": "ko", "note": "한국어 특화 라지. 337M/1.3GB. 정확도 0.87"},
+    "n2sf-xlmr-large": {"label": "N²SF-xlmr-large (XLM-R-large 증류)", "kind": "finetuned",
+                  "model": "models/n2sf-xlmr-large",
+                  "langs": "multi", "note": "Accurate 티어. 560M/2.3GB. 정확도 0.92, 다국어 강건"},
 }
 _GRADES = ["OPEN", "SENSITIVE", "CONFIDENTIAL"]
 
@@ -394,6 +411,11 @@ def _neural_load(backend: str):
         from transformers import AutoTokenizer, AutoModel
         tok = AutoTokenizer.from_pretrained(name)
         mdl = AutoModel.from_pretrained(name); mdl.eval()
+        _NEURAL_MODELS[backend] = (tok, mdl)
+    elif kind == "finetuned":
+        from transformers import AutoTokenizer, AutoModelForSequenceClassification
+        tok = AutoTokenizer.from_pretrained(name)
+        mdl = AutoModelForSequenceClassification.from_pretrained(name); mdl.eval()
         _NEURAL_MODELS[backend] = (tok, mdl)
     else:
         from sentence_transformers import SentenceTransformer
@@ -450,6 +472,24 @@ def neural_infer(text: str, locale: str, backend: str) -> Optional[dict]:
             res = pipe(text[:4096], candidate_labels=list(labels.values()), multi_label=False)
             scores = {inv[l]: float(s) for l, s in zip(res["labels"], res["scores"])}
             best = inv[res["labels"][0]]
+            return {"grade": best, "confidence": round(scores[best], 3),
+                    "scores": {k: round(v, 3) for k, v in scores.items()},
+                    "version": name, "backend": backend}
+        if NEURAL_BACKENDS[backend]["kind"] == "finetuned":
+            import numpy as np  # noqa: F401
+            import torch
+            tok, mdl = _neural_load(backend)
+            enc = tok([text[:4096]], padding=True, truncation=True, max_length=512, return_tensors="pt")
+            with torch.no_grad():
+                logits = mdl(**enc).logits[0]
+            probs = torch.softmax(logits, dim=-1).cpu().tolist()
+            id2label = mdl.config.id2label
+            raw = {}
+            for i, p in enumerate(probs):
+                g = id2label.get(i, id2label.get(str(i), _GRADES[i] if i < len(_GRADES) else str(i)))
+                raw[g] = float(p)
+            scores = {g: float(raw.get(g, 0.0)) for g in _GRADES}
+            best = max(_GRADES, key=lambda g: scores[g])
             return {"grade": best, "confidence": round(scores[best], 3),
                     "scores": {k: round(v, 3) for k, v in scores.items()},
                     "version": name, "backend": backend}

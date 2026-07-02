@@ -1,0 +1,126 @@
+=== [1/2] mdeberta-n2sf 파인튜닝 시작  Tue Jun 30 11:30:46 KST 2026  ===
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+[train] device=mps
+[train] 학습 16200 / 검증 1800
+Loading weights:   0%|          | 0/202 [00:00<?, ?it/s]Loading weights:   2%|▏         | 5/202 [00:00<00:15, 12.78it/s]Loading weights: 100%|██████████| 202/202 [00:00<00:00, 512.28it/s]
+/Users/carina/projects/classifier/harness/train.py:135: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /Users/runner/work/pytorch/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:839.)
+  tot += float(loss) * args.accum; nb += 1
+[train] ep0 step0/1013 loss=3.009 (2s)
+[train] ep0 step50/1013 loss=0.163 (98s)
+[train] ep0 step100/1013 loss=0.010 (189s)
+[train] ep0 step150/1013 loss=0.195 (277s)
+[train] ep0 step200/1013 loss=0.007 (364s)
+[train] ep0 step250/1013 loss=0.091 (455s)
+[train] ep0 step300/1013 loss=0.002 (544s)
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  1.00it/s]Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  1.00it/s]
+[train] 중간 체크포인트 저장 step300 → models/mdeberta-n2sf
+[train] ep0 step350/1013 loss=0.003 (633s)
+[train] ep0 step400/1013 loss=0.002 (730s)
+[train] ep0 step450/1013 loss=0.001 (822s)
+[train] ep0 step500/1013 loss=0.001 (909s)
+[train] ep0 step550/1013 loss=0.001 (993s)
+[train] ep0 step600/1013 loss=0.001 (1078s)
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  2.00s/it]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  2.00s/it]
+[train] 중간 체크포인트 저장 step600 → models/mdeberta-n2sf
+[train] ep0 step650/1013 loss=0.001 (1174s)
+[train] ep0 step700/1013 loss=0.001 (1270s)
+[train] ep0 step750/1013 loss=0.001 (1358s)
+[train] ep0 step800/1013 loss=0.001 (1455s)
+[train] ep0 step850/1013 loss=0.000 (1546s)
+[train] ep0 step900/1013 loss=0.000 (1636s)
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.20s/it]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.20s/it]
+[train] 중간 체크포인트 저장 step900 → models/mdeberta-n2sf
+[train] ep0 step950/1013 loss=0.000 (1724s)
+[train] ep0 step1000/1013 loss=0.000 (1816s)
+[train] ep0 검증 acc=1.0000 C재현율=1.0000 loss_avg=0.056
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  1.04it/s]Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  1.04it/s]
+[train] 체크포인트 저장(acc=1.0000) → models/mdeberta-n2sf
+[train] ep1 step0/1013 loss=0.001 (3s)
+[train] ep1 step50/1013 loss=0.000 (115s)
+[train] ep1 step100/1013 loss=0.000 (215s)
+[train] ep1 step150/1013 loss=0.000 (316s)
+[train] ep1 step200/1013 loss=0.000 (417s)
+[train] ep1 step250/1013 loss=0.000 (520s)
+[train] ep1 step300/1013 loss=0.000 (617s)
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.21s/it]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.21s/it]
+[train] 중간 체크포인트 저장 step300 → models/mdeberta-n2sf
+[train] ep1 step350/1013 loss=0.000 (707s)
+[train] ep1 step400/1013 loss=0.000 (792s)
+[train] ep1 step450/1013 loss=0.000 (878s)
+[train] ep1 step500/1013 loss=0.000 (970s)
+[train] ep1 step550/1013 loss=0.000 (1067s)
+[train] ep1 step600/1013 loss=0.000 (1152s)
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.09s/it]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.09s/it]
+[train] 중간 체크포인트 저장 step600 → models/mdeberta-n2sf
+[train] ep1 step650/1013 loss=0.000 (1241s)
+[train] ep1 step700/1013 loss=0.000 (1327s)
+[train] ep1 step750/1013 loss=0.000 (1421s)
+[train] ep1 step800/1013 loss=0.000 (1515s)
+[train] ep1 step850/1013 loss=0.000 (1600s)
+[train] ep1 step900/1013 loss=0.000 (1685s)
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.23s/it]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.23s/it]
+[train] 중간 체크포인트 저장 step900 → models/mdeberta-n2sf
+[train] ep1 step950/1013 loss=0.000 (1774s)
+[train] ep1 step1000/1013 loss=0.000 (1861s)
+[train] ep1 검증 acc=1.0000 C재현율=1.0000 loss_avg=0.000
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.20s/it]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.20s/it]
+[train] 체크포인트 저장(acc=1.0000) → models/mdeberta-n2sf
+[train] ep2 step0/1013 loss=0.000 (2s)
+[train] ep2 step50/1013 loss=0.000 (96s)
+[train] ep2 step100/1013 loss=0.000 (182s)
+[train] ep2 step150/1013 loss=0.000 (268s)
+[train] ep2 step200/1013 loss=0.000 (352s)
+[train] ep2 step250/1013 loss=0.000 (444s)
+[train] ep2 step300/1013 loss=0.000 (541s)
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  1.03it/s]Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  1.03it/s]
+[train] 중간 체크포인트 저장 step300 → models/mdeberta-n2sf
+[train] ep2 step350/1013 loss=0.000 (628s)
+[train] ep2 step400/1013 loss=0.000 (713s)
+[train] ep2 step450/1013 loss=0.000 (797s)
+[train] ep2 step500/1013 loss=0.000 (883s)
+[train] ep2 step550/1013 loss=0.000 (984s)
+[train] ep2 step600/1013 loss=0.000 (1091s)
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:02<00:00,  2.11s/it]Writing model shards: 100%|██████████| 1/1 [00:02<00:00,  2.12s/it]
+[train] 중간 체크포인트 저장 step600 → models/mdeberta-n2sf
+[train] ep2 step650/1013 loss=0.000 (1193s)
+[train] ep2 step700/1013 loss=0.000 (1278s)
+[train] ep2 step750/1013 loss=0.000 (1369s)
+[train] ep2 step800/1013 loss=0.000 (1467s)
+[train] ep2 step850/1013 loss=0.000 (1554s)
+[train] ep2 step900/1013 loss=0.000 (1639s)
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.43s/it]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.44s/it]
+[train] 중간 체크포인트 저장 step900 → models/mdeberta-n2sf
+[train] ep2 step950/1013 loss=0.000 (1728s)
+[train] ep2 step1000/1013 loss=0.000 (1818s)
+[train] ep2 검증 acc=1.0000 C재현율=1.0000 loss_avg=0.000
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.29s/it]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.29s/it]
+[train] 체크포인트 저장(acc=1.0000) → models/mdeberta-n2sf
+[train] 완료. best_val_acc=1.0000 → models/mdeberta-n2sf
+=== [2/2] L3 자동 평가 루프 시작  Tue Jun 30 13:06:13 KST 2026  ===
+== autoloop 시작  out=test2  예산=10.0h  모델 5종  시작레벨=3 (재개 git=0) ==
+
+=== L3i0  난이도=3 per_cell=8 seed=1000 ===
+Loading weights:   0%|          | 0/202 [00:00<?, ?it/s]Loading weights: 100%|██████████| 202/202 [00:00<00:00, 7568.65it/s]
+Loading weights:   0%|          | 0/202 [00:00<?, ?it/s]Loading weights: 100%|██████████| 202/202 [00:00<00:00, 7242.50it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]Loading weights: 100%|██████████| 197/197 [00:00<00:00, 8264.68it/s]
+[transformers] [1mRobertaModel LOAD REPORT[0m from: klue/roberta-base
+Key                       | Status     | 
+--------------------------+------------+-
+lm_head.layer_norm.bias   | UNEXPECTED | 
+lm_head.dense.bias        | UNEXPECTED | 
+lm_head.dense.weight      | UNEXPECTED | 
+lm_head.bias              | UNEXPECTED | 
+lm_head.layer_norm.weight | UNEXPECTED | 
+pooler.dense.bias         | MISSING    | 
+pooler.dense.weight       | MISSING    | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 7632.49it/s]
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 7720.32it/s]
+/opt/homebrew/Cellar/python@3.12/3.12.13_2/Frameworks/Python.framework/Versions/3.12/lib/python3.12/multiprocessing/resource_tracker.py:279: UserWarning: resource_tracker: There appear to be 1 leaked semaphore objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '

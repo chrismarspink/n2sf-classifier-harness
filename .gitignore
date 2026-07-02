@@ -18,4 +18,17 @@ weekend/autoloop.pid
 *.safetensors
 *.pt
 
+# 로컬 모델 스냅샷 폴더 전체(가중치 GB급 — GitHub 부적합. 릴리즈는 별도 가이드)
+models/
+산출물/models/
+
+# 교사 라벨/생성 텍스트(재생성 가능·대용량, 진행 중 파일 포함)
+distill_o4/
+
+# 학습 로그
+kd/
+
 # 보존: report.html, *.md, recommended_weights.json, optimized_config.json 등 소형 산출물은 추적함
+
+# Azure 자격(절대 커밋 금지)
+.env.azure
