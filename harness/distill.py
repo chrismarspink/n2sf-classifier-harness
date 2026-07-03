@@ -13,7 +13,7 @@ from pathlib import Path
 
 import data_classifier as dc
 from . import improve as IMP
-from .gen_llm import _azure_client, _load_env, generate, LLMFiller
+from .gen_llm import _azure_client, _gpt5_client, _load_env, generate, LLMFiller
 from .corpus import _flat_text
 from .llm_baseline import POLICY
 
@@ -29,19 +29,23 @@ TEACHER = "gpt-4o"   # main에서 설정
 def teacher_soft(text, deployment=None, apiver=None):
     """교사 LLM으로 O/S/C 확률분포 [pO,pS,pC] 반환. TEACHER=gpt-4o|o4-mini. 실패 시 None."""
     _load_env()
+    is_gpt5 = TEACHER in ("gpt-5", "gpt-5.4")
     if TEACHER == "o4-mini":
         deployment = os.environ.get("AZURE_O4MINI_DEPLOYMENT", "o4-mini")
         apiver = os.environ.get("AZURE_O4MINI_APIVER", "2025-04-01-preview")
+    elif is_gpt5:
+        deployment = os.environ.get("AZURE_GPT5_DEPLOYMENT", "gpt-5.4")
+        apiver = os.environ.get("AZURE_GPT5_APIVER", "2025-04-01-preview")
     else:
         deployment = deployment or os.environ.get("AZURE_GPT4O_DEPLOYMENT", "gpt-4o")
         apiver = apiver or os.environ.get("AZURE_GPT4O_APIVER", "2025-01-01-preview")
     try:
-        c = _azure_client(apiver)
+        c = _gpt5_client() if is_gpt5 else _azure_client(apiver)
         user = (POLICY + f"\n\n<문서>\n{text[:6000]}\n</문서>\n\n"
                 "이 문서가 각 등급일 확률을 추정해 JSON으로만 답하라. "
                 '형식: {"O": 0.x, "S": 0.x, "C": 0.x} (합 1.0). 다른 말 금지.')
         kw = {"model": deployment, "messages": [{"role": "user", "content": user}]}
-        if deployment.startswith(("o1", "o3", "o4")):
+        if is_gpt5 or deployment.startswith(("o1", "o3", "o4")):
             kw["max_completion_tokens"] = 2000
         else:
             kw["max_tokens"] = 40; kw["temperature"] = 0

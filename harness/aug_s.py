@@ -30,10 +30,11 @@ def main(argv=None):
     ap = argparse.ArgumentParser(description="S·경계 문서 증강(교사 생성+라벨)")
     ap.add_argument("--base-jsonl", default="distill_o4/teacher_labels.jsonl")
     ap.add_argument("--out", default="distill_o4/teacher_labels_aug.jsonl")
-    ap.add_argument("--n-s", type=int, default=300, help="생성할 S 문서 수")
-    ap.add_argument("--n-bound", type=int, default=100, help="경계(O/C, S 근처) 문서 수")
+    ap.add_argument("--n-s", type=int, default=250, help="생성할 S 문서 수")
+    ap.add_argument("--n-c", type=int, default=200, help="생성할 C 경계/미묘 문서 수(C재현율 유지용)")
+    ap.add_argument("--n-o", type=int, default=50, help="생성할 O 경계 문서 수")
     ap.add_argument("--gen", default="azure:gpt-4o", help="문서 생성기")
-    ap.add_argument("--teacher", default="o4-mini", choices=["gpt-4o", "o4-mini"], help="라벨 교사")
+    ap.add_argument("--teacher", default="o4-mini", choices=["gpt-4o", "o4-mini", "gpt-5"], help="라벨 교사")
     ap.add_argument("--max-hours", type=float, default=1.5)
     args = ap.parse_args(argv)
     _load_env()
@@ -55,12 +56,14 @@ def main(argv=None):
             if not t:
                 continue
             seen.add(_h(t)); w.write(line + "\n"); n_base += 1
-    print(f"[aug_s] 원본 {n_base}건 복사 → {outp}. 증강 시작(S={args.n_s}, 경계={args.n_bound}) 교사={args.teacher}")
+    print(f"[aug_s] 원본 {n_base}건 복사 → {outp}. 증강 시작(S={args.n_s}, C경계={args.n_c}, O경계={args.n_o}) 교사={args.teacher}")
 
-    # 생성 계획: S 다수 + 경계 O/C(S 근처, 난이도 높음)
+    # 생성 계획: S + C경계(미묘/위장, C재현율 유지) + O경계 — 양쪽 균형으로 경계 학습
     plan = ([("S", d) for d in _spread(args.n_s, [2, 3, 4])] +
-            [("O", d) for d in _spread(args.n_bound // 2, [2, 3])] +
-            [("C", d) for d in _spread(args.n_bound - args.n_bound // 2, [3, 4])])
+            [("C", d) for d in _spread(args.n_c, [3, 4])] +
+            [("O", d) for d in _spread(args.n_o, [2, 3])])
+    import random
+    random.Random(7).shuffle(plan)
     filler = LLMFiller(seed=101)
     deadline = time.time() + args.max_hours * 3600
     added = 0; tried = 0

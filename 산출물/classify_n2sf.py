@@ -29,15 +29,22 @@ import sys
 import time
 from pathlib import Path
 
-# 참조 소스는 엔진과 같은 위치(리포 루트)의 data_classifier.py 를 사용한다.
-_ROOT = Path(__file__).resolve().parent.parent
-sys.path.insert(0, str(_ROOT))
+# 엔진 data_classifier.py 위치: 리포 루트(상위 폴더) 또는 Docker(같은 폴더) 모두 지원.
+_HERE = Path(__file__).resolve().parent
+for _p in (_HERE, _HERE.parent):
+    sys.path.insert(0, str(_p))
 import data_classifier as dc  # noqa: E402
+
+
+# 튜닝된 앙상블 가중치 — 규칙/NER은 floor(안전)로만 낮게, 뉴럴 판단을 주도로.
+# held-out 실측: 기본 가중(1.0) 대비 전체 파이프라인 F1 0.54→0.80(base)·0.86(xlmr), C재현율 1.0 유지.
+TUNED_TIER_WEIGHTS = {"rules": 0.3, "ner": 0.3, "neural": 4.0}
 
 
 def classify_with_early_exit(text: str, *, locale: str = "ko",
                              model: str = "n2sf-base",
                              ensemble_method: str = "soft",
+                             tier_weights: dict = None,
                              early_exit: bool = True) -> dict:
     """3-tier 분류 + early-exit.
 
@@ -47,10 +54,11 @@ def classify_with_early_exit(text: str, *, locale: str = "ko",
     3) 그 외(OPEN/SENSITIVE 경계)만 뉴럴(T3)을 수행해 최종 앙상블.
     """
     t0 = time.perf_counter()
+    weights = {"tier": tier_weights or TUNED_TIER_WEIGHTS}
 
     # ── 티어 1·2: 규칙 + NER (값싼 검출) ──────────────────────────────
     rules = dc.classify_text(text, locale=locale, llm_mode=False,
-                             ensemble_method=ensemble_method)
+                             ensemble_method=ensemble_method, weights=weights)
 
     if early_exit and rules["gradeFull"] == "CONFIDENTIAL":
         rules["_tiersRun"] = ["rules", "ner"]
@@ -60,7 +68,7 @@ def classify_with_early_exit(text: str, *, locale: str = "ko",
 
     # ── 티어 3: 뉴럴 (경계 문서만) ────────────────────────────────────
     final = dc.classify_text(text, locale=locale, llm_mode=True, model=model,
-                             ensemble_method=ensemble_method)
+                             ensemble_method=ensemble_method, weights=weights)
     final["_tiersRun"] = ["rules", "ner", "neural"]
     final["_neuralSkipped"] = False
     final["_elapsedMs"] = int((time.perf_counter() - t0) * 1000)

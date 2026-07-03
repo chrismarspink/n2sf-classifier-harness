@@ -51,11 +51,19 @@ def _load_env(path=".env.azure"):
 
 
 # ── 백엔드별 본문 생성 ───────────────────────────────────────────────────
-def _azure_client(api_version: str):
+def _azure_client(api_version: str, endpoint: str = None, key: str = None):
     from openai import AzureOpenAI
     _load_env()
-    return AzureOpenAI(azure_endpoint=os.environ["AZURE_OPENAI_ENDPOINT"],
-                       api_key=os.environ["AZURE_OPENAI_KEY"], api_version=api_version)
+    return AzureOpenAI(azure_endpoint=endpoint or os.environ["AZURE_OPENAI_ENDPOINT"],
+                       api_key=key or os.environ["AZURE_OPENAI_KEY"], api_version=api_version)
+
+
+def _gpt5_client():
+    """GPT-5(별도 cognitiveservices 엔드포인트) 클라이언트."""
+    _load_env()
+    return _azure_client(os.environ.get("AZURE_GPT5_APIVER", "2025-04-01-preview"),
+                         endpoint=os.environ["AZURE_GPT5_ENDPOINT"],
+                         key=os.environ["AZURE_GPT5_KEY"])
 
 
 def _prompt(grade: str, difficulty: int) -> str:
@@ -74,10 +82,11 @@ def _prompt(grade: str, difficulty: int) -> str:
 
 def _gen_text_azure(grade: str, difficulty: int, deployment: str, api_version: str) -> Optional[str]:
     try:
-        c = _azure_client(api_version)
+        is_gpt5 = deployment.startswith("gpt-5")
+        c = _gpt5_client() if is_gpt5 else _azure_client(api_version)
         kw = {"model": deployment, "messages": [{"role": "user", "content": _prompt(grade, difficulty)}]}
-        if deployment.startswith("o4") or deployment.startswith("o3") or deployment.startswith("o1"):
-            kw["max_completion_tokens"] = 3000          # reasoning 모델
+        if is_gpt5 or deployment.startswith(("o4", "o3", "o1")):
+            kw["max_completion_tokens"] = 3000          # reasoning 모델(gpt-5 포함)
         else:
             kw["max_tokens"] = 600; kw["temperature"] = 1.0
         r = c.chat.completions.create(**kw)
@@ -158,6 +167,9 @@ def generate(generator: str, grade: str, difficulty: int, doc_id: str,
     elif generator == "azure:o4-mini":
         raw = _gen_text_azure(grade, difficulty, os.environ.get("AZURE_O4MINI_DEPLOYMENT", "o4-mini"),
                               os.environ.get("AZURE_O4MINI_APIVER", "2025-04-01-preview"))
+    elif generator == "azure:gpt-5":
+        raw = _gen_text_azure(grade, difficulty, os.environ.get("AZURE_GPT5_DEPLOYMENT", "gpt-5.4"),
+                              os.environ.get("AZURE_GPT5_APIVER", "2025-04-01-preview"))
     elif generator == "gemma":
         raw = _gen_text_gemma(grade, difficulty)
     else:
