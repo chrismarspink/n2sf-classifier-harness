@@ -1,18 +1,6 @@
 {
-  "n2sf-small": {
-    "l5_macro_f1": 0.3485,
-    "l5_c_recall": 1.0,
-    "l5_under_rate": 0.0,
-    "leak_by_lang": {
-      "ja": 0.0,
-      "en": 0.0,
-      "zh": 0.0
-    },
-    "ko_macro_f1": 0.7091,
-    "ko_c_recall": 1.0
-  },
   "n2sf-base": {
-    "l5_macro_f1": 0.5556,
+    "l5_macro_f1": 0.8222,
     "l5_c_recall": 1.0,
     "l5_under_rate": 0.0,
     "leak_by_lang": {
@@ -20,43 +8,7 @@
       "en": 0.0,
       "zh": 0.0
     },
-    "ko_macro_f1": 0.7192,
-    "ko_c_recall": 1.0
-  },
-  "n2sf-base-kd": {
-    "l5_macro_f1": 0.73,
-    "l5_c_recall": 1.0,
-    "l5_under_rate": 0.0,
-    "leak_by_lang": {
-      "ja": 0.0,
-      "en": 0.0,
-      "zh": 0.0
-    },
-    "ko_macro_f1": 0.796,
-    "ko_c_recall": 1.0
-  },
-  "n2sf-klue-large": {
-    "l5_macro_f1": 0.8052,
-    "l5_c_recall": 1.0,
-    "l5_under_rate": 0.0,
-    "leak_by_lang": {
-      "ja": 0.0,
-      "en": 0.0,
-      "zh": 0.0
-    },
-    "ko_macro_f1": 0.8721,
-    "ko_c_recall": 1.0
-  },
-  "n2sf-xlmr-large": {
-    "l5_macro_f1": 0.5556,
-    "l5_c_recall": 1.0,
-    "l5_under_rate": 0.0,
-    "leak_by_lang": {
-      "ja": 0.0,
-      "en": 0.0,
-      "zh": 0.0
-    },
-    "ko_macro_f1": 0.9171,
+    "ko_macro_f1": 0.8879,
     "ko_c_recall": 1.0
   }
 }

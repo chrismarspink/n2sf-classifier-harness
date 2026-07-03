@@ -1,9 +1,8 @@
 {
-  "model": "mdeberta-n2sf",
-  "llm_mode": true,
-  "ensemble": "soft",
-  "tier": {"rules": 0.3, "ner": 0.3, "neural": 3.0},
-  "thresholds": {"confidential": 8.0, "sensitive": 2.0},
-  "entity": {"KR_ACCOUNT": 1.0},
-  "_note": "soft-label 증류(GPT-4o 교사)로 재학습한 mdeberta-n2sf + 뉴럴 우선 앙상블. held-out F1 0.797 / C재현율 1.00"
+  "note": "N2SF 권장 실서비스 설정 (held-out 실측 튜닝). 전체 파이프라인 F1=뉴럴 수준·C재현율 1.0.",
+  "ensemble_method": "soft",
+  "tier_weights": {"rules": 0.3, "ner": 0.3, "neural": 4.0},
+  "model_by_use": {"fast": "n2sf-small", "balanced": "n2sf-base", "accurate": "n2sf-xlmr-large"},
+  "full_pipeline_f1": {"n2sf-base": 0.796, "n2sf-klue-large": 0.826, "n2sf-xlmr-large": 0.858},
+  "c_recall_all": 1.0
 }

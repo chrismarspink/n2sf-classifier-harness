@@ -78,9 +78,12 @@ held-out = 학습에 쓰지 않은 LLM 생성 분포(과적합 착시 배제). 7
 | 모델 | macroF1 | 기밀재현율 | 지연 p50 | 용량 | 파라미터 |
 |---|---|---|---|---|---|
 | n2sf-small (KoELECTRA-small) | 0.709 | 1.00 | 13ms | 57MB | 14M |
-| n2sf-base (mDeBERTa) | 0.72~0.80 | 1.00 | 122ms | 1.1GB | 279M |
+| n2sf-base (mDeBERTa, GPT-5.4 증류) | **0.888** | 1.00 | 122ms | 1.1GB | 279M |
 | n2sf-klue-large (KLUE-RoBERTa-large) | 0.872 | 1.00 | 205ms | 1.3GB | 337M |
 | **n2sf-xlmr-large (XLM-R-large)** | **0.917** | 1.00 | 203ms | 2.3GB | 560M |
+
+> **실서비스(전체 파이프라인·튜닝 앙상블 soft·뉴럴4.0) 기준**: base **0.873** / klue **0.826** / xlmr **0.858**,
+> 전 모델 C재현율 **1.00(유출0)**. 권장 설정: `distill_soft/recommended_config.json`.
 
 ### 4.1 일반 LLM 대비
 | 분류기 | macroF1 | 기밀재현율 | 반출 | 과금 |
