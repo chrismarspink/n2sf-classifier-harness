@@ -1,0 +1,10 @@
+{
+  "gpt-5.4": {
+    "macro_f1": 0.9043,
+    "c_recall": 1.0,
+    "under_rate": 0.0,
+    "over_rate": 0.0972,
+    "accuracy": 0.9028,
+    "n": 72
+  }
+}
