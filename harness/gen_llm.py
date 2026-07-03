@@ -66,25 +66,30 @@ def _gpt5_client():
                          key=os.environ["AZURE_GPT5_KEY"])
 
 
-def _prompt(grade: str, difficulty: int) -> str:
+LANG_DESC = {"ko": "한국어", "en": "영어(English)", "zh": "중국어(简体中文)", "ja": "일본어(日本語)"}
+
+
+def _prompt(grade: str, difficulty: int, lang: str = "ko") -> str:
     ph = ", ".join(PLACEHOLDERS)
+    lname = LANG_DESC.get(lang, "한국어")
     return (
-        f"너는 한국 기업의 실제 문서를 흉내 내는 합성 데이터 생성기다.\n"
-        f"다음 조건의 한국어 문서 1건을 자연스럽게 작성하라.\n"
+        f"너는 기업의 실제 문서를 흉내 내는 합성 데이터 생성기다.\n"
+        f"다음 조건의 **{lname}** 문서 1건을 자연스럽게 작성하라(본문은 {lname}로).\n"
         f"- 등급: {GRADE_DESC[grade]}\n"
         f"- 난이도: {DIFF_DESC[difficulty]}\n"
         f"- 개인정보·식별자·기밀어가 들어갈 자리는 **반드시 다음 플레이스홀더 토큰**으로 표기: {ph}\n"
         f"  (실제 번호/이름을 쓰지 말 것. 토큰만 사용. 예: '담당자 {{{{NAME}}}} ({{{{PHONE}}}})')\n"
         f"- 등급에 맞는 플레이스홀더만 사용하라(공개 문서엔 어떤 토큰도 넣지 말 것).\n"
+        f"- 기밀 라벨 키워드는 해당 언어로도 자연스럽게(예: en=CONFIDENTIAL, zh=机密, ja=極秘).\n"
         f"- 제목 한 줄 + 본문 3~8문장. 다양한 업종·상황·문체로. 머리말/설명 없이 문서 본문만 출력."
     )
 
 
-def _gen_text_azure(grade: str, difficulty: int, deployment: str, api_version: str) -> Optional[str]:
+def _gen_text_azure(grade: str, difficulty: int, deployment: str, api_version: str, lang: str = "ko") -> Optional[str]:
     try:
         is_gpt5 = deployment.startswith("gpt-5")
         c = _gpt5_client() if is_gpt5 else _azure_client(api_version)
-        kw = {"model": deployment, "messages": [{"role": "user", "content": _prompt(grade, difficulty)}]}
+        kw = {"model": deployment, "messages": [{"role": "user", "content": _prompt(grade, difficulty, lang)}]}
         if is_gpt5 or deployment.startswith(("o4", "o3", "o1")):
             kw["max_completion_tokens"] = 3000          # reasoning 모델(gpt-5 포함)
         else:
@@ -159,17 +164,17 @@ def _ensure_label(doc_text: str, grade: str, difficulty: int, filler: LLMFiller)
 
 
 def generate(generator: str, grade: str, difficulty: int, doc_id: str,
-             filler: LLMFiller, locale="ko") -> Optional[LogicalDoc]:
-    """generator: 'azure:gpt-4o' | 'azure:o4-mini' | 'gemma'. → LogicalDoc(라벨=grade)."""
+             filler: LLMFiller, locale="ko", lang: str = "ko") -> Optional[LogicalDoc]:
+    """generator: 'azure:gpt-4o' | 'azure:o4-mini' | 'azure:gpt-5' | 'gemma'. lang: ko/en/zh/ja."""
     if generator == "azure:gpt-4o":
         raw = _gen_text_azure(grade, difficulty, os.environ.get("AZURE_GPT4O_DEPLOYMENT", "gpt-4o"),
-                              os.environ.get("AZURE_GPT4O_APIVER", "2025-01-01-preview"))
+                              os.environ.get("AZURE_GPT4O_APIVER", "2025-01-01-preview"), lang)
     elif generator == "azure:o4-mini":
         raw = _gen_text_azure(grade, difficulty, os.environ.get("AZURE_O4MINI_DEPLOYMENT", "o4-mini"),
-                              os.environ.get("AZURE_O4MINI_APIVER", "2025-04-01-preview"))
+                              os.environ.get("AZURE_O4MINI_APIVER", "2025-04-01-preview"), lang)
     elif generator == "azure:gpt-5":
         raw = _gen_text_azure(grade, difficulty, os.environ.get("AZURE_GPT5_DEPLOYMENT", "gpt-5.4"),
-                              os.environ.get("AZURE_GPT5_APIVER", "2025-04-01-preview"))
+                              os.environ.get("AZURE_GPT5_APIVER", "2025-04-01-preview"), lang)
     elif generator == "gemma":
         raw = _gen_text_gemma(grade, difficulty)
     else:

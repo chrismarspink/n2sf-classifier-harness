@@ -92,7 +92,8 @@ def main(argv=None):
         keep = set(range(mx - args.train_top + 1, mx + 1))
         for n, p in model.named_parameters():
             m = re.search(r"\.layer\.(\d+)\.", n)
-            p.requires_grad = ("classifier" in n) or ("pooler" in n) or (m and int(m.group(1)) in keep)
+            p.requires_grad = bool(("classifier" in n) or ("pooler" in n)
+                                   or (m is not None and int(m.group(1)) in keep))
 
     # 클래스(argmax) 분포 & 균형 샘플러 가중치
     cls = [int(max(range(3), key=lambda k: p[k])) for _, p in data]

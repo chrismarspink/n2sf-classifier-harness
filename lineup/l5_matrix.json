@@ -1,4 +1,16 @@
 {
+  "n2sf-small-v2": {
+    "l5_macro_f1": 0.1667,
+    "l5_c_recall": 1.0,
+    "l5_under_rate": 0.0,
+    "leak_by_lang": {
+      "ja": 0.0,
+      "en": 0.0,
+      "zh": 0.0
+    },
+    "ko_macro_f1": 0.9302,
+    "ko_c_recall": 1.0
+  },
   "n2sf-base": {
     "l5_macro_f1": 0.8222,
     "l5_c_recall": 1.0,
