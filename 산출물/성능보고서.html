@@ -1,0 +1,328 @@
+<title>N²SF 온디바이스 등급분류 — 성능 보고서</title>
+<meta name="description" content="외부 LLM·GPU 없이 로컬 CPU로 문서 보안등급(기밀·민감·공개) 분류 — LLM급 정확도, 기밀 누락 0.">
+<style>
+  :root{
+    --bg:#F5F6F8; --surface:#FFFFFF; --ink:#151A23; --muted:#616B7A; --faint:#8A93A2;
+    --line:#E4E7EC; --line2:#EEF0F3; --accent:#2B4C7E; --accent-soft:#EAF0F8;
+    --c:#C43D2E; --s:#C08A2D; --o:#2E7D57; --safe:#2E7D57; --safe-bg:#E9F3EC;
+    --track:#EDF0F4;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);
+    font-family:"Pretendard","Apple SD Gothic Neo","Malgun Gothic",-apple-system,system-ui,sans-serif;
+    line-height:1.6;-webkit-font-smoothing:antialiased;}
+  .wrap{max-width:1060px;margin:0 auto;padding:40px 22px 72px}
+  .num{font-variant-numeric:tabular-nums;
+    font-family:"SF Mono","JetBrains Mono",ui-monospace,monospace;}
+  h1,h2,h3{text-wrap:balance;margin:0}
+  a{color:var(--accent)}
+
+  /* ── 헤더 ── */
+  .eyebrow{font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);font-weight:700}
+  header h1{font-size:2.05rem;line-height:1.18;margin:.5rem 0 .5rem;font-weight:800;letter-spacing:-.01em}
+  header p.lede{font-size:1.06rem;color:var(--muted);max-width:64ch;margin:0}
+  .meta{margin-top:14px;font-size:.8rem;color:var(--faint)}
+  .grades{display:flex;gap:8px;margin:18px 0 0;flex-wrap:wrap}
+  .chip{display:inline-flex;align-items:center;gap:7px;font-size:.8rem;font-weight:600;
+    padding:5px 11px;border-radius:999px;border:1px solid var(--line);background:var(--surface)}
+  .dot{width:9px;height:9px;border-radius:50%}
+
+  /* ── KPI 스트립 ── */
+  .kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin:30px 0 8px}
+  .kpi{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:18px 16px}
+  .kpi .v{font-size:1.9rem;font-weight:800;letter-spacing:-.02em}
+  .kpi .k{font-size:.8rem;color:var(--muted);margin-top:3px}
+  .kpi .sub{font-size:.72rem;color:var(--faint);margin-top:6px}
+  .kpi.hl{background:linear-gradient(180deg,#2B4C7E,#22406e);border-color:#22406e;color:#fff}
+  .kpi.hl .k,.kpi.hl .sub{color:#c9d7ec}
+
+  section{margin-top:46px}
+  .lbl{font-size:.74rem;letter-spacing:.12em;text-transform:uppercase;color:var(--faint);font-weight:700;margin-bottom:6px}
+  h2{font-size:1.35rem;font-weight:750;letter-spacing:-.01em}
+  .say{color:var(--muted);margin:8px 0 20px;max-width:70ch}
+
+  /* ── 막대 비교(교사 vs 학생) ── */
+  .bars{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:20px 22px}
+  .barrow{display:grid;grid-template-columns:190px 1fr 62px;align-items:center;gap:14px;padding:7px 0}
+  .barrow + .barrow{border-top:1px solid var(--line2)}
+  .barname{font-size:.9rem;font-weight:600;display:flex;align-items:center;gap:8px}
+  .tag{font-size:.66rem;font-weight:700;padding:2px 7px;border-radius:4px}
+  .tag.dev{background:var(--accent-soft);color:var(--accent)}
+  .tag.cloud{background:#F1EEF6;color:#6B4E9E}
+  .track{height:12px;background:var(--track);border-radius:6px;overflow:hidden}
+  .fill{height:100%;border-radius:6px}
+  .fill.dev{background:var(--accent)}
+  .fill.cloud{background:#B7A8D6}
+  .barval{text-align:right;font-weight:700;font-size:.92rem}
+  .barnote{font-size:.78rem;color:var(--faint);margin-top:12px}
+
+  /* ── 매트릭스 테이블 ── */
+  .tablecard{background:var(--surface);border:1px solid var(--line);border-radius:10px;overflow-x:auto}
+  table{width:100%;border-collapse:collapse;font-size:.88rem;min-width:720px}
+  thead th{text-align:right;font-size:.72rem;letter-spacing:.04em;color:var(--muted);font-weight:700;
+    padding:14px 12px;border-bottom:1px solid var(--line);background:#FAFBFC;white-space:nowrap}
+  thead th.l{text-align:left}
+  tbody td{padding:12px;border-bottom:1px solid var(--line2);text-align:right;white-space:nowrap}
+  tbody td.l{text-align:left}
+  tbody tr:last-child td{border-bottom:none}
+  tr.best td{background:#F3F7FC}
+  .mname{font-weight:700}
+  .mtier{font-size:.72rem;color:var(--faint);font-weight:600}
+  .pipe{display:inline-flex;align-items:center;gap:9px;justify-content:flex-end;min-width:118px}
+  .pipe .t{width:64px;height:9px;background:var(--track);border-radius:5px;overflow:hidden}
+  .pipe .f{height:100%;background:var(--accent);border-radius:5px}
+  .pipe .n{font-weight:800;width:44px;text-align:right}
+  .before{color:var(--faint)}
+  .delta{color:var(--safe);font-weight:700;font-size:.8rem}
+  .badge-safe{display:inline-block;background:var(--safe-bg);color:var(--safe);font-weight:700;
+    font-size:.76rem;padding:2px 8px;border-radius:5px}
+  .warn{color:var(--s);font-weight:600}
+
+  /* ── 선택 가이드 카드 ── */
+  .cards{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
+  .card{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:18px 18px;
+    border-top:3px solid var(--accent)}
+  .card h3{font-size:1.02rem;font-weight:750}
+  .card .who{font-size:.8rem;color:var(--muted);margin:3px 0 12px}
+  .card ul{margin:0;padding-left:0;list-style:none;font-size:.86rem;display:grid;gap:6px}
+  .card li{display:flex;justify-content:space-between;gap:10px;border-bottom:1px dashed var(--line2);padding-bottom:6px}
+  .card li:last-child{border-bottom:none}
+  .card li b{font-weight:700}
+  .card .mono{font-size:.8rem}
+
+  /* ── 안전/콜아웃 ── */
+  .callout{background:var(--safe-bg);border:1px solid #CFE6D6;border-left:4px solid var(--safe);
+    border-radius:8px;padding:18px 20px}
+  .callout h3{color:#256b47;font-size:1.05rem;font-weight:750;margin-bottom:6px}
+  .callout p{margin:0;color:#2f5f45;font-size:.9rem}
+
+  .two{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+  .note{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:18px 20px}
+  .note h3{font-size:.98rem;font-weight:750;margin-bottom:8px}
+  .note ul{margin:0;padding-left:18px;font-size:.87rem;color:var(--muted);display:grid;gap:5px}
+  .pending{background:#FBF7EC;border:1px solid #EBDFC2;border-left:4px solid var(--s);
+    border-radius:8px;padding:14px 18px;font-size:.86rem;color:#6b551f}
+  footer{margin-top:52px;padding-top:20px;border-top:1px solid var(--line);
+    font-size:.78rem;color:var(--faint);display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
+  @media(max-width:720px){
+    .kpis{grid-template-columns:repeat(2,1fr)} .cards,.two{grid-template-columns:1fr}
+    .barrow{grid-template-columns:130px 1fr 52px}
+    header h1{font-size:1.7rem}
+  }
+</style>
+
+<div class="wrap">
+  <header>
+    <div class="eyebrow">N²SF · 온디바이스 문서 등급분류</div>
+    <h1>외부 LLM·GPU 없이, 로컬에서 LLM급 정확도</h1>
+    <p class="lede">클라우드 LLM의 판단을 <b>지식증류</b>로 로컬 모델에 이전했습니다. 추론은 100% 사내 CPU에서 이뤄지고,
+      데이터는 회사를 벗어나지 않으며, <b>기밀 문서를 하나도 놓치지 않습니다.</b></p>
+    <div class="grades">
+      <span class="chip"><span class="dot" style="background:var(--c)"></span>C · 기밀</span>
+      <span class="chip"><span class="dot" style="background:var(--s)"></span>S · 민감</span>
+      <span class="chip"><span class="dot" style="background:var(--o)"></span>O · 공개</span>
+    </div>
+    <div class="meta">held-out 정직 분포(학습 미사용) · 전체 3-tier 파이프라인 macro-F1 · CPU 측정 · 갱신 2026-07-06</div>
+  </header>
+
+  <div class="kpis">
+    <div class="kpi hl">
+      <div class="v num">0.958</div>
+      <div class="k">최고 온디바이스 정확도</div>
+      <div class="sub">n2sf-xlmr-large · 파이프라인 F1</div>
+    </div>
+    <div class="kpi">
+      <div class="v num" style="color:var(--safe)">0</div>
+      <div class="k">기밀 누락(유출)</div>
+      <div class="sub">전 모델 C재현율 1.00 · 한/영/중/일</div>
+    </div>
+    <div class="kpi">
+      <div class="v num">14M–560M</div>
+      <div class="k">모델 크기 스펙트럼</div>
+      <div class="sub">57MB(엣지) ~ 2.3GB(서버) · GPU 불요</div>
+    </div>
+    <div class="kpi">
+      <div class="v num">0</div>
+      <div class="k">추론 시 외부 호출</div>
+      <div class="sub">데이터 반출 0 · 에어갭 가능</div>
+    </div>
+  </div>
+
+  <section>
+    <div class="lbl">핵심 결과</div>
+    <h2>온디바이스 학생이 클라우드 LLM 교사를 따라잡았다</h2>
+    <p class="say">같은 held-out에서 우리 로컬 모델과, 증류에 쓴 클라우드 LLM(교사)을 직접 비교했습니다.
+      <b>n2sf-xlmr-large(0.958)가 GPT-4o·GPT-5.4를 넘고</b>, 최상위 교사 o4-mini(0.972)에 근접합니다 — 외부 호출 없이.</p>
+    <div class="bars">
+      <div class="barrow"><div class="barname">o4-mini <span class="tag cloud">클라우드</span></div>
+        <div class="track"><div class="fill cloud" style="width:94%"></div></div><div class="barval num">0.972</div></div>
+      <div class="barrow"><div class="barname">n2sf-xlmr-large <span class="tag dev">온디바이스</span></div>
+        <div class="track"><div class="fill dev" style="width:92%"></div></div><div class="barval num">0.958</div></div>
+      <div class="barrow"><div class="barname">n2sf-klue-large <span class="tag dev">온디바이스</span></div>
+        <div class="track"><div class="fill dev" style="width:86%"></div></div><div class="barval num">0.931</div></div>
+      <div class="barrow"><div class="barname">GPT-4o <span class="tag cloud">클라우드</span></div>
+        <div class="track"><div class="fill cloud" style="width:83%"></div></div><div class="barval num">0.915</div></div>
+      <div class="barrow"><div class="barname">GPT-5.4 <span class="tag cloud">클라우드</span></div>
+        <div class="track"><div class="fill cloud" style="width:81%"></div></div><div class="barval num">0.904</div></div>
+      <div class="barrow"><div class="barname">n2sf-base <span class="tag dev">온디바이스</span></div>
+        <div class="track"><div class="fill dev" style="width:75%"></div></div><div class="barval num">0.873</div></div>
+      <div class="barrow"><div class="barname">Gemma2:9B <span class="tag cloud">로컬 LLM</span></div>
+        <div class="track"><div class="fill cloud" style="width:75%"></div></div><div class="barval num">0.873</div></div>
+      <p class="barnote">막대 척도 0.5–1.0 · 교사(클라우드/로컬 LLM)는 개발단계 라벨링에만 사용, 추론엔 미사용.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="lbl">3축 선택 매트릭스</div>
+    <h2>정확도 · 크기 · 속도 — 용도로 고른다</h2>
+    <p class="say">전 모델 <b>기밀 누락 0</b>(C재현율 1.00)을 지키면서 정확도·크기·속도가 다릅니다.
+      한국어 전용이면 초경량 small이, 다국어·정확도 최우선이면 라지가 유리합니다.</p>
+    <div class="tablecard">
+      <table>
+        <thead><tr>
+          <th class="l">모델</th><th>파이프라인 F1</th><th>한국어(뉴럴)</th><th>다국어 L5</th>
+          <th>기밀누락</th><th>지연</th><th>용량</th><th>파라미터</th>
+        </tr></thead>
+        <tbody>
+          <tr class="best">
+            <td class="l"><div class="mname">n2sf-xlmr-large</div><div class="mtier">Accurate · XLM-R-large</div></td>
+            <td><span class="pipe"><span class="t"><span class="f" style="width:92%"></span></span><span class="n num">0.958</span></span></td>
+            <td class="num">0.958</td><td class="num">0.855</td>
+            <td><span class="badge-safe">0</span></td><td class="num">237ms</td><td class="num">2.3GB</td><td class="num">560M</td>
+          </tr>
+          <tr>
+            <td class="l"><div class="mname">n2sf-klue-large</div><div class="mtier">Korean-Accurate · KLUE-RoBERTa-large</div></td>
+            <td><span class="pipe"><span class="t"><span class="f" style="width:86%"></span></span><span class="n num">0.931</span></span></td>
+            <td class="num">0.945</td><td class="num">0.915</td>
+            <td><span class="badge-safe">0</span></td><td class="num">242ms</td><td class="num">1.3GB</td><td class="num">337M</td>
+          </tr>
+          <tr>
+            <td class="l"><div class="mname">n2sf-small</div><div class="mtier">Fast-KO · KoELECTRA-small · 한국어 전용</div></td>
+            <td><span class="pipe"><span class="t"><span class="f" style="width:83%"></span></span><span class="n num">0.916</span></span></td>
+            <td class="num">0.930</td><td class="num warn">0.167</td>
+            <td><span class="badge-safe">0</span></td><td class="num">14ms</td><td class="num">57MB</td><td class="num">14M</td>
+          </tr>
+          <tr>
+            <td class="l"><div class="mname">n2sf-base</div><div class="mtier">Balanced · mDeBERTa-v3 · 다국어</div></td>
+            <td><span class="pipe"><span class="t"><span class="f" style="width:75%"></span></span><span class="n num">0.873</span></span></td>
+            <td class="num">0.888</td><td class="num">0.822</td>
+            <td><span class="badge-safe">0</span></td><td class="num">123ms</td><td class="num">1.1GB</td><td class="num">279M</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="barnote">파이프라인 F1 = 실서비스(정규식+NER+뉴럴, 튜닝 앙상블) 기준. 다국어 L5 = 영·중·일 적대 평가셋.
+      n2sf-small은 한국어 전용이라 다국어에서 과대분류(0.167)하나 <b>누락은 0</b> — 한국어 전용 배포용.</p>
+  </section>
+
+  <section>
+    <div class="lbl">증류 전후</div>
+    <h2>GPT-5.4 균형 증강으로 전 모델이 도약</h2>
+    <p class="say">교사(GPT-4o 생성 + o4-mini/GPT-5.4 라벨)로 S·경계·다국어 문서를 증강해 재증류한 결과,
+      같은 백본이 크게 개선됐습니다. 모두 held-out 정직 분포 기준.</p>
+    <div class="tablecard">
+      <table>
+        <thead><tr><th class="l">모델</th><th>이전(파이프라인)</th><th>이후(파이프라인)</th><th>향상</th><th>한국어 이전→이후</th></tr></thead>
+        <tbody>
+          <tr><td class="l mname">n2sf-small (한국어)</td><td class="num before">0.585</td><td class="num">0.916</td>
+            <td class="delta num">+0.331</td><td class="num">0.709 → 0.930</td></tr>
+          <tr><td class="l mname">n2sf-base</td><td class="num before">0.698</td><td class="num">0.873</td>
+            <td class="delta num">+0.175</td><td class="num">0.719 → 0.888</td></tr>
+          <tr><td class="l mname">n2sf-klue-large</td><td class="num before">0.872*</td><td class="num">0.931</td>
+            <td class="delta num">+0.059</td><td class="num">0.872 → 0.945</td></tr>
+          <tr><td class="l mname">n2sf-xlmr-large</td><td class="num before">0.917*</td><td class="num">0.958</td>
+            <td class="delta num">+0.041</td><td class="num">0.917 → 0.958</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="barnote">* 라지 이전값은 초기 증류(o4-mini, 증강 전) 뉴럴-단독 기준.</p>
+  </section>
+
+  <section>
+    <div class="lbl">용도별 선택 가이드</div>
+    <h2>배포 환경에 맞춰 고른다</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Fast-KO · 엣지/한국어 전용</h3>
+        <div class="who">저사양·실시간·한국어 문서만</div>
+        <ul>
+          <li>모델 <b class="mono">n2sf-small</b></li>
+          <li>정확도(한국어) <b class="num">0.930</b></li>
+          <li>용량 · 지연 <b class="num">57MB · 14ms</b></li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Balanced · 표준 다국어</h3>
+        <div class="who">일반 업무 PC·다국어 혼재</div>
+        <ul>
+          <li>모델 <b class="mono">n2sf-base</b></li>
+          <li>정확도(파이프라인) <b class="num">0.873</b></li>
+          <li>용량 · 지연 <b class="num">1.1GB · 123ms</b></li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Korean-Accurate · 한국어 최상</h3>
+        <div class="who">한국어 정확도·용량 절감</div>
+        <ul>
+          <li>모델 <b class="mono">n2sf-klue-large</b></li>
+          <li>정확도 · 다국어 <b class="num">0.931 · 0.915</b></li>
+          <li>용량 · 지연 <b class="num">1.3GB · 242ms</b></li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Accurate · 정확도 최우선</h3>
+        <div class="who">서버측·다국어·최고 정확도</div>
+        <ul>
+          <li>모델 <b class="mono">n2sf-xlmr-large</b></li>
+          <li>정확도(파이프라인) <b class="num">0.958</b></li>
+          <li>용량 · 지연 <b class="num">2.3GB · 237ms</b></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="callout">
+      <h3>안전 우선 — 기밀은 하나도 놓치지 않는다</h3>
+      <p>전 모델·전 언어(한국어·영어·중국어·일본어)에서 <b>기밀 재현율 1.00, 과소분류(유출) 0</b>.
+        뉴럴이 놓칠 수 있는 경계 문서는 규칙 floor(주민번호·카드·기밀표지 등 언어무관 강식별자)가 이중으로 차단합니다.
+        과대분류(공개→민감)는 사람이 재검토하면 되지만, 유출은 원천 차단이 원칙입니다.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="two">
+      <div class="note">
+        <h3>어떻게 만들었나</h3>
+        <ul>
+          <li>클라우드 LLM(교사)이 문서에 O/S/C <b>확률분포</b>를 부여 → 로컬 모델이 모방(soft-label 지식증류)</li>
+          <li>교사엔 <b>합성 문서만</b> 전송(실기밀 미사용) · 추론엔 LLM 호출 0</li>
+          <li>클래스 균형 + C경계·다국어 증강으로 누락 0 유지하며 정확도↑</li>
+          <li>3-tier(정규식 → NER → 증류 뉴럴) + 튜닝 앙상블(뉴럴 가중)</li>
+          <li>설명가능성: 어떤 검출이 등급을 만들었는지 가법적 기여도(SHAP) 제시</li>
+        </ul>
+      </div>
+      <div class="note">
+        <h3>배포 · 온프레미스</h3>
+        <ul>
+          <li>Hugging Face(공개/사설) — <span class="mono">from_pretrained()</span>로 어디서나 (docker pull 개념)</li>
+          <li>Docker 이미지 — 모델+엔진+API, <span class="mono">docker run</span> 한 줄</li>
+          <li>에어갭 — 모델 tar / 오프라인 이미지 반입, 외부 접근 0</li>
+          <li>GPU 불필요 — 일반 서버·PC CPU로 동작</li>
+          <li>고객 정책(등급체계·규정) GradeProfile로 주입</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="pending"><b>진행 중 · 다음 갱신</b> — 소형 <b>다국어</b> 모델(multilingual-e5-small / MiniLM-L12)을
+      다국어 교사 라벨로 증류 중입니다. 완료 시 "다국어 경량" 티어를 매트릭스에 추가합니다.
+      (현재 small은 한국어 전용, 다국어는 base/large가 담당.)</div>
+  </section>
+
+  <footer>
+    <span>N²SF 등급분류 하네스 · v1.x · 이노티움</span>
+    <span>근거: final/final_matrix.json · held-out 72문서 · 교사 baseline(o4-mini/gpt-4o/gpt-5.4/gemma)</span>
+  </footer>
+</div>

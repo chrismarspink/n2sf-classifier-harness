@@ -15,9 +15,6 @@ caffeinate -ims nohup bash -c "
   cd '$DIR'
   echo \"=== 주말 실행 시작 \$(date '+%m-%d %H:%M') ===\"
 
-  # 0) 진행 중인 재증류(klue/xlmr v2) 끝날 때까지 대기
-  while pgrep -f 'Python -m harness.train_kd' >/dev/null 2>&1; do echo \"  대기: train_kd 진행중 \$(date +%H:%M)\"; sleep 180; done
-
   # 1) 다국어 교사 라벨(영/중/일) — o4-mini(최강 교사)
   echo \"--- [1] 다국어 라벨 생성 \$(date +%H:%M) ---\"
   '$PY' -m harness.gen_multi --base-jsonl distill_o4/teacher_labels_gpt5.jsonl --out $MULTI \
