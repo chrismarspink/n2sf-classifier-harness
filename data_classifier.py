@@ -100,12 +100,16 @@ GRADE_KEYWORDS: List[Tuple[str, float, str]] = [
     ("극비", 4.0, "극비"), ("top secret", 4.0, "Top Secret"),
     ("대외비", 3.0, "대외비"), ("기밀", 3.0, "기밀"), ("confidential", 3.0, "Confidential"),
     ("secret", 2.5, "Secret"), ("機密", 3.0, "機密"), ("社外秘", 3.0, "社外秘"),
+    ("極秘", 4.0, "極秘"), ("绝密", 4.0, "绝密"), ("사외비", 3.0, "사외비"),
     ("机密", 3.0, "机密"), ("内部", 1.5, "内部"), ("内部用", 1.5, "内部用"),
     ("内部资料", 1.5, "内部资料"), ("内部資料", 1.5, "内部資料"), ("社内限", 1.5, "社内限"),
     ("internal use", 1.5, "Internal Use"), ("restricted", 1.5, "Restricted"),
     ("private", 1.0, "Private"), ("개인정보", 1.0, "개인정보 라벨"),
 ]
 KW_COUNT_CAP = 3
+# 명시적 기밀 라벨 — 검출 시 CONFIDENTIAL 하드 floor(앙상블이 하향 못 함). 언어무관.
+SECRET_FLOOR_KW = {"극비", "대외비", "기밀", "사외비", "top secret", "confidential",
+                   "機密", "社外秘", "極秘", "机密", "绝密"}
 
 C_THRESHOLD = 5.5
 S_THRESHOLD = 0.75
@@ -575,6 +579,7 @@ def _aggregate_findings(presidio_findings: List[dict], text: str, locale: str,
 def _scan_keywords(text: str, extra: List[tuple], verbose: bool) -> List[dict]:
     out = []
     lower = text.lower()
+    compact = re.sub(r"\s+", "", lower)          # 띄어쓴 키워드(대 외 비) 방어용
     for kw, w, label in list(GRADE_KEYWORDS) + list(extra or []):
         needle = kw.lower()
         spans, idx = [], 0
@@ -586,11 +591,16 @@ def _scan_keywords(text: str, extra: List[tuple], verbose: bool) -> List[dict]:
             idx = j + len(needle)
             if len(spans) > KW_COUNT_CAP * 2:
                 break
+        # 원문에 없고 고위험 표지면 공백제거본에서 재탐(난독 대응) — 과탐은 안전측
+        obfus = False
+        if not spans and w >= 2.5 and re.sub(r"\s+", "", needle) in compact:
+            spans = [[0, 0]]; obfus = True
         if spans:
             etype = "KEYWORD_SECRET" if w >= 2.5 else "KEYWORD_INTERNAL"
             f = {"type": etype, "count": len(spans), "spans": spans[:KW_COUNT_CAP],
                  "confidence": min(1.0, 0.5 + w * 0.1), "source": "keyword",
-                 "rule": f"KW_{label}", "weight": w, "label": label, "items": []}
+                 "rule": f"KW_{label}", "weight": w, "label": label, "items": [],
+                 "secretFloor": kw in SECRET_FLOOR_KW, "obfuscated": obfus}
             if verbose:
                 f["items"] = [{"text": text[s[0]:s[1]], "start": s[0], "end": s[1]}
                               for s in spans[:KW_COUNT_CAP]]
@@ -909,10 +919,21 @@ def _detect_locale(text: str) -> str:
 # ════════════════════════════════════════════════════════════════════════
 # 8. 공개 API — classify()
 # ════════════════════════════════════════════════════════════════════════
+_FULLWIDTH = {ord('０') + i: ord('0') + i for i in range(10)}
+_FULLWIDTH.update({ord('－'): ord('-'), ord('　'): ord(' ')})
+
+
+def _normalize_obfuscation(text: str) -> str:
+    """적대 난독 정규화: 전각 숫자·하이픈 → 반각(전각 주민번호/카드 검출).
+    NER/스팬에 영향 없이 문자 치환만 수행."""
+    return text.translate(_FULLWIDTH)
+
+
 def classify_text(text: str, *, locale: str = "ko", n2sf_mode: bool = True,
                   verbose: bool = False, llm_mode: bool = False,
                   model: str = "minilm", weights: Optional[dict] = None,
                   ensemble_method: str = "escalate") -> dict:
+    text = _normalize_obfuscation(text)          # 전각→반각(난독 방어)
     """이미 추출된 텍스트를 분류 (파일 추출 없이). classify() 내부 코어."""
     started = time.perf_counter()
     weights = weights or {}
@@ -984,6 +1005,9 @@ def classify_text(text: str, *, locale: str = "ko", n2sf_mode: bool = True,
     if jp_compliance and jp_compliance["myNumberSuppressForced"]:
         grade = "CONFIDENTIAL"
     if bulk_pii:
+        grade = "CONFIDENTIAL"
+    # 명시적 기밀 라벨(극비/대외비/기밀/機密…) 검출 시 하드 floor → 뉴럴이 하향 못 함
+    if any(f.get("secretFloor") for f in kw_findings):
         grade = "CONFIDENTIAL"
 
     shap = _shap_block(findings, score, entity_overrides)
