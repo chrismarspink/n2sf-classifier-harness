@@ -1,0 +1,2504 @@
+[
+  {
+    "text": "분기 사업 현황 공개 보고\n\n당사는 이번 분기 매출이 전년 대비 안정적인 성장세를 보였습니다.\n신규 오픈소스 라이선스 가이드라인을 사내 위키에 공개했습니다.\n전 직원 대상 공개 세미나가 다음 주 대강당에서 진행됩니다.",
+    "grade": "O",
+    "gen": "template:corpus",
+    "diff": 1
+  },
+  {
+    "text": "오픈소스 릴리스 노트\n\nv2.3.0 에서 성능이 개선되고 버그가 수정되었습니다.\n본 릴리스는 공개 저장소에서 누구나 내려받을 수 있습니다.\n기여 가이드는 CONTRIBUTING 문서를 확인하세요.",
+    "grade": "O",
+    "gen": "template:corpus",
+    "diff": 1
+  },
+  {
+    "text": "공개 채용 공고\n\n당사는 백엔드 엔지니어를 공개 채용합니다.\n지원 자격: 관련 경력 3년 이상, 우대사항은 공고 본문을 참고하세요.\n접수는 채용 홈페이지를 통해 진행되며 별도 첨부는 불필요합니다.",
+    "grade": "O",
+    "gen": "template:corpus",
+    "diff": 1
+  },
+  {
+    "text": "오픈소스 릴리스 노트\n\nv2.3.0 에서 성능이 개선되고 버그가 수정되었습니다.\n본 릴리스는 공개 저장소에서 누구나 내려받을 수 있습니다.\n기여 가이드는 CONTRIBUTING 문서를 확인하세요.\n제품 코드 P90079389209 는 공개 카탈로그 식별자입니다.",
+    "grade": "O",
+    "gen": "template:corpus",
+    "diff": 1
+  },
+  {
+    "text": "오픈소스 릴리스 노트\n\nv2.3.0 에서 성능이 개선되고 버그가 수정되었습니다.\n본 릴리스는 공개 저장소에서 누구나 내려받을 수 있습니다.\n기여 가이드는 CONTRIBUTING 문서를 확인하세요.\n본 자료에는 기밀이 포함되어 있지 않으며 자유롭게 배포 가능합니다.",
+    "grade": "O",
+    "gen": "template:corpus",
+    "diff": 1
+  },
+  {
+    "text": "분기 사업 현황 공개 보고\n\n당사는 이번 분기 매출이 전년 대비 안정적인 성장세를 보였습니다.\n신규 오픈소스 라이선스 가이드라인을 사내 위키에 공개했습니다.\n전 직원 대상 공개 세미나가 다음 주 대강당에서 진행됩니다.\n본 자료에는 기밀이 포함되어 있지 않으며 자유롭게 배포 가능합니다.",
+    "grade": "O",
+    "gen": "template:corpus",
+    "diff": 1
+  },
+  {
+    "text": "오픈소스 릴리스 노트\n\nv2.3.0 에서 성능이 개선되고 버그가 수정되었습니다.\n본 릴리스는 공개 저장소에서 누구나 내려받을 수 있습니다.\n기여 가이드는 CONTRIBUTING 문서를 확인하세요.\n주문번호 ORD-2026-684235 로 배송 상태를 조회할 수 있습니다.",
+    "grade": "O",
+    "gen": "template:corpus",
+    "diff": 1
+  },
+  {
+    "text": "공개 채용 공고\n\n당사는 백엔드 엔지니어를 공개 채용합니다.\n지원 자격: 관련 경력 3년 이상, 우대사항은 공고 본문을 참고하세요.\n접수는 채용 홈페이지를 통해 진행되며 별도 첨부는 불필요합니다.\n제품 코드 P1958570745 는 공개 카탈로그 식별자입니다.",
+    "grade": "O",
+    "gen": "template:corpus",
+    "diff": 1
+  },
+  {
+    "text": "분기 사업 현황 공개 보고\n\n당사는 이번 분기 매출이 전년 대비 안정적인 성장세를 보였습니다.\n신규 오픈소스 라이선스 가이드라인을 사내 위키에 공개했습니다.\n전 직원 대상 공개 세미나가 다음 주 대강당에서 진행됩니다.\n주문번호 ORD-2022-919853 로 배송 상태를 조회할 수 있습니다.",
+    "grade": "O",
+    "gen": "template:corpus",
+    "diff": 1
+  },
+  {
+    "text": "오픈소스 릴리스 노트\n\nv2.3.0 에서 성능이 개선되고 버그가 수정되었습니다.\n본 릴리스는 공개 저장소에서 누구나 내려받을 수 있습니다.\n기여 가이드는 CONTRIBUTING 문서를 확인하세요.\n주문번호 ORD-2022-393835 로 배송 상태를 조회할 수 있습니다.",
+    "grade": "O",
+    "gen": "template:corpus",
+    "diff": 1
+  },
+  {
+    "text": "오픈소스 릴리스 노트\n\nv2.3.0 에서 성능이 개선되고 버그가 수정되었습니다.\n본 릴리스는 공개 저장소에서 누구나 내려받을 수 있습니다.\n기여 가이드는 CONTRIBUTING 문서를 확인하세요.\n제품 코드 P717144670262 는 공개 카탈로그 식별자입니다.",
+    "grade": "O",
+    "gen": "template:corpus",
+    "diff": 1
+  },
+  {
+    "text": "공개 채용 공고\n\n당사는 백엔드 엔지니어를 공개 채용합니다.\n지원 자격: 관련 경력 3년 이상, 우대사항은 공고 본문을 참고하세요.\n접수는 채용 홈페이지를 통해 진행되며 별도 첨부는 불필요합니다.\n주문번호 ORD-2022-184272 로 배송 상태를 조회할 수 있습니다.",
+    "grade": "O",
+    "gen": "template:corpus",
+    "diff": 1
+  },
+  {
+    "text": "행사 안내 및 문의처\n\n행사 안내 및 문의처 안내드립니다. 자세한 사항은 담당자에게 문의 바랍니다.\n담당자 서성민, 연락처 010-8319-4004, 이메일 jtfhaqix46@company.co.kr",
+    "grade": "S",
+    "gen": "template:corpus",
+    "diff": 1
+  },
+  {
+    "text": "공지 — 담당자 연락 안내\n\n공지 — 담당자 연락 안내 안내드립니다. 자세한 사항은 담당자에게 문의 바랍니다.\n담당자 남소율, 연락처 010-1787-7892, 이메일 nglxod85@kakao.com",
+    "grade": "S",
+    "gen": "template:corpus",
+    "diff": 1
+  },
+  {
+    "text": "행사 안내 및 문의처\n\n행사 안내 및 문의처 안내드립니다. 자세한 사항은 담당자에게 문의 바랍니다.\n담당자 안성민, 연락처 010-8284-2032, 이메일 oudpc23@kakao.com",
+    "grade": "S",
+    "gen": "template:corpus",
+    "diff": 1
+  },
+  {
+    "text": "행사 안내 및 문의처\n\n행사 안내 및 문의처 안내드립니다. 자세한 사항은 담당자에게 문의 바랍니다.\n담당자 남현우, 연락처 010-1836-9532, 이메일 lgtzcr76@daum.net",
+    "grade": "S",
+    "gen": "template:corpus",
+    "diff": 1
+  },
+  {
+    "text": "행사 안내 및 문의처\n\n행사 안내 및 문의처 안내드립니다. 자세한 사항은 담당자에게 문의 바랍니다.\n담당자 권예준, 연락처 010-3980-2533, 이메일 xlfxkjtd87@company.co.kr",
+    "grade": "S",
+    "gen": "template:corpus",
+    "diff": 1
+  },
+  {
+    "text": "교육 신청 안내\n\n교육 신청 안내 안내드립니다. 자세한 사항은 담당자에게 문의 바랍니다.\n담당자 황수아, 연락처 010-7604-7299, 이메일 wguafpe16@kakao.com",
+    "grade": "S",
+    "gen": "template:corpus",
+    "diff": 1
+  },
+  {
+    "text": "행사 안내 및 문의처\n\n행사 안내 및 문의처 안내드립니다. 자세한 사항은 담당자에게 문의 바랍니다.\n담당자 한지훈, 연락처 010-9962-9080, 이메일 ahcvurckz27@gmail.com",
+    "grade": "S",
+    "gen": "template:corpus",
+    "diff": 1
+  },
+  {
+    "text": "교육 신청 안내\n\n교육 신청 안내 안내드립니다. 자세한 사항은 담당자에게 문의 바랍니다.\n담당자 오소율, 연락처 010-1397-9031, 이메일 kunagrquy26@naver.com",
+    "grade": "S",
+    "gen": "template:corpus",
+    "diff": 1
+  },
+  {
+    "text": "교육 신청 안내\n\n교육 신청 안내 안내드립니다. 자세한 사항은 담당자에게 문의 바랍니다.\n담당자 오지우, 연락처 010-5569-8749, 이메일 qifdmz76@kakao.com",
+    "grade": "S",
+    "gen": "template:corpus",
+    "diff": 1
+  },
+  {
+    "text": "공지 — 담당자 연락 안내\n\n공지 — 담당자 연락 안내 안내드립니다. 자세한 사항은 담당자에게 문의 바랍니다.\n담당자 조예준, 연락처 010-6780-5834, 이메일 vbfiora90@gmail.com",
+    "grade": "S",
+    "gen": "template:corpus",
+    "diff": 1
+  },
+  {
+    "text": "공지 — 담당자 연락 안내\n\n공지 — 담당자 연락 안내 안내드립니다. 자세한 사항은 담당자에게 문의 바랍니다.\n담당자 김주원, 연락처 010-8765-8634, 이메일 dexax85@kakao.com",
+    "grade": "S",
+    "gen": "template:corpus",
+    "diff": 1
+  },
+  {
+    "text": "공지 — 담당자 연락 안내\n\n공지 — 담당자 연락 안내 안내드립니다. 자세한 사항은 담당자에게 문의 바랍니다.\n담당자 안민서, 연락처 010-9879-4755, 이메일 nxbysnnp72@company.co.kr",
+    "grade": "S",
+    "gen": "template:corpus",
+    "diff": 1
+  },
+  {
+    "text": "공지 — 담당자 연락 안내\n\n공지 — 담당자 연락 안내 안내드립니다. 문의는 첨부된 담당자 정보를 참고하세요.\n[비고] 담당자 서지호, 연락처 010-7275-9889, 이메일 qvpot33@daum.net",
+    "grade": "S",
+    "gen": "template:corpus",
+    "diff": 1
+  },
+  {
+    "text": "교육 신청 안내\n\n교육 신청 안내 안내드립니다. 문의는 첨부된 담당자 정보를 참고하세요.\n[비고] 담당자 권준영, 연락처 010-3751-4160, 이메일 wehqi57@gmail.com",
+    "grade": "S",
+    "gen": "template:corpus",
+    "diff": 1
+  },
+  {
+    "text": "교육 신청 안내\n\n교육 신청 안내 안내드립니다. 문의는 첨부된 담당자 정보를 참고하세요.\n[비고] 담당자 조하은, 연락처 010-8777-9450, 이메일 dfmlxrs10@gmail.com",
+    "grade": "S",
+    "gen": "template:corpus",
+    "diff": 1
+  },
+  {
+    "text": "행사 안내 및 문의처\n\n행사 안내 및 문의처 안내드립니다. 문의는 첨부된 담당자 정보를 참고하세요.\n[비고] 담당자 노지우, 연락처 010-5831-3707, 이메일 aksjzn11@naver.com",
+    "grade": "S",
+    "gen": "template:corpus",
+    "diff": 1
+  },
+  {
+    "text": "공지 — 담당자 연락 안내\n\n공지 — 담당자 연락 안내 안내드립니다. 문의는 첨부된 담당자 정보를 참고하세요.\n[비고] 담당자 신민준, 연락처 010-9189-1876, 이메일 fovoeooto19@kakao.com",
+    "grade": "S",
+    "gen": "template:corpus",
+    "diff": 1
+  },
+  {
+    "text": "교육 신청 안내\n\n교육 신청 안내 안내드립니다. 문의는 첨부된 담당자 정보를 참고하세요.\n[비고] 담당자 박지우, 연락처 010-5015-5450, 이메일 nddgekw27@daum.net",
+    "grade": "S",
+    "gen": "template:corpus",
+    "diff": 1
+  },
+  {
+    "text": "공지 — 담당자 연락 안내\n\n공지 — 담당자 연락 안내 안내드립니다. 문의는 첨부된 담당자 정보를 참고하세요.\n[비고] 담당자 남다은, 연락처 010-2105-8979, 이메일 rdxnwk3@kakao.com",
+    "grade": "S",
+    "gen": "template:corpus",
+    "diff": 1
+  },
+  {
+    "text": "교육 신청 안내\n\n교육 신청 안내 안내드립니다. 문의는 첨부된 담당자 정보를 참고하세요.\n[비고] 담당자 유성민, 연락처 010-3689-1211, 이메일 wpouoq54@company.co.kr",
+    "grade": "S",
+    "gen": "template:corpus",
+    "diff": 1
+  },
+  {
+    "text": "교육 신청 안내\n\n교육 신청 안내 안내드립니다. 문의는 첨부된 담당자 정보를 참고하세요.\n[비고] 담당자 양지우, 연락처 010-1338-3739, 이메일 jqcdrvwf83@kakao.com",
+    "grade": "S",
+    "gen": "template:corpus",
+    "diff": 1
+  },
+  {
+    "text": "행사 안내 및 문의처\n\n행사 안내 및 문의처 안내드립니다. 문의는 첨부된 담당자 정보를 참고하세요.\n[비고] 담당자 유지훈, 연락처 010-8904-5902, 이메일 wucdfyg48@kakao.com",
+    "grade": "S",
+    "gen": "template:corpus",
+    "diff": 1
+  },
+  {
+    "text": "행사 안내 및 문의처\n\n행사 안내 및 문의처 안내드립니다. 문의는 첨부된 담당자 정보를 참고하세요.\n[비고] 담당자 신지훈, 연락처 010-8373-2930, 이메일 fwuaeesoo82@daum.net",
+    "grade": "S",
+    "gen": "template:corpus",
+    "diff": 1
+  },
+  {
+    "text": "행사 안내 및 문의처\n\n행사 안내 및 문의처 안내드립니다. 문의는 첨부된 담당자 정보를 참고하세요.\n[비고] 담당자 오서연, 연락처 010-9731-9573, 이메일 ltcfu36@kakao.com",
+    "grade": "S",
+    "gen": "template:corpus",
+    "diff": 1
+  },
+  {
+    "text": "[기밀] 경영 전략 검토 자료\n\n기밀. 본 문서는 지정된 임직원만 열람할 수 있습니다.\n담당 황지우 (010-8798-2393).\n전략 방향성 및 투자 우선순위는 본문을 참조하십시오.",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 1
+  },
+  {
+    "text": "전 직원 비상연락망\n\n전 직원 비상연락망 (16명). 외부 유출 금지.\n성명 휴대폰 이메일\n안성민 010-3707-2827 myqjvqhj75@naver.com\n박도윤 010-4847-4538 vqincja75@kakao.com\n전은서 010-5015-6855 xnhhuz45@gmail.com\n최소율 010-9151-6380 kaerdkvlq95@gmail.com\n황유진 010-5275-7015 bmgekho59@naver.com\n전건우 010-7987-4808 unwfbeyt26@daum.net\n차서준 010-9352-8661 bvqndyv34@company.co.kr\n신민서 010-9224-6790 svhnrlhga24@gmail.com\n임지호 010-4921-2852 qaono10@daum.net\n임지훈 010-8987-4242 xdbqijv14@gmail.com\n백성민 010-2876-1038 tgljbo48@naver.com\n유하은 010-1450-7417 nmxhdow60@daum.net\n임현우 010-6467-6910 chbkvrewm49@daum.net\n유준영 010-5026-6330 pswgqbbqf14@gmail.com\n황지우 010-2526-8202 yhhvtuz77@naver.com\n남은서 010-3912-6923 ysxolssgf42@naver.com",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 1
+  },
+  {
+    "text": "운영 서버 접속 정보\n\n운영계 접속 키: api_key=BI1LrlV1sUHGikZCeBDwewCFtnttdA8E\n백업 자격증명: AKIAORF4DIX5725GHHUQ\n담당 노은서 llpnrtlnq7@company.co.kr.",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 1
+  },
+  {
+    "text": "임직원 신원 확인 자료\n\n임직원 신원 확인 자료. 개인정보보호법에 따라 비식별 처리 대상입니다.\n성명 서준영 여권번호 O34448278\n연락처 010-7835-8689.",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 1
+  },
+  {
+    "text": "[극비] 경영 전략 검토 자료\n\n극비. 본 문서는 지정된 임직원만 열람할 수 있습니다.\n담당 윤수아 (010-4394-2129).\n전략 방향성 및 투자 우선순위는 본문을 참조하십시오.",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 1
+  },
+  {
+    "text": "운영 서버 접속 정보\n\n운영계 접속 키: api_key=qY9on6Y85qB62EhydPu4kyjXb6Drt\n백업 자격증명: AKIASSVHQE3IAJMI7CVT\n담당 유주원 chmgth18@company.co.kr.",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 1
+  },
+  {
+    "text": "운영 서버 접속 정보\n\n운영계 접속 키: api_key=CQv1hEcNwxFqgHQTXzj2NNGtpOlxQ8\n백업 자격증명: AKIAHVMQNTNS34AQSLLZ\n담당 임성민 okdjchztf8@daum.net.",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 1
+  },
+  {
+    "text": "[극비] 경영 전략 검토 자료\n\n극비. 본 문서는 지정된 임직원만 열람할 수 있습니다.\n담당 조소율 (010-4992-6085).\n전략 방향성 및 투자 우선순위는 본문을 참조하십시오.",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 1
+  },
+  {
+    "text": "[기밀] 경영 전략 검토 자료\n\n기밀. 본 문서는 지정된 임직원만 열람할 수 있습니다.\n담당 윤수아 (010-9929-5491).\n전략 방향성 및 투자 우선순위는 본문을 참조하십시오.",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 1
+  },
+  {
+    "text": "임직원 신원 확인 자료\n\n임직원 신원 확인 자료. 개인정보보호법에 따라 비식별 처리 대상입니다.\n성명 김예준 신용카드번호 5546-4841-1801-3727\n연락처 010-7094-4327.",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 1
+  },
+  {
+    "text": "[극비] 경영 전략 검토 자료\n\n극비. 본 문서는 지정된 임직원만 열람할 수 있습니다.\n담당 차주원 (010-7080-3444).\n전략 방향성 및 투자 우선순위는 본문을 참조하십시오.",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 1
+  },
+  {
+    "text": "전 직원 비상연락망\n\n전 직원 비상연락망 (14명). 외부 유출 금지.\n성명 휴대폰 이메일\n차주원 010-1544-6459 qeduihas86@gmail.com\n권하은 010-9810-1838 xpzvjdxfv78@daum.net\n신지훈 010-6147-6017 pzqedl86@gmail.com\n양예준 010-5140-4434 ddazgfsyj14@kakao.com\n최하은 010-8317-8301 tolemav79@kakao.com\n임준영 010-4818-2691 dctpbhz37@gmail.com\n장다은 010-2152-3591 axpor37@gmail.com\n백예준 010-3448-4189 nuewaow45@kakao.com\n문현우 010-4754-2110 auosb53@kakao.com\n문지우 010-1798-3079 uxtuvky82@gmail.com\n남하은 010-7543-5390 slfgys44@gmail.com\n윤건우 010-1160-1474 oxapf53@gmail.com\n최은서 010-6874-1198 icwxubr98@gmail.com\n김도윤 010-5672-3681 isvpt50@naver.com",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 1
+  },
+  {
+    "text": "전 직원 비상연락망\n\n전 직원 비상연락망 (12명). 외부 유출 금지.\n성명 휴대폰 이메일\n강민준 010-3781-7976 iksbzk10@company.co.kr\n권수아 010-3210-6822 vwcvtsqr88@naver.com\n최다은 010-7362-3983 ogmsj11@company.co.kr\n문다은 010-3763-9859 vfgfkpi59@kakao.com\n차도윤 010-1096-6233 thepokxp13@company.co.kr\n서지우 010-9727-9843 dyeagh35@daum.net\n정현우 010-7291-5701 gvouftnc48@daum.net\n강지호 010-6531-6022 odcke16@gmail.com\n안예준 010-3785-7392 etyms58@gmail.com\n조하은 010-8732-6797 zvxewzbyt7@naver.com\n문지훈 010-7233-8707 ossnmcdea92@gmail.com\n유지호 010-5081-2162 utngcso25@naver.com\n[비고] 비고: 추가 식별자 주민번호 840809-23561435",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 1
+  },
+  {
+    "text": "[대외비] 경영 전략 검토 자료\n\n대외비. 본 문서는 지정된 임직원만 열람할 수 있습니다.\n담당 신서연 (010-4091-1024).\n전략 방향성 및 투자 우선순위는 본문을 참조하십시오.\n항목 값\n계좌(패킹) 72579515846505\n[비고] 비고: 추가 식별자 주민번호 610528-11277114",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 1
+  },
+  {
+    "text": "임직원 신원 확인 자료\n\n임직원 신원 확인 자료. 개인정보보호법에 따라 비식별 처리 대상입니다.\n성명 차민서 여권번호 S13032956\n연락처 010-9835-1531.\n항목 값\n계좌(패킹) 71856347232679\n[비고] 비고: 추가 식별자 주민번호 941228-14946622",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 1
+  },
+  {
+    "text": "전 직원 비상연락망\n\n전 직원 비상연락망 (15명). 외부 유출 금지.\n성명 휴대폰 이메일\n임준영 010-4243-8880 rpltyj11@kakao.com\n문하은 010-7989-1071 ujczm9@company.co.kr\n김은서 010-4958-1227 kntwteju79@daum.net\n황은서 010-6534-6738 ovrwfnw36@daum.net\n신민준 010-5101-9651 lkqnohs94@kakao.com\n유서연 010-6299-8695 gufad11@daum.net\n유소율 010-3462-1498 rcavfkxvp26@daum.net\n윤도윤 010-5261-5525 unwyaq43@naver.com\n신민준 010-2243-3502 oxorwu59@naver.com\n강서연 010-8122-1837 livdhq81@company.co.kr\n황건우 010-9573-5919 ymevtg40@daum.net\n정수아 010-9668-7865 bldlwi47@daum.net\n정은서 010-7795-2384 jjqlmb8@gmail.com\n임성민 010-4282-7946 xfhhzoay70@kakao.com\n황예준 010-6839-1969 arqpyey16@kakao.com\n[비고] 비고: 추가 식별자 주민번호 750505-19519953",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 1
+  },
+  {
+    "text": "해외 출장자 여권 정보\n\n해외 출장자 여권 정보. 개인정보보호법에 따라 비식별 처리 대상입니다.\n성명 신현우 여권번호 R18578377\n연락처 010-6385-6324.\n항목 값\n계좌(패킹) 85572604520809\n[비고] 비고: 추가 식별자 주민번호 660723-23841129",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 1
+  },
+  {
+    "text": "급여 계좌 등록 명부\n\n급여 계좌 등록 명부. 개인정보보호법에 따라 비식별 처리 대상입니다.\n예금주 전서연 계좌 하나 195-9548-9362083\n연락처 010-3118-1309.\n[비고] 비고: 추가 식별자 주민번호 970311-11090411",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 1
+  },
+  {
+    "text": "전 직원 비상연락망\n\n전 직원 비상연락망 (15명). 외부 유출 금지.\n성명 휴대폰 이메일\n안준영 010-3287-1840 yiwsxx59@company.co.kr\n조지훈 010-6567-8658 hwvedidwg49@daum.net\n문하은 010-4203-1233 zhbymc52@naver.com\n신수아 010-4517-5796 pxybaczc6@gmail.com\n문은서 010-2842-6838 fduotwvk73@daum.net\n배지훈 010-6798-2758 dvmeqzvu35@naver.com\n백수아 010-9516-7687 mdjgjgrtc98@naver.com\n서은서 010-6995-2727 cuabra61@kakao.com\n유민서 010-5170-3492 crhknywo97@gmail.com\n송유진 010-2520-1444 uikzjz23@naver.com\n오서준 010-3991-1084 hskprmstx58@kakao.com\n송지호 010-9380-2312 zglvncc5@gmail.com\n노소율 010-4846-7586 elnafbeeu21@gmail.com\n전예준 010-5271-1261 yzrepimp90@daum.net\n차서연 010-1754-2881 mkvurqw27@kakao.com\n[비고] 비고: 추가 식별자 주민번호 820324-11088637",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 1
+  },
+  {
+    "text": "전 직원 비상연락망\n\n전 직원 비상연락망 (15명). 외부 유출 금지.\n성명 휴대폰 이메일\n조서준 010-4379-2797 qvzyiigke18@daum.net\n장현우 010-6592-7656 hnidhwgbp34@daum.net\n남주원 010-3855-2812 ykwjpfjd43@gmail.com\n배유진 010-7374-3679 pvhojo23@company.co.kr\n권수아 010-7125-9784 jifqa99@daum.net\n강민준 010-7028-6822 iqywjzgzt68@company.co.kr\n유수아 010-9458-8401 uplmsrqug78@kakao.com\n송민준 010-1240-1111 jxjye95@kakao.com\n송지우 010-2797-2695 kcthmjrz53@naver.com\n신건우 010-5187-9131 ufpovyhdv98@gmail.com\n서수아 010-6689-2897 pfapdexc4@company.co.kr\n강성민 010-6888-8773 tfzzyqcu94@company.co.kr\n황민서 010-7702-9078 bcqvyh19@company.co.kr\n오은서 010-8122-3193 zeugj69@naver.com\n백은서 010-5597-9224 uykmtgpwn71@daum.net\n[비고] 비고: 추가 식별자 주민번호 630623-21772540",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 1
+  },
+  {
+    "text": "전 직원 비상연락망\n\n전 직원 비상연락망 (14명). 외부 유출 금지.\n성명 휴대폰 이메일\n임다은 010-7159-1216 tbmezh96@kakao.com\n권하은 010-9837-2028 xxyrj19@naver.com\n정수아 010-9349-9622 twrltnutz50@kakao.com\n황건우 010-1523-6504 czdcr78@kakao.com\n오민준 010-3565-4462 ufmbxm8@kakao.com\n최성민 010-9935-9656 ncqoxbztu46@naver.com\n백서연 010-5749-5124 vehss5@gmail.com\n신다은 010-4772-4028 prjch58@company.co.kr\n노민서 010-5733-8176 tpwztamyi93@gmail.com\n정주원 010-3594-2374 ybmrnqz83@naver.com\n양현우 010-2141-9958 lvwuqb50@company.co.kr\n신지우 010-1534-6353 ppjrgxfi61@company.co.kr\n조지호 010-3413-9251 kkvmtj11@gmail.com\n오지우 010-4177-6786 cbxwuhg55@naver.com\n[비고] 비고: 추가 식별자 주민번호 650706-15330657",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 1
+  },
+  {
+    "text": "해외 출장자 여권 정보\n\n해외 출장자 여권 정보. 개인정보보호법에 따라 비식별 처리 대상입니다.\n성명 임민준 여권번호 R96309465\n연락처 010-1106-1832.\n항목 값\n계좌(패킹) 66568992974099\n[비고] 비고: 추가 식별자 주민번호 750325-21870011",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 1
+  },
+  {
+    "text": "전 직원 비상연락망\n\n전 직원 비상연락망 (12명). 외부 유출 금지.\n성명 휴대폰 이메일\n오서연 010-3701-7748 gczbuos82@gmail.com\n유도윤 010-1527-7214 szbbpl55@gmail.com\n신지훈 010-2317-4149 mfultnl7@daum.net\n안다은 010-5799-6686 haewp88@company.co.kr\n윤민서 010-4978-4708 gydcfwc51@kakao.com\n최현우 010-7640-4751 rqydhplme32@naver.com\n조다은 010-4320-8603 bkjpqi36@kakao.com\n양서연 010-7554-9392 azzbranim16@kakao.com\n남수아 010-5669-7651 dglrif72@kakao.com\n송지우 010-5019-9076 brswtlyih24@company.co.kr\n서도윤 010-1286-8898 ugxgdot50@company.co.kr\n백유진 010-6903-2088 vxism41@kakao.com\n[비고] 비고: 추가 식별자 주민번호 931202-15541220",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 1
+  },
+  {
+    "text": "해외 출장자 여권 정보\n\n해외 출장자 여권 정보. 개인정보보호법에 따라 비식별 처리 대상입니다.\n성명 차지훈 주민등록번호 910509-12788205\n연락처 010-9765-2133.\n항목 값\n계좌(패킹) 7851541583031\n[비고] 비고: 추가 식별자 주민번호 741213-16402441",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 1
+  },
+  {
+    "text": "분기 사업 현황 공개 보고\n\n당사는 이번 분기 매출이 전년 대비 안정적인 성장세를 보였습니다.\n신규 오픈소스 라이선스 가이드라인을 사내 위키에 공개했습니다.\n전 직원 대상 공개 세미나가 다음 주 대강당에서 진행됩니다.\n주문번호 ORD-2023-889745 로 배송 상태를 조회할 수 있습니다.",
+    "grade": "O",
+    "gen": "template:corpus",
+    "diff": 2
+  },
+  {
+    "text": "오픈소스 릴리스 노트\n\nv2.3.0 에서 성능이 개선되고 버그가 수정되었습니다.\n본 릴리스는 공개 저장소에서 누구나 내려받을 수 있습니다.\n기여 가이드는 CONTRIBUTING 문서를 확인하세요.\n주문번호 ORD-2022-947959 로 배송 상태를 조회할 수 있습니다.",
+    "grade": "O",
+    "gen": "template:corpus",
+    "diff": 2
+  },
+  {
+    "text": "분기 사업 현황 공개 보고\n\n당사는 이번 분기 매출이 전년 대비 안정적인 성장세를 보였습니다.\n신규 오픈소스 라이선스 가이드라인을 사내 위키에 공개했습니다.\n전 직원 대상 공개 세미나가 다음 주 대강당에서 진행됩니다.\n제품 코드 P21911303037 는 공개 카탈로그 식별자입니다.",
+    "grade": "O",
+    "gen": "template:corpus",
+    "diff": 2
+  },
+  {
+    "text": "공개 채용 공고\n\n당사는 백엔드 엔지니어를 공개 채용합니다.\n지원 자격: 관련 경력 3년 이상, 우대사항은 공고 본문을 참고하세요.\n접수는 채용 홈페이지를 통해 진행되며 별도 첨부는 불필요합니다.\n제품 코드 P43680962014 는 공개 카탈로그 식별자입니다.",
+    "grade": "O",
+    "gen": "template:corpus",
+    "diff": 2
+  },
+  {
+    "text": "공개 채용 공고\n\n당사는 백엔드 엔지니어를 공개 채용합니다.\n지원 자격: 관련 경력 3년 이상, 우대사항은 공고 본문을 참고하세요.\n접수는 채용 홈페이지를 통해 진행되며 별도 첨부는 불필요합니다.\n주문번호 ORD-2021-726626 로 배송 상태를 조회할 수 있습니다.",
+    "grade": "O",
+    "gen": "template:corpus",
+    "diff": 2
+  },
+  {
+    "text": "분기 사업 현황 공개 보고\n\n당사는 이번 분기 매출이 전년 대비 안정적인 성장세를 보였습니다.\n신규 오픈소스 라이선스 가이드라인을 사내 위키에 공개했습니다.\n전 직원 대상 공개 세미나가 다음 주 대강당에서 진행됩니다.\n주문번호 ORD-2020-429267 로 배송 상태를 조회할 수 있습니다.",
+    "grade": "O",
+    "gen": "template:corpus",
+    "diff": 2
+  },
+  {
+    "text": "분기 사업 현황 공개 보고\n\n당사는 이번 분기 매출이 전년 대비 안정적인 성장세를 보였습니다.\n신규 오픈소스 라이선스 가이드라인을 사내 위키에 공개했습니다.\n전 직원 대상 공개 세미나가 다음 주 대강당에서 진행됩니다.\n제품 코드 P29125644209 는 공개 카탈로그 식별자입니다.",
+    "grade": "O",
+    "gen": "template:corpus",
+    "diff": 2
+  },
+  {
+    "text": "분기 사업 현황 공개 보고\n\n당사는 이번 분기 매출이 전년 대비 안정적인 성장세를 보였습니다.\n신규 오픈소스 라이선스 가이드라인을 사내 위키에 공개했습니다.\n전 직원 대상 공개 세미나가 다음 주 대강당에서 진행됩니다.\n제품 코드 P318012356946 는 공개 카탈로그 식별자입니다.",
+    "grade": "O",
+    "gen": "template:corpus",
+    "diff": 2
+  },
+  {
+    "text": "공개 채용 공고\n\n당사는 백엔드 엔지니어를 공개 채용합니다.\n지원 자격: 관련 경력 3년 이상, 우대사항은 공고 본문을 참고하세요.\n접수는 채용 홈페이지를 통해 진행되며 별도 첨부는 불필요합니다.\n본 자료에는 기밀이 포함되어 있지 않으며 자유롭게 배포 가능합니다.",
+    "grade": "O",
+    "gen": "template:corpus",
+    "diff": 2
+  },
+  {
+    "text": "교육 신청 안내\n\n교육 신청 안내 안내드립니다. 자세한 사항은 담당자에게 문의 바랍니다.\n담당자 장은서, 연락처 010-4637-1311, 이메일 esool5@company.co.kr",
+    "grade": "S",
+    "gen": "template:corpus",
+    "diff": 2
+  },
+  {
+    "text": "공지 — 담당자 연락 안내\n\n공지 — 담당자 연락 안내 안내드립니다. 자세한 사항은 담당자에게 문의 바랍니다.\n담당자 박도윤, 연락처 010-7759-6985, 이메일 cyqiwbq83@kakao.com",
+    "grade": "S",
+    "gen": "template:corpus",
+    "diff": 2
+  },
+  {
+    "text": "교육 신청 안내\n\n교육 신청 안내 안내드립니다. 자세한 사항은 담당자에게 문의 바랍니다.\n담당자 양수아, 연락처 010-2399-2494, 이메일 jbmodhv29@kakao.com",
+    "grade": "S",
+    "gen": "template:corpus",
+    "diff": 2
+  },
+  {
+    "text": "교육 신청 안내\n\n교육 신청 안내 안내드립니다. 자세한 사항은 담당자에게 문의 바랍니다.\n담당자 유예준, 연락처 010-4888-9742, 이메일 jmtgidmbt11@naver.com",
+    "grade": "S",
+    "gen": "template:corpus",
+    "diff": 2
+  },
+  {
+    "text": "행사 안내 및 문의처\n\n행사 안내 및 문의처 안내드립니다. 자세한 사항은 담당자에게 문의 바랍니다.\n담당자 신서준, 연락처 010-1469-9533, 이메일 ffryvftin4@kakao.com",
+    "grade": "S",
+    "gen": "template:corpus",
+    "diff": 2
+  },
+  {
+    "text": "교육 신청 안내\n\n교육 신청 안내 안내드립니다. 자세한 사항은 담당자에게 문의 바랍니다.\n담당자 김서연, 연락처 010-1501-6670, 이메일 lbgwbxeg1@gmail.com",
+    "grade": "S",
+    "gen": "template:corpus",
+    "diff": 2
+  },
+  {
+    "text": "행사 안내 및 문의처\n\n행사 안내 및 문의처 안내드립니다. 자세한 사항은 담당자에게 문의 바랍니다.\n담당자 유민서, 연락처 010-1676-3376, 이메일 yxwentd20@kakao.com",
+    "grade": "S",
+    "gen": "template:corpus",
+    "diff": 2
+  },
+  {
+    "text": "행사 안내 및 문의처\n\n행사 안내 및 문의처 안내드립니다. 자세한 사항은 담당자에게 문의 바랍니다.\n담당자 권하은, 연락처 010-5193-4305, 이메일 stdmnrts86@daum.net",
+    "grade": "S",
+    "gen": "template:corpus",
+    "diff": 2
+  },
+  {
+    "text": "공지 — 담당자 연락 안내\n\n공지 — 담당자 연락 안내 안내드립니다. 자세한 사항은 담당자에게 문의 바랍니다.\n담당자 서성민, 연락처 010-7296-4756, 이메일 uawgaycdf21@daum.net",
+    "grade": "S",
+    "gen": "template:corpus",
+    "diff": 2
+  },
+  {
+    "text": "교육 신청 안내\n\n교육 신청 안내 안내드립니다. 자세한 사항은 담당자에게 문의 바랍니다.\n담당자 오다은, 연락처 010-6444-9449, 이메일 myeqpck10@gmail.com",
+    "grade": "S",
+    "gen": "template:corpus",
+    "diff": 2
+  },
+  {
+    "text": "교육 신청 안내\n\n교육 신청 안내 안내드립니다. 자세한 사항은 담당자에게 문의 바랍니다.\n담당자 문건우, 연락처 010-6951-9273, 이메일 qvexczwhi6@daum.net",
+    "grade": "S",
+    "gen": "template:corpus",
+    "diff": 2
+  },
+  {
+    "text": "행사 안내 및 문의처\n\n행사 안내 및 문의처 안내드립니다. 자세한 사항은 담당자에게 문의 바랍니다.\n담당자 한소율, 연락처 010-9477-6748, 이메일 algjdl59@naver.com",
+    "grade": "S",
+    "gen": "template:corpus",
+    "diff": 2
+  },
+  {
+    "text": "공지 — 담당자 연락 안내\n\n공지 — 담당자 연락 안내 안내드립니다. 문의는 첨부된 담당자 정보를 참고하세요.\n[비고] 담당자 송건우, 연락처 010-4054-3464, 이메일 olxkeabwp72@daum.net",
+    "grade": "S",
+    "gen": "template:corpus",
+    "diff": 2
+  },
+  {
+    "text": "행사 안내 및 문의처\n\n행사 안내 및 문의처 안내드립니다. 문의는 첨부된 담당자 정보를 참고하세요.\n[비고] 담당자 조서준, 연락처 010-9456-4692, 이메일 smbbgqogj33@kakao.com",
+    "grade": "S",
+    "gen": "template:corpus",
+    "diff": 2
+  },
+  {
+    "text": "행사 안내 및 문의처\n\n행사 안내 및 문의처 안내드립니다. 문의는 첨부된 담당자 정보를 참고하세요.\n[비고] 담당자 문서연, 연락처 010-2071-9126, 이메일 etjpubnn92@daum.net",
+    "grade": "S",
+    "gen": "template:corpus",
+    "diff": 2
+  },
+  {
+    "text": "공지 — 담당자 연락 안내\n\n공지 — 담당자 연락 안내 안내드립니다. 문의는 첨부된 담당자 정보를 참고하세요.\n[비고] 담당자 오예준, 연락처 010-1348-9930, 이메일 iouwef2@company.co.kr",
+    "grade": "S",
+    "gen": "template:corpus",
+    "diff": 2
+  },
+  {
+    "text": "행사 안내 및 문의처\n\n행사 안내 및 문의처 안내드립니다. 문의는 첨부된 담당자 정보를 참고하세요.\n[비고] 담당자 남소율, 연락처 010-9376-6506, 이메일 fbypjevxx51@gmail.com",
+    "grade": "S",
+    "gen": "template:corpus",
+    "diff": 2
+  },
+  {
+    "text": "행사 안내 및 문의처\n\n행사 안내 및 문의처 안내드립니다. 문의는 첨부된 담당자 정보를 참고하세요.\n[비고] 담당자 장준영, 연락처 010-6757-8537, 이메일 klirvhj37@naver.com",
+    "grade": "S",
+    "gen": "template:corpus",
+    "diff": 2
+  },
+  {
+    "text": "행사 안내 및 문의처\n\n행사 안내 및 문의처 안내드립니다. 문의는 첨부된 담당자 정보를 참고하세요.\n[비고] 담당자 전성민, 연락처 010-9216-8385, 이메일 ltjevoyw87@gmail.com",
+    "grade": "S",
+    "gen": "template:corpus",
+    "diff": 2
+  },
+  {
+    "text": "행사 안내 및 문의처\n\n행사 안내 및 문의처 안내드립니다. 문의는 첨부된 담당자 정보를 참고하세요.\n[비고] 담당자 차지훈, 연락처 010-8324-5846, 이메일 vuryq97@daum.net",
+    "grade": "S",
+    "gen": "template:corpus",
+    "diff": 2
+  },
+  {
+    "text": "공지 — 담당자 연락 안내\n\n공지 — 담당자 연락 안내 안내드립니다. 문의는 첨부된 담당자 정보를 참고하세요.\n[비고] 담당자 남은서, 연락처 010-1792-9447, 이메일 kqkpmpw83@daum.net",
+    "grade": "S",
+    "gen": "template:corpus",
+    "diff": 2
+  },
+  {
+    "text": "공지 — 담당자 연락 안내\n\n공지 — 담당자 연락 안내 안내드립니다. 문의는 첨부된 담당자 정보를 참고하세요.\n[비고] 담당자 한준영, 연락처 010-5398-7245, 이메일 qshomeg24@company.co.kr",
+    "grade": "S",
+    "gen": "template:corpus",
+    "diff": 2
+  },
+  {
+    "text": "교육 신청 안내\n\n교육 신청 안내 안내드립니다. 문의는 첨부된 담당자 정보를 참고하세요.\n[비고] 담당자 최소율, 연락처 010-9472-6192, 이메일 jovefvlfj24@gmail.com",
+    "grade": "S",
+    "gen": "template:corpus",
+    "diff": 2
+  },
+  {
+    "text": "행사 안내 및 문의처\n\n행사 안내 및 문의처 안내드립니다. 문의는 첨부된 담당자 정보를 참고하세요.\n[비고] 담당자 권예준, 연락처 010-6266-7734, 이메일 dyimytljs39@kakao.com",
+    "grade": "S",
+    "gen": "template:corpus",
+    "diff": 2
+  },
+  {
+    "text": "[기밀] 경영 전략 검토 자료\n\n기밀. 본 문서는 지정된 임직원만 열람할 수 있습니다.\n담당 유지호 (010-5982-1029).\n전략 방향성 및 투자 우선순위는 본문을 참조하십시오.",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 2
+  },
+  {
+    "text": "임직원 신원 확인 자료\n\n임직원 신원 확인 자료. 개인정보보호법에 따라 비식별 처리 대상입니다.\n성명 조민준 신용카드번호 5302-3924-4516-7104\n연락처 010-5755-4138.",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 2
+  },
+  {
+    "text": "전 직원 비상연락망\n\n전 직원 비상연락망 (15명). 외부 유출 금지.\n성명 휴대폰 이메일\n한다은 010-7339-6550 vnjafpvxq77@naver.com\n김지훈 010-3643-6979 ytxivfjvi98@kakao.com\n장도윤 010-4428-5743 rcveow45@kakao.com\n조서준 010-6168-5106 fivtwsfb10@company.co.kr\n한소율 010-5018-3409 itumi51@kakao.com\n강유진 010-7361-6205 pokoxyfn56@naver.com\n윤성민 010-2432-6302 ufgrcpsq44@gmail.com\n강민준 010-9112-6661 cmxzwvx88@kakao.com\n양민서 010-9099-5209 offrqs87@company.co.kr\n정지우 010-9265-5230 ucvdlepju3@company.co.kr\n노수아 010-5541-9163 smwvmqz26@naver.com\n윤서준 010-5088-4152 qebtkn48@kakao.com\n한지훈 010-1388-2375 iqcnrbh91@gmail.com\n장도윤 010-4036-2215 lrdpzis15@kakao.com\n조준영 010-9970-1151 glfzyf74@gmail.com",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 2
+  },
+  {
+    "text": "운영 서버 접속 정보\n\n운영계 접속 키: api_key=t412ySCf6yh0Lymyl7UMNR6D75hyQxTIJ5N\n백업 자격증명: AKIANARIJFQT5WZQCFF7\n담당 배다은 xmsiysc99@kakao.com.",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 2
+  },
+  {
+    "text": "전 직원 비상연락망\n\n전 직원 비상연락망 (15명). 외부 유출 금지.\n성명 휴대폰 이메일\n남지우 010-6641-6922 jbqwuhl63@naver.com\n신지훈 010-4560-2462 khxutz61@daum.net\n박수아 010-1418-1039 prhydsln68@company.co.kr\n전준영 010-6512-5655 yimscv40@kakao.com\n신예준 010-5500-4621 laukjbjy52@naver.com\n차소율 010-7272-5513 pvowd71@naver.com\n차민서 010-2140-7849 zbbmrr39@kakao.com\n배서연 010-5049-5519 udqepe18@naver.com\n권예준 010-4599-5640 esdkrm78@daum.net\n남성민 010-4455-4579 zpifztpz58@company.co.kr\n전건우 010-9658-7154 hchtwvm48@naver.com\n오지우 010-8435-5385 azofw54@gmail.com\n배건우 010-8354-2727 oyboqz79@company.co.kr\n최다은 010-1617-3978 ukviwend96@company.co.kr\n장서준 010-6096-6349 kvyqpwq42@daum.net",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 2
+  },
+  {
+    "text": "해외 출장자 여권 정보\n\n해외 출장자 여권 정보. 개인정보보호법에 따라 비식별 처리 대상입니다.\n예금주 백수아 계좌 농협 186-4147-8802920\n연락처 010-3457-7151.",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 2
+  },
+  {
+    "text": "[Confidential] 경영 전략 검토 자료\n\nConfidential. 본 문서는 지정된 임직원만 열람할 수 있습니다.\n담당 노은서 (010-4761-6207).\n전략 방향성 및 투자 우선순위는 본문을 참조하십시오.",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 2
+  },
+  {
+    "text": "운영 서버 접속 정보\n\n운영계 접속 키: api_key=Ps02zOIZtm3Dgzuumns3bjDH6Rt9azVt\n백업 자격증명: AKIA3UFXDMWWM3CXLSWQ\n담당 윤유진 fcixayeye83@naver.com.",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 2
+  },
+  {
+    "text": "임직원 신원 확인 자료\n\n임직원 신원 확인 자료. 개인정보보호법에 따라 비식별 처리 대상입니다.\n성명 김건우 주민등록번호 770512-13737718\n연락처 010-5867-1333.",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 2
+  },
+  {
+    "text": "운영 서버 접속 정보\n\n운영계 접속 키: api_key=ca5ohuXtie9HgW1ugPp8StLhRNFKfJ\n백업 자격증명: AKIACTW3P4BOZ4WVHQVY\n담당 황도윤 kbwcoxaxd90@daum.net.",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 2
+  },
+  {
+    "text": "전 직원 비상연락망\n\n전 직원 비상연락망 (16명). 외부 유출 금지.\n성명 휴대폰 이메일\n전서준 010-5519-2613 ilhiwfdq1@kakao.com\n오서준 010-4374-3206 ummtkwzup43@daum.net\n임건우 010-3116-4302 spktko70@kakao.com\n임민준 010-6228-1910 nuyaifi13@kakao.com\n강서준 010-1075-5708 uyyqgl98@gmail.com\n임서준 010-2945-6946 hzaqkigwd82@naver.com\n황지우 010-3241-9810 giffi82@daum.net\n정지우 010-5012-7842 rnklfls82@company.co.kr\n전성민 010-5135-4672 wjqjndny58@company.co.kr\n유다은 010-7697-8517 gzjgy52@naver.com\n유민준 010-1245-8923 csxfo34@naver.com\n최지우 010-5302-8711 yfffqrik23@gmail.com\n백도윤 010-9193-1263 ojyvq94@company.co.kr\n백주원 010-8113-3305 lsfwr29@daum.net\n오지훈 010-4567-2235 mcvkmrl98@naver.com\n박지우 010-1048-4248 xlcyrny50@kakao.com",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 2
+  },
+  {
+    "text": "[기밀] 경영 전략 검토 자료\n\n기밀. 본 문서는 지정된 임직원만 열람할 수 있습니다.\n담당 박건우 (010-8329-7878).\n전략 방향성 및 투자 우선순위는 본문을 참조하십시오.",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 2
+  },
+  {
+    "text": "[Confidential] 경영 전략 검토 자료\n\nConfidential. 본 문서는 지정된 임직원만 열람할 수 있습니다.\n담당 장지우 (010-6916-3640).\n전략 방향성 및 투자 우선순위는 본문을 참조하십시오.\n항목 값\n계좌(패킹) 70798349763338\n[비고] 비고: 추가 식별자 주민번호 760515-29958657",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 2
+  },
+  {
+    "text": "급여 계좌 등록 명부\n\n급여 계좌 등록 명부. 개인정보보호법에 따라 비식별 처리 대상입니다.\n성명 전서준 신용카드번호 5113-3250-9728-9502\n연락처 010-8958-4681.\n항목 값\n계좌(패킹) 13143311802596\n[비고] 비고: 추가 식별자 주민번호 721127-29371253",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 2
+  },
+  {
+    "text": "[극비] 경영 전략 검토 자료\n\n극비. 본 문서는 지정된 임직원만 열람할 수 있습니다.\n담당 한성민 (010-2029-5820).\n전략 방향성 및 투자 우선순위는 본문을 참조하십시오.\n항목 값\n계좌(패킹) 68773571503462\n[비고] 비고: 추가 식별자 주민번호 680601-25649120",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 2
+  },
+  {
+    "text": "[극비] 경영 전략 검토 자료\n\n극비. 본 문서는 지정된 임직원만 열람할 수 있습니다.\n담당 권예준 (010-6037-5335).\n전략 방향성 및 투자 우선순위는 본문을 참조하십시오.\n항목 값\n계좌(패킹) 3161753362630\n[비고] 비고: 추가 식별자 주민번호 610708-15723936",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 2
+  },
+  {
+    "text": "[대외비] 경영 전략 검토 자료\n\n대외비. 본 문서는 지정된 임직원만 열람할 수 있습니다.\n담당 오수아 (010-8376-8172).\n전략 방향성 및 투자 우선순위는 본문을 참조하십시오.\n항목 값\n계좌(패킹) 4647775214030\n[비고] 비고: 추가 식별자 주민번호 970718-17230804",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 2
+  },
+  {
+    "text": "해외 출장자 여권 정보\n\n해외 출장자 여권 정보. 개인정보보호법에 따라 비식별 처리 대상입니다.\n예금주 안민준 계좌 신한 300-6193-5276200\n연락처 010-6204-7677.\n[비고] 비고: 추가 식별자 주민번호 990427-21476859",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 2
+  },
+  {
+    "text": "전 직원 비상연락망\n\n전 직원 비상연락망 (13명). 외부 유출 금지.\n성명 휴대폰 이메일\n양도윤 010-4077-8200 hnxkrozak5@kakao.com\n정서준 010-5534-7860 abpasze81@naver.com\n신유진 010-5000-2961 supji68@company.co.kr\n박은서 010-3301-1258 aaqmh42@kakao.com\n권유진 010-2213-6861 dswvvfdd68@kakao.com\n조서준 010-8102-3314 imxvzkagn86@company.co.kr\n신현우 010-2490-7343 mqmemydb40@gmail.com\n윤지호 010-4945-9571 uksmlvh47@daum.net\n양현우 010-5281-9921 orwko23@kakao.com\n윤다은 010-8473-2572 guywyrqf31@daum.net\n정다은 010-5881-3599 xlnhapy37@company.co.kr\n박은서 010-3599-2248 kxgxt11@kakao.com\n조현우 010-8704-5419 yyvyaqd90@daum.net\n[비고] 비고: 추가 식별자 주민번호 610309-18367639",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 2
+  },
+  {
+    "text": "[Confidential] 경영 전략 검토 자료\n\nConfidential. 본 문서는 지정된 임직원만 열람할 수 있습니다.\n담당 서현우 (010-3302-5708).\n전략 방향성 및 투자 우선순위는 본문을 참조하십시오.\n항목 값\n계좌(패킹) 90752895272930\n[비고] 비고: 추가 식별자 주민번호 800216-17208860",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 2
+  },
+  {
+    "text": "운영 서버 접속 정보\n\n운영계 접속 키: api_key=RPRwGPeg9qKQnUNNMCO1LqZNBoukEc1hIV1lD\n백업 자격증명: AKIAD3MWGJFWKHJGL6OG\n담당 윤성민 etqnogs3@daum.net.\n항목 값\n계좌(패킹) 9877063976204\n[비고] 비고: 추가 식별자 주민번호 970112-19609641",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 2
+  },
+  {
+    "text": "전 직원 비상연락망\n\n전 직원 비상연락망 (15명). 외부 유출 금지.\n성명 휴대폰 이메일\n임주원 010-6992-8465 nzaqytiq52@naver.com\n신민준 010-2509-7573 zaoondw38@company.co.kr\n신지우 010-5908-8044 fvsbzqazy95@gmail.com\n오현우 010-1368-8727 vfoye34@daum.net\n임소율 010-2011-1777 akccqhy72@naver.com\n노민준 010-7581-4080 ytcearsv9@kakao.com\n강수아 010-3421-2018 dvgvhufw21@naver.com\n최민준 010-1503-6556 olytzspvj74@company.co.kr\n유지훈 010-2508-6022 akmvuqmnu29@naver.com\n유수아 010-8908-7529 ybfecug89@gmail.com\n배서연 010-3118-7189 vthwkw77@company.co.kr\n임지호 010-8864-7813 xcyqymwf91@gmail.com\n양도윤 010-3558-1969 slejrh94@company.co.kr\n강다은 010-5615-1163 jmejfxbm88@kakao.com\n조소율 010-5785-8861 pnbwfro88@naver.com\n[비고] 비고: 추가 식별자 주민번호 920120-18623591",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 2
+  },
+  {
+    "text": "임직원 신원 확인 자료\n\n임직원 신원 확인 자료. 개인정보보호법에 따라 비식별 처리 대상입니다.\n성명 황서연 주민등록번호 750928-13634639\n연락처 010-1958-5473.\n항목 값\n계좌(패킹) 88747526031701\n[비고] 비고: 추가 식별자 주민번호 680514-10753939",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 2
+  },
+  {
+    "text": "임직원 신원 확인 자료\n\n임직원 신원 확인 자료. 개인정보보호법에 따라 비식별 처리 대상입니다.\n예금주 안유진 계좌 국민 318-3886-1718555\n연락처 010-9803-3216.\n[비고] 비고: 추가 식별자 주민번호 970224-17653853",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 2
+  },
+  {
+    "text": "담당자 연락처 목록\n\n담당자 연락처 목록 (5명).\n성명 연락처 이메일\n전민서 010-4591-8081 zqziep90@company.co.kr\n배준영 010-9563-3235 rhrsbhe68@naver.com\n전예준 010-5768-2856 aaznxt52@daum.net\n양유진 010-9132-6912 srchl14@daum.net\n차서연 010-6047-3216 qckybsgdb46@kakao.com",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 2
+  },
+  {
+    "text": "담당자 연락처 목록\n\n담당자 연락처 목록 (4명).\n성명 연락처 이메일\n김준영 010-8503-7613 lwclhzgal11@company.co.kr\n권서연 010-9845-1060 nmsxtgruu82@kakao.com\n한유진 010-1316-4371 sjbpqtdl74@daum.net\n권수아 010-8822-5100 gtwrcxh10@daum.net",
+    "grade": "S",
+    "gen": "template:corpus",
+    "diff": 2
+  },
+  {
+    "text": "담당자 연락처 목록\n\n담당자 연락처 목록 (6명).\n성명 연락처 이메일\n윤지호 010-6370-9398 jzuqzk93@gmail.com\n노주원 010-1914-3730 vihyuzbo54@daum.net\n임하은 010-8620-5818 xdbvrme49@naver.com\n황성민 010-7535-7557 lwjsm61@gmail.com\n전도윤 010-2247-2265 ivaigbon88@daum.net\n배주원 010-8625-7899 chqxek12@company.co.kr",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 2
+  },
+  {
+    "text": "담당자 연락처 목록\n\n담당자 연락처 목록 (7명).\n성명 연락처 이메일\n문소율 010-2585-4645 qcdvflvk84@company.co.kr\n강민준 010-6664-8778 qusuu66@kakao.com\n유민서 010-3787-2498 ihphh70@company.co.kr\n노도윤 010-7686-4547 criam96@kakao.com\n최지호 010-2077-2830 nwbqoni33@naver.com\n백하은 010-5187-5099 pdgbw59@naver.com\n양수아 010-6897-8901 zfnhhhc56@daum.net",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 2
+  },
+  {
+    "text": "담당자 연락처 목록\n\n담당자 연락처 목록 (7명).\n성명 연락처 이메일\n장민준 010-7782-4927 kdeyvxgo13@company.co.kr\n한지우 010-5958-5926 qkbozbdqc29@daum.net\n강지호 010-9663-9424 cswhvvx98@daum.net\n안민준 010-4727-4298 xqmiereo18@daum.net\n임현우 010-6204-2731 fgkcok56@company.co.kr\n차지훈 010-5229-6999 digcm32@kakao.com\n문주원 010-2087-1192 hvhgfrb71@naver.com",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 2
+  },
+  {
+    "text": "담당자 연락처 목록\n\n담당자 연락처 목록 (7명).\n성명 연락처 이메일\n박건우 010-7836-3341 zmqorfy37@daum.net\n강서준 010-5157-4096 fyqhplc65@gmail.com\n조지호 010-7882-7623 nczxwhkcj92@gmail.com\n유민서 010-8412-3071 ujsov8@kakao.com\n전건우 010-7555-7725 orbmb32@company.co.kr\n전서연 010-8345-8264 tafkds88@kakao.com\n배지훈 010-6846-3597 qioru99@kakao.com",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 2
+  },
+  {
+    "text": "담당자 연락처 목록\n\n담당자 연락처 목록 (6명).\n성명 연락처 이메일\n윤소율 010-6621-8291 vgchmbyp43@daum.net\n박소율 010-4309-1342 qlbofvapk6@naver.com\n노유진 010-6720-3570 xgsqezne95@daum.net\n전도윤 010-5057-5890 odfapdy64@daum.net\n윤준영 010-7430-3869 ehnvnaezo65@gmail.com\n한다은 010-7031-4447 jkdrhsiy29@daum.net",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 2
+  },
+  {
+    "text": "담당자 연락처 목록\n\n담당자 연락처 목록 (7명).\n성명 연락처 이메일\n안지우 010-2694-8782 sqtunb18@kakao.com\n차성민 010-8357-2181 jyyph85@daum.net\n노서준 010-3957-4117 mxfqej69@kakao.com\n서하은 010-1334-3040 prfiv59@kakao.com\n강준영 010-2562-9738 laezx30@daum.net\n유서준 010-1664-3942 haibnluz39@daum.net\n조수아 010-2475-4215 dhqdhiv40@company.co.kr",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 2
+  },
+  {
+    "text": "담당자 연락처 목록\n\n담당자 연락처 목록 (6명).\n성명 연락처 이메일\n백유진 010-4226-2061 bleqaj77@company.co.kr\n임민서 010-3466-9622 udhpxg54@gmail.com\n백성민 010-1660-7789 ryytmt22@naver.com\n조서연 010-2217-4157 tswwo3@kakao.com\n윤서준 010-7389-3874 heocyh15@company.co.kr\n오서연 010-1430-9130 husnv36@gmail.com",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 2
+  },
+  {
+    "text": "담당자 연락처 목록\n\n담당자 연락처 목록 (4명).\n성명 연락처 이메일\n한성민 010-2866-6142 tsfzjjdzd23@daum.net\n강민서 010-1558-4952 bqfxxjx73@gmail.com\n송소율 010-4336-5714 rdqmhrw94@gmail.com\n문성민 010-4868-9020 ltwyqct17@kakao.com",
+    "grade": "S",
+    "gen": "template:corpus",
+    "diff": 2
+  },
+  {
+    "text": "담당자 연락처 목록\n\n담당자 연락처 목록 (4명).\n성명 연락처 이메일\n김소율 010-9750-5195 gomwmrx61@kakao.com\n임서준 010-3129-7548 tsvfnua46@naver.com\n박성민 010-8914-5959 yzmkeoeij69@kakao.com\n백성민 010-9905-9060 ciiqxdx32@kakao.com",
+    "grade": "S",
+    "gen": "template:corpus",
+    "diff": 2
+  },
+  {
+    "text": "담당자 연락처 목록\n\n담당자 연락처 목록 (4명).\n성명 연락처 이메일\n문민서 010-6980-5007 khagngt1@daum.net\n서서준 010-3495-6446 tehzhe78@company.co.kr\n문성민 010-1247-4174 zgsfnkl20@gmail.com\n서민준 010-7169-5245 cywigsiwe44@company.co.kr",
+    "grade": "S",
+    "gen": "template:corpus",
+    "diff": 2
+  },
+  {
+    "text": "공개 카탈로그 / 정산 안내\n\n본 안내는 공개 자료입니다.\n문서 일련번호 P5958817862730 / 접수번호 358906494962.\n관련 절차는 표준 운영 지침을 따릅니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.",
+    "grade": "O",
+    "gen": "template:corpus",
+    "diff": 2
+  },
+  {
+    "text": "공개 카탈로그 / 정산 안내\n\n본 안내는 공개 자료입니다.\n문서 일련번호 P5167232848084 / 접수번호 836204555217.\n본 문서의 효력은 게시일로부터 발생합니다.\n세부 일정은 추후 별도 공지될 예정입니다.",
+    "grade": "O",
+    "gen": "template:corpus",
+    "diff": 2
+  },
+  {
+    "text": "공개 카탈로그 / 정산 안내\n\n본 안내는 공개 자료입니다.\n문서 일련번호 P3626867608 / 접수번호 861368180771.\n관련 절차는 표준 운영 지침을 따릅니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.",
+    "grade": "O",
+    "gen": "template:corpus",
+    "diff": 2
+  },
+  {
+    "text": "공개 카탈로그 / 정산 안내\n\n본 안내는 공개 자료입니다.\n문서 일련번호 P094542623100 / 접수번호 888458250751.\n세부 일정은 추후 별도 공지될 예정입니다.\n관련 절차는 표준 운영 지침을 따릅니다.",
+    "grade": "O",
+    "gen": "template:corpus",
+    "diff": 2
+  },
+  {
+    "text": "공개 카탈로그 / 정산 안내\n\n본 안내는 공개 자료입니다.\n문서 일련번호 P1729732651 / 접수번호 980725023283.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n본 문서의 효력은 게시일로부터 발생합니다.",
+    "grade": "O",
+    "gen": "template:corpus",
+    "diff": 2
+  },
+  {
+    "text": "공개 카탈로그 / 정산 안내\n\n본 안내는 공개 자료입니다.\n정산 일련번호 65011014317465 로 조회 가능합니다(개인정보 아님).\n관련 절차는 표준 운영 지침을 따릅니다.\n본 안내는 사내 전 구성원에게 공유됩니다.",
+    "grade": "O",
+    "gen": "template:corpus",
+    "diff": 2
+  },
+  {
+    "text": "공개 카탈로그 / 정산 안내\n\n본 안내는 공개 자료입니다.\n문서 일련번호 P18888766803 / 접수번호 905443366227.\n관련 절차는 표준 운영 지침을 따릅니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.",
+    "grade": "O",
+    "gen": "template:corpus",
+    "diff": 2
+  },
+  {
+    "text": "공개 카탈로그 / 정산 안내\n\n본 안내는 공개 자료입니다.\n상품 코드 5125-1888-8124-1097 는 공개 SKU 식별자입니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.",
+    "grade": "O",
+    "gen": "template:corpus",
+    "diff": 2
+  },
+  {
+    "text": "공개 카탈로그 / 정산 안내\n\n본 안내는 공개 자료입니다.\n문서 일련번호 P61845214507 / 접수번호 756466972006.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n세부 일정은 추후 별도 공지될 예정입니다.",
+    "grade": "O",
+    "gen": "template:corpus",
+    "diff": 2
+  },
+  {
+    "text": "공개 카탈로그 / 정산 안내\n\n본 안내는 공개 자료입니다.\n문서 일련번호 P29438716430 / 접수번호 271277843867.\n본 문서의 효력은 게시일로부터 발생합니다.\n본 안내는 사내 전 구성원에게 공유됩니다.",
+    "grade": "O",
+    "gen": "template:corpus",
+    "diff": 2
+  },
+  {
+    "text": "공개 카탈로그 / 정산 안내\n\n본 안내는 공개 자료입니다.\n문서 일련번호 P1343703549 / 접수번호 689243133487.\n본 문서의 효력은 게시일로부터 발생합니다.\n본 문서의 효력은 게시일로부터 발생합니다.",
+    "grade": "O",
+    "gen": "template:corpus",
+    "diff": 2
+  },
+  {
+    "text": "공개 카탈로그 / 정산 안내\n\n본 안내는 공개 자료입니다.\n정산 일련번호 94111817340260 로 조회 가능합니다(개인정보 아님).\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n세부 일정은 추후 별도 공지될 예정입니다.",
+    "grade": "O",
+    "gen": "template:corpus",
+    "diff": 2
+  },
+  {
+    "text": "공개 채용 공고\n\n본 문서의 효력은 게시일로부터 발생합니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n당사는 백엔드 엔지니어를 공개 채용합니다.\n지원 자격: 관련 경력 3년 이상, 우대사항은 공고 본문을 참고하세요.\n접수는 채용 홈페이지를 통해 진행되며 별도 첨부는 불필요합니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.",
+    "grade": "O",
+    "gen": "template:corpus",
+    "diff": 3
+  },
+  {
+    "text": "공개 채용 공고\n\n세부 일정은 추후 별도 공지될 예정입니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n당사는 백엔드 엔지니어를 공개 채용합니다.\n지원 자격: 관련 경력 3년 이상, 우대사항은 공고 본문을 참고하세요.\n접수는 채용 홈페이지를 통해 진행되며 별도 첨부는 불필요합니다.\n세부 일정은 추후 별도 공지될 예정입니다.\n세부 일정은 추후 별도 공지될 예정입니다.",
+    "grade": "O",
+    "gen": "template:corpus",
+    "diff": 3
+  },
+  {
+    "text": "분기 사업 현황 공개 보고\n\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n당사는 이번 분기 매출이 전년 대비 안정적인 성장세를 보였습니다.\n신규 오픈소스 라이선스 가이드라인을 사내 위키에 공개했습니다.\n전 직원 대상 공개 세미나가 다음 주 대강당에서 진행됩니다.\n본 안내는 사내 전 구성원에게 공유됩니다.\n세부 일정은 추후 별도 공지될 예정입니다.",
+    "grade": "O",
+    "gen": "template:corpus",
+    "diff": 3
+  },
+  {
+    "text": "오픈소스 릴리스 노트\n\n세부 일정은 추후 별도 공지될 예정입니다.\n본 문서의 효력은 게시일로부터 발생합니다.\nv2.3.0 에서 성능이 개선되고 버그가 수정되었습니다.\n본 릴리스는 공개 저장소에서 누구나 내려받을 수 있습니다.\n기여 가이드는 CONTRIBUTING 문서를 확인하세요.\n본 안내는 사내 전 구성원에게 공유됩니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.",
+    "grade": "O",
+    "gen": "template:corpus",
+    "diff": 3
+  },
+  {
+    "text": "공개 채용 공고\n\n본 문서의 효력은 게시일로부터 발생합니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n당사는 백엔드 엔지니어를 공개 채용합니다.\n지원 자격: 관련 경력 3년 이상, 우대사항은 공고 본문을 참고하세요.\n접수는 채용 홈페이지를 통해 진행되며 별도 첨부는 불필요합니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.",
+    "grade": "O",
+    "gen": "template:corpus",
+    "diff": 3
+  },
+  {
+    "text": "오픈소스 릴리스 노트\n\n본 안내는 사내 전 구성원에게 공유됩니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\nv2.3.0 에서 성능이 개선되고 버그가 수정되었습니다.\n본 릴리스는 공개 저장소에서 누구나 내려받을 수 있습니다.\n기여 가이드는 CONTRIBUTING 문서를 확인하세요.\n관련 절차는 표준 운영 지침을 따릅니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.",
+    "grade": "O",
+    "gen": "template:corpus",
+    "diff": 3
+  },
+  {
+    "text": "오픈소스 릴리스 노트\n\n본 문서의 효력은 게시일로부터 발생합니다.\n본 안내는 사내 전 구성원에게 공유됩니다.\nv2.3.0 에서 성능이 개선되고 버그가 수정되었습니다.\n본 릴리스는 공개 저장소에서 누구나 내려받을 수 있습니다.\n기여 가이드는 CONTRIBUTING 문서를 확인하세요.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n관련 절차는 표준 운영 지침을 따릅니다.",
+    "grade": "O",
+    "gen": "template:corpus",
+    "diff": 3
+  },
+  {
+    "text": "오픈소스 릴리스 노트\n\n본 문서의 효력은 게시일로부터 발생합니다.\n본 문서의 효력은 게시일로부터 발생합니다.\nv2.3.0 에서 성능이 개선되고 버그가 수정되었습니다.\n본 릴리스는 공개 저장소에서 누구나 내려받을 수 있습니다.\n기여 가이드는 CONTRIBUTING 문서를 확인하세요.\n본 안내는 사내 전 구성원에게 공유됩니다.\n관련 절차는 표준 운영 지침을 따릅니다.",
+    "grade": "O",
+    "gen": "template:corpus",
+    "diff": 3
+  },
+  {
+    "text": "공개 채용 공고\n\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n본 안내는 사내 전 구성원에게 공유됩니다.\n당사는 백엔드 엔지니어를 공개 채용합니다.\n지원 자격: 관련 경력 3년 이상, 우대사항은 공고 본문을 참고하세요.\n접수는 채용 홈페이지를 통해 진행되며 별도 첨부는 불필요합니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n관련 절차는 표준 운영 지침을 따릅니다.",
+    "grade": "O",
+    "gen": "template:corpus",
+    "diff": 3
+  },
+  {
+    "text": "오픈소스 릴리스 노트\n\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n세부 일정은 추후 별도 공지될 예정입니다.\nv2.3.0 에서 성능이 개선되고 버그가 수정되었습니다.\n본 릴리스는 공개 저장소에서 누구나 내려받을 수 있습니다.\n기여 가이드는 CONTRIBUTING 문서를 확인하세요.\n본 안내는 사내 전 구성원에게 공유됩니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.",
+    "grade": "O",
+    "gen": "template:corpus",
+    "diff": 3
+  },
+  {
+    "text": "공개 채용 공고\n\n관련 절차는 표준 운영 지침을 따릅니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n당사는 백엔드 엔지니어를 공개 채용합니다.\n지원 자격: 관련 경력 3년 이상, 우대사항은 공고 본문을 참고하세요.\n접수는 채용 홈페이지를 통해 진행되며 별도 첨부는 불필요합니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n세부 일정은 추후 별도 공지될 예정입니다.",
+    "grade": "O",
+    "gen": "template:corpus",
+    "diff": 3
+  },
+  {
+    "text": "공개 채용 공고\n\n관련 절차는 표준 운영 지침을 따릅니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n당사는 백엔드 엔지니어를 공개 채용합니다.\n지원 자격: 관련 경력 3년 이상, 우대사항은 공고 본문을 참고하세요.\n접수는 채용 홈페이지를 통해 진행되며 별도 첨부는 불필요합니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.",
+    "grade": "O",
+    "gen": "template:corpus",
+    "diff": 3
+  },
+  {
+    "text": "공개 채용 공고\n\n본 문서의 효력은 게시일로부터 발생합니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n당사는 백엔드 엔지니어를 공개 채용합니다.\n지원 자격: 관련 경력 3년 이상, 우대사항은 공고 본문을 참고하세요.\n접수는 채용 홈페이지를 통해 진행되며 별도 첨부는 불필요합니다.\n본 자료에는 기밀이 포함되어 있지 않으며 자유롭게 배포 가능합니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n세부 일정은 추후 별도 공지될 예정입니다.",
+    "grade": "O",
+    "gen": "template:corpus",
+    "diff": 3
+  },
+  {
+    "text": "공개 채용 공고\n\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n당사는 백엔드 엔지니어를 공개 채용합니다.\n지원 자격: 관련 경력 3년 이상, 우대사항은 공고 본문을 참고하세요.\n접수는 채용 홈페이지를 통해 진행되며 별도 첨부는 불필요합니다.\n주문번호 ORD-2023-545994 로 배송 상태를 조회할 수 있습니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.",
+    "grade": "O",
+    "gen": "template:corpus",
+    "diff": 3
+  },
+  {
+    "text": "공개 채용 공고\n\n세부 일정은 추후 별도 공지될 예정입니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n당사는 백엔드 엔지니어를 공개 채용합니다.\n지원 자격: 관련 경력 3년 이상, 우대사항은 공고 본문을 참고하세요.\n접수는 채용 홈페이지를 통해 진행되며 별도 첨부는 불필요합니다.\n주문번호 ORD-2023-942993 로 배송 상태를 조회할 수 있습니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n본 문서의 효력은 게시일로부터 발생합니다.",
+    "grade": "O",
+    "gen": "template:corpus",
+    "diff": 3
+  },
+  {
+    "text": "분기 사업 현황 공개 보고\n\n본 안내는 사내 전 구성원에게 공유됩니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n당사는 이번 분기 매출이 전년 대비 안정적인 성장세를 보였습니다.\n신규 오픈소스 라이선스 가이드라인을 사내 위키에 공개했습니다.\n전 직원 대상 공개 세미나가 다음 주 대강당에서 진행됩니다.\n본 자료에는 기밀이 포함되어 있지 않으며 자유롭게 배포 가능합니다.\n본 안내는 사내 전 구성원에게 공유됩니다.\n세부 일정은 추후 별도 공지될 예정입니다.",
+    "grade": "O",
+    "gen": "template:corpus",
+    "diff": 3
+  },
+  {
+    "text": "분기 사업 현황 공개 보고\n\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n본 안내는 사내 전 구성원에게 공유됩니다.\n당사는 이번 분기 매출이 전년 대비 안정적인 성장세를 보였습니다.\n신규 오픈소스 라이선스 가이드라인을 사내 위키에 공개했습니다.\n전 직원 대상 공개 세미나가 다음 주 대강당에서 진행됩니다.\n제품 코드 P8226914817 는 공개 카탈로그 식별자입니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n본 안내는 사내 전 구성원에게 공유됩니다.",
+    "grade": "O",
+    "gen": "template:corpus",
+    "diff": 3
+  },
+  {
+    "text": "공개 채용 공고\n\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n당사는 백엔드 엔지니어를 공개 채용합니다.\n지원 자격: 관련 경력 3년 이상, 우대사항은 공고 본문을 참고하세요.\n접수는 채용 홈페이지를 통해 진행되며 별도 첨부는 불필요합니다.\n주문번호 ORD-2023-165519 로 배송 상태를 조회할 수 있습니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.",
+    "grade": "O",
+    "gen": "template:corpus",
+    "diff": 3
+  },
+  {
+    "text": "분기 사업 현황 공개 보고\n\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n당사는 이번 분기 매출이 전년 대비 안정적인 성장세를 보였습니다.\n신규 오픈소스 라이선스 가이드라인을 사내 위키에 공개했습니다.\n전 직원 대상 공개 세미나가 다음 주 대강당에서 진행됩니다.\n제품 코드 P3753224133 는 공개 카탈로그 식별자입니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n세부 일정은 추후 별도 공지될 예정입니다.",
+    "grade": "O",
+    "gen": "template:corpus",
+    "diff": 3
+  },
+  {
+    "text": "분기 사업 현황 공개 보고\n\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n세부 일정은 추후 별도 공지될 예정입니다.\n당사는 이번 분기 매출이 전년 대비 안정적인 성장세를 보였습니다.\n신규 오픈소스 라이선스 가이드라인을 사내 위키에 공개했습니다.\n전 직원 대상 공개 세미나가 다음 주 대강당에서 진행됩니다.\n주문번호 ORD-2024-301298 로 배송 상태를 조회할 수 있습니다.\n세부 일정은 추후 별도 공지될 예정입니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.",
+    "grade": "O",
+    "gen": "template:corpus",
+    "diff": 3
+  },
+  {
+    "text": "오픈소스 릴리스 노트\n\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n관련 절차는 표준 운영 지침을 따릅니다.\nv2.3.0 에서 성능이 개선되고 버그가 수정되었습니다.\n본 릴리스는 공개 저장소에서 누구나 내려받을 수 있습니다.\n기여 가이드는 CONTRIBUTING 문서를 확인하세요.\n주문번호 ORD-2021-426933 로 배송 상태를 조회할 수 있습니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n본 안내는 사내 전 구성원에게 공유됩니다.",
+    "grade": "O",
+    "gen": "template:corpus",
+    "diff": 3
+  },
+  {
+    "text": "오픈소스 릴리스 노트\n\n본 문서의 효력은 게시일로부터 발생합니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\nv2.3.0 에서 성능이 개선되고 버그가 수정되었습니다.\n본 릴리스는 공개 저장소에서 누구나 내려받을 수 있습니다.\n기여 가이드는 CONTRIBUTING 문서를 확인하세요.\n제품 코드 P21220965672 는 공개 카탈로그 식별자입니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.",
+    "grade": "O",
+    "gen": "template:corpus",
+    "diff": 3
+  },
+  {
+    "text": "오픈소스 릴리스 노트\n\n세부 일정은 추후 별도 공지될 예정입니다.\n세부 일정은 추후 별도 공지될 예정입니다.\nv2.3.0 에서 성능이 개선되고 버그가 수정되었습니다.\n본 릴리스는 공개 저장소에서 누구나 내려받을 수 있습니다.\n기여 가이드는 CONTRIBUTING 문서를 확인하세요.\n주문번호 ORD-2022-509825 로 배송 상태를 조회할 수 있습니다.\n세부 일정은 추후 별도 공지될 예정입니다.\n본 안내는 사내 전 구성원에게 공유됩니다.",
+    "grade": "O",
+    "gen": "template:corpus",
+    "diff": 3
+  },
+  {
+    "text": "공개 채용 공고\n\n관련 절차는 표준 운영 지침을 따릅니다.\n세부 일정은 추후 별도 공지될 예정입니다.\n당사는 백엔드 엔지니어를 공개 채용합니다.\n지원 자격: 관련 경력 3년 이상, 우대사항은 공고 본문을 참고하세요.\n접수는 채용 홈페이지를 통해 진행되며 별도 첨부는 불필요합니다.\n주문번호 ORD-2023-646899 로 배송 상태를 조회할 수 있습니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.",
+    "grade": "O",
+    "gen": "template:corpus",
+    "diff": 3
+  },
+  {
+    "text": "행사 안내 및 문의처\n\n본 안내는 사내 전 구성원에게 공유됩니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n행사 안내 및 문의처 안내드립니다. 자세한 사항은 담당자에게 문의 바랍니다.\n담당자 황서준, 연락처 010-3147-6186, 이메일 mluxwditm10@kakao.com\n세부 일정은 추후 별도 공지될 예정입니다.\n관련 절차는 표준 운영 지침을 따릅니다.",
+    "grade": "S",
+    "gen": "template:corpus",
+    "diff": 3
+  },
+  {
+    "text": "공지 — 담당자 연락 안내\n\n본 문서의 효력은 게시일로부터 발생합니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n공지 — 담당자 연락 안내 안내드립니다. 자세한 사항은 담당자에게 문의 바랍니다.\n담당자 신현우, 연락처 010-3709-1981, 이메일 nwrxdppan27@daum.net\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.",
+    "grade": "S",
+    "gen": "template:corpus",
+    "diff": 3
+  },
+  {
+    "text": "공지 — 담당자 연락 안내\n\n본 안내는 사내 전 구성원에게 공유됩니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n공지 — 담당자 연락 안내 안내드립니다. 자세한 사항은 담당자에게 문의 바랍니다.\n담당자 송은서, 연락처 010-6532-2177, 이메일 otunbyw81@daum.net\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n관련 절차는 표준 운영 지침을 따릅니다.",
+    "grade": "S",
+    "gen": "template:corpus",
+    "diff": 3
+  },
+  {
+    "text": "공지 — 담당자 연락 안내\n\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n공지 — 담당자 연락 안내 안내드립니다. 자세한 사항은 담당자에게 문의 바랍니다.\n담당자 장건우, 연락처 010-5127-1245, 이메일 eeihyg13@gmail.com\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n본 문서의 효력은 게시일로부터 발생합니다.",
+    "grade": "S",
+    "gen": "template:corpus",
+    "diff": 3
+  },
+  {
+    "text": "공지 — 담당자 연락 안내\n\n세부 일정은 추후 별도 공지될 예정입니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n공지 — 담당자 연락 안내 안내드립니다. 자세한 사항은 담당자에게 문의 바랍니다.\n담당자 문지호, 연락처 010-7199-6745, 이메일 qnttrq66@gmail.com\n세부 일정은 추후 별도 공지될 예정입니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.",
+    "grade": "S",
+    "gen": "template:corpus",
+    "diff": 3
+  },
+  {
+    "text": "행사 안내 및 문의처\n\n세부 일정은 추후 별도 공지될 예정입니다.\n세부 일정은 추후 별도 공지될 예정입니다.\n행사 안내 및 문의처 안내드립니다. 자세한 사항은 담당자에게 문의 바랍니다.\n담당자 최예준, 연락처 010-4499-4984, 이메일 nvtipy70@kakao.com\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.",
+    "grade": "S",
+    "gen": "template:corpus",
+    "diff": 3
+  },
+  {
+    "text": "행사 안내 및 문의처\n\n본 문서의 효력은 게시일로부터 발생합니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n행사 안내 및 문의처 안내드립니다. 자세한 사항은 담당자에게 문의 바랍니다.\n담당자 박민준, 연락처 010-1560-5297, 이메일 hboqyfb9@daum.net\n본 안내는 사내 전 구성원에게 공유됩니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.",
+    "grade": "S",
+    "gen": "template:corpus",
+    "diff": 3
+  },
+  {
+    "text": "교육 신청 안내\n\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n교육 신청 안내 안내드립니다. 자세한 사항은 담당자에게 문의 바랍니다.\n담당자 오지훈, 연락처 010-7130-1267, 이메일 bpntnrqnt46@gmail.com\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n본 안내는 사내 전 구성원에게 공유됩니다.",
+    "grade": "S",
+    "gen": "template:corpus",
+    "diff": 3
+  },
+  {
+    "text": "공지 — 담당자 연락 안내\n\n세부 일정은 추후 별도 공지될 예정입니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n공지 — 담당자 연락 안내 안내드립니다. 자세한 사항은 담당자에게 문의 바랍니다.\n담당자 장하은, 연락처 010-6026-5729, 이메일 inuaem34@daum.net\n세부 일정은 추후 별도 공지될 예정입니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.",
+    "grade": "S",
+    "gen": "template:corpus",
+    "diff": 3
+  },
+  {
+    "text": "공지 — 담당자 연락 안내\n\n본 안내는 사내 전 구성원에게 공유됩니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n공지 — 담당자 연락 안내 안내드립니다. 자세한 사항은 담당자에게 문의 바랍니다.\n담당자 강민준, 연락처 010-2924-9047, 이메일 ttueodhac86@company.co.kr\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n본 문서의 효력은 게시일로부터 발생합니다.",
+    "grade": "S",
+    "gen": "template:corpus",
+    "diff": 3
+  },
+  {
+    "text": "행사 안내 및 문의처\n\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n행사 안내 및 문의처 안내드립니다. 자세한 사항은 담당자에게 문의 바랍니다.\n담당자 박민준, 연락처 010-8997-6281, 이메일 fxmfvbq4@kakao.com\n세부 일정은 추후 별도 공지될 예정입니다.\n본 문서의 효력은 게시일로부터 발생합니다.",
+    "grade": "S",
+    "gen": "template:corpus",
+    "diff": 3
+  },
+  {
+    "text": "행사 안내 및 문의처\n\n본 문서의 효력은 게시일로부터 발생합니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n행사 안내 및 문의처 안내드립니다. 자세한 사항은 담당자에게 문의 바랍니다.\n담당자 문하은, 연락처 010-2390-1146, 이메일 ilaiplfic79@naver.com\n관련 절차는 표준 운영 지침을 따릅니다.\n본 문서의 효력은 게시일로부터 발생합니다.",
+    "grade": "S",
+    "gen": "template:corpus",
+    "diff": 3
+  },
+  {
+    "text": "교육 신청 안내\n\n본 문서의 효력은 게시일로부터 발생합니다.\n세부 일정은 추후 별도 공지될 예정입니다.\n교육 신청 안내 안내드립니다. 문의는 첨부된 담당자 정보를 참고하세요.\n본 문서의 효력은 게시일로부터 발생합니다.\n본 안내는 사내 전 구성원에게 공유됩니다.\n[비고] 담당자 송건우, 연락처 010-6804-3387, 이메일 yvxykdod94@company.co.kr",
+    "grade": "S",
+    "gen": "template:corpus",
+    "diff": 3
+  },
+  {
+    "text": "행사 안내 및 문의처\n\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n행사 안내 및 문의처 안내드립니다. 문의는 첨부된 담당자 정보를 참고하세요.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n[비고] 담당자 장은서, 연락처 010-6139-4654, 이메일 lzzup53@daum.net",
+    "grade": "S",
+    "gen": "template:corpus",
+    "diff": 3
+  },
+  {
+    "text": "공지 — 담당자 연락 안내\n\n본 안내는 사내 전 구성원에게 공유됩니다.\n본 안내는 사내 전 구성원에게 공유됩니다.\n공지 — 담당자 연락 안내 안내드립니다. 문의는 첨부된 담당자 정보를 참고하세요.\n본 문서의 효력은 게시일로부터 발생합니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n[비고] 담당자 노지훈, 연락처 010-2727-8466, 이메일 fkruyg41@daum.net",
+    "grade": "S",
+    "gen": "template:corpus",
+    "diff": 3
+  },
+  {
+    "text": "행사 안내 및 문의처\n\n관련 절차는 표준 운영 지침을 따릅니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n행사 안내 및 문의처 안내드립니다. 문의는 첨부된 담당자 정보를 참고하세요.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n[비고] 담당자 양하은, 연락처 010-1469-8207, 이메일 iyckuyg14@kakao.com",
+    "grade": "S",
+    "gen": "template:corpus",
+    "diff": 3
+  },
+  {
+    "text": "교육 신청 안내\n\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n교육 신청 안내 안내드립니다. 문의는 첨부된 담당자 정보를 참고하세요.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n[비고] 담당자 최도윤, 연락처 010-3269-1428, 이메일 vpyulcnsm32@daum.net",
+    "grade": "S",
+    "gen": "template:corpus",
+    "diff": 3
+  },
+  {
+    "text": "교육 신청 안내\n\n본 안내는 사내 전 구성원에게 공유됩니다.\n본 안내는 사내 전 구성원에게 공유됩니다.\n교육 신청 안내 안내드립니다. 문의는 첨부된 담당자 정보를 참고하세요.\n관련 절차는 표준 운영 지침을 따릅니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n[비고] 담당자 송현우, 연락처 010-8110-4455, 이메일 yuxilus41@company.co.kr",
+    "grade": "S",
+    "gen": "template:corpus",
+    "diff": 3
+  },
+  {
+    "text": "교육 신청 안내\n\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n교육 신청 안내 안내드립니다. 문의는 첨부된 담당자 정보를 참고하세요.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n[비고] 담당자 조수아, 연락처 010-9503-7226, 이메일 vrkzeisd34@kakao.com",
+    "grade": "S",
+    "gen": "template:corpus",
+    "diff": 3
+  },
+  {
+    "text": "행사 안내 및 문의처\n\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n행사 안내 및 문의처 안내드립니다. 문의는 첨부된 담당자 정보를 참고하세요.\n본 문서의 효력은 게시일로부터 발생합니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n[비고] 담당자 박지훈, 연락처 010-3400-2239, 이메일 xbysnifc43@daum.net",
+    "grade": "S",
+    "gen": "template:corpus",
+    "diff": 3
+  },
+  {
+    "text": "행사 안내 및 문의처\n\n관련 절차는 표준 운영 지침을 따릅니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n행사 안내 및 문의처 안내드립니다. 문의는 첨부된 담당자 정보를 참고하세요.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n[비고] 담당자 노다은, 연락처 010-6503-3793, 이메일 useoyyxsi21@company.co.kr",
+    "grade": "S",
+    "gen": "template:corpus",
+    "diff": 3
+  },
+  {
+    "text": "교육 신청 안내\n\n관련 절차는 표준 운영 지침을 따릅니다.\n본 안내는 사내 전 구성원에게 공유됩니다.\n교육 신청 안내 안내드립니다. 문의는 첨부된 담당자 정보를 참고하세요.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n[비고] 담당자 백은서, 연락처 010-4125-8568, 이메일 eyjvijo9@naver.com",
+    "grade": "S",
+    "gen": "template:corpus",
+    "diff": 3
+  },
+  {
+    "text": "교육 신청 안내\n\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n교육 신청 안내 안내드립니다. 문의는 첨부된 담당자 정보를 참고하세요.\n관련 절차는 표준 운영 지침을 따릅니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n[비고] 담당자 배민서, 연락처 010-1095-2892, 이메일 fytna80@kakao.com",
+    "grade": "S",
+    "gen": "template:corpus",
+    "diff": 3
+  },
+  {
+    "text": "공지 — 담당자 연락 안내\n\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n공지 — 담당자 연락 안내 안내드립니다. 문의는 첨부된 담당자 정보를 참고하세요.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n세부 일정은 추후 별도 공지될 예정입니다.\n[비고] 담당자 남하은, 연락처 010-3495-7801, 이메일 sxbzxxk18@daum.net",
+    "grade": "S",
+    "gen": "template:corpus",
+    "diff": 3
+  },
+  {
+    "text": "전 직원 비상연락망\n\n본 안내는 사내 전 구성원에게 공유됩니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n전 직원 비상연락망 (14명). 외부 유출 금지.\n본 문서의 효력은 게시일로부터 발생합니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n성명 휴대폰 이메일\n황지호 010-2230-7281 xmzvqi48@company.co.kr\n차서준 010-7156-8285 ppjwj78@company.co.kr\n조주원 010-3211-2970 pbswlqtoj93@daum.net\n황지우 010-5066-8627 rqawuuc29@gmail.com\n남주원 010-1246-9468 fcvsqyqgk31@daum.net\n윤민준 010-6969-2501 nhsbusa39@naver.com\n장은서 010-3290-7451 puedaebff18@kakao.com\n박민준 010-2399-1136 aecnmhms40@kakao.com\n정민서 010-2948-7543 nvasj55@naver.com\n한다은 010-7588-9471 qsjxbwvf21@naver.com\n박민서 010-7701-4488 gesdwy80@daum.net\n안민준 010-1494-2189 peknge36@kakao.com\n황지훈 010-1533-3905 qnwfcte14@daum.net\n최도윤 010-2509-7718 vbhob14@company.co.kr",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 3
+  },
+  {
+    "text": "전 직원 비상연락망\n\n관련 절차는 표준 운영 지침을 따릅니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n전 직원 비상연락망 (13명). 외부 유출 금지.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n성명 휴대폰 이메일\n강민서 010-2048-4897 ujivvlpgs42@company.co.kr\n백서준 010-4357-7706 rbddazm83@kakao.com\n황서연 010-9481-5638 pxnly53@daum.net\n남성민 010-6879-8420 ckeoj96@gmail.com\n강현우 010-7829-1218 ulwgw66@gmail.com\n김수아 010-1806-9527 mykcel58@gmail.com\n정건우 010-1316-9411 ilvtjwis26@kakao.com\n최다은 010-7224-4354 dppkgs72@company.co.kr\n윤지호 010-7497-9739 ykfvkvter55@naver.com\n남도윤 010-9741-8884 kxxsj16@kakao.com\n강성민 010-6583-5981 lpwixkiif99@kakao.com\n남민서 010-6284-6238 rracom64@daum.net\n차예준 010-3375-8314 iwtrnzatn68@kakao.com",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 3
+  },
+  {
+    "text": "[극비] 경영 전략 검토 자료\n\n본 문서의 효력은 게시일로부터 발생합니다.\n세부 일정은 추후 별도 공지될 예정입니다.\n극비. 본 문서는 지정된 임직원만 열람할 수 있습니다.\n담당 남하은 (010-9812-5182).\n전략 방향성 및 투자 우선순위는 본문을 참조하십시오.\n본 문서의 효력은 게시일로부터 발생합니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 3
+  },
+  {
+    "text": "[대외비] 경영 전략 검토 자료\n\n관련 절차는 표준 운영 지침을 따릅니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n대외비. 본 문서는 지정된 임직원만 열람할 수 있습니다.\n담당 양준영 (010-3500-9254).\n전략 방향성 및 투자 우선순위는 본문을 참조하십시오.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 3
+  },
+  {
+    "text": "운영 서버 접속 정보\n\n관련 절차는 표준 운영 지침을 따릅니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n운영계 접속 키: api_key=Ttcbu1vul7zHKIlIcVug5ianRdjYC\n백업 자격증명: AKIAQSYUP6MZ5DKRP6RZ\n담당 서현우 iqkkayyfn99@daum.net.\n세부 일정은 추후 별도 공지될 예정입니다.\n세부 일정은 추후 별도 공지될 예정입니다.",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 3
+  },
+  {
+    "text": "임직원 신원 확인 자료\n\n세부 일정은 추후 별도 공지될 예정입니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n임직원 신원 확인 자료. 개인정보보호법에 따라 비식별 처리 대상입니다.\n성명 정지훈 여권번호 M20026878\n연락처 010-4802-2185.\n본 문서의 효력은 게시일로부터 발생합니다.\n관련 절차는 표준 운영 지침을 따릅니다.",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 3
+  },
+  {
+    "text": "전 직원 비상연락망\n\n세부 일정은 추후 별도 공지될 예정입니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n전 직원 비상연락망 (11명). 외부 유출 금지.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n성명 휴대폰 이메일\n조소율 010-4599-9826 judivx88@naver.com\n권현우 010-8518-1808 txwyupd28@company.co.kr\n권민서 010-7031-2264 yjoenp22@kakao.com\n노지훈 010-9102-9535 wtcxhj44@naver.com\n배현우 010-1760-3674 bdnle17@naver.com\n강수아 010-3512-2875 qrlgmxig87@kakao.com\n유민준 010-2378-5245 pxjrte48@naver.com\n문주원 010-2050-2713 zxxxinmjl56@kakao.com\n김민서 010-1881-2078 wwvoxqm73@gmail.com\n황현우 010-2911-8761 txefngqm95@kakao.com\n김예준 010-5785-4928 quzvejyb54@daum.net",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 3
+  },
+  {
+    "text": "[기밀] 경영 전략 검토 자료\n\n본 안내는 사내 전 구성원에게 공유됩니다.\n본 안내는 사내 전 구성원에게 공유됩니다.\n기밀. 본 문서는 지정된 임직원만 열람할 수 있습니다.\n담당 권예준 (010-2281-2234).\n전략 방향성 및 투자 우선순위는 본문을 참조하십시오.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n세부 일정은 추후 별도 공지될 예정입니다.",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 3
+  },
+  {
+    "text": "전 직원 비상연락망\n\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n본 안내는 사내 전 구성원에게 공유됩니다.\n전 직원 비상연락망 (14명). 외부 유출 금지.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n본 안내는 사내 전 구성원에게 공유됩니다.\n성명 휴대폰 이메일\n윤민준 010-4068-9141 nxjya81@daum.net\n양지호 010-1612-3895 gfppqdgo5@kakao.com\n장은서 010-9124-9012 obagisoe91@naver.com\n강지우 010-4042-7854 dhnbkvkkm51@naver.com\n최은서 010-8971-4354 fmpbs38@kakao.com\n한지훈 010-9416-7490 wlpkitbab43@kakao.com\n양주원 010-4345-3693 feycbsbz63@kakao.com\n최현우 010-3461-4689 eetqn43@gmail.com\n조도윤 010-1992-3190 rqyzjdogz52@daum.net\n양지호 010-7923-2746 drqebqj16@company.co.kr\n임지훈 010-1845-3147 nmulu76@gmail.com\n전민준 010-5633-1391 qnybdu1@kakao.com\n한하은 010-5953-4388 wyseomjn27@gmail.com\n권지호 010-8232-4356 gtslgd39@daum.net",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 3
+  },
+  {
+    "text": "해외 출장자 여권 정보\n\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n본 안내는 사내 전 구성원에게 공유됩니다.\n해외 출장자 여권 정보. 개인정보보호법에 따라 비식별 처리 대상입니다.\n성명 신도윤 주민등록번호 710626-16593420\n연락처 010-5792-3360.\n본 안내는 사내 전 구성원에게 공유됩니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 3
+  },
+  {
+    "text": "운영 서버 접속 정보\n\n관련 절차는 표준 운영 지침을 따릅니다.\n본 안내는 사내 전 구성원에게 공유됩니다.\n운영계 접속 키: api_key=EuWyCJVJOAiue3SVaE0d6WqPOWftgvPWG\n백업 자격증명: AKIAASFWV5JM6YD2BA4R\n담당 송민서 mypens32@daum.net.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n관련 절차는 표준 운영 지침을 따릅니다.",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 3
+  },
+  {
+    "text": "운영 서버 접속 정보\n\n관련 절차는 표준 운영 지침을 따릅니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n운영계 접속 키: api_key=CMT1Q7NLE0zim2D5mEt74qziCdb2YJ8c3SEl\n백업 자격증명: AKIAHQDGXBJRA4ATDWBW\n담당 차주원 voqwejnk36@daum.net.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 3
+  },
+  {
+    "text": "운영 서버 접속 정보\n\n세부 일정은 추후 별도 공지될 예정입니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n운영계 접속 키: api_key=MPssKaXVKaoFef9kV30NdIswwRolV5G\n백업 자격증명: AKIAJ3SRGEPEFLBVYAI3\n담당 박주원 wfhaq45@daum.net.\n본 문서의 효력은 게시일로부터 발생합니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n항목 값\n계좌(패킹) 11935036046621\n[비고] 비고: 추가 식별자 주민번호 951209-10007420",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 3
+  },
+  {
+    "text": "임직원 신원 확인 자료\n\n관련 절차는 표준 운영 지침을 따릅니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n임직원 신원 확인 자료. 개인정보보호법에 따라 비식별 처리 대상입니다.\n성명 임민서 신용카드번호 5252-4789-3862-7553\n연락처 010-2133-9608.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n세부 일정은 추후 별도 공지될 예정입니다.\n항목 값\n계좌(패킹) 2423153423772\n[비고] 비고: 추가 식별자 주민번호 770122-13666587",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 3
+  },
+  {
+    "text": "[Confidential] 경영 전략 검토 자료\n\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n본 문서의 효력은 게시일로부터 발생합니다.\nConfidential. 본 문서는 지정된 임직원만 열람할 수 있습니다.\n담당 백주원 (010-2679-3904).\n전략 방향성 및 투자 우선순위는 본문을 참조하십시오.\n본 문서의 효력은 게시일로부터 발생합니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n항목 값\n계좌(패킹) 21846965147413\n[비고] 비고: 추가 식별자 주민번호 850321-20640572",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 3
+  },
+  {
+    "text": "임직원 신원 확인 자료\n\n본 안내는 사내 전 구성원에게 공유됩니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n임직원 신원 확인 자료. 개인정보보호법에 따라 비식별 처리 대상입니다.\n성명 안서연 여권번호 M63620274\n연락처 010-3449-9779.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n항목 값\n계좌(패킹) 96163038187968\n[비고] 비고: 추가 식별자 주민번호 830914-15121419",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 3
+  },
+  {
+    "text": "전 직원 비상연락망\n\n관련 절차는 표준 운영 지침을 따릅니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n전 직원 비상연락망 (16명). 외부 유출 금지.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n성명 휴대폰 이메일\n최건우 010-5327-3025 bvkjq8@daum.net\n오지호 010-3147-4240 wtqol15@kakao.com\n전은서 010-1861-8686 xyqfc35@naver.com\n조주원 010-7457-2574 giovmlmk2@gmail.com\n장소율 010-3391-5385 koqpmbo43@daum.net\n한은서 010-9126-6426 yctwczqws61@company.co.kr\n백현우 010-6917-4463 aupwtiiy67@gmail.com\n강지호 010-6557-7047 wqwbkw3@company.co.kr\n오건우 010-2351-1931 ycsigie52@company.co.kr\n남다은 010-6931-2667 pldah92@company.co.kr\n정서준 010-7205-5677 acqedfc74@gmail.com\n최다은 010-9874-2371 pwsuxmo72@kakao.com\n신지호 010-9912-5130 urdaxkgij38@kakao.com\n서지우 010-5272-9355 klujnxlto29@kakao.com\n노지호 010-5902-5084 zbptrl48@naver.com\n신준영 010-6332-7995 dzajrz25@company.co.kr\n[비고] 비고: 추가 식별자 주민번호 651223-20486068",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 3
+  },
+  {
+    "text": "운영 서버 접속 정보\n\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n운영계 접속 키: api_key=9BldPzprirlpnIbzUPj3cIohnGrmUYAQD\n백업 자격증명: AKIACHE2S3BEOZ4EOUO3\n담당 신수아 wgsvovun96@company.co.kr.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n항목 값\n계좌(패킹) 32816923190126\n[비고] 비고: 추가 식별자 주민번호 760605-16056317",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 3
+  },
+  {
+    "text": "전 직원 비상연락망\n\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n전 직원 비상연락망 (14명). 외부 유출 금지.\n본 안내는 사내 전 구성원에게 공유됩니다.\n본 안내는 사내 전 구성원에게 공유됩니다.\n성명 휴대폰 이메일\n권민서 010-1315-4702 gbvviis71@company.co.kr\n백준영 010-5307-4364 qkqvcnt81@gmail.com\n노은서 010-9874-8554 qidye68@company.co.kr\n전다은 010-4936-7796 oobheyknt41@company.co.kr\n송민준 010-9279-1114 wpmvlzvoj66@company.co.kr\n차준영 010-6277-9983 cjewbdxz28@gmail.com\n정지훈 010-6143-8940 dkthioych17@naver.com\n양유진 010-6157-1089 wxzypsrxi95@gmail.com\n임지호 010-6309-1444 pgyglj90@company.co.kr\n장소율 010-2556-1877 bkhgywvhx33@naver.com\n장성민 010-4908-7527 bxaabzrbp62@naver.com\n황예준 010-1999-7338 mwytclymy33@company.co.kr\n남지우 010-1238-2020 djzqzfrfg9@gmail.com\n배민준 010-4404-4971 taqzdn35@daum.net\n[비고] 비고: 추가 식별자 주민번호 911228-18799848",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 3
+  },
+  {
+    "text": "급여 계좌 등록 명부\n\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n급여 계좌 등록 명부. 개인정보보호법에 따라 비식별 처리 대상입니다.\n성명 박도윤 신용카드번호 5468-6795-7169-2164\n연락처 010-6214-2319.\n본 안내는 사내 전 구성원에게 공유됩니다.\n본 안내는 사내 전 구성원에게 공유됩니다.\n항목 값\n계좌(패킹) 90336321410138\n[비고] 비고: 추가 식별자 주민번호 600625-13809588",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 3
+  },
+  {
+    "text": "급여 계좌 등록 명부\n\n본 문서의 효력은 게시일로부터 발생합니다.\n세부 일정은 추후 별도 공지될 예정입니다.\n급여 계좌 등록 명부. 개인정보보호법에 따라 비식별 처리 대상입니다.\n예금주 박예준 계좌 하나 333-9073-9444516\n연락처 010-6124-7990.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n[비고] 비고: 추가 식별자 주민번호 700505-17077265",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 3
+  },
+  {
+    "text": "임직원 신원 확인 자료\n\n본 안내는 사내 전 구성원에게 공유됩니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n임직원 신원 확인 자료. 개인정보보호법에 따라 비식별 처리 대상입니다.\n예금주 서수아 계좌 카카오뱅크 751-4578-7511703\n연락처 010-8889-4435.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n[비고] 비고: 추가 식별자 주민번호 990627-29628591",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 3
+  },
+  {
+    "text": "급여 계좌 등록 명부\n\n본 안내는 사내 전 구성원에게 공유됩니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n급여 계좌 등록 명부. 개인정보보호법에 따라 비식별 처리 대상입니다.\n성명 정예준 주민등록번호 620817-18625603\n연락처 010-7249-7667.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n본 안내는 사내 전 구성원에게 공유됩니다.\n항목 값\n계좌(패킹) 22769112455604\n[비고] 비고: 추가 식별자 주민번호 820927-24543699",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 3
+  },
+  {
+    "text": "급여 계좌 등록 명부\n\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n급여 계좌 등록 명부. 개인정보보호법에 따라 비식별 처리 대상입니다.\n성명 남유진 여권번호 M26642134\n연락처 010-3671-8214.\n본 안내는 사내 전 구성원에게 공유됩니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n항목 값\n계좌(패킹) 31353383187643\n[비고] 비고: 추가 식별자 주민번호 660627-29087773",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 3
+  },
+  {
+    "text": "담당자 연락처 목록\n\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n담당자 연락처 목록 (8명).\n본 문서의 효력은 게시일로부터 발생합니다.\n본 안내는 사내 전 구성원에게 공유됩니다.\n성명 연락처 이메일\n배도윤 010-6106-1751 hwddkp29@daum.net\n배현우 010-2014-1351 htlvvcjkx71@gmail.com\n임예준 010-2256-5132 fjclyrt11@company.co.kr\n최건우 010-1392-3246 wrbnk46@gmail.com\n한지우 010-4433-7939 prqhjtg48@naver.com\n문주원 010-3933-8564 ocsuy47@daum.net\n김서준 010-3470-1739 qvwshz77@daum.net\n정서연 010-9813-9948 zhdbxtya53@daum.net",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 3
+  },
+  {
+    "text": "담당자 연락처 목록\n\n관련 절차는 표준 운영 지침을 따릅니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n담당자 연락처 목록 (6명).\n본 안내는 사내 전 구성원에게 공유됩니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n성명 연락처 이메일\n차수아 010-9637-3852 wijgrl96@kakao.com\n백지훈 010-8445-4236 luavu30@gmail.com\n양서연 010-3599-1015 dvcsbaq25@kakao.com\n박하은 010-7272-5421 xwhgclggc16@company.co.kr\n배건우 010-6905-3619 pknfwdddd64@gmail.com\n오수아 010-2539-4036 ijnrjweum42@gmail.com",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 3
+  },
+  {
+    "text": "담당자 연락처 목록\n\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n담당자 연락처 목록 (8명).\n세부 일정은 추후 별도 공지될 예정입니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n성명 연락처 이메일\n노주원 010-1232-4737 jqmtkfppr60@kakao.com\n노지우 010-7324-3932 njltzubfm75@naver.com\n권서연 010-2978-7074 mqdddbcow7@naver.com\n황지호 010-3001-4450 mungcijgu26@gmail.com\n양예준 010-5612-6053 uxyqaze88@kakao.com\n서현우 010-6596-6318 tnsaecc97@company.co.kr\n최수아 010-5855-9964 vxvmoscbt85@naver.com\n박현우 010-2576-9793 pfxdqpb50@naver.com",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 3
+  },
+  {
+    "text": "담당자 연락처 목록\n\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n세부 일정은 추후 별도 공지될 예정입니다.\n담당자 연락처 목록 (4명).\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n성명 연락처 이메일\n배하은 010-1450-9890 ttayssk54@daum.net\n차지훈 010-2568-2199 qleyhv16@kakao.com\n정서연 010-6023-6598 fznwalrt18@gmail.com\n조지훈 010-6345-6139 xolkbiyy92@kakao.com",
+    "grade": "S",
+    "gen": "template:corpus",
+    "diff": 3
+  },
+  {
+    "text": "담당자 연락처 목록\n\n관련 절차는 표준 운영 지침을 따릅니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n담당자 연락처 목록 (6명).\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n성명 연락처 이메일\n김건우 010-5791-9067 kvfyp64@naver.com\n서도윤 010-8716-9725 zazoki94@kakao.com\n유건우 010-7187-8031 asptw78@gmail.com\n장소율 010-6764-6037 llvmm6@gmail.com\n전예준 010-3808-3979 dwckfnia82@kakao.com\n한은서 010-1630-1486 vpqddinlo89@kakao.com",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 3
+  },
+  {
+    "text": "담당자 연락처 목록\n\n관련 절차는 표준 운영 지침을 따릅니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n담당자 연락처 목록 (6명).\n본 안내는 사내 전 구성원에게 공유됩니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n성명 연락처 이메일\n정도윤 010-4666-5127 htagesw19@daum.net\n한주원 010-3100-8101 nbeowg60@naver.com\n장민서 010-9641-9000 otowngb41@daum.net\n신건우 010-2890-8096 ohnjh82@naver.com\n안민서 010-8918-6161 cvpvu26@naver.com\n김준영 010-7111-1056 yyprrtj48@gmail.com",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 3
+  },
+  {
+    "text": "담당자 연락처 목록\n\n본 문서의 효력은 게시일로부터 발생합니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n담당자 연락처 목록 (4명).\n본 안내는 사내 전 구성원에게 공유됩니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n성명 연락처 이메일\n박예준 010-1840-8585 szvfhg62@company.co.kr\n양지우 010-8180-4292 mfeoaeyio40@kakao.com\n정지호 010-6254-2073 dryiogs7@kakao.com\n신민준 010-6145-4943 ivldaxa37@daum.net",
+    "grade": "S",
+    "gen": "template:corpus",
+    "diff": 3
+  },
+  {
+    "text": "담당자 연락처 목록\n\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n세부 일정은 추후 별도 공지될 예정입니다.\n담당자 연락처 목록 (7명).\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n본 안내는 사내 전 구성원에게 공유됩니다.\n성명 연락처 이메일\n박준영 010-3592-1933 agzxh97@naver.com\n전하은 010-4786-6053 sipvdxe99@gmail.com\n한도윤 010-9167-5845 ohvfjpvdm29@kakao.com\n신지우 010-3104-2876 otvwxmqq99@naver.com\n배서연 010-8716-7009 sexpfkws71@gmail.com\n양다은 010-8086-7965 jxwpm83@kakao.com\n송성민 010-1188-6229 hqbgdfw72@gmail.com",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 3
+  },
+  {
+    "text": "담당자 연락처 목록\n\n본 안내는 사내 전 구성원에게 공유됩니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n담당자 연락처 목록 (8명).\n본 안내는 사내 전 구성원에게 공유됩니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n성명 연락처 이메일\n양도윤 010-7046-5618 keleawvzy95@gmail.com\n조민준 010-8820-5204 krnvf84@gmail.com\n정준영 010-2138-9665 iismzy36@company.co.kr\n백하은 010-5599-8506 srsisj69@kakao.com\n노도윤 010-2274-7779 tnnszugit61@daum.net\n남다은 010-8230-6814 xtrtablm2@gmail.com\n차서준 010-8214-4724 feytb73@daum.net\n최지훈 010-2790-1301 ktpjo71@daum.net",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 3
+  },
+  {
+    "text": "담당자 연락처 목록\n\n관련 절차는 표준 운영 지침을 따릅니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n담당자 연락처 목록 (5명).\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n본 안내는 사내 전 구성원에게 공유됩니다.\n성명 연락처 이메일\n조건우 010-8086-6957 fbdolanh63@company.co.kr\n권민서 010-8416-1170 fmxta97@kakao.com\n최서준 010-8195-3363 lpxhui74@daum.net\n노성민 010-8797-9443 zddvzgm15@naver.com\n노민서 010-1010-6325 nddnnisti12@company.co.kr",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 3
+  },
+  {
+    "text": "담당자 연락처 목록\n\n본 안내는 사내 전 구성원에게 공유됩니다.\n세부 일정은 추후 별도 공지될 예정입니다.\n담당자 연락처 목록 (6명).\n본 안내는 사내 전 구성원에게 공유됩니다.\n본 안내는 사내 전 구성원에게 공유됩니다.\n성명 연락처 이메일\n배유진 010-1381-6756 sxqgj88@naver.com\n서하은 010-1525-3509 utimh94@daum.net\n오은서 010-5636-4818 reftmao95@daum.net\n권도윤 010-7779-9303 bzzvp35@daum.net\n윤은서 010-5880-9978 avdmqtt72@gmail.com\n오수아 010-9485-3101 ebwdt21@company.co.kr",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 3
+  },
+  {
+    "text": "담당자 연락처 목록\n\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n담당자 연락처 목록 (5명).\n관련 절차는 표준 운영 지침을 따릅니다.\n세부 일정은 추후 별도 공지될 예정입니다.\n성명 연락처 이메일\n노은서 010-9003-5413 uosxihhx2@company.co.kr\n강민준 010-7139-9026 rxfma39@naver.com\n양준영 010-8928-2834 iewxkuzy52@gmail.com\n한민서 010-2664-8333 qhdttyf93@company.co.kr\n송주원 010-9718-8013 etqblzh40@naver.com",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 3
+  },
+  {
+    "text": "공개 카탈로그 / 정산 안내\n\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n본 안내는 공개 자료입니다.\n정산 일련번호 77121610802953 로 조회 가능합니다(개인정보 아님).\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n관련 절차는 표준 운영 지침을 따릅니다.",
+    "grade": "O",
+    "gen": "template:corpus",
+    "diff": 3
+  },
+  {
+    "text": "공개 카탈로그 / 정산 안내\n\n관련 절차는 표준 운영 지침을 따릅니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n본 안내는 공개 자료입니다.\n문서 일련번호 P9021146693 / 접수번호 498311248353.\n관련 절차는 표준 운영 지침을 따릅니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n세부 일정은 추후 별도 공지될 예정입니다.",
+    "grade": "O",
+    "gen": "template:corpus",
+    "diff": 3
+  },
+  {
+    "text": "공개 카탈로그 / 정산 안내\n\n본 문서의 효력은 게시일로부터 발생합니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n본 안내는 공개 자료입니다.\n문서 일련번호 P036832947601 / 접수번호 276057208453.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n본 문서의 효력은 게시일로부터 발생합니다.",
+    "grade": "O",
+    "gen": "template:corpus",
+    "diff": 3
+  },
+  {
+    "text": "공개 카탈로그 / 정산 안내\n\n관련 절차는 표준 운영 지침을 따릅니다.\n세부 일정은 추후 별도 공지될 예정입니다.\n본 안내는 공개 자료입니다.\n상품 코드 5386-5472-5430-7625 는 공개 SKU 식별자입니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n관련 절차는 표준 운영 지침을 따릅니다.",
+    "grade": "O",
+    "gen": "template:corpus",
+    "diff": 3
+  },
+  {
+    "text": "공개 카탈로그 / 정산 안내\n\n관련 절차는 표준 운영 지침을 따릅니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n본 안내는 공개 자료입니다.\n정산 일련번호 95061817283172 로 조회 가능합니다(개인정보 아님).\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.",
+    "grade": "O",
+    "gen": "template:corpus",
+    "diff": 3
+  },
+  {
+    "text": "공개 카탈로그 / 정산 안내\n\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n세부 일정은 추후 별도 공지될 예정입니다.\n본 안내는 공개 자료입니다.\n정산 일련번호 79051017516304 로 조회 가능합니다(개인정보 아님).\n본 문서의 효력은 게시일로부터 발생합니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n본 문서의 효력은 게시일로부터 발생합니다.",
+    "grade": "O",
+    "gen": "template:corpus",
+    "diff": 3
+  },
+  {
+    "text": "공개 카탈로그 / 정산 안내\n\n세부 일정은 추후 별도 공지될 예정입니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n본 안내는 공개 자료입니다.\n정산 일련번호 86121715680670 로 조회 가능합니다(개인정보 아님).\n세부 일정은 추후 별도 공지될 예정입니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.",
+    "grade": "O",
+    "gen": "template:corpus",
+    "diff": 3
+  },
+  {
+    "text": "공개 카탈로그 / 정산 안내\n\n관련 절차는 표준 운영 지침을 따릅니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n본 안내는 공개 자료입니다.\n정산 일련번호 80122014138983 로 조회 가능합니다(개인정보 아님).\n본 문서의 효력은 게시일로부터 발생합니다.\n세부 일정은 추후 별도 공지될 예정입니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n관련 절차는 표준 운영 지침을 따릅니다.",
+    "grade": "O",
+    "gen": "template:corpus",
+    "diff": 3
+  },
+  {
+    "text": "공개 카탈로그 / 정산 안내\n\n본 안내는 사내 전 구성원에게 공유됩니다.\n세부 일정은 추후 별도 공지될 예정입니다.\n본 안내는 공개 자료입니다.\n상품 코드 5519-5901-1777-2437 는 공개 SKU 식별자입니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n본 안내는 사내 전 구성원에게 공유됩니다.\n본 안내는 사내 전 구성원에게 공유됩니다.",
+    "grade": "O",
+    "gen": "template:corpus",
+    "diff": 3
+  },
+  {
+    "text": "공개 카탈로그 / 정산 안내\n\n관련 절차는 표준 운영 지침을 따릅니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n본 안내는 공개 자료입니다.\n정산 일련번호 94112422604053 로 조회 가능합니다(개인정보 아님).\n관련 절차는 표준 운영 지침을 따릅니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n세부 일정은 추후 별도 공지될 예정입니다.",
+    "grade": "O",
+    "gen": "template:corpus",
+    "diff": 3
+  },
+  {
+    "text": "공개 카탈로그 / 정산 안내\n\n관련 절차는 표준 운영 지침을 따릅니다.\n세부 일정은 추후 별도 공지될 예정입니다.\n본 안내는 공개 자료입니다.\n정산 일련번호 97050612579613 로 조회 가능합니다(개인정보 아님).\n세부 일정은 추후 별도 공지될 예정입니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n본 안내는 사내 전 구성원에게 공유됩니다.\n관련 절차는 표준 운영 지침을 따릅니다.",
+    "grade": "O",
+    "gen": "template:corpus",
+    "diff": 3
+  },
+  {
+    "text": "공개 카탈로그 / 정산 안내\n\n본 문서의 효력은 게시일로부터 발생합니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n본 안내는 공개 자료입니다.\n정산 일련번호 81062220498038 로 조회 가능합니다(개인정보 아님).\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n세부 일정은 추후 별도 공지될 예정입니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.",
+    "grade": "O",
+    "gen": "template:corpus",
+    "diff": 3
+  },
+  {
+    "text": "내부 검토 자료\n\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n본 자료는 대 외 비 입니다. 무단 배포를 금합니다.\n검토 담당 권현우.\n참고 식별 정보: ９２０９２６-２３０５６１３０\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n세부 일정은 추후 별도 공지될 예정입니다.",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 3
+  },
+  {
+    "text": "내부 검토 자료\n\n본 문서의 효력은 게시일로부터 발생합니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n본 자료는 기 밀 입니다. 무단 배포를 금합니다.\n검토 담당 차지훈.\n참고 식별 정보: ９６０２２１-１５１４３５７７\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n세부 일정은 추후 별도 공지될 예정입니다.\n본 안내는 사내 전 구성원에게 공유됩니다.",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 3
+  },
+  {
+    "text": "내부 검토 자료\n\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n본 자료는 대 외 비 입니다. 무단 배포를 금합니다.\n검토 담당 전서준.\n참고 식별 정보: ７２０１２６-１６８９５９８４\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n세부 일정은 추후 별도 공지될 예정입니다.\n본 안내는 사내 전 구성원에게 공유됩니다.",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 3
+  },
+  {
+    "text": "내부 검토 자료\n\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n본 자료는 기 밀 입니다. 무단 배포를 금합니다.\n검토 담당 강은서.\n참고 식별 정보: ９７１００３-２６８４１３４６\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n세부 일정은 추후 별도 공지될 예정입니다.",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 3
+  },
+  {
+    "text": "내부 검토 자료\n\n관련 절차는 표준 운영 지침을 따릅니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n본 자료는 극 비 입니다. 무단 배포를 금합니다.\n검토 담당 서예준.\n참고 식별 정보: ６５０７２０-１８１４９５８２\n관련 절차는 표준 운영 지침을 따릅니다.\n본 안내는 사내 전 구성원에게 공유됩니다.\n관련 절차는 표준 운영 지침을 따릅니다.",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 3
+  },
+  {
+    "text": "내부 검토 자료\n\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n본 자료는 극 비 입니다. 무단 배포를 금합니다.\n검토 담당 안서준.\n참고 식별 정보: ７２０５０７-２７８２０３３０\n본 문서의 효력은 게시일로부터 발생합니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n세부 일정은 추후 별도 공지될 예정입니다.",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 3
+  },
+  {
+    "text": "내부 검토 자료\n\n본 문서의 효력은 게시일로부터 발생합니다.\n세부 일정은 추후 별도 공지될 예정입니다.\n본 자료는 기 밀 입니다. 무단 배포를 금합니다.\n검토 담당 양지호.\n참고 식별 정보: ９５０２１１-１４２９０３６８\n본 문서의 효력은 게시일로부터 발생합니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n본 문서의 효력은 게시일로부터 발생합니다.",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 3
+  },
+  {
+    "text": "내부 검토 자료\n\n관련 절차는 표준 운영 지침을 따릅니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n본 자료는 대 외 비 입니다. 무단 배포를 금합니다.\n검토 담당 최건우.\n참고 식별 정보: ９７１２１１-１６２２４０５１\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n본 안내는 사내 전 구성원에게 공유됩니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 3
+  },
+  {
+    "text": "내부 검토 자료\n\n본 문서의 효력은 게시일로부터 발생합니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n본 자료는 극 비 입니다. 무단 배포를 금합니다.\n검토 담당 유민준.\n참고 식별 정보: ６００４２４-１５６３８０９９\n본 문서의 효력은 게시일로부터 발생합니다.\n본 안내는 사내 전 구성원에게 공유됩니다.\n본 문서의 효력은 게시일로부터 발생합니다.",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 3
+  },
+  {
+    "text": "내부 검토 자료\n\n세부 일정은 추후 별도 공지될 예정입니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n본 자료는 대 외 비 입니다. 무단 배포를 금합니다.\n검토 담당 강건우.\n참고 식별 정보: ８９０１０７-２６０５６６４６\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n세부 일정은 추후 별도 공지될 예정입니다.\n본 문서의 효력은 게시일로부터 발생합니다.",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 3
+  },
+  {
+    "text": "내부 검토 자료\n\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n본 자료는 기 밀 입니다. 무단 배포를 금합니다.\n검토 담당 정은서.\n참고 식별 정보: ８４０３２８-２０４８９９４２\n본 문서의 효력은 게시일로부터 발생합니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n본 문서의 효력은 게시일로부터 발생합니다.",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 3
+  },
+  {
+    "text": "내부 검토 자료\n\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n본 자료는 극 비 입니다. 무단 배포를 금합니다.\n검토 담당 백서연.\n참고 식별 정보: ９９１１０８-２２９０４９９８\n관련 절차는 표준 운영 지침을 따릅니다.\n본 안내는 사내 전 구성원에게 공유됩니다.\n세부 일정은 추후 별도 공지될 예정입니다.",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 3
+  },
+  {
+    "text": "공개 카탈로그 / 정산 안내\n\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n본 안내는 공개 자료입니다.\n문서 일련번호 P6239652411253 / 접수번호 998998198578.\n본 문서의 효력은 게시일로부터 발생합니다.\n본 안내는 사내 전 구성원에게 공유됩니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n세부 일정은 추후 별도 공지될 예정입니다.",
+    "grade": "O",
+    "gen": "template:corpus",
+    "diff": 3
+  },
+  {
+    "text": "공개 카탈로그 / 정산 안내\n\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n본 안내는 공개 자료입니다.\n상품 코드 5479-2031-2337-2683 는 공개 SKU 식별자입니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n세부 일정은 추후 별도 공지될 예정입니다.\n본 안내는 사내 전 구성원에게 공유됩니다.\n본 안내는 사내 전 구성원에게 공유됩니다.",
+    "grade": "O",
+    "gen": "template:corpus",
+    "diff": 3
+  },
+  {
+    "text": "공개 카탈로그 / 정산 안내\n\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n본 안내는 공개 자료입니다.\n문서 일련번호 P70674789482 / 접수번호 205306342663.\n본 안내는 사내 전 구성원에게 공유됩니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n관련 절차는 표준 운영 지침을 따릅니다.",
+    "grade": "O",
+    "gen": "template:corpus",
+    "diff": 3
+  },
+  {
+    "text": "공개 카탈로그 / 정산 안내\n\n관련 절차는 표준 운영 지침을 따릅니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n본 안내는 공개 자료입니다.\n문서 일련번호 P403765156110 / 접수번호 435991438536.\n관련 절차는 표준 운영 지침을 따릅니다.\n세부 일정은 추후 별도 공지될 예정입니다.\n본 안내는 사내 전 구성원에게 공유됩니다.\n본 안내는 사내 전 구성원에게 공유됩니다.",
+    "grade": "O",
+    "gen": "template:corpus",
+    "diff": 3
+  },
+  {
+    "text": "공개 카탈로그 / 정산 안내\n\n본 문서의 효력은 게시일로부터 발생합니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n본 안내는 공개 자료입니다.\n상품 코드 4929-8318-5823-6340 는 공개 SKU 식별자입니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.",
+    "grade": "O",
+    "gen": "template:corpus",
+    "diff": 3
+  },
+  {
+    "text": "공개 카탈로그 / 정산 안내\n\n세부 일정은 추후 별도 공지될 예정입니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n본 안내는 공개 자료입니다.\n문서 일련번호 P6561141712979 / 접수번호 119302429428.\n세부 일정은 추후 별도 공지될 예정입니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n관련 절차는 표준 운영 지침을 따릅니다.",
+    "grade": "O",
+    "gen": "template:corpus",
+    "diff": 3
+  },
+  {
+    "text": "공개 카탈로그 / 정산 안내\n\n세부 일정은 추후 별도 공지될 예정입니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n본 안내는 공개 자료입니다.\n문서 일련번호 P8233996052372 / 접수번호 838645343830.\n본 문서의 효력은 게시일로부터 발생합니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n본 문서의 효력은 게시일로부터 발생합니다.",
+    "grade": "O",
+    "gen": "template:corpus",
+    "diff": 3
+  },
+  {
+    "text": "공개 카탈로그 / 정산 안내\n\n관련 절차는 표준 운영 지침을 따릅니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n본 안내는 공개 자료입니다.\n상품 코드 5101-9206-1028-2101 는 공개 SKU 식별자입니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.",
+    "grade": "O",
+    "gen": "template:corpus",
+    "diff": 3
+  },
+  {
+    "text": "공개 카탈로그 / 정산 안내\n\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n본 안내는 공개 자료입니다.\n문서 일련번호 P20833775001 / 접수번호 292065014575.\n본 안내는 사내 전 구성원에게 공유됩니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n세부 일정은 추후 별도 공지될 예정입니다.\n관련 절차는 표준 운영 지침을 따릅니다.",
+    "grade": "O",
+    "gen": "template:corpus",
+    "diff": 3
+  },
+  {
+    "text": "공개 카탈로그 / 정산 안내\n\n본 안내는 사내 전 구성원에게 공유됩니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n본 안내는 공개 자료입니다.\n정산 일련번호 98061812248474 로 조회 가능합니다(개인정보 아님).\n관련 절차는 표준 운영 지침을 따릅니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n관련 절차는 표준 운영 지침을 따릅니다.",
+    "grade": "O",
+    "gen": "template:corpus",
+    "diff": 3
+  },
+  {
+    "text": "공개 카탈로그 / 정산 안내\n\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n본 안내는 공개 자료입니다.\n정산 일련번호 88101729125269 로 조회 가능합니다(개인정보 아님).\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n본 안내는 사내 전 구성원에게 공유됩니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.",
+    "grade": "O",
+    "gen": "template:corpus",
+    "diff": 3
+  },
+  {
+    "text": "공개 카탈로그 / 정산 안내\n\n세부 일정은 추후 별도 공지될 예정입니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n본 안내는 공개 자료입니다.\n문서 일련번호 P27514355189 / 접수번호 832305934598.\n세부 일정은 추후 별도 공지될 예정입니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n본 안내는 사내 전 구성원에게 공유됩니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.",
+    "grade": "O",
+    "gen": "template:corpus",
+    "diff": 3
+  },
+  {
+    "text": "공개 채용 공고\n\n본 안내는 사내 전 구성원에게 공유됩니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n당사는 백엔드 엔지니어를 공개 채용합니다.\n지원 자격: 관련 경력 3년 이상, 우대사항은 공고 본문을 참고하세요.\n접수는 채용 홈페이지를 통해 진행되며 별도 첨부는 불필요합니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.",
+    "grade": "O",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "오픈소스 릴리스 노트\n\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\nv2.3.0 에서 성능이 개선되고 버그가 수정되었습니다.\n본 릴리스는 공개 저장소에서 누구나 내려받을 수 있습니다.\n기여 가이드는 CONTRIBUTING 문서를 확인하세요.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.",
+    "grade": "O",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "분기 사업 현황 공개 보고\n\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n본 안내는 사내 전 구성원에게 공유됩니다.\n당사는 이번 분기 매출이 전년 대비 안정적인 성장세를 보였습니다.\n신규 오픈소스 라이선스 가이드라인을 사내 위키에 공개했습니다.\n전 직원 대상 공개 세미나가 다음 주 대강당에서 진행됩니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.",
+    "grade": "O",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "분기 사업 현황 공개 보고\n\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n당사는 이번 분기 매출이 전년 대비 안정적인 성장세를 보였습니다.\n신규 오픈소스 라이선스 가이드라인을 사내 위키에 공개했습니다.\n전 직원 대상 공개 세미나가 다음 주 대강당에서 진행됩니다.\n본 안내는 사내 전 구성원에게 공유됩니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n관련 절차는 표준 운영 지침을 따릅니다.",
+    "grade": "O",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "오픈소스 릴리스 노트\n\n본 안내는 사내 전 구성원에게 공유됩니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\nv2.3.0 에서 성능이 개선되고 버그가 수정되었습니다.\n본 릴리스는 공개 저장소에서 누구나 내려받을 수 있습니다.\n기여 가이드는 CONTRIBUTING 문서를 확인하세요.\n본 안내는 사내 전 구성원에게 공유됩니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n관련 절차는 표준 운영 지침을 따릅니다.",
+    "grade": "O",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "분기 사업 현황 공개 보고\n\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n당사는 이번 분기 매출이 전년 대비 안정적인 성장세를 보였습니다.\n신규 오픈소스 라이선스 가이드라인을 사내 위키에 공개했습니다.\n전 직원 대상 공개 세미나가 다음 주 대강당에서 진행됩니다.\n세부 일정은 추후 별도 공지될 예정입니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n본 안내는 사내 전 구성원에게 공유됩니다.",
+    "grade": "O",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "분기 사업 현황 공개 보고\n\n세부 일정은 추후 별도 공지될 예정입니다.\n본 안내는 사내 전 구성원에게 공유됩니다.\n세부 일정은 추후 별도 공지될 예정입니다.\n당사는 이번 분기 매출이 전년 대비 안정적인 성장세를 보였습니다.\n신규 오픈소스 라이선스 가이드라인을 사내 위키에 공개했습니다.\n전 직원 대상 공개 세미나가 다음 주 대강당에서 진행됩니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n본 안내는 사내 전 구성원에게 공유됩니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.",
+    "grade": "O",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "공개 채용 공고\n\n본 문서의 효력은 게시일로부터 발생합니다.\n본 안내는 사내 전 구성원에게 공유됩니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n당사는 백엔드 엔지니어를 공개 채용합니다.\n지원 자격: 관련 경력 3년 이상, 우대사항은 공고 본문을 참고하세요.\n접수는 채용 홈페이지를 통해 진행되며 별도 첨부는 불필요합니다.\n본 안내는 사내 전 구성원에게 공유됩니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.",
+    "grade": "O",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "공개 채용 공고\n\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n세부 일정은 추후 별도 공지될 예정입니다.\n본 안내는 사내 전 구성원에게 공유됩니다.\n당사는 백엔드 엔지니어를 공개 채용합니다.\n지원 자격: 관련 경력 3년 이상, 우대사항은 공고 본문을 참고하세요.\n접수는 채용 홈페이지를 통해 진행되며 별도 첨부는 불필요합니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n관련 절차는 표준 운영 지침을 따릅니다.",
+    "grade": "O",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "오픈소스 릴리스 노트\n\n세부 일정은 추후 별도 공지될 예정입니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n세부 일정은 추후 별도 공지될 예정입니다.\nv2.3.0 에서 성능이 개선되고 버그가 수정되었습니다.\n본 릴리스는 공개 저장소에서 누구나 내려받을 수 있습니다.\n기여 가이드는 CONTRIBUTING 문서를 확인하세요.\n세부 일정은 추후 별도 공지될 예정입니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.",
+    "grade": "O",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "공개 채용 공고\n\n세부 일정은 추후 별도 공지될 예정입니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n당사는 백엔드 엔지니어를 공개 채용합니다.\n지원 자격: 관련 경력 3년 이상, 우대사항은 공고 본문을 참고하세요.\n접수는 채용 홈페이지를 통해 진행되며 별도 첨부는 불필요합니다.\n세부 일정은 추후 별도 공지될 예정입니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n관련 절차는 표준 운영 지침을 따릅니다.",
+    "grade": "O",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "공개 채용 공고\n\n관련 절차는 표준 운영 지침을 따릅니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n당사는 백엔드 엔지니어를 공개 채용합니다.\n지원 자격: 관련 경력 3년 이상, 우대사항은 공고 본문을 참고하세요.\n접수는 채용 홈페이지를 통해 진행되며 별도 첨부는 불필요합니다.\n본 안내는 사내 전 구성원에게 공유됩니다.\n세부 일정은 추후 별도 공지될 예정입니다.\n관련 절차는 표준 운영 지침을 따릅니다.",
+    "grade": "O",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "오픈소스 릴리스 노트\n\n본 안내는 사내 전 구성원에게 공유됩니다.\n세부 일정은 추후 별도 공지될 예정입니다.\n세부 일정은 추후 별도 공지될 예정입니다.\nv2.3.0 에서 성능이 개선되고 버그가 수정되었습니다.\n본 릴리스는 공개 저장소에서 누구나 내려받을 수 있습니다.\n기여 가이드는 CONTRIBUTING 문서를 확인하세요.\n주문번호 ORD-2026-552445 로 배송 상태를 조회할 수 있습니다.\n세부 일정은 추후 별도 공지될 예정입니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.",
+    "grade": "O",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "오픈소스 릴리스 노트\n\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\nv2.3.0 에서 성능이 개선되고 버그가 수정되었습니다.\n본 릴리스는 공개 저장소에서 누구나 내려받을 수 있습니다.\n기여 가이드는 CONTRIBUTING 문서를 확인하세요.\n제품 코드 P26578013411 는 공개 카탈로그 식별자입니다.\n세부 일정은 추후 별도 공지될 예정입니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.",
+    "grade": "O",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "오픈소스 릴리스 노트\n\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n본 안내는 사내 전 구성원에게 공유됩니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\nv2.3.0 에서 성능이 개선되고 버그가 수정되었습니다.\n본 릴리스는 공개 저장소에서 누구나 내려받을 수 있습니다.\n기여 가이드는 CONTRIBUTING 문서를 확인하세요.\n주문번호 ORD-2025-615248 로 배송 상태를 조회할 수 있습니다.\n본 안내는 사내 전 구성원에게 공유됩니다.\n세부 일정은 추후 별도 공지될 예정입니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.",
+    "grade": "O",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "분기 사업 현황 공개 보고\n\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n세부 일정은 추후 별도 공지될 예정입니다.\n당사는 이번 분기 매출이 전년 대비 안정적인 성장세를 보였습니다.\n신규 오픈소스 라이선스 가이드라인을 사내 위키에 공개했습니다.\n전 직원 대상 공개 세미나가 다음 주 대강당에서 진행됩니다.\n주문번호 ORD-2022-735238 로 배송 상태를 조회할 수 있습니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n세부 일정은 추후 별도 공지될 예정입니다.",
+    "grade": "O",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "오픈소스 릴리스 노트\n\n관련 절차는 표준 운영 지침을 따릅니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n관련 절차는 표준 운영 지침을 따릅니다.\nv2.3.0 에서 성능이 개선되고 버그가 수정되었습니다.\n본 릴리스는 공개 저장소에서 누구나 내려받을 수 있습니다.\n기여 가이드는 CONTRIBUTING 문서를 확인하세요.\n본 자료에는 기밀이 포함되어 있지 않으며 자유롭게 배포 가능합니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n본 안내는 사내 전 구성원에게 공유됩니다.",
+    "grade": "O",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "오픈소스 릴리스 노트\n\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n본 문서의 효력은 게시일로부터 발생합니다.\nv2.3.0 에서 성능이 개선되고 버그가 수정되었습니다.\n본 릴리스는 공개 저장소에서 누구나 내려받을 수 있습니다.\n기여 가이드는 CONTRIBUTING 문서를 확인하세요.\n주문번호 ORD-2024-673763 로 배송 상태를 조회할 수 있습니다.\n본 안내는 사내 전 구성원에게 공유됩니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.",
+    "grade": "O",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "오픈소스 릴리스 노트\n\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n본 안내는 사내 전 구성원에게 공유됩니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\nv2.3.0 에서 성능이 개선되고 버그가 수정되었습니다.\n본 릴리스는 공개 저장소에서 누구나 내려받을 수 있습니다.\n기여 가이드는 CONTRIBUTING 문서를 확인하세요.\n제품 코드 P739337670968 는 공개 카탈로그 식별자입니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n본 안내는 사내 전 구성원에게 공유됩니다.",
+    "grade": "O",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "공개 채용 공고\n\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n본 안내는 사내 전 구성원에게 공유됩니다.\n당사는 백엔드 엔지니어를 공개 채용합니다.\n지원 자격: 관련 경력 3년 이상, 우대사항은 공고 본문을 참고하세요.\n접수는 채용 홈페이지를 통해 진행되며 별도 첨부는 불필요합니다.\n본 자료에는 기밀이 포함되어 있지 않으며 자유롭게 배포 가능합니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.",
+    "grade": "O",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "공개 채용 공고\n\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n본 안내는 사내 전 구성원에게 공유됩니다.\n당사는 백엔드 엔지니어를 공개 채용합니다.\n지원 자격: 관련 경력 3년 이상, 우대사항은 공고 본문을 참고하세요.\n접수는 채용 홈페이지를 통해 진행되며 별도 첨부는 불필요합니다.\n본 자료에는 기밀이 포함되어 있지 않으며 자유롭게 배포 가능합니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n본 문서의 효력은 게시일로부터 발생합니다.",
+    "grade": "O",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "분기 사업 현황 공개 보고\n\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n세부 일정은 추후 별도 공지될 예정입니다.\n당사는 이번 분기 매출이 전년 대비 안정적인 성장세를 보였습니다.\n신규 오픈소스 라이선스 가이드라인을 사내 위키에 공개했습니다.\n전 직원 대상 공개 세미나가 다음 주 대강당에서 진행됩니다.\n본 자료에는 기밀이 포함되어 있지 않으며 자유롭게 배포 가능합니다.\n본 안내는 사내 전 구성원에게 공유됩니다.\n본 안내는 사내 전 구성원에게 공유됩니다.\n본 안내는 사내 전 구성원에게 공유됩니다.",
+    "grade": "O",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "분기 사업 현황 공개 보고\n\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n당사는 이번 분기 매출이 전년 대비 안정적인 성장세를 보였습니다.\n신규 오픈소스 라이선스 가이드라인을 사내 위키에 공개했습니다.\n전 직원 대상 공개 세미나가 다음 주 대강당에서 진행됩니다.\n제품 코드 P6695203347 는 공개 카탈로그 식별자입니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.",
+    "grade": "O",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "분기 사업 현황 공개 보고\n\n세부 일정은 추후 별도 공지될 예정입니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n당사는 이번 분기 매출이 전년 대비 안정적인 성장세를 보였습니다.\n신규 오픈소스 라이선스 가이드라인을 사내 위키에 공개했습니다.\n전 직원 대상 공개 세미나가 다음 주 대강당에서 진행됩니다.\n제품 코드 P8069397181700 는 공개 카탈로그 식별자입니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n세부 일정은 추후 별도 공지될 예정입니다.",
+    "grade": "O",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "교육 신청 안내\n\n세부 일정은 추후 별도 공지될 예정입니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n교육 신청 안내 안내드립니다. 자세한 사항은 담당자에게 문의 바랍니다.\n담당자 오지훈, 연락처 010-1461-6664, 이메일 slizbcumc75@kakao.com\n세부 일정은 추후 별도 공지될 예정입니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n관련 절차는 표준 운영 지침을 따릅니다.",
+    "grade": "S",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "행사 안내 및 문의처\n\n관련 절차는 표준 운영 지침을 따릅니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n행사 안내 및 문의처 안내드립니다. 자세한 사항은 담당자에게 문의 바랍니다.\n담당자 한민준, 연락처 010-4140-4687, 이메일 jhxmka11@gmail.com\n관련 절차는 표준 운영 지침을 따릅니다.\n세부 일정은 추후 별도 공지될 예정입니다.\n본 안내는 사내 전 구성원에게 공유됩니다.",
+    "grade": "S",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "행사 안내 및 문의처\n\n본 문서의 효력은 게시일로부터 발생합니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n행사 안내 및 문의처 안내드립니다. 자세한 사항은 담당자에게 문의 바랍니다.\n담당자 차다은, 연락처 010-9343-2154, 이메일 dvwedakm60@company.co.kr\n본 문서의 효력은 게시일로부터 발생합니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n세부 일정은 추후 별도 공지될 예정입니다.",
+    "grade": "S",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "공지 — 담당자 연락 안내\n\n세부 일정은 추후 별도 공지될 예정입니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n공지 — 담당자 연락 안내 안내드립니다. 자세한 사항은 담당자에게 문의 바랍니다.\n담당자 노지호, 연락처 010-7751-1289, 이메일 phoyawon94@kakao.com\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.",
+    "grade": "S",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "공지 — 담당자 연락 안내\n\n관련 절차는 표준 운영 지침을 따릅니다.\n본 안내는 사내 전 구성원에게 공유됩니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n공지 — 담당자 연락 안내 안내드립니다. 자세한 사항은 담당자에게 문의 바랍니다.\n담당자 양성민, 연락처 010-6714-1983, 이메일 ogmakkapf5@company.co.kr\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n세부 일정은 추후 별도 공지될 예정입니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.",
+    "grade": "S",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "교육 신청 안내\n\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n본 안내는 사내 전 구성원에게 공유됩니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n교육 신청 안내 안내드립니다. 자세한 사항은 담당자에게 문의 바랍니다.\n담당자 정건우, 연락처 010-1026-3916, 이메일 hjmpelfqv19@naver.com\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n본 안내는 사내 전 구성원에게 공유됩니다.",
+    "grade": "S",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "교육 신청 안내\n\n관련 절차는 표준 운영 지침을 따릅니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n교육 신청 안내 안내드립니다. 자세한 사항은 담당자에게 문의 바랍니다.\n담당자 전소율, 연락처 010-8561-1842, 이메일 tghwqfq61@daum.net\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n관련 절차는 표준 운영 지침을 따릅니다.",
+    "grade": "S",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "교육 신청 안내\n\n본 안내는 사내 전 구성원에게 공유됩니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n교육 신청 안내 안내드립니다. 자세한 사항은 담당자에게 문의 바랍니다.\n담당자 정서준, 연락처 010-2333-2419, 이메일 rowszq72@kakao.com\n세부 일정은 추후 별도 공지될 예정입니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.",
+    "grade": "S",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "교육 신청 안내\n\n본 문서의 효력은 게시일로부터 발생합니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n본 안내는 사내 전 구성원에게 공유됩니다.\n교육 신청 안내 안내드립니다. 자세한 사항은 담당자에게 문의 바랍니다.\n담당자 조현우, 연락처 010-7483-2567, 이메일 daxlr11@company.co.kr\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.",
+    "grade": "S",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "교육 신청 안내\n\n본 문서의 효력은 게시일로부터 발생합니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n교육 신청 안내 안내드립니다. 자세한 사항은 담당자에게 문의 바랍니다.\n담당자 오서준, 연락처 010-6681-5805, 이메일 rprigh86@kakao.com\n본 안내는 사내 전 구성원에게 공유됩니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n관련 절차는 표준 운영 지침을 따릅니다.",
+    "grade": "S",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "교육 신청 안내\n\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n세부 일정은 추후 별도 공지될 예정입니다.\n교육 신청 안내 안내드립니다. 자세한 사항은 담당자에게 문의 바랍니다.\n담당자 배유진, 연락처 010-4406-3275, 이메일 vkxwutxbx96@company.co.kr\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.",
+    "grade": "S",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "행사 안내 및 문의처\n\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n본 안내는 사내 전 구성원에게 공유됩니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n행사 안내 및 문의처 안내드립니다. 자세한 사항은 담당자에게 문의 바랍니다.\n담당자 최다은, 연락처 010-2905-7696, 이메일 efrtvlybw18@gmail.com\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.",
+    "grade": "S",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "공지 — 담당자 연락 안내\n\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n본 안내는 사내 전 구성원에게 공유됩니다.\n공지 — 담당자 연락 안내 안내드립니다. 문의는 첨부된 담당자 정보를 참고하세요.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n본 안내는 사내 전 구성원에게 공유됩니다.\n[비고] 담당자 차지우, 연락처 010-5375-8492, 이메일 kqvfaehw22@naver.com",
+    "grade": "S",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "교육 신청 안내\n\n본 문서의 효력은 게시일로부터 발생합니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n교육 신청 안내 안내드립니다. 문의는 첨부된 담당자 정보를 참고하세요.\n세부 일정은 추후 별도 공지될 예정입니다.\n세부 일정은 추후 별도 공지될 예정입니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n[비고] 담당자 정도윤, 연락처 010-2860-3869, 이메일 inrvcfx63@company.co.kr",
+    "grade": "S",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "공지 — 담당자 연락 안내\n\n본 문서의 효력은 게시일로부터 발생합니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n공지 — 담당자 연락 안내 안내드립니다. 문의는 첨부된 담당자 정보를 참고하세요.\n본 문서의 효력은 게시일로부터 발생합니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n[비고] 담당자 장유진, 연락처 010-1815-6790, 이메일 jpein79@naver.com",
+    "grade": "S",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "행사 안내 및 문의처\n\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n행사 안내 및 문의처 안내드립니다. 문의는 첨부된 담당자 정보를 참고하세요.\n본 안내는 사내 전 구성원에게 공유됩니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n[비고] 담당자 최성민, 연락처 010-8271-3497, 이메일 uzjponbwa78@daum.net",
+    "grade": "S",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "행사 안내 및 문의처\n\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n본 안내는 사내 전 구성원에게 공유됩니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n행사 안내 및 문의처 안내드립니다. 문의는 첨부된 담당자 정보를 참고하세요.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n[비고] 담당자 최현우, 연락처 010-6385-9634, 이메일 hejukch15@kakao.com",
+    "grade": "S",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "교육 신청 안내\n\n본 문서의 효력은 게시일로부터 발생합니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n본 안내는 사내 전 구성원에게 공유됩니다.\n교육 신청 안내 안내드립니다. 문의는 첨부된 담당자 정보를 참고하세요.\n본 문서의 효력은 게시일로부터 발생합니다.\n세부 일정은 추후 별도 공지될 예정입니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n[비고] 담당자 배현우, 연락처 010-3623-5800, 이메일 ssjphn53@company.co.kr",
+    "grade": "S",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "공지 — 담당자 연락 안내\n\n본 문서의 효력은 게시일로부터 발생합니다.\n본 안내는 사내 전 구성원에게 공유됩니다.\n세부 일정은 추후 별도 공지될 예정입니다.\n공지 — 담당자 연락 안내 안내드립니다. 문의는 첨부된 담당자 정보를 참고하세요.\n관련 절차는 표준 운영 지침을 따릅니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n[비고] 담당자 서지훈, 연락처 010-4483-7163, 이메일 agtrgox49@gmail.com",
+    "grade": "S",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "교육 신청 안내\n\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n교육 신청 안내 안내드립니다. 문의는 첨부된 담당자 정보를 참고하세요.\n관련 절차는 표준 운영 지침을 따릅니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n[비고] 담당자 한민준, 연락처 010-4209-1691, 이메일 bchhb25@gmail.com",
+    "grade": "S",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "공지 — 담당자 연락 안내\n\n관련 절차는 표준 운영 지침을 따릅니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n공지 — 담당자 연락 안내 안내드립니다. 문의는 첨부된 담당자 정보를 참고하세요.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n[비고] 담당자 양은서, 연락처 010-6530-4229, 이메일 bzgvpthtw91@kakao.com",
+    "grade": "S",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "행사 안내 및 문의처\n\n세부 일정은 추후 별도 공지될 예정입니다.\n본 안내는 사내 전 구성원에게 공유됩니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n행사 안내 및 문의처 안내드립니다. 문의는 첨부된 담당자 정보를 참고하세요.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n[비고] 담당자 문유진, 연락처 010-5865-7053, 이메일 qrmvzu27@kakao.com",
+    "grade": "S",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "공지 — 담당자 연락 안내\n\n세부 일정은 추후 별도 공지될 예정입니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n공지 — 담당자 연락 안내 안내드립니다. 문의는 첨부된 담당자 정보를 참고하세요.\n본 안내는 사내 전 구성원에게 공유됩니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n[비고] 담당자 배현우, 연락처 010-8748-6676, 이메일 tkvyjjw95@kakao.com",
+    "grade": "S",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "공지 — 담당자 연락 안내\n\n세부 일정은 추후 별도 공지될 예정입니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n공지 — 담당자 연락 안내 안내드립니다. 문의는 첨부된 담당자 정보를 참고하세요.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n[비고] 담당자 장도윤, 연락처 010-1482-6244, 이메일 ruqfeedp19@naver.com",
+    "grade": "S",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "임직원 신원 확인 자료\n\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n세부 일정은 추후 별도 공지될 예정입니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n임직원 신원 확인 자료. 개인정보보호법에 따라 비식별 처리 대상입니다.\n성명 정건우 신용카드번호 5157-0863-9288-1271\n연락처 010-3165-3925.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "전 직원 비상연락망\n\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n전 직원 비상연락망 (10명). 외부 유출 금지.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n성명 휴대폰 이메일\n안민준 010-7006-2799 moyzwgjof29@gmail.com\n조예준 010-4563-1452 bdpmiqt38@daum.net\n전주원 010-5779-4056 qwjoe39@daum.net\n윤은서 010-8491-1205 ervrwn26@kakao.com\n안지우 010-6755-6042 smfyqyj97@naver.com\n임민서 010-2923-1731 qnapniawg77@naver.com\n배수아 010-3386-1248 bzgvzf96@naver.com\n전수아 010-9177-5625 qoiajtkis2@naver.com\n강민서 010-3919-4198 sqbzjijfe32@kakao.com\n안소율 010-2424-3481 twvmi74@kakao.com",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "운영 서버 접속 정보\n\n본 문서의 효력은 게시일로부터 발생합니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n운영계 접속 키: api_key=AlAo1xgva6ScpEkt4LXwKez2RvhVhE3UEvGt6pC\n백업 자격증명: AKIARHUU43SSDUEENAK6\n담당 서수아 nsckbhaz93@naver.com.\n본 문서의 효력은 게시일로부터 발생합니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n본 안내는 사내 전 구성원에게 공유됩니다.",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "전 직원 비상연락망\n\n본 문서의 효력은 게시일로부터 발생합니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n세부 일정은 추후 별도 공지될 예정입니다.\n전 직원 비상연락망 (14명). 외부 유출 금지.\n본 안내는 사내 전 구성원에게 공유됩니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n성명 휴대폰 이메일\n남민서 010-2273-8587 ldwjabxd14@daum.net\n오서준 010-6555-3164 lscjeqz92@gmail.com\n정하은 010-6640-2789 yjyxrcndu16@company.co.kr\n강지호 010-2164-1885 gmkelfy51@daum.net\n황민서 010-9052-6601 tiuwadc74@kakao.com\n강서준 010-4023-6631 ckiguazwj21@naver.com\n한민서 010-3916-2785 nlyudkmf65@kakao.com\n오유진 010-4915-2467 xbipqgjfg32@daum.net\n백현우 010-2863-8554 kwsrr39@kakao.com\n장민준 010-5056-9152 ewmumhyc74@naver.com\n강수아 010-7985-6718 uzxgul25@company.co.kr\n백민준 010-9367-7944 pznosylv4@company.co.kr\n김준영 010-1936-5158 kizlza77@company.co.kr\n송예준 010-6892-6931 lpxcv8@daum.net",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "운영 서버 접속 정보\n\n관련 절차는 표준 운영 지침을 따릅니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n운영계 접속 키: api_key=rnmm5Z9MTHB9sJSrOTCNhobbVYgx2AH8t2tc9SI\n백업 자격증명: AKIATLBXKYGJ5LEJOKXV\n담당 조서연 wbnqxkejw11@daum.net.\n세부 일정은 추후 별도 공지될 예정입니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n관련 절차는 표준 운영 지침을 따릅니다.",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "운영 서버 접속 정보\n\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n세부 일정은 추후 별도 공지될 예정입니다.\n본 안내는 사내 전 구성원에게 공유됩니다.\n운영계 접속 키: api_key=PZH8VDBIFpn5XqmoOsGUstA1njyqJE\n백업 자격증명: AKIAPCWCAH4UGCEL3UFH\n담당 차하은 jsavb2@kakao.com.\n본 안내는 사내 전 구성원에게 공유됩니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "운영 서버 접속 정보\n\n본 문서의 효력은 게시일로부터 발생합니다.\n본 안내는 사내 전 구성원에게 공유됩니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n운영계 접속 키: api_key=dYNmOX5IOTJfCbQoDyXuxFXrCiPPBf\n백업 자격증명: AKIADKFEII7PSGL52Y7I\n담당 백현우 cvhbp48@gmail.com.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n본 안내는 사내 전 구성원에게 공유됩니다.\n본 문서의 효력은 게시일로부터 발생합니다.",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "전 직원 비상연락망\n\n본 안내는 사내 전 구성원에게 공유됩니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n본 안내는 사내 전 구성원에게 공유됩니다.\n전 직원 비상연락망 (15명). 외부 유출 금지.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n성명 휴대폰 이메일\n백민준 010-5296-1959 eoqujeob15@daum.net\n최민준 010-6035-3585 yhnmfewem85@daum.net\n송서연 010-3852-9781 ohyqarrr88@company.co.kr\n백민서 010-9426-9936 nsalgy33@naver.com\n권민서 010-6952-5855 peskbwt49@daum.net\n배건우 010-5801-9456 xxbzw81@naver.com\n권지훈 010-8540-7638 xesaxpx78@daum.net\n김준영 010-8429-4162 fneah20@naver.com\n황하은 010-7387-9011 gsighty3@kakao.com\n송다은 010-1886-1162 etemalsr96@company.co.kr\n남수아 010-3009-7774 kfadbb94@naver.com\n오주원 010-4920-1825 cizystnt23@daum.net\n임예준 010-7349-4270 zfivtpek69@gmail.com\n윤민서 010-8541-9654 hoisje9@naver.com\n남하은 010-4677-4373 xzsgdhu52@kakao.com",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "임직원 신원 확인 자료\n\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n임직원 신원 확인 자료. 개인정보보호법에 따라 비식별 처리 대상입니다.\n예금주 전예준 계좌 기업 274-3090-6769304\n연락처 010-1675-2814.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n관련 절차는 표준 운영 지침을 따릅니다.",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "해외 출장자 여권 정보\n\n관련 절차는 표준 운영 지침을 따릅니다.\n본 안내는 사내 전 구성원에게 공유됩니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n해외 출장자 여권 정보. 개인정보보호법에 따라 비식별 처리 대상입니다.\n성명 오성민 여권번호 O95763384\n연락처 010-1565-7179.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "[Confidential] 경영 전략 검토 자료\n\n본 문서의 효력은 게시일로부터 발생합니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n관련 절차는 표준 운영 지침을 따릅니다.\nConfidential. 본 문서는 지정된 임직원만 열람할 수 있습니다.\n담당 윤다은 (010-3138-4812).\n전략 방향성 및 투자 우선순위는 본문을 참조하십시오.\n관련 절차는 표준 운영 지침을 따릅니다.\n세부 일정은 추후 별도 공지될 예정입니다.\n본 안내는 사내 전 구성원에게 공유됩니다.",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "운영 서버 접속 정보\n\n본 안내는 사내 전 구성원에게 공유됩니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n운영계 접속 키: api_key=4cMtldbljo5w47ER8rwU5VedLsfrgOD78f\n백업 자격증명: AKIAUIV2QWV3O3EGOOMC\n담당 배도윤 hhovld21@daum.net.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n세부 일정은 추후 별도 공지될 예정입니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "임직원 신원 확인 자료\n\n관련 절차는 표준 운영 지침을 따릅니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n임직원 신원 확인 자료. 개인정보보호법에 따라 비식별 처리 대상입니다.\n성명 배서연 주민등록번호 800805-19434182\n연락처 010-3445-1491.\n본 안내는 사내 전 구성원에게 공유됩니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n항목 값\n계좌(패킹) 25283158425059\n[비고] 비고: 추가 식별자 주민번호 830614-18511885",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "운영 서버 접속 정보\n\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n세부 일정은 추후 별도 공지될 예정입니다.\n운영계 접속 키: api_key=kfD25BuucUeHH5Zc4Uo77x3iug7iNJ1LpwGekre\n백업 자격증명: AKIALC44RFDVT4VCUBBT\n담당 배지호 nfqfg18@gmail.com.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n세부 일정은 추후 별도 공지될 예정입니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n항목 값\n계좌(패킹) 5839328570603\n[비고] 비고: 추가 식별자 주민번호 800115-10105238",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "급여 계좌 등록 명부\n\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n급여 계좌 등록 명부. 개인정보보호법에 따라 비식별 처리 대상입니다.\n성명 정지호 신용카드번호 5325-3594-4002-2231\n연락처 010-7881-2172.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n본 안내는 사내 전 구성원에게 공유됩니다.\n항목 값\n계좌(패킹) 59877552294163\n[비고] 비고: 추가 식별자 주민번호 710908-22456491",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "[극비] 경영 전략 검토 자료\n\n관련 절차는 표준 운영 지침을 따릅니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n극비. 본 문서는 지정된 임직원만 열람할 수 있습니다.\n담당 문민서 (010-9669-2839).\n전략 방향성 및 투자 우선순위는 본문을 참조하십시오.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n항목 값\n계좌(패킹) 59736537260684\n[비고] 비고: 추가 식별자 주민번호 970615-19878956",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "운영 서버 접속 정보\n\n본 문서의 효력은 게시일로부터 발생합니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n본 안내는 사내 전 구성원에게 공유됩니다.\n운영계 접속 키: api_key=fmDneC0u7myvS1TdBNJnHEgL0Rtlh\n백업 자격증명: AKIAYAQOW2QGXUJOOKD5\n담당 배서연 ewymjof92@daum.net.\n세부 일정은 추후 별도 공지될 예정입니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n항목 값\n계좌(패킹) 4944965495697\n[비고] 비고: 추가 식별자 주민번호 690511-24815229",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "[극비] 경영 전략 검토 자료\n\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n세부 일정은 추후 별도 공지될 예정입니다.\n본 안내는 사내 전 구성원에게 공유됩니다.\n극비. 본 문서는 지정된 임직원만 열람할 수 있습니다.\n담당 배주원 (010-7953-9955).\n전략 방향성 및 투자 우선순위는 본문을 참조하십시오.\n본 안내는 사내 전 구성원에게 공유됩니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n항목 값\n계좌(패킹) 53974905188025\n[비고] 비고: 추가 식별자 주민번호 671225-15637615",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "운영 서버 접속 정보\n\n본 문서의 효력은 게시일로부터 발생합니다.\n세부 일정은 추후 별도 공지될 예정입니다.\n세부 일정은 추후 별도 공지될 예정입니다.\n운영계 접속 키: api_key=VceIxbduTQFijyt6awVrHPJEUcryQ\n백업 자격증명: AKIADNZI4ATA3QPOPF56\n담당 김수아 asytb99@kakao.com.\n세부 일정은 추후 별도 공지될 예정입니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n세부 일정은 추후 별도 공지될 예정입니다.\n항목 값\n계좌(패킹) 91135856716011\n[비고] 비고: 추가 식별자 주민번호 890818-29347049",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "운영 서버 접속 정보\n\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n운영계 접속 키: api_key=WisHcVKWl0EqPL3WiP0LtyWsSrQ8uFnTeC\n백업 자격증명: AKIAVNVH3LMTH26VC4X2\n담당 신다은 nqpvsgh65@daum.net.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n세부 일정은 추후 별도 공지될 예정입니다.\n항목 값\n계좌(패킹) 37889468822115\n[비고] 비고: 추가 식별자 주민번호 790513-25668321",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "운영 서버 접속 정보\n\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n운영계 접속 키: api_key=TbuinBYSPro7rkjcfkZWmzfcrJDCxRz\n백업 자격증명: AKIAKO7XGIKBVZWFTJAQ\n담당 유현우 svpslurhi77@company.co.kr.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n항목 값\n계좌(패킹) 89312177732853\n[비고] 비고: 추가 식별자 주민번호 610513-22639554",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "전 직원 비상연락망\n\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n전 직원 비상연락망 (11명). 외부 유출 금지.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n성명 휴대폰 이메일\n안준영 010-2696-9040 bexxiafi71@daum.net\n양도윤 010-3911-5892 tlzansr35@company.co.kr\n강민준 010-5052-4658 gbommz79@gmail.com\n장예준 010-9138-4829 kfdbfvull47@daum.net\n백다은 010-1975-3955 tcsqso40@kakao.com\n서성민 010-1374-7878 znmrvobtr61@gmail.com\n안지우 010-1321-5995 hdgyempb97@naver.com\n오다은 010-6632-2087 hzbkzm95@daum.net\n송주원 010-5210-9523 tfrse17@company.co.kr\n임민서 010-9822-1404 opkojiqbd73@kakao.com\n차서준 010-6624-6166 ietud86@daum.net\n[비고] 비고: 추가 식별자 주민번호 780221-19284948",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "[Confidential] 경영 전략 검토 자료\n\n본 안내는 사내 전 구성원에게 공유됩니다.\n세부 일정은 추후 별도 공지될 예정입니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\nConfidential. 본 문서는 지정된 임직원만 열람할 수 있습니다.\n담당 한현우 (010-5641-2572).\n전략 방향성 및 투자 우선순위는 본문을 참조하십시오.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n항목 값\n계좌(패킹) 7432888144203\n[비고] 비고: 추가 식별자 주민번호 730218-29455298",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "전 직원 비상연락망\n\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n전 직원 비상연락망 (12명). 외부 유출 금지.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n성명 휴대폰 이메일\n유민준 010-6309-6714 nvfmkp99@naver.com\n신지훈 010-4173-3536 dvgki23@kakao.com\n노현우 010-9874-5740 svkdt77@kakao.com\n안다은 010-9393-6722 lcxsdq16@kakao.com\n김민준 010-3559-2419 wwcpv98@kakao.com\n유예준 010-3326-1342 aecnib39@daum.net\n차서연 010-5013-6993 fjyog59@daum.net\n배민준 010-3406-5944 uqbjgb55@naver.com\n최유진 010-7004-7016 uvlabjrpt8@company.co.kr\n황소율 010-2456-8344 wxrzlnpho86@daum.net\n권주원 010-3006-5493 nkgodhwao96@naver.com\n양지호 010-7355-4783 yhjdkhmhv77@company.co.kr\n[비고] 비고: 추가 식별자 주민번호 940626-24022600",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "전 직원 비상연락망\n\n관련 절차는 표준 운영 지침을 따릅니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n전 직원 비상연락망 (16명). 외부 유출 금지.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n세부 일정은 추후 별도 공지될 예정입니다.\n성명 휴대폰 이메일\n정서준 010-9818-7515 yopjytr22@company.co.kr\n노성민 010-1875-2903 mfdbivejd81@gmail.com\n정성민 010-1583-4657 xujxr2@naver.com\n최주원 010-5811-1519 kiwqu95@company.co.kr\n남현우 010-3944-6857 jigjo91@gmail.com\n최지우 010-1657-5496 oqeyk98@daum.net\n황민준 010-5355-8543 kmogjlmy27@naver.com\n한수아 010-5309-7766 mumteyfa23@company.co.kr\n오도윤 010-1260-2629 tckpqnp1@kakao.com\n오예준 010-3584-9183 erosajmf18@kakao.com\n정건우 010-6072-2704 uekpjb71@kakao.com\n장건우 010-9113-2524 ojusu22@daum.net\n노서연 010-7084-4030 juyrx93@kakao.com\n유준영 010-3428-1525 qqqbw36@daum.net\n오수아 010-2124-6790 bbpweglq66@company.co.kr\n신유진 010-1455-3957 bceibv33@naver.com\n[비고] 비고: 추가 식별자 주민번호 890102-16876032",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "[대외비] 경영 전략 검토 자료\n\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n대외비. 본 문서는 지정된 임직원만 열람할 수 있습니다.\n담당 황도윤 (010-7036-2307).\n전략 방향성 및 투자 우선순위는 본문을 참조하십시오.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n본 안내는 사내 전 구성원에게 공유됩니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n항목 값\n계좌(패킹) 46049348158746\n[비고] 비고: 추가 식별자 주민번호 641119-10377041",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "전 직원 비상연락망\n\n관련 절차는 표준 운영 지침을 따릅니다.\n본 안내는 사내 전 구성원에게 공유됩니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n전 직원 비상연락망 (12명). 외부 유출 금지.\n본 문서의 효력은 게시일로부터 발생합니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n성명 휴대폰 이메일\n문서연 010-5104-9149 fkkcst48@gmail.com\n신수아 010-8192-3228 lbjcsbeh66@daum.net\n김지우 010-8374-1541 hkzyugvn57@company.co.kr\n정지훈 010-5572-3240 vnens23@naver.com\n한준영 010-6119-3622 hnewmksox9@kakao.com\n임서연 010-9669-6704 jgkczhjmu45@kakao.com\n문민준 010-3051-2988 gdcwa76@kakao.com\n노준영 010-6150-4384 hzdwz24@naver.com\n오민서 010-8442-7538 cuilrooqq12@naver.com\n문서연 010-7067-2023 hafcoic15@naver.com\n유성민 010-3704-8034 stsswqvax59@company.co.kr\n윤은서 010-7020-7609 kfbhfbqoq91@kakao.com\n[비고] 비고: 추가 식별자 주민번호 620324-10647201",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "전 직원 비상연락망\n\n본 안내는 사내 전 구성원에게 공유됩니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n전 직원 비상연락망 (11명). 외부 유출 금지.\n본 문서의 효력은 게시일로부터 발생합니다.\n본 안내는 사내 전 구성원에게 공유됩니다.\n본 안내는 사내 전 구성원에게 공유됩니다.\n성명 휴대폰 이메일\n전서준 010-8843-4426 abmmfmhit48@company.co.kr\n차현우 010-2238-7801 sqqlhso90@company.co.kr\n노준영 010-4699-3878 udkagfh93@naver.com\n권도윤 010-6073-9914 ezjlfmmh78@daum.net\n박지호 010-5214-2686 pchzp18@kakao.com\n송주원 010-2311-8738 pjhma57@naver.com\n전성민 010-5545-8680 vizkk75@kakao.com\n백예준 010-7080-5288 brbxn8@gmail.com\n배지호 010-5201-8806 pgyekb17@daum.net\n임서연 010-8073-1500 dxzadz57@naver.com\n강유진 010-4419-1722 vjavihc65@gmail.com\n[비고] 비고: 추가 식별자 주민번호 670721-22593890",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "[기밀] 경영 전략 검토 자료\n\n본 문서의 효력은 게시일로부터 발생합니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n세부 일정은 추후 별도 공지될 예정입니다.\n기밀. 본 문서는 지정된 임직원만 열람할 수 있습니다.\n담당 차지우 (010-7010-7565).\n전략 방향성 및 투자 우선순위는 본문을 참조하십시오.\n본 문서의 효력은 게시일로부터 발생합니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n항목 값\n계좌(패킹) 62098912772481\n[비고] 비고: 추가 식별자 주민번호 850904-19896160",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "운영 서버 접속 정보\n\n세부 일정은 추후 별도 공지될 예정입니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n운영계 접속 키: api_key=Qb9LPi7djoiZvlL7OtewxSULGqWfjxzyW4\n백업 자격증명: AKIAVFLEONFFRECWNVFL\n담당 배지우 lvayfqd60@daum.net.\n본 문서의 효력은 게시일로부터 발생합니다.\n본 안내는 사내 전 구성원에게 공유됩니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n항목 값\n계좌(패킹) 3322151781178\n[비고] 비고: 추가 식별자 주민번호 880813-16099125",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "전 직원 비상연락망\n\n본 문서의 효력은 게시일로부터 발생합니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n전 직원 비상연락망 (11명). 외부 유출 금지.\n본 문서의 효력은 게시일로부터 발생합니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n성명 휴대폰 이메일\n오다은 010-5728-9581 zjybod28@daum.net\n최지훈 010-2904-4035 heiinvem63@gmail.com\n권민준 010-4917-2365 skszpkgb2@daum.net\n송하은 010-4787-4703 ltgiwiqh32@naver.com\n윤지우 010-2216-2374 ohlcdt57@gmail.com\n최주원 010-3066-6396 iepvrp95@kakao.com\n안다은 010-3999-3917 jvgmlw46@gmail.com\n오민서 010-1244-5513 imuslsj40@daum.net\n배유진 010-1798-2016 vyrfapu63@daum.net\n장수아 010-4964-4344 ffdancx70@gmail.com\n윤은서 010-2584-7760 ahtplskne59@gmail.com\n[비고] 비고: 추가 식별자 주민번호 780509-24890748",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "운영 서버 접속 정보\n\n본 안내는 사내 전 구성원에게 공유됩니다.\n본 안내는 사내 전 구성원에게 공유됩니다.\n본 안내는 사내 전 구성원에게 공유됩니다.\n운영계 접속 키: api_key=mo5hEYX1iTiNcb9i3dVBn3vJHV8aLs3eFGCQHwB\n백업 자격증명: AKIATCYSQ3TJ6V57ONUU\n담당 배다은 iojvsukf14@kakao.com.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n항목 값\n계좌(패킹) 7548289356904\n[비고] 비고: 추가 식별자 주민번호 950718-10028854",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "해외 출장자 여권 정보\n\n관련 절차는 표준 운영 지침을 따릅니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n세부 일정은 추후 별도 공지될 예정입니다.\n해외 출장자 여권 정보. 개인정보보호법에 따라 비식별 처리 대상입니다.\n성명 송준영 주민등록번호 680124-28263935\n연락처 010-6146-2697.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n항목 값\n계좌(패킹) 61970334973731\n[비고] 비고: 추가 식별자 주민번호 610909-28964177",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "운영 서버 접속 정보\n\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n운영계 접속 키: api_key=T6iHDjP2lwhzMwVUvjezNSBDeBUAah0H6vwK1H\n백업 자격증명: AKIACMKLXK2CV7V2KF5S\n담당 양은서 mloqd14@kakao.com.\n본 문서의 효력은 게시일로부터 발생합니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n항목 값\n계좌(패킹) 80138704354861\n[비고] 비고: 추가 식별자 주민번호 881101-27527861",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "급여 계좌 등록 명부\n\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n급여 계좌 등록 명부. 개인정보보호법에 따라 비식별 처리 대상입니다.\n성명 강소율 신용카드번호 5285-5701-5670-9039\n연락처 010-4393-4609.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n세부 일정은 추후 별도 공지될 예정입니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n항목 값\n계좌(패킹) 32036423071690\n[비고] 비고: 추가 식별자 주민번호 731227-13140785",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "[기밀] 경영 전략 검토 자료\n\n본 안내는 사내 전 구성원에게 공유됩니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n본 안내는 사내 전 구성원에게 공유됩니다.\n기밀. 본 문서는 지정된 임직원만 열람할 수 있습니다.\n담당 문유진 (010-3067-6434).\n전략 방향성 및 투자 우선순위는 본문을 참조하십시오.\n본 안내는 사내 전 구성원에게 공유됩니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n항목 값\n계좌(패킹) 85019305699882\n[비고] 비고: 추가 식별자 주민번호 630322-24063642",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "교육 신청 안내\n\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n교육 신청 안내 안내드립니다. 문의는 첨부된 담당자 정보를 참고하세요.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n세부 일정은 추후 별도 공지될 예정입니다.\n[비고] 담당자 문주원, 연락처 010-8189-6568, 이메일 yrwrj42@company.co.kr",
+    "grade": "S",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "공지 — 담당자 연락 안내\n\n본 안내는 사내 전 구성원에게 공유됩니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n본 안내는 사내 전 구성원에게 공유됩니다.\n공지 — 담당자 연락 안내 안내드립니다. 문의는 첨부된 담당자 정보를 참고하세요.\n본 문서의 효력은 게시일로부터 발생합니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n[비고] 담당자 황수아, 연락처 010-8343-3719, 이메일 hnyewejoe54@kakao.com",
+    "grade": "S",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "행사 안내 및 문의처\n\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n세부 일정은 추후 별도 공지될 예정입니다.\n세부 일정은 추후 별도 공지될 예정입니다.\n행사 안내 및 문의처 안내드립니다. 문의는 첨부된 담당자 정보를 참고하세요.\n본 안내는 사내 전 구성원에게 공유됩니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n[비고] 담당자 임민서, 연락처 010-7631-5509, 이메일 vkapuahlk44@kakao.com",
+    "grade": "S",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "행사 안내 및 문의처\n\n관련 절차는 표준 운영 지침을 따릅니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n행사 안내 및 문의처 안내드립니다. 문의는 첨부된 담당자 정보를 참고하세요.\n세부 일정은 추후 별도 공지될 예정입니다.\n본 안내는 사내 전 구성원에게 공유됩니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n[비고] 담당자 임민준, 연락처 010-5341-1837, 이메일 kpiwuktgo59@naver.com",
+    "grade": "S",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "공지 — 담당자 연락 안내\n\n관련 절차는 표준 운영 지침을 따릅니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n공지 — 담당자 연락 안내 안내드립니다. 문의는 첨부된 담당자 정보를 참고하세요.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n[비고] 담당자 박성민, 연락처 010-1891-3461, 이메일 aehdxnrn74@daum.net",
+    "grade": "S",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "공지 — 담당자 연락 안내\n\n본 안내는 사내 전 구성원에게 공유됩니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n공지 — 담당자 연락 안내 안내드립니다. 문의는 첨부된 담당자 정보를 참고하세요.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n[비고] 담당자 권건우, 연락처 010-8367-4065, 이메일 ejcjdedtm47@daum.net",
+    "grade": "S",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "공지 — 담당자 연락 안내\n\n관련 절차는 표준 운영 지침을 따릅니다.\n세부 일정은 추후 별도 공지될 예정입니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n공지 — 담당자 연락 안내 안내드립니다. 문의는 첨부된 담당자 정보를 참고하세요.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n본 안내는 사내 전 구성원에게 공유됩니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n[비고] 담당자 양은서, 연락처 010-8680-2666, 이메일 kszwtq3@naver.com",
+    "grade": "S",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "행사 안내 및 문의처\n\n본 안내는 사내 전 구성원에게 공유됩니다.\n세부 일정은 추후 별도 공지될 예정입니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n행사 안내 및 문의처 안내드립니다. 문의는 첨부된 담당자 정보를 참고하세요.\n본 문서의 효력은 게시일로부터 발생합니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n본 안내는 사내 전 구성원에게 공유됩니다.\n[비고] 담당자 전주원, 연락처 010-8192-5135, 이메일 zftpgo10@gmail.com",
+    "grade": "S",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "행사 안내 및 문의처\n\n세부 일정은 추후 별도 공지될 예정입니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n행사 안내 및 문의처 안내드립니다. 문의는 첨부된 담당자 정보를 참고하세요.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n세부 일정은 추후 별도 공지될 예정입니다.\n세부 일정은 추후 별도 공지될 예정입니다.\n[비고] 담당자 백지호, 연락처 010-7990-1104, 이메일 saefijbyn47@naver.com",
+    "grade": "S",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "공지 — 담당자 연락 안내\n\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n공지 — 담당자 연락 안내 안내드립니다. 문의는 첨부된 담당자 정보를 참고하세요.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n[비고] 담당자 김준영, 연락처 010-3228-5292, 이메일 crpnax75@gmail.com",
+    "grade": "S",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "교육 신청 안내\n\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n교육 신청 안내 안내드립니다. 문의는 첨부된 담당자 정보를 참고하세요.\n본 안내는 사내 전 구성원에게 공유됩니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n[비고] 담당자 오민서, 연락처 010-6759-5588, 이메일 gstwgce26@kakao.com",
+    "grade": "S",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "행사 안내 및 문의처\n\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n행사 안내 및 문의처 안내드립니다. 문의는 첨부된 담당자 정보를 참고하세요.\n본 안내는 사내 전 구성원에게 공유됩니다.\n세부 일정은 추후 별도 공지될 예정입니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n[비고] 담당자 윤도윤, 연락처 010-5013-8754, 이메일 vrvbjhlkp26@kakao.com",
+    "grade": "S",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "담당자 연락처 목록\n\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n담당자 연락처 목록 (4명).\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n본 안내는 사내 전 구성원에게 공유됩니다.\n세부 일정은 추후 별도 공지될 예정입니다.\n성명 연락처 이메일\n신지우 010-8997-4380 danhpc92@kakao.com\n배지훈 010-4204-2634 unkan66@gmail.com\n배도윤 010-6740-5238 pxyqik14@company.co.kr\n윤수아 010-7514-6353 dydruvzb24@gmail.com",
+    "grade": "S",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "담당자 연락처 목록\n\n본 문서의 효력은 게시일로부터 발생합니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n담당자 연락처 목록 (7명).\n본 안내는 사내 전 구성원에게 공유됩니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n성명 연락처 이메일\n노하은 010-9386-4945 ekzmmsy31@kakao.com\n권지우 010-8736-9642 wbsmybn75@kakao.com\n황준영 010-8321-3886 lyfkavhf45@gmail.com\n노성민 010-3886-3326 zzbla54@company.co.kr\n오민서 010-4737-5847 wlupcx24@gmail.com\n장유진 010-5302-9426 vwayguh96@naver.com\n송소율 010-5989-7950 qcbewryl34@daum.net",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "담당자 연락처 목록\n\n본 안내는 사내 전 구성원에게 공유됩니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n본 안내는 사내 전 구성원에게 공유됩니다.\n담당자 연락처 목록 (5명).\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n본 안내는 사내 전 구성원에게 공유됩니다.\n성명 연락처 이메일\n유서연 010-1763-4219 ukhqkwcut91@daum.net\n양도윤 010-8737-6189 ttfduvz77@gmail.com\n배다은 010-5926-1982 jjasexdx11@gmail.com\n문지우 010-8657-7078 zmwzbmgy92@company.co.kr\n임건우 010-5146-3030 zyrjfbj87@company.co.kr",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "담당자 연락처 목록\n\n관련 절차는 표준 운영 지침을 따릅니다.\n세부 일정은 추후 별도 공지될 예정입니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n담당자 연락처 목록 (5명).\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n성명 연락처 이메일\n박수아 010-6047-9916 mxhcazuae24@gmail.com\n임지호 010-7301-1038 tfgggsf39@company.co.kr\n박서연 010-7867-9607 grmdt56@daum.net\n윤유진 010-3984-1102 ebuddqsj38@kakao.com\n정성민 010-5995-7589 dbpkynxnf3@company.co.kr",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "담당자 연락처 목록\n\n관련 절차는 표준 운영 지침을 따릅니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n담당자 연락처 목록 (8명).\n본 문서의 효력은 게시일로부터 발생합니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n성명 연락처 이메일\n강성민 010-2209-7316 dxsyg32@daum.net\n정수아 010-9105-3341 yjysgvte97@daum.net\n정서준 010-8881-9237 chxil3@kakao.com\n양서연 010-5637-8423 xwtxwi79@naver.com\n최하은 010-7195-6497 qbrbpp12@kakao.com\n문하은 010-1531-7829 pmhotitv62@company.co.kr\n백지훈 010-8312-8239 nhnoltdz18@company.co.kr\n전지우 010-4734-7006 bwwexri64@naver.com",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "담당자 연락처 목록\n\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n본 안내는 사내 전 구성원에게 공유됩니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n담당자 연락처 목록 (8명).\n본 안내는 사내 전 구성원에게 공유됩니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n성명 연락처 이메일\n유도윤 010-7004-1555 jbwhwuay95@kakao.com\n정주원 010-5260-6201 nwdvdnrnq42@gmail.com\n양서연 010-5369-9250 medxvul35@gmail.com\n윤유진 010-9488-3148 txcvpy76@gmail.com\n박소율 010-9286-6583 hzyhea25@daum.net\n조성민 010-8856-8244 ptxnrknrq54@gmail.com\n차성민 010-5181-5056 bkrcgcdme7@naver.com\n유민서 010-9830-4397 mztgfmkkl12@company.co.kr",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "담당자 연락처 목록\n\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n담당자 연락처 목록 (7명).\n관련 절차는 표준 운영 지침을 따릅니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n성명 연락처 이메일\n전지훈 010-9828-8490 gbnfafyt33@daum.net\n권유진 010-5930-2040 apphp86@naver.com\n송지우 010-7154-5066 xiyhoifxd24@company.co.kr\n문지우 010-8046-7859 hjrclnyvb99@kakao.com\n신지훈 010-1637-1076 mbjwhqun41@company.co.kr\n권서연 010-8459-4872 ceoiqhlh86@kakao.com\n서도윤 010-5256-5128 brjrv38@company.co.kr",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "담당자 연락처 목록\n\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n세부 일정은 추후 별도 공지될 예정입니다.\n담당자 연락처 목록 (5명).\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n본 안내는 사내 전 구성원에게 공유됩니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n성명 연락처 이메일\n문민준 010-4398-9853 ghjktam21@kakao.com\n정지훈 010-3658-9676 aqggs96@kakao.com\n조현우 010-6699-9702 pnbwisis99@daum.net\n장서준 010-9207-8323 uowfv61@gmail.com\n유준영 010-2980-9705 mfzglgoc85@daum.net",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "담당자 연락처 목록\n\n세부 일정은 추후 별도 공지될 예정입니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n세부 일정은 추후 별도 공지될 예정입니다.\n담당자 연락처 목록 (5명).\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n성명 연락처 이메일\n조성민 010-7749-1681 pkeabnq15@daum.net\n최주원 010-8691-3309 gnadldzv69@naver.com\n유은서 010-3007-4881 fcxoqqul30@naver.com\n오지훈 010-7628-6514 fozzj82@company.co.kr\n장서준 010-9397-8747 qascgw91@company.co.kr",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "담당자 연락처 목록\n\n본 안내는 사내 전 구성원에게 공유됩니다.\n세부 일정은 추후 별도 공지될 예정입니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n담당자 연락처 목록 (6명).\n관련 절차는 표준 운영 지침을 따릅니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n본 안내는 사내 전 구성원에게 공유됩니다.\n성명 연락처 이메일\n권성민 010-6236-9460 gavtxn22@company.co.kr\n정지훈 010-1615-9247 zohrwgyn66@daum.net\n차준영 010-9772-2135 eutehk87@daum.net\n노서준 010-6843-5407 enggselv4@naver.com\n양서준 010-5191-7710 tgfggea6@daum.net\n황지우 010-3026-7012 nvqgkh69@company.co.kr",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "담당자 연락처 목록\n\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n본 안내는 사내 전 구성원에게 공유됩니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n담당자 연락처 목록 (7명).\n본 문서의 효력은 게시일로부터 발생합니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n성명 연락처 이메일\n문현우 010-6241-6795 yalunw33@kakao.com\n노유진 010-4520-3020 cofbckl81@naver.com\n황민준 010-1826-7076 lydqst41@gmail.com\n윤주원 010-3707-1038 awnrluej95@gmail.com\n유하은 010-7600-5790 andqry95@naver.com\n차예준 010-6585-9894 xptfax21@company.co.kr\n유지우 010-4107-1210 aanbhd41@company.co.kr",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "담당자 연락처 목록\n\n관련 절차는 표준 운영 지침을 따릅니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n담당자 연락처 목록 (8명).\n세부 일정은 추후 별도 공지될 예정입니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n세부 일정은 추후 별도 공지될 예정입니다.\n성명 연락처 이메일\n문서준 010-2066-4542 shekncgl49@naver.com\n임성민 010-4017-3238 aypznnw59@naver.com\n백하은 010-9569-4717 tkwuwzq19@kakao.com\n전지호 010-5569-6862 bnzok66@company.co.kr\n문성민 010-4423-2881 wvbenfmc25@kakao.com\n백준영 010-6300-8126 exuhga4@kakao.com\n권예준 010-1098-5296 xajzwj85@gmail.com\n백다은 010-5673-7453 abgdcdbpi12@company.co.kr",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "공개 카탈로그 / 정산 안내\n\n관련 절차는 표준 운영 지침을 따릅니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n본 안내는 공개 자료입니다.\n정산 일련번호 97120820812752 로 조회 가능합니다(개인정보 아님).\n본 문서의 효력은 게시일로부터 발생합니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n본 안내는 사내 전 구성원에게 공유됩니다.",
+    "grade": "O",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "공개 카탈로그 / 정산 안내\n\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n본 안내는 공개 자료입니다.\n문서 일련번호 P97662510194 / 접수번호 781209239759.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n본 안내는 사내 전 구성원에게 공유됩니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n본 문서의 효력은 게시일로부터 발생합니다.",
+    "grade": "O",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "공개 카탈로그 / 정산 안내\n\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n본 안내는 공개 자료입니다.\n정산 일련번호 65010710495081 로 조회 가능합니다(개인정보 아님).\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n세부 일정은 추후 별도 공지될 예정입니다.\n관련 절차는 표준 운영 지침을 따릅니다.",
+    "grade": "O",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "공개 카탈로그 / 정산 안내\n\n관련 절차는 표준 운영 지침을 따릅니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n본 안내는 공개 자료입니다.\n정산 일련번호 71020615458452 로 조회 가능합니다(개인정보 아님).\n세부 일정은 추후 별도 공지될 예정입니다.\n세부 일정은 추후 별도 공지될 예정입니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n세부 일정은 추후 별도 공지될 예정입니다.",
+    "grade": "O",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "공개 카탈로그 / 정산 안내\n\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n본 안내는 공개 자료입니다.\n정산 일련번호 74072711974899 로 조회 가능합니다(개인정보 아님).\n본 문서의 효력은 게시일로부터 발생합니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n세부 일정은 추후 별도 공지될 예정입니다.",
+    "grade": "O",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "공개 카탈로그 / 정산 안내\n\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n본 안내는 공개 자료입니다.\n정산 일련번호 66032123053040 로 조회 가능합니다(개인정보 아님).\n세부 일정은 추후 별도 공지될 예정입니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n본 문서의 효력은 게시일로부터 발생합니다.",
+    "grade": "O",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "공개 카탈로그 / 정산 안내\n\n본 문서의 효력은 게시일로부터 발생합니다.\n본 안내는 사내 전 구성원에게 공유됩니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n본 안내는 공개 자료입니다.\n정산 일련번호 96121729764677 로 조회 가능합니다(개인정보 아님).\n본 문서의 효력은 게시일로부터 발생합니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n본 안내는 사내 전 구성원에게 공유됩니다.",
+    "grade": "O",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "공개 카탈로그 / 정산 안내\n\n세부 일정은 추후 별도 공지될 예정입니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n본 안내는 공개 자료입니다.\n정산 일련번호 92061614528522 로 조회 가능합니다(개인정보 아님).\n본 안내는 사내 전 구성원에게 공유됩니다.\n세부 일정은 추후 별도 공지될 예정입니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.",
+    "grade": "O",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "공개 카탈로그 / 정산 안내\n\n세부 일정은 추후 별도 공지될 예정입니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n본 안내는 공개 자료입니다.\n상품 코드 5502-3482-8650-1650 는 공개 SKU 식별자입니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n본 안내는 사내 전 구성원에게 공유됩니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.",
+    "grade": "O",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "공개 카탈로그 / 정산 안내\n\n본 안내는 사내 전 구성원에게 공유됩니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n본 안내는 공개 자료입니다.\n문서 일련번호 P4996694952662 / 접수번호 473207321360.\n관련 절차는 표준 운영 지침을 따릅니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n본 문서의 효력은 게시일로부터 발생합니다.",
+    "grade": "O",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "공개 카탈로그 / 정산 안내\n\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n본 안내는 사내 전 구성원에게 공유됩니다.\n본 안내는 공개 자료입니다.\n문서 일련번호 P5100057629 / 접수번호 995021372737.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.",
+    "grade": "O",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "공개 카탈로그 / 정산 안내\n\n관련 절차는 표준 운영 지침을 따릅니다.\n세부 일정은 추후 별도 공지될 예정입니다.\n본 안내는 사내 전 구성원에게 공유됩니다.\n본 안내는 공개 자료입니다.\n정산 일련번호 80060712234121 로 조회 가능합니다(개인정보 아님).\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.",
+    "grade": "O",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "내부 검토 자료\n\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n본 안내는 사내 전 구성원에게 공유됩니다.\n본 자료는 대 외 비 입니다. 무단 배포를 금합니다.\n검토 담당 조건우.\n참고 식별 정보: ７４０５２３-２１５１５９８１\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n세부 일정은 추후 별도 공지될 예정입니다.\n세부 일정은 추후 별도 공지될 예정입니다.",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "내부 검토 자료\n\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n본 자료는 기 밀 입니다. 무단 배포를 금합니다.\n검토 담당 송예준.\n참고 식별 정보: ８３０３２８-２８４２４８２９\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n본 안내는 사내 전 구성원에게 공유됩니다.",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "내부 검토 자료\n\n관련 절차는 표준 운영 지침을 따릅니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n본 자료는 기 밀 입니다. 무단 배포를 금합니다.\n검토 담당 장지훈.\n참고 식별 정보: ６５０３２１-１９０１７８００\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "내부 검토 자료\n\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n본 안내는 사내 전 구성원에게 공유됩니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n본 자료는 대 외 비 입니다. 무단 배포를 금합니다.\n검토 담당 조유진.\n참고 식별 정보: ７３１２０９-１３２４２０１６\n관련 절차는 표준 운영 지침을 따릅니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n세부 일정은 추후 별도 공지될 예정입니다.\n본 문서의 효력은 게시일로부터 발생합니다.",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "내부 검토 자료\n\n세부 일정은 추후 별도 공지될 예정입니다.\n세부 일정은 추후 별도 공지될 예정입니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n본 자료는 기 밀 입니다. 무단 배포를 금합니다.\n검토 담당 신다은.\n참고 식별 정보: ７７０９０３-１４２５４９３６\n세부 일정은 추후 별도 공지될 예정입니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "내부 검토 자료\n\n본 문서의 효력은 게시일로부터 발생합니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n세부 일정은 추후 별도 공지될 예정입니다.\n본 자료는 기 밀 입니다. 무단 배포를 금합니다.\n검토 담당 문소율.\n참고 식별 정보: ６３１２１３-２７０３２４１９\n세부 일정은 추후 별도 공지될 예정입니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n세부 일정은 추후 별도 공지될 예정입니다.",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "내부 검토 자료\n\n본 안내는 사내 전 구성원에게 공유됩니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n본 자료는 극 비 입니다. 무단 배포를 금합니다.\n검토 담당 한수아.\n참고 식별 정보: ６７０１２８-１２３５２９２３\n관련 절차는 표준 운영 지침을 따릅니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n본 문서의 효력은 게시일로부터 발생합니다.",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "내부 검토 자료\n\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n본 자료는 대 외 비 입니다. 무단 배포를 금합니다.\n검토 담당 문도윤.\n참고 식별 정보: ８１１１１３-１７６５４５４４\n세부 일정은 추후 별도 공지될 예정입니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n세부 일정은 추후 별도 공지될 예정입니다.",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "내부 검토 자료\n\n세부 일정은 추후 별도 공지될 예정입니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n본 자료는 대 외 비 입니다. 무단 배포를 금합니다.\n검토 담당 정다은.\n참고 식별 정보: ９１０２２２-１４６１３３１１\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n본 안내는 사내 전 구성원에게 공유됩니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "내부 검토 자료\n\n본 문서의 효력은 게시일로부터 발생합니다.\n세부 일정은 추후 별도 공지될 예정입니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n본 자료는 기 밀 입니다. 무단 배포를 금합니다.\n검토 담당 배지훈.\n참고 식별 정보: ７６１０２６-２３２６７０５４\n세부 일정은 추후 별도 공지될 예정입니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n본 안내는 사내 전 구성원에게 공유됩니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "내부 검토 자료\n\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n본 자료는 극 비 입니다. 무단 배포를 금합니다.\n검토 담당 윤소율.\n참고 식별 정보: ６６０４２５-２４２６０６１８\n관련 절차는 표준 운영 지침을 따릅니다.\n세부 일정은 추후 별도 공지될 예정입니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n세부 일정은 추후 별도 공지될 예정입니다.",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "내부 검토 자료\n\n본 문서의 효력은 게시일로부터 발생합니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n본 자료는 극 비 입니다. 무단 배포를 금합니다.\n검토 담당 장준영.\n참고 식별 정보: ８１０８０８-１８３００６９１\n본 문서의 효력은 게시일로부터 발생합니다.\n세부 일정은 추후 별도 공지될 예정입니다.\n본 안내는 사내 전 구성원에게 공유됩니다.\n본 안내는 사내 전 구성원에게 공유됩니다.",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "공개 카탈로그 / 정산 안내\n\n세부 일정은 추후 별도 공지될 예정입니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n본 안내는 공개 자료입니다.\n문서 일련번호 P532359903968 / 접수번호 763479918210.\n관련 절차는 표준 운영 지침을 따릅니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n세부 일정은 추후 별도 공지될 예정입니다.",
+    "grade": "O",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "공개 카탈로그 / 정산 안내\n\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n세부 일정은 추후 별도 공지될 예정입니다.\n본 안내는 공개 자료입니다.\n상품 코드 5178-6279-9469-1868 는 공개 SKU 식별자입니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n세부 일정은 추후 별도 공지될 예정입니다.\n세부 일정은 추후 별도 공지될 예정입니다.\n관련 절차는 표준 운영 지침을 따릅니다.",
+    "grade": "O",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "공개 카탈로그 / 정산 안내\n\n관련 절차는 표준 운영 지침을 따릅니다.\n본 안내는 사내 전 구성원에게 공유됩니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n본 안내는 공개 자료입니다.\n상품 코드 5155-4409-1250-1004 는 공개 SKU 식별자입니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n세부 일정은 추후 별도 공지될 예정입니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n관련 절차는 표준 운영 지침을 따릅니다.",
+    "grade": "O",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "공개 카탈로그 / 정산 안내\n\n세부 일정은 추후 별도 공지될 예정입니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n세부 일정은 추후 별도 공지될 예정입니다.\n본 안내는 공개 자료입니다.\n정산 일련번호 88111719402092 로 조회 가능합니다(개인정보 아님).\n본 문서의 효력은 게시일로부터 발생합니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n관련 절차는 표준 운영 지침을 따릅니다.",
+    "grade": "O",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "공개 카탈로그 / 정산 안내\n\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n세부 일정은 추후 별도 공지될 예정입니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n본 안내는 공개 자료입니다.\n정산 일련번호 93062014120760 로 조회 가능합니다(개인정보 아님).\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n본 안내는 사내 전 구성원에게 공유됩니다.\n관련 절차는 표준 운영 지침을 따릅니다.",
+    "grade": "O",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "공개 카탈로그 / 정산 안내\n\n본 안내는 사내 전 구성원에게 공유됩니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n본 안내는 사내 전 구성원에게 공유됩니다.\n본 안내는 공개 자료입니다.\n정산 일련번호 94082014415290 로 조회 가능합니다(개인정보 아님).\n세부 일정은 추후 별도 공지될 예정입니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n본 안내는 사내 전 구성원에게 공유됩니다.",
+    "grade": "O",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "공개 카탈로그 / 정산 안내\n\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n본 안내는 공개 자료입니다.\n문서 일련번호 P6667996826818 / 접수번호 258650098398.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n본 안내는 사내 전 구성원에게 공유됩니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.",
+    "grade": "O",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "공개 카탈로그 / 정산 안내\n\n본 안내는 사내 전 구성원에게 공유됩니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n본 안내는 공개 자료입니다.\n정산 일련번호 68120419415684 로 조회 가능합니다(개인정보 아님).\n관련 절차는 표준 운영 지침을 따릅니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n관련 절차는 표준 운영 지침을 따릅니다.",
+    "grade": "O",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "공개 카탈로그 / 정산 안내\n\n본 문서의 효력은 게시일로부터 발생합니다.\n세부 일정은 추후 별도 공지될 예정입니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n본 안내는 공개 자료입니다.\n상품 코드 5261-3461-4886-2923 는 공개 SKU 식별자입니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.",
+    "grade": "O",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "공개 카탈로그 / 정산 안내\n\n본 문서의 효력은 게시일로부터 발생합니다.\n본 안내는 사내 전 구성원에게 공유됩니다.\n본 안내는 사내 전 구성원에게 공유됩니다.\n본 안내는 공개 자료입니다.\n상품 코드 5142-3949-6482-3749 는 공개 SKU 식별자입니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n세부 일정은 추후 별도 공지될 예정입니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n세부 일정은 추후 별도 공지될 예정입니다.",
+    "grade": "O",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "공개 카탈로그 / 정산 안내\n\n본 문서의 효력은 게시일로부터 발생합니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n본 안내는 공개 자료입니다.\n문서 일련번호 P2662603734643 / 접수번호 938221860511.\n본 안내는 사내 전 구성원에게 공유됩니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n본 안내는 사내 전 구성원에게 공유됩니다.\n관련 절차는 표준 운영 지침을 따릅니다.",
+    "grade": "O",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "공개 카탈로그 / 정산 안내\n\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n세부 일정은 추후 별도 공지될 예정입니다.\n본 안내는 공개 자료입니다.\n상품 코드 5442-0268-6496-6320 는 공개 SKU 식별자입니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.",
+    "grade": "O",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "내부 검토 자료\n\n관련 절차는 표준 운영 지침을 따릅니다.\n본 안내는 사내 전 구성원에게 공유됩니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n본 자료는 기 밀 입니다. 무단 배포를 금합니다.\n검토 담당 박지우.\n참고 식별 정보: ６２０７２２-１５０１０８８１\n본 문서의 효력은 게시일로부터 발생합니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "내부 검토 자료\n\n본 문서의 효력은 게시일로부터 발생합니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n세부 일정은 추후 별도 공지될 예정입니다.\n본 자료는 대 외 비 입니다. 무단 배포를 금합니다.\n검토 담당 유수아.\n참고 식별 정보: ７２０２０３-２４８４８５７０\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n관련 절차는 표준 운영 지침을 따릅니다.",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "내부 검토 자료\n\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n본 자료는 기 밀 입니다. 무단 배포를 금합니다.\n검토 담당 황민서.\n참고 식별 정보: ８５０６２４-２６３８６０５６\n본 안내는 사내 전 구성원에게 공유됩니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "내부 검토 자료\n\n관련 절차는 표준 운영 지침을 따릅니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n세부 일정은 추후 별도 공지될 예정입니다.\n본 자료는 대 외 비 입니다. 무단 배포를 금합니다.\n검토 담당 강예준.\n참고 식별 정보: ８１０２０７-２５１７４３３５\n세부 일정은 추후 별도 공지될 예정입니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n본 안내는 사내 전 구성원에게 공유됩니다.",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "내부 검토 자료\n\n관련 절차는 표준 운영 지침을 따릅니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n본 자료는 기 밀 입니다. 무단 배포를 금합니다.\n검토 담당 권지우.\n참고 식별 정보: ６６１１０１-１４６４１５２１\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "내부 검토 자료\n\n본 문서의 효력은 게시일로부터 발생합니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n본 자료는 극 비 입니다. 무단 배포를 금합니다.\n검토 담당 박민준.\n참고 식별 정보: ７２０７２４-１３９４２７７６\n본 문서의 효력은 게시일로부터 발생합니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "내부 검토 자료\n\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n본 자료는 극 비 입니다. 무단 배포를 금합니다.\n검토 담당 장민서.\n참고 식별 정보: ７１０６０５-１３７７２８４９\n본 안내는 사내 전 구성원에게 공유됩니다.\n세부 일정은 추후 별도 공지될 예정입니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "내부 검토 자료\n\n관련 절차는 표준 운영 지침을 따릅니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n본 자료는 대 외 비 입니다. 무단 배포를 금합니다.\n검토 담당 노유진.\n참고 식별 정보: ８８１２０２-２３６５０２２６\n본 문서의 효력은 게시일로부터 발생합니다.\n세부 일정은 추후 별도 공지될 예정입니다.\n세부 일정은 추후 별도 공지될 예정입니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "내부 검토 자료\n\n본 안내는 사내 전 구성원에게 공유됩니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n본 자료는 기 밀 입니다. 무단 배포를 금합니다.\n검토 담당 조민서.\n참고 식별 정보: ８１１２０２-２７２６２１２４\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "내부 검토 자료\n\n관련 절차는 표준 운영 지침을 따릅니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n본 자료는 극 비 입니다. 무단 배포를 금합니다.\n검토 담당 강민준.\n참고 식별 정보: ８００２２０-１５１９８４１４\n본 문서의 효력은 게시일로부터 발생합니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "내부 검토 자료\n\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n본 안내는 사내 전 구성원에게 공유됩니다.\n본 문서의 효력은 게시일로부터 발생합니다.\n본 자료는 대 외 비 입니다. 무단 배포를 금합니다.\n검토 담당 한서준.\n참고 식별 정보: ６７１１０８-１１３００５６８\n관련 절차는 표준 운영 지침을 따릅니다.\n세부 일정은 추후 별도 공지될 예정입니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n관련 절차는 표준 운영 지침을 따릅니다.",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 4
+  },
+  {
+    "text": "내부 검토 자료\n\n본 문서의 효력은 게시일로부터 발생합니다.\n세부 일정은 추후 별도 공지될 예정입니다.\n관련 절차는 표준 운영 지침을 따릅니다.\n본 자료는 극 비 입니다. 무단 배포를 금합니다.\n검토 담당 윤하은.\n참고 식별 정보: ９５０２２６-１２２３２９１９\n이전 버전과의 차이는 변경 이력에 정리되어 있습니다.\n관련 양식은 사내 포털에서 내려받을 수 있습니다.\n문의 사항은 담당 부서로 전달해 주시기 바랍니다.\n관련 절차는 표준 운영 지침을 따릅니다.",
+    "grade": "C",
+    "gen": "template:corpus",
+    "diff": 4
+  }
+]
