@@ -1,0 +1,764 @@
+[
+  {
+    "text": "2024년 2분기 웹사이트 개편 성과 보고\n본 문서는 2024년 2분기 웹사이트 개편 이후 방문자 분석 결과와 사용자 경험 개선 사항을 종합하여 작성되었습니다. 주요 KPI로는 페이지 체류 시간과 이탈률이 있으며, 평균 체류 시간은 전분기 대비 15% 증가했으나 이탈률은 소폭 상승한 3%를 기록했습니다. 신규 도입된 인터랙티브 요소가 긍정적인 반응을 얻었음을 설문 결과를 통해 확인했으며, 특히 모바일 환경에서의 사용성 개선이 가장 큰 호평을 받았습니다. 앞으로는 사용자 피드백 기반 A/B 테스트를 확대하여 개인화 추천 알고리즘 고도화를 추진할 계획입니다. 이러한 노력으로 다음 분기에는 전환율 10% 상승을 목표로 하고 있습니다.",
+    "grade": "O",
+    "gen": "azure:o4-mini",
+    "lang": "ko"
+  },
+  {
+    "text": "2024 년 분 기별 점포 운 영 지침 개 정 공 고\n귀 사의 점포 운 영 효율 화 와 서 류 간 소 화 등을 위 한 일 환으 로 “분 기별 운 영 가이드 라인”이 일부 개 정 되었음 을 알 립 니다. 본 가이 드 라인은 현 장 실 정 과 프로 세스 간 연 결 고 리를 늘 리고 자 하는 취 지 를 담 고 있 으며, 조 건 별 적 용 류를 보다 유 연하 게 해 석·활 용할 수 있도 록 구 성되었 습 니다. 특 히 서 류 제 출 데 드 라인 나 품 목 규 격 정의 등 은 부 서 자율 재 구 성 이 가능하 도록 권 고하였 으며, 세 부 내 용 은 첨부 문 건 참 조 요망. 향 후 실 시 전 환 기 간 에 발 생하 는 질 의 사 항 은 각 팀 장 및 관 련 팀 과 별 도 논 의 후 진 행 바 랍 니 다. 이 공 고 안 내가 실 정 과 동 떨어져 있 다고 느껴 질 경 우, 주 저 한 시 에 피드백을 주 시기 바 랍 니 다.",
+    "grade": "O",
+    "gen": "azure:o4-mini",
+    "lang": "ko"
+  },
+  {
+    "text": "클라우드 서비스 라이선스 업그레이드 계획 안내\n본 문서는 2024년 2분기 클라우드 서비스 라이선스 업그레이드 계획을 종합적으로 안내하기 위해 작성되었습니다. 이번 계획에서는 L1, L2, L3 모델 전환을 포함한 총 3단계 절차가 복합적으로 적용되며, 각 단계의 실행 조건과 관련 도구 목록은 내부 위키 페이지(https://wiki.example.com/cloud-upgrade)에서 확인할 수 있습니다. 1차 배포는 5월 10일에 각 리전별로 동시 진행되며, 2차 검증 후 6월 15일 본사 데이터센터에서 추가 점검을 실시할 예정입니다. 검증 과정 중 발생 가능한 응답 지연이나 인증 오류는 사전 테스팅 단계에서 일부 확인되었으나, 전체 서비스 장애 가능성은 0.02% 이하로 예측되며 실시간 모니터링 체계가 가동됩니다. 운영팀은 별도 점검표를 통해 각 세부 항목의 상태를 수집하고, 주간 보고 시 우선 순위가 높은 이슈 5건을 중심으로 공유할 계획입니다. 기술지원 부서에서는 고객 서비스 안정화를 위해 예비 서버를 활용해 트래픽 분산 테스트를 병행하며, 예상치 못한 네트워크 병목 현상 발생 시 즉각적인 전환이 가능하도록 매뉴얼화해 두었습니다. 본 절차와 관련된 추가 문의사항은 이메일 또는 지정 그룹 채널을 통해 접수받으며, 5영업일 이내로 회신할 예정입니다.",
+    "grade": "O",
+    "gen": "azure:o4-mini",
+    "lang": "ko"
+  },
+  {
+    "text": "2024 여름방학 코딩 캠프 참가 안내\n안녕하세요, 세빛교육센터입니다. 이번 여름방학을 맞아 초·중학생 대상 코딩 캠프를 아래와 같이 운영하오니 관심 있는 가족 여러분의 많은 참여 부탁드립니다. 기간은 7월 15일부터 7월 19일까지이며, 기본 프로그래밍 원리부터 로봇 제어 실습까지 다양한 과정을 제공합니다. 참가비는 재료비 및 교재 포함 8만원이며, 선착순 30명 마감 예정입니다. 신청은 센터 방문 또는 홈페이지 내 온라인 접수로 가능하며, 자세한 일정과 준비물 안내는 홈페이지 공지를 참고해 주시기 바랍니다. 문의사항은 세빛교육센터 행정지원팀으로 연락해 주십시오.",
+    "grade": "O",
+    "gen": "azure:o4-mini",
+    "lang": "ko"
+  },
+  {
+    "text": "2024년도 상반기 고객 만족도 조사 결과 보고\n2024년도 상반기 고객 만족도 조사 결과, 총응답자 3,200명 중 78%가 서비스 품질에 '만족' 이상을 표시했습니다. 자주 언급된 개선 요구사항으로는 배송 속도와 AS 대응 속도 등이 있으며, 특히 특정 상품군에서 회수율이 평균 대비 15% 높게 나타났습니다. 마케팅 채널별 효과 분석 결과, SNS 광고가 전년 동기 대비 22% 높은 전환율을 기록했습니다. 일부 응답자는 결제 편의성을 보완해 달라는 의견을 주었으나, 내부 논의 결과 현재 플랫폼 업데이트 전략과 연계 검토 필요성이 제기되었습니다. 이번 조사 결과는 연말까지 진행할 서비스 개선 프로젝트의 우선순위 설정에 활용될 예정이며, 구체적인 개선 일정 및 예산안은 다음 회의에서 추가 검토할 계획입니다.",
+    "grade": "O",
+    "gen": "azure:o4-mini",
+    "lang": "ko"
+  },
+  {
+    "text": "2024년 상반기 업무 프로세스 혁신 가이드라인\n내달 초 예정된 프로 세 스 리뷰는 검 토·조 치 단계를 간소화함을 목적으로 합니다. 제출 자료는 ‘기획 이 슈 체크리스트’ 양식에 기 입 후, 지정 채널로 회신해 주시기 바랍니다. 제출 시점은 (이전 공지 참조) 허용 기 간 내에 한해 조율 가능하니, 예외 사 항이 발생할 경우 사전 상 의 바랍니다. 본 가이드라인은 추 후 변경될 수 있으며, 세부 내 용은 공유 드린 문서에서 확인할 수 있습니다.",
+    "grade": "O",
+    "gen": "azure:o4-mini",
+    "lang": "ko"
+  },
+  {
+    "text": "2024년 1분기 신형 X 스마트워치 출시 초기 반응 분석\n지난 3월 출시된 신형 X 스마트워치는 내장 배터리 효율 개선과 함께 건강 관리 기능 고도화(심박·산소포화도 포함) 등을 앞세워 분기 내 교체율 12.5%를 기록했으며, 특히 사용자 만족도 조사 대상 1,087명 중 68%가 배터리 지속시간 개선을 체감했다고 응답하는 등 초기 반응이 긍정적이었습니다. 다만, 일부 커뮤니티 게시글과 외부 리뷰 리포트에서는 심박 측정 정확도가 특정 운동 상황에서 2~5% 가량 오차를 보였고, 터치 반응 속도가 평균 1.8초 내외 지연되는 현상이 보고되어 2차 펌웨어 업데이트 전까지 추가 모니터링이 필요한 실정입니다. 온라인 판매 채널별로는 A사 플랫폼에서 42%, B사 플랫폼에서 35%, 나머지 직영몰이 23%로 비중이 분산됐으며, 전체 주문량 중 6.3%에 해당하는 배송 지연 사례가 확인되어 물류 운영팀의 개선 요청이 접수되었습니다. 마케팅 집행 성과에서는 영상 콘텐츠 캠페인 3회 집행 기준 클릭당 비용이 평균 1,250원 선으로 전월 대비 8.7% 상승했으나, 전환율은 4.2%로 기존 목표치에 근접하면서 안정권에 진입한 것으로 분석됩니다. 한편, 향후 추진 과제로는 GPS 위치 오차 범위를 10m 이내로 최소화하고, 수면 측정 정확도를 ±0.1% 수준까지 끌어올리며, 차기 펌웨어 배포 시 UI 튕김 및 소프트 리부팅 현상 개선을 우선적으로 추진하기로 가닥이 잡혔습니다.",
+    "grade": "O",
+    "gen": "azure:o4-mini",
+    "lang": "ko"
+  },
+  {
+    "text": "2024년 상반기 교육 프로그램 안내\n안녕하세요, 고객 여러분. 2024년 상반기 교육 프로그램 일정을 안내드립니다. 새롭게 개설된 디지털 마케팅 과정은 3월 5일부터 6주간 진행되며, 참여자에게 실습 중심의 강의를 제공합니다. 또한 데이터 분석 기초 과정은 4월 10일부터 매주 수요일에 운영되며, 현업 전문가가 실제 사례를 바탕으로 교육을 진행합니다. 모든 프로그램은 온라인으로 진행되며, 수강 신청은 홈페이지에서 가능합니다. 궁금한 사항은 고객센터로 문의해 주시기 바랍니다.",
+    "grade": "O",
+    "gen": "azure:o4-mini",
+    "lang": "ko"
+  },
+  {
+    "text": "2024년 상반기 업무 효율화 프로젝트 진행 보고\n당사에서는 2024년 1분기부터 전사 업무 프로세스 개선을 위해 ‘스마트 워크 자동화’ 프로젝트를 추진하고 있습니다. 주요 내용으로는 전자결재 시스템 최적화, 문서 템플릿 표준화, 협업 툴 통합 연동 등이 포함되어 있습니다. 현재까지 전자결재 처리 시간이 평균 20% 단축되었으며, 문서 작성 오류율도 15% 감소한 성과를 기록했습니다. 하반기에는 사내 교육 세미나를 통해 활용률을 더욱 높이고, 추가 모듈 검토를 통해 확장 가능성을 타진할 예정입니다. 모든 부서의 적극적인 참여를 요청드립니다.",
+    "grade": "O",
+    "gen": "azure:o4-mini",
+    "lang": "ko"
+  },
+  {
+    "text": "2024년 4월 스마트물류 가속화 전략 가이드\n분산형 창고 네트워크는 외부 연동 포인트를 마치 보이지 않는 다리처럼 펼쳐내며, 정형화된 흐름 대신 비정형 경로의 수용 가능성을 실험 중입니다. 로지스틱스 파라미터를 재조명하는 과정에서 레거시 시스템과의 은밀한 대화(즉, 모두에게 공개되진 않는 프로토콜)를 활용, 이질적 데이터셋을 섞는 방안을 고려하고 있습니다. 시장 반응 측정은 가이드라인에 명시된 마커가 아닌, 예측된 유동성 지표를 중심으로 가볍게 스케치한 후 보완하는 방식을 제안합니다. 이를 위해 각 담당 팀은 주기별로 소규모 A/B 테스트 대신 ‘포스트 모더레이트 체킹(post-moderate checking)’을 수행하며, 이 과정에서 불필요한 식별 포인트를 최소화해 투명도를 우회합니다. 최종 보고서는 내부 검수 절차를 거치되, 공개용 버전에는 핵심 논리만 간결하게 담아 배포할 예정입니다. 이상 전략은 빠르게 순환하는 물류 환경에 맞춰 유연하게 재조합될 수 있습니다.",
+    "grade": "O",
+    "gen": "azure:o4-mini",
+    "lang": "ko"
+  },
+  {
+    "text": "2024 스마트 시티 통합 플랫폼 추진계획 보고\n올해 3월부터 서울시 종로구 일대에서 시범 운영 중인 스마트 가로등 연동형 IoT 센서망 구축 프로젝트는 도시 안전과 교통 흐름 최적화를 목표로 총 85억 원 규모의 사업비를 투입하여 진행되었으며, 공원 조명 자동제어, 대기질 모니터링, 주차 현황 연동 등의 기능을 포함한다. 한편, 민간 벤처기업과의 협업으로 추진되는 모빌리티 통합관제 시스템은 5G 통신망 기반에서 자율주행 셔틀 12대를 운영할 예정이고, 하반기까지 GPS 오차 보정 알고리즘과 실시간 교통량 분석 모듈을 고도화하기 위한 연구개발 단계가 병행된다. 또한, 노후 상수도 관망 23km 구간에 설치된 스마트 밸브 원격 제어 솔루션은 2022년부터 현재까지 120여 건의 누수 사고를 조기에 감지해온 바 있으나, UV살균 및 수질 자가 진단 기능 추가를 위해 올해 7월까지 추가 예산 편성이 요구된다. 이와 함께 태양광 패널과 연계된 에너지 저장장치(ESS) 실증사업은 1,500kW급 충방전 설비가 설치되어 효율성 시험을 진행 중이며, 전력 수요 예측 모델링을 활용해 주간 최대 피크 전력을 15% 이상 절감하는 것을 목표로 설정하였다. 향후 통합 플랫폼은 공공와이파이 핫스팟 및 스마트 쓰레기 수거함 연동, 연말 예정된 빅데이터 분석 결과 발표회를 통해 시정 운영 전반에 대한 실시간 의사결정 지원 기능을 강화할 계획이다.",
+    "grade": "O",
+    "gen": "azure:o4-mini",
+    "lang": "ko"
+  },
+  {
+    "text": "시스템 정기 점검 안내\n안녕하세요. 고객님께 더 안정적인 서비스를 제공하기 위해 아래와 같이 시스템 정기 점검을 실시할 예정입니다. 점검 일시는 2024년 7월 15일(월) 오후 11시부터 익일 오전 2시까지이며, 해당 시간 동안 일부 서비스 이용이 제한될 수 있습니다. 점검 동안 발생할 수 있는 불편에 대해 깊이 사과드리며, 문의사항이 있으시면 담당자 배민서 (010-8300-7039) 또는 ikrybovtr77@company.co.kr로 연락 주시기 바랍니다. 본 문서는 민감(SENSITIVE) 등급으로 분류되어 있습니다. 감사합니다.\n[문의] 남지우 kdxau44@kakao.com",
+    "grade": "S",
+    "gen": "azure:o4-mini",
+    "lang": "ko"
+  },
+  {
+    "text": "A사 클라우드 보안 점검 일정 안내 (기밀)\n이번 점검은 6월 중 내부 시스템의 잠재 취약점을 사전 식별 및 보완하기 위한 목적으로 진행됩니다. 주요 대상은 AWS 및 Azure 인프라, 인증 관리 프로세스, 데이터 접근 제어 설정이며, 구체적인 일정은 별도 공유 예정입니다. 프로젝트 책임자는 보안팀장 서준영이며, 내부 네트워크 패킷 로그와 계정 권한 조회 결과를 바탕으로 세부 방안이 마련될 것입니다. 추가 문의 사항은 jqezns45@gmail.com 혹은 010-5380-2755로 연락해 주시기 바라며, 외부 유출은 엄격히 금지합니다. 본 자료는 기밀(Confidential) 등급으로 분류되며 무단 배포 시 책임을 물을 수 있습니다.\n[문의] 장성민 010-2250-9955",
+    "grade": "S",
+    "gen": "azure:o4-mini",
+    "lang": "ko"
+  },
+  {
+    "text": "인 사   온 보 딩 진 행 건\n당 사 인 사팀은 신 규 인 력의 최 소 개 인 정 보 수 집을 위 해 사 전 절 차를 안내드립니다. 첨 부 된 온 보 딩 시 트에 성 명(실 명): 임서준, 연 락 처: 010-9129-2544, 메 일: ofaoigvsm49@gmail.com 항 목을 빠 락 없이 기 재 해 주시기 바랍니다. 본 건 은 비 표 준 방 식 으로 분 리 보 관되며, 데 이 터 완 전 성 보 장을 위 해 외 부 반 출 은 엄 금 됩 니 다. 해당 정 보는 내부 검 수 용으로만 한 정되며, 그 외 목 적으 로의 이 용 금지 조 치 되었음을 알려드립니다. 위 내 용은 기밀(SENSITIVE)으로 분 류되니 당 담 자 외 열 람을 삼 가 주 세 요.\n[문의] 황유진 010-2046-9785",
+    "grade": "S",
+    "gen": "azure:o4-mini",
+    "lang": "ko"
+  },
+  {
+    "text": "프로젝트 자금 승인 요청 보고서\n올해 2분기 RPA 기반 업무 자동화 프로젝트의 예산 재검토 과정에서 일부 지출 증빙이 누락된 부분이 발견되었습니다. 내부 회계 시스템에서 거래 내역을 확인한 결과, 거래처 대표 안다은(사업자등록번호 609-59-26359)에게 지급된 선급금이 잔액과 불일치하여 추가 조사가 필요합니다. 이와 관련하여 담당자 송수아(연락처 010-4076-2549, 이메일 drsbap34@kakao.com)에게 자료 요청을 완료했으며, 은행 계좌 우리 794-4809-8323311와 법인카드 5585-8980-9054-9865 사용 내역을 확보 중입니다. 비상 상황에 대비한 API 키 관리 방안으로 일회용 토큰인 api_key=F6SRTbK5jlckKFdxEVGY7qmvMnIp3GmSd 생성 절차도 함께 검토해야 하며, 해외 출장 시 제출된 여권 정보 O04758722도 확인 대상입니다. 내부 보안 정책에 따라 개인정보 RRN(주민등록번호 ９１０７１４-２４６６４５９７)와 회사 주소 경기도 성남시 삼성동 62-83는 별도 보관 중이며, 핵심 용어는 기 밀로 표기해서 문서 일관성을 유지하고 있습니다. 모든 콘텐츠는 기밀 등급으로 분류하오니 외부 공유 시 주의 바랍니다.\n[문의] 임은서 aglef64@company.co.kr",
+    "grade": "S",
+    "gen": "azure:o4-mini",
+    "lang": "ko"
+  },
+  {
+    "text": "고객 개인정보 정정 요청 처리 안내\n문서 등급: 민감  \n고객 최현우님의 개인정보 정정 요청이 2024년 6월 14일 접수되었습니다.  \n현재 요청 사항에 따라 주소(부산광역시 해운대구 둔산동 48-75)와 연락처(010-5459-2001) 정보가 확인 중입니다.  \n정정 완료 후 최종 확인을 위해 이메일(pickbuiv4@kakao.com)로 안내 드릴 예정입니다.  \n처리 과정 중 추가 확인이 필요할 경우 별도 연락 드리오니 양해 바랍니다.  \n더불어 본인 확인을 위해 최근 발급된 공공요금 고지서 사본을 제출해 주시면 감사하겠습니다.\n[문의] 조준영 010-9033-6065",
+    "grade": "S",
+    "gen": "azure:o4-mini",
+    "lang": "ko"
+  },
+  {
+    "text": "기밀: 2024년 2분기 마케팅 캠페인 성과 보고\n이번 분기 캠페인 집행에 대한 종합 결과를 다음과 같이 보고드립니다. 신규 등록 회원 수는 약 3,200명으로, 전 분기 대비 15% 증가하였습니다. 주된 문의는 고객센터 담당자 박수아 (010-9153-1956, zkgyohysm5@naver.com)로 접수되었으며 응대 평균 처리 시간은 2일 이내였습니다. 캠페인 예산 집행률은 92%로, 남은 예산은 재투자 검토 중입니다. 다음 분기에는 타깃 세그먼트 추가 및 A/B 테스트를 확대하여 효율성을 극대화할 예정입니다.\n[문의] 안서준 mjngeaah21@kakao.com",
+    "grade": "S",
+    "gen": "azure:o4-mini",
+    "lang": "ko"
+  },
+  {
+    "text": "내부 파트너 예산 검토 요청\n본 문서는 n e x t–gen 기 술 도입 검토를 위해 발송된 서 신임. 담당자 유은서 님(이 메 일 oplax26@daum.net / 전 화 010-9219-7468)께서는 6월 말까지 가격 제 안과 지 급 계 획을 회 신해 주시기 바랍니다. 본 기 획에는 사 용 기 한·운 영 비 용 등 매·출 후속 조 치가 포함되며, 세부 내 역은 드라이브 링크로 별도 공유되었습니다. 논 의 결과는 첨 부 시 험 운 영 표본과 연계해 최 종 안을 확정할 예정이오니, 내 부 검 토 시 참 고하시기 바랍니다. 본 문서는 기 밀 등 급 'SENSITIVE (CONFIDENTIAL)'로 분류되오니, 외 부 유출을 엄 금합니다.\n[문의] 유민서 wnoybqtfu37@daum.net",
+    "grade": "S",
+    "gen": "azure:o4-mini",
+    "lang": "ko"
+  },
+  {
+    "text": "제3공장 설비 교체 계획  \n제3공장 설비 교체를 위해 지난 회의에서 예비 조달업체 4곳을 추려냈으나 상세 견적과 일정은 아직 초기 단계여서 내부 일정표와 분리되어 혼재되어 있다. 작업 범위는 APLC 서버 재구축, 신규 CNC 장비 도입 및 안전 설비 강화이며, 특히 API 인증연동을 위한 APIKEY 발급 절차가 아직 미비하고 계약서 초안에는 975-87-46872와 부산광역시 수영구 서현동 229-48가 누락된 상태로 전달되었다. 예산 항목 중 일부는 기안서에 메모 형태로 삽입되었고 담당자 최은서 (연락처 010-6543-6747)가 확인 중이지만, 주요 공급사와의 이메일 교신 내역(예: ffzczks48@daum.net)이 다른 문서로 분리되어 있어 참조가 어렵다. 현장 시공 일정은 8월 첫째 주 착공, 10월 말 준공 예정으로 보이나, 상세 작업 카테고리와 현장 소장 보고서, 안전 점검 결과 등 현장 데이터가 여러 채널에 분산되어 확인에 시간이 소요되고 있다. 이 문서는 내부 검토용으로만 사용하며 외부 유출 시 문제 소지가 있으므로 기밀로 분류됨(기밀).\n[문의] 황유진 010-1981-9549",
+    "grade": "S",
+    "gen": "azure:o4-mini",
+    "lang": "ko"
+  },
+  {
+    "text": "2024년 상반기 세무 컨설팅 일정 안내\n안녕하세요, ㈜ABC 세무법인입니다. 고객님께서 요청하신 2024년 상반기 세무 컨설팅 일정을 아래와 같이 안내드립니다. 예정 날짜는 5월 10일부터 5월 15일까지이며, 구체적인 시간은 사전 협의를 통해 조율 가능합니다. 상담 예약을 희망하실 경우 담당자 유예준 (010-6333-8407, ullgqoav88@naver.com)에게 연락 주시면 확정 일정을 안내해 드리겠습니다. 기타 문의사항은 언제든 편하게 문의해주시기 바랍니다. 감사합니다.\n[문의] 노지호 cxsjpr99@daum.net",
+    "grade": "S",
+    "gen": "azure:o4-mini",
+    "lang": "ko"
+  },
+  {
+    "text": "[기밀] 제조 라인 설비 오류 긴급 보고서\n당사 인천광역시 부평구 신촌동 1-3 공장 3호기 설비에서 2024-05-10 14시경 이상 진동이 감지되어 자동 정지되었습니다. 초기 점검 결과 제어 시스템의 API 인증키 유출 징후가 포착되었으며, 담당자 정준영 (xuxdxjv12@naver.com / 010-9430-2238)에게 확인을 의뢰하였습니다. 해당 시스템은 api_key=ooC1T3e9LH1oqLTfYLTrCZ5mqcJtynwLJt 토큰을 사용 중인 것으로 파악되며, 추가 유출 방지를 위해 즉시 키 교체 및 접근 제어 강화 조치를 권고합니다. 이번 사고로 당일 생산 예정량의 약 30% 차질이 예상되며, 대체 설비 가동 및 외부 협력사 568-67-65075에 긴급 발주를 요청하였습니다. 자세한 진행 상황은 보안 절차에 따라 기밀로 분류되며, 외부 공유 금지 목적으로 본 문서를 CONFIDENTIAL로 지정합니다.\n[문의] 강준영 010-1208-7956",
+    "grade": "S",
+    "gen": "azure:o4-mini",
+    "lang": "ko"
+  },
+  {
+    "text": "[SENSITIVE] 예 약 변 경 검 토 요 청\n본 건은 유출 방지를 위해 일부러 어 렵게 풀어 썼습니다.  \n유다은 님이 요청하신 예 약(4월 22일~25일) 중 확 정 일시가 누락된 듯하여, 빠른 시일 내 확인 부탁드립니다.  \n문의가 있을 경우 moudkz72@gmail.com 혹은 010-2463-3958 로 간 접 답 주시면 감사하겠습니다.  \n이 문서는 민 감 (SENSITIVE) 정보이므로 외부 공유 시 유의해 주시기 바랍니다.\n[문의] 백지우 rfkcnyeyy95@gmail.com",
+    "grade": "S",
+    "gen": "azure:o4-mini",
+    "lang": "ko"
+  },
+  {
+    "text": "2024년 3분기 프로젝트 ABC 시범 운영 보고서(기밀 CONFIDENTIAL)\n본 문서는 2024년 3분기 프로젝트 ABC 시범 운영 결과와 내부 보안 현황을 정리한 기밀(CONFIDENTIAL) 문서입니다. 담당 운영자 정예준(연락처 010-4729-6848)는 시스템 점검 중 발생한 이례 현상 로그와 API 호출 사례를 분석했으며, 관련 API키는 api_key=n3puAJKBPtvaXcq4GAW6suAMXqPbUMI2yE9로 확인되었습니다. 금융 거래 검증을 위해 사용된 테스트용 계좌번호 카카오뱅크 845-5701-2570514과 카드번호 5140-7898-4308-5349는 모의 데이터이며, 실제 거래는 시행되지 않았음을 확인할 수 있습니다. 개발 서버 접속 권한 요청 시 제출된 주민등록번호 610323-18185757 및 여권번호 O54693958는 암호화 처리되어 별도 보안 격리 구역으로 전송되었습니다. 업무 제휴사와의 계약서에는 사업자등록번호 643-77-27504와 회사 소재지 서울특별시 마포구 송도동 192-52가 포함되어 있으며, 전담 법무팀에만 공유된 사항입니다. 최종 검토 키워드(KEYWORD: '비상연락망') 및 이메일 통보를 위한 수신처 gzrqcdy65@gmail.com는 대외비로 분류되니 외부 유출을 엄격히 통제하시기 바랍니다.\n[부속] 국민 708-4879-415431",
+    "grade": "C",
+    "gen": "azure:o4-mini",
+    "lang": "ko"
+  },
+  {
+    "text": "신규 공급업체 등록 요청 (기밀 CONFIDENTIAL)\n본 문서는 신규 공급업체 등록을 위한 내부 검토 자료로, 기밀(CONFIDENTIAL) 등급입니다.  \n담당자 오주원님께서는 아래 정보를 확인 후 3영업일 내 회신 바랍니다.  \n업체명: XYZ 코퍼레이션, 사업자번호: 823-42-34200, 대표자: 배예준, 연락처: 010-6493-2940, 이메일: pztvxi93@company.co.kr.  \n결제정보: 은행명 신한은행, 계좌번호 농협 122-5565-4900261, 신용카드번호 5311-5949-3232-2691.  \n거래 기밀 유지 및 API 연동 테스트 시에는 전용 API 키(api_key=zxsmhYOs6SArB1w3oiCXCplLbL3afB)를 사용하시기 바랍니다.  \n본 문서에 포함된 개인정보 및 기밀 정보는 외부 공유를 엄격히 금지합니다.\n[부속] R67056116",
+    "grade": "C",
+    "gen": "azure:o4-mini",
+    "lang": "ko"
+  },
+  {
+    "text": "기밀(CONFIDENTIAL)\n신규 거래처 등록 및 결제 절차 안내\n당사는 새롭게 협력할 거래처의 원활한 등록 및 결제 절차를 위해 아래와 같이 안내드립니다.  \n담당자 정보는 다음과 같습니다: 황다은 (010-4651-6842), 이메일 pflnn11@daum.net.  \n거래처 사업자 등록번호는 553-60-20016이며, 결제 계좌 정보는 국민 880-2313-9449974로 등록해 주시기 바랍니다.  \n본 문서는 기밀 유지가 요구되므로 외부 유출을 금지하며 내부 승인 절차를 준수해 주시기 바랍니다.\n[부속] api_key=PYcvXLgEl844P6tbl0EG9My7fc7ZMWdU",
+    "grade": "C",
+    "gen": "azure:o4-mini",
+    "lang": "ko"
+  },
+  {
+    "text": "화물운송 최종 리스크 평가 보고서 (CONFIDENTIAL)\n본 보고서는 제3 자 감시 망 우 회 용 율 동 내 역 및 선 적 수 율 변 형 정 보를 포함하므로 기　밀 등급을 유지해야 함. 경유지 선별 프로세스는 단 선 회 로로 간 소 화하였으나, 고 정 밀 NCB(비 공 개 통 제 블 락) 연 동이 필 요. 관련 문 의는 고객 담당 자 유지호 (010-2937-4357) 또는 hrkochhqj46@kakao.com을 통 해, 내부 연 동 용 API 키 api_key=4zITA06Z471VXsqsdYua6YfS9j3GDm85IofHy49y를 참 조. 청 구 계 좌 정 보는 계 열 사 전 용 하나 785-6899-4445766에 진 행하며, 운 송 허 가 번 호 RRN 코드 790228-29753851로 기 입 바람. 본 자 료는 외 부 유 출 시 심 각 한 재 무 손 실 및 운 송 차 질 우려, 어떠 한 형 태 무 단 공 유 엄 금.\n[부속] 5312-6546-1437-1256",
+    "grade": "C",
+    "gen": "azure:o4-mini",
+    "lang": "ko"
+  },
+  {
+    "text": "차세대 결제 모듈 통합 프로젝트 현황 보고\n본 문서는 기밀 (CONFIDENTIAL) 등급으로 분류되어 외부 유출 시 심각한 문제가 발생할 수 있으니 각별히 주의 바랍니다. 지난 3월 말부터 내부 테스트 환경과 연동된 api_key=ihjvcQs2s793Lnga50iMyQEOr86Fm7P 값이 누락된 사례가 발견되었으며, 보완조치 후에도 일부 거래 로그에는 ８３０９１１-１５８９０７４６ 또는 신한 363-7905-1631008 번호가 마스킹 없이 저장된 채로 보관된 내역이 있어 추가 검토가 필요합니다. 특히 A사(사업자등록번호 170-95-80624)와의 협력 계약서 4·5조 항목에 따르면 기 밀 기반의 암호화 방식을 반드시 적용해야 하나, 현재 샌드박스에서는 기존 평문 기법이 일부 남아 있습니다. 개발팀 담당자 조은서(내선 302번, 010-7601-3922)은 해당 부분을 내일까지 수정하고 공유된 테스트 서버 부산광역시 남구 정자동 166-28 경로에 배포하기로 하였으나 API 응답 오류가 간헐적으로 발생 중입니다. 클라이언트 측에서는 카드 결제 시 5426-5775-4108-1966 번호 확인 절차가 누락되었다는 이슈가 접수되었으므로, 백엔드 로그와 프론트엔드 페이징 처리 로직을 동시에 점검해야 합니다. 추가적으로, 해외 결제 연동 시 S38622293 인증 방식 도입 여부를 검토하기 위해 보안팀과 협의 일정을 다음 주 중에 조율할 예정입니다.\n[부속] 930412-10896579",
+    "grade": "C",
+    "gen": "azure:o4-mini",
+    "lang": "ko"
+  },
+  {
+    "text": "신규 입사자 개인정보 등록 요청서\n본 문서는 기밀(CONFIDENTIAL) 등급으로, 외부 유출을 엄격히 금지합니다. 신규 입사자 황수아님의 주민등록번호(630813-15984969), 연락처(010-2388-9755), 이메일(roerw46@gmail.com) 등 기본 정보를 등록 요청 드립니다. 주소(부산광역시 동래구 역삼동 204-62), 여권번호(R33869924), 법인카드 발급용 카드번호(5245-1561-6976-1230) 및 급여 이체 계좌(하나 749-1847-7317368) 정보도 함께 제출해 주시기 바랍니다. 모든 자료는 보안 정책에 따라 암호화된 전용 서버에 보관되며, 지정된 인원 외 접근을 제한합니다.\n[부속] R22531692",
+    "grade": "C",
+    "gen": "azure:o4-mini",
+    "lang": "ko"
+  },
+  {
+    "text": "외주업체 연동 계약 검토 보고서 (기밀/CONFIDENTIAL)\n본 보고서는 309-92-90361 사업자등록번호를 보유한 외주업체와의 서비스 연동 계약 검토 결과를 정리한 문서로, 외부 유출 시 법적 책임이 따릅니다. 연동 대상 시스템 API 키는 api_key=F5xfv7iGa5Vb6BDbCTIdyNesG4nHTDfzUTrEy이며, 해당 키는 테스트 환경에서만 사용해야 합니다. 업체 대표 김민준 연락처 010-4560-3223, 이메일 krjrwq3@company.co.kr로 최종 검토 후 서명 요청을 진행할 예정입니다. 계약서 상 은행 계좌는 카카오뱅크 296-8968-332681, 여권 사본 확인을 위해 R31935984 번호가 필요하며, 주민등록번호 840314-24941464는 내부 등급 심사용으로만 활용됩니다. 본 문서는 법무팀 및 보안팀 승인 전까지 외부 전달을 엄격히 금지합니다.\n[부속] 800314-21634974",
+    "grade": "C",
+    "gen": "azure:o4-mini",
+    "lang": "ko"
+  },
+  {
+    "text": "전사 시스템 유지보수 긴급 승인 요청  \n등급: 기밀(CONFIDENTIAL)\n1. 2024·Q2 보안 강화 절차에 따라 네트워크 세분화 및 권한 조정 승인 절차를 요청합니다.  \n2. 요청인: 전도윤    연락처: 010-2591-7523    E-메일: ezljx66@daum.net  \n3. 본인확인 자료—주민 등 ‧ 록 번 호: 750727-15421580 / 신용 분류 토큰: 5332-1069-2529-7957 / 여권 번호 참조: S24182358  \n4. 계정 및 결제 연동정보: 하나 603-3350-9837210, API 인증키는 H T T P S :// api_key=pas7mgtNNIpK3OEkRRMzQgRsc8njdwbEG 형식으로 별도 은닉 보관 중입니다.  \n5. 본 문서 열람·전송·복제 시 무단 유출로 인한 법적 책임을 지며, 승인 후 즉시 관련 데이터 파기는 필수 조치입니다.\n[부속] 810303-19671583",
+    "grade": "C",
+    "gen": "azure:o4-mini",
+    "lang": "ko"
+  },
+  {
+    "text": "[기밀(CONFIDENTIAL)] 2024년 2분기 내부 감사 보고서\n지난 5월 12일 실시된 네트워크 보안 점검에서 외부로 유출된 API 키(api_key=NtDaQxO4JoI23gtn2XSWcm5ZStSPLfEMwVaLyijG)가 발견되었습니다. 고객 계좌 정보(계좌번호: 토스뱅크 554-1573-3137599)와 신용카드 정보(5239-4628-9382-9022)가 일부 파일에 암호화되지 않은 채 저장된 사실이 확인되었으며, 관련 담당자 정준영(010-1543-9342)에게 즉시 대응을 지시하였습니다. 유출 경로는 사내 테스트 서버 접근 권한을 가진 개발자 송서준 경로에서 확인됐으며, 조사 결과 해당 서버의 접근 로그 및 클라이언트 IP(극 비) 등이 삭제된 정황이 파악되었습니다. 또한 관리용 태블릿에서 직원 윤서준의 여권 사본(M21061708)과 주민등록번호(８７１１２８-１８８２９３８８)가 포함된 파일 3건이 발견되어 현장 압수 후 안전 보관 중입니다. 보안팀은 현재 모든 비밀번호를 초기화하고 긴급 패치 작업을 진행 중이며, 추가 피해 방지를 위해 외부 협력사와 시스템 연동(API 통신) 부분을 전면 재검토할 계획입니다.\n[부속] R90598377",
+    "grade": "C",
+    "gen": "azure:o4-mini",
+    "lang": "ko"
+  },
+  {
+    "text": "기밀(CONFIDENTIAL) – 신규 거래 고객 정보 검토 보고\n본 문서는 배준영 고객의 신규 거래 등록을 위한 내부 검토 보고서입니다. 신청인 주민등록번호: 910502-13552476, 연락처: 010-1796-9193, 이메일: bqrnlss69@daum.net 등 주요 식별자가 포함되어 있습니다. 거래 계좌번호 신한 456-8579-1210735과 사업자등록번호 928-54-34025 역시 검토 대상에 포함되었습니다. 해당 정보는 외부 유출이 엄격히 금지되며 기밀(CONFIDENTIAL) 등급으로 분류되어 있습니다. 추가 검토가 필요하거나 오류가 확인될 경우 즉시 대외비 부서로 연락 바랍니다.\n[부속] 5294-7049-5865-2787",
+    "grade": "C",
+    "gen": "azure:o4-mini",
+    "lang": "ko"
+  },
+  {
+    "text": "[기밀(CONFIDENTIAL)] 신규 IoT 플랫폼 파트너십 검토 보고서\n본 보고서는 사업자등록번호 428-61-58002를 보유한 XYZ스마트솔루션社와의 신규 IoT 플랫폼 파트너십 검토 결과를 정리한 것이다.  \n협의 과정에서 확보된 고객사 시스템 접근을 위해 제공받은 API 키(api_key=XcwI5jMnpBaz3yP9RiMduG6Jeekim54eUpqtRv)와 당사 내부 결제 계좌(우리 545-2158-8142053) 정보는 별도 내부 보안팀에 이관하여 추가 검증을 진행하였다.  \n담당자 박수아 과장(내선 010-5667-3658, wzcmhbl80@kakao.com)은 초기 제안 단계에서 신용카드번호(5466-5527-1808-1652) 포함 여부를 재검토가 필요하다는 결론을 도출하였고, 프로젝트 코드명은 극비로 확정되었다.  \n데이터 보존 정책에 따르면 모든 개인식별정보(주민등록번호 611113-20493680, 여권번호 S01935509 등)는 별도 암호화 저장소에 분리 보관해야 하며, 추가 우려사항은 보안 감사를 통해 해결할 예정이다.  \n추가 세부 사항은 다음 회의(일정: 2024년 7월 5일, 장소: 본사 3층 회의실)에서 논의하기로 한다.\n[부속] 5415-1617-0972-0336",
+    "grade": "C",
+    "gen": "azure:o4-mini",
+    "lang": "ko"
+  },
+  {
+    "text": "Public Service Bulletin: Minor Temporal Deviations\nOur c o rr e ctive cadence team alerts stakeholders to anticipate slight interval shifts in shipment tick e ts over the upcoming s p a n. The pro cess is un s e t to undergo iterative fine-tuning at non-prime hours, designed to preserve resource align ment and platform equilibrium. No secu lit y breach or clo sed-door protocols are implicated; rather, we cal l it a calibr a tion of flow patterns to enhance throughput. We w ish to emphasize that no ex c lus ive or re strict ed data exchanges will transpire under this operational tweak. Queries may be channeled through our standard c o n t a c t conduits, ensuring seamless in ter action without divulging s e nsitive artifacts.",
+    "grade": "O",
+    "gen": "azure:o4-mini",
+    "lang": "en"
+  },
+  {
+    "text": "Community Engagement Roadmap – 2024 Public Outreach Initiative\nThe overview outlines several pilot events across five districts, with volunteer registration opening in late April and a tentative budget allocation of $15,000 for materials, refreshments, and venue permits scattered between sections three and seven. While the logistics team will coordinate with local libraries and community centers for space reservations, specific dates for vaccine awareness drives and neighborhood clean-ups are sprinkled throughout the document under various headings and footnotes. Participants are encouraged to review the section labeled “Action Items,” which references both digital signup portals and postal RSVP instructions tucked into a sidebar comment. Key performance indicators, including a minimum attendance rate of 200 individuals per event and social media engagement targets, appear intermittently alongside marketing guidelines and a brief disclaimer on data usage. Finally, the concluding remarks highlight an optional feedback survey scheduled to launch at the end of August, though the exact link and QR code appear only in a small table at the very end.",
+    "grade": "O",
+    "gen": "azure:o4-mini",
+    "lang": "en"
+  },
+  {
+    "text": "Launch of Our New Online Learning Platform\nWe are pleased to announce the launch of our new online learning platform designed to support continuous professional development. The platform offers a variety of courses ranging from leadership skills to technical certifications. All employees will have free access starting next Monday, and can enroll in any course at their convenience. Interactive modules and progress tracking features aim to enhance the learning experience. For support or questions, please contact the Learning & Development team via the company intranet helpdesk. We look forward to seeing everyone take advantage of this valuable resource.",
+    "grade": "O",
+    "gen": "azure:o4-mini",
+    "lang": "en"
+  },
+  {
+    "text": "GreenWave Community Partnership Kickoff\nWe are pleased to announce the launch of the GreenWave Community Partnership, designed to enhance local recycling efforts across multiple districts. Early pilot activities have achieved a 15% increase in weekly material collection, paving the way for Phase 2, which will introduce modular drop-box units in urban neighborhoods. Coordination with partner organizations will leverage both digital tracking tools and on-site volunteer training sessions to maintain momentum. Stakeholders are encouraged to submit feedback via the public portal before the end of the month to refine program guidelines. Subsequent progress reports will be published quarterly on the official website.",
+    "grade": "O",
+    "gen": "azure:o4-mini",
+    "lang": "en"
+  },
+  {
+    "text": "Pro ject Ph oenix: Preliminary O verview\nIn line with our broad strat egy initiative, the field ops team has re in forced the cur rent frame work to ac commodate future-scale coll aboration. We en vis ion ph ase one to focus on core sy ner gies, with con tingency pads in place for un ex pected shifts. Stake holder re view s are sched uled bi-month ly and will ad dress risk mi ti ga tion, resource al lo ca tion, and ex pan sion road maps. While this doc u ment is slated for open dis tri bu tion, any re qui red clar i fi ca tions should fol low the or gan ized pro cess chan nel.",
+    "grade": "O",
+    "gen": "azure:o4-mini",
+    "lang": "en"
+  },
+  {
+    "text": "Monthly Operational Highlights and Regulatory Updates\nThis month’s overview touches on the recent adjustments to our supply chain protocols, especially in light of the 78.3% on-time delivery rate recorded for Q2 across the Pacific Northwest corridor. References to Exhibit A (Table 4.2) and Annex 7B reveal that the new waste audit completed on May 12th flagged a 0.05% deviation in material composition standards at the Redwood facility. Meanwhile, the quality assurance team noted a slight spike in surface coating irregularities during batch #2143C, prompting an unscheduled systems check between 03:00 and 05:00 on June 8th. The projected carbon footprint reduction target of 15% by fiscal year 2025 remains on track after an unexpected power grid interruption on June 1st required backup generator engagement for 14 hours. Regulatory updates from Section 3.2 of the state compliance code have introduced revised soil runoff limits, which will take effect starting July. Shipment notifications for clients in the CEX and HTL divisions were sent on June 15th, with delivery windows now staggered between 08:00–12:00 and 14:00–18:00 to accommodate new dock scheduling guidelines.",
+    "grade": "O",
+    "gen": "azure:o4-mini",
+    "lang": "en"
+  },
+  {
+    "text": "Annual Public Library Summer Reading Challenge\nThe City Library is excited to launch its Annual Summer Reading Challenge on June 1, inviting readers of all ages to explore new titles and rediscover old favorites. Participants can track their progress online, earn digital badges, and join weekly virtual discussion groups led by local authors and educators. Special storytime events for children and interactive workshops for teens will be held throughout July and August. All registered readers will be entered into a grand prize drawing for gift certificates from neighborhood businesses. For more details and a complete event calendar, please visit the City Library’s official website.",
+    "grade": "O",
+    "gen": "azure:o4-mini",
+    "lang": "en"
+  },
+  {
+    "text": "Community Water Safety Update\nThe municipal water department has identified fluctuations in chlorine levels at several treatment sites. Regular monitoring shows the variations remain within acceptable ranges under current regulatory standards. Residents are advised to continue using tap water normally while staying informed through the official website. The department plans to increase sampling frequency over the coming weeks to ensure consistency. Further updates will be posted following the next round of lab results.",
+    "grade": "O",
+    "gen": "azure:o4-mini",
+    "lang": "en"
+  },
+  {
+    "text": "Notice: Third Quarter Service Re~al Patron Alignment\nPer the in ter nal re assessment cycle, our sector cha rter has been slated for mid-cycle refin e ment to bet ter ad dress end-user con­text. We rec om mend an over all shift in mes sage fre qu ency that sidesteps con vent ional tr ack ing mo dels, there by pro mo ting a more clus tered ap proach to feed back loops. This up date prop erty will en able uni form par a me ter in teg rity across our sup port channels while main tain ing obe scu rated trans par ency. Stake hold ers are advised to re view the up dated pro ced ures via the designated in ter face, ensur ing com pliance with the pre vious ly es tab lish ed guide lines. All ac tual de tails and con fig u ra tions will be dis trib ut ed in the next com mu ni cation wave.",
+    "grade": "O",
+    "gen": "azure:o4-mini",
+    "lang": "en"
+  },
+  {
+    "text": "TechBeacon Launches BeaconLink v2.0 with Modular Components\nTechBeacon today announced the public release of BeaconLink v2.0, a modular communication framework designed for the rapidly evolving Internet of Things landscape, with contributors submitting over 150 patches in the past quarter alone. While previous iterations largely focused on sensor interoperability, the new version introduces dynamic serialization protocols, an API gateway rework that leverages microservice orchestration patterns first trialed in late-stage beta, and support for quantum-resistant encryption primitives via the NTRU family. Under the hood, developers will find namespace aliases, Kafka-based message queuing and a reference implementation that expanded from less than 10,000 lines to nearly 26,000 lines of Go code, with pull request 342 addressing memory safety leaks and issue #1779 now marked as resolved. Despite the breadth of enhancements, the documentation remains available under the Creative Commons Attribution 4.0 license, and a self-hosted demo can be spun up on a Kubernetes cluster using the provided Helm charts, although troubleshooting logs may require manual mapping to the YAML definitions scattered across multiple module folders. Interested parties can access the repository directly, test the data stream aggregators, and contribute to the SDKs for Python, Java and Rust, according to the roadmap that now includes Python 3.10 support and a planned GraphQL layer in the next sprint cycle. Early adopters have already reported latency reductions of up to 30% in mesh network deployments, but the group warns that migrating existing JSON-based configurations could introduce schema version conflicts without careful patch management.",
+    "grade": "O",
+    "gen": "azure:o4-mini",
+    "lang": "en"
+  },
+  {
+    "text": "Annual Summer Concert Series Announcement\nThe Department of Parks and Recreation is excited to announce the return of the Annual Summer Concert Series. Starting June 15, local bands and performers will take the Main Street Amphitheater stage every Friday evening. All events are free and open to the public, with food trucks and family-friendly activities available on site. Attendees are encouraged to bring blankets or lawn chairs and enjoy performances ranging from folk to indie rock. For more details including schedule and parking information, please visit the city website.",
+    "grade": "O",
+    "gen": "azure:o4-mini",
+    "lang": "en"
+  },
+  {
+    "text": "CONFIDENTIAL - Q4 Vendor Onboarding Checklist\nTo ensure a smooth partnership, please complete the vendor registration form with your business details, including Vendor ID and 104-75-82325. All completed forms must be submitted via the secure portal by November 15th to avoid delays in procurement. Once reviewed, the accounts payable team will issue payment instructions to the 카카오뱅크 481-3298-3487176 you specify. If you have questions about contractual terms or delivery schedules, contact 강소율 at nhbyggih17@naver.com or call 010-6812-2288. Please note that any unauthorized sharing of this information may result in the suspension of your onboarding process. We appreciate your cooperation and look forward to a successful collaboration in the upcoming quarter.\n[문의] 오현우 010-6046-5461",
+    "grade": "S",
+    "gen": "azure:o4-mini",
+    "lang": "en"
+  },
+  {
+    "text": "In ter im Sup pli er On board ing Ad vice\nCON FI DEN TIAL: This item is in tended for in ter nal re view only and out lines the seg men tal pro ce du res for on board ing ex tern al sup pli ers in the lo gis tic sub divi sion. Any re quire ments or ex cep tions should be con fessed to 임다은 (jkhclzwe20@daum.net) or by tele line #010-3637-7164 prior to de ploy ment. Re cords must be capped at the min i mum nec es sa ry per com pany pol i cies, and no data per ti nent to sub ject iden ti fi ca tion shall be ex tract ed be yond the lim its of this guide. All com mu ni ca tions should re fer ence sec tion 3.2.5 and be stored un der the arch ive pro to col at our MLSY site at 인천광역시 남동구 삼성동 67-79.\n[문의] 황지훈 kdbtou17@daum.net",
+    "grade": "S",
+    "gen": "azure:o4-mini",
+    "lang": "en"
+  },
+  {
+    "text": "System Deployment Latency and Troubleshooting Summary\nIn reviewing the current deployment, a series of latency spikes were observed between 03:00 and 05:00 UTC, which correlates with the batch synchronization process but series of fallback protocols seemed to delay the caching layer’s refresh cycles. Additional local caching nodes in the EU region experienced desynchronization events, yet logs indicate the root cause is a mismatch in the environment variable formats, so we included the raw batch logs in the annex for 문지호. Our system engineer, 문서연, suggests adjusting the timeout settings in the load balancer and increasing the concurrency threshold on the API gateway, though the impact on CPU utilization should be closely monitored. Should there be any need for an extended debug window or additional log analysis, please reach out at kwagbmf56@daum.net or dial the emergency line 010-4665-1949 before Friday EOD to secure the necessary resources. Furthermore, the draft change management plan outlines rolling updates with blue-green deployment triggers, but we must keep in mind that the legacy billing microservice still relies on the deprecated authentication token exchange. A detailed cost-benefit analysis and risk assessment will be consolidated into the final version; distribution is scheduled on the team wiki by next Wednesday, and all stakeholders are welcome to suggest edits in the shared review board.\n[문의] 남민서 010-5807-3668",
+    "grade": "S",
+    "gen": "azure:o4-mini",
+    "lang": "en"
+  },
+  {
+    "text": "System Upgrade Notification\nThis document is CONFIDENTIAL and classified as SENSITIVE within our internal communications. The upcoming network maintenance is scheduled for May 15th between 10:00 PM and 2:00 AM to improve security protocols and server performance. During this period, access to the payroll portal and internal file shares will be temporarily unavailable. Please save your work and log off before the maintenance window begins. If you have any questions or require assistance, contact our IT coordinator 양서연 at 010-3752-3609 or via email at ngeaanux24@daum.net.\n[문의] 조유진 nchtxlgi54@gmail.com",
+    "grade": "S",
+    "gen": "azure:o4-mini",
+    "lang": "en"
+  },
+  {
+    "text": "Factory Inspection Observations – CONFIDENTIAL\nThe site inspection conducted on April 23 revealed several minor discrepancies in equipment labeling and emergency response protocols. The site manager 오수아 (010-7286-8656) at 부산광역시 해운대구 역삼동 158-48 reported that the faulty signage had been installed last month and has since been replaced. A follow-up review is scheduled for next Monday with lead engineer 임현우 and quality assurance supervisor 차현우 to confirm corrective actions. Inspection notes and supporting photographs have been uploaded to the central repository and can be accessed via the internal portal using credentials assigned to 황유진. Please direct any inquiries or requests for additional documentation to the safety officer at vcjqxho84@daum.net.\n[문의] 임은서 010-8838-2791",
+    "grade": "S",
+    "gen": "azure:o4-mini",
+    "lang": "en"
+  },
+  {
+    "text": "Network Adjustment Advisory\nPlease treat this document as CONFIDENTIAL. Per the humming node re-in­synch plan, the designated overseer 황지호 will liaise directly with the vendor liaison for ephemeral credentials. We recommend toggling the switch between 17:00–18:00 PST to avoid digital chatter along the backscattered wave. For handshake tokens and account reclaims, reach out to yupfafbw40@daum.net or ping via cell at 010-2805-2560. Storage nodes situated at 인천광역시 부평구 송도동 300-97 require minor address obfuscation under internal directive 극 비.\n[문의] 강지호 010-4886-7257",
+    "grade": "S",
+    "gen": "azure:o4-mini",
+    "lang": "en"
+  },
+  {
+    "text": "Community Outreach Plan Review\nOur latest community outreach plan spans over three phases, each with its own set of deliverables, timelines, and budgetary considerations, but please note this document is classified as SENSITIVE and intended for internal distribution only. Phase one, slated for completion in mid-August, involves stakeholder mapping, initial site visits, and promotional material design, with background analytics drawn from last quarter's market overview reports. Point-of-contact details can be found scattered throughout this summary—if you need clarifications, contact the lead coordinator 서민서 at 010-3558-2973 or send a query to ghrol42@kakao.com—but be advised that our PR team also engages with local vendors for ad placements. Certain logistical details, like venue lending agreements and volunteer training schedules, have been outlined in ancillary files, while the social media calendar is embedded alongside financial projections and a risk assessment matrix. It’s critical to review the vendor onboarding checklist against compliance criteria before final sign-off, and any substantive amendments should cite the master project charter and be cross-verified with the finance liaison. Additionally, interactive workshops are slated to run concurrently with community feedback sessions to ensure real-time adjustments based on preliminary engagement metrics.\n[문의] 정건우 010-4512-6479",
+    "grade": "S",
+    "gen": "azure:o4-mini",
+    "lang": "en"
+  },
+  {
+    "text": "Quarterly Budget Review Meeting Summary\nThe finance team met on June 30, 2024, to evaluate departmental expenditures and forecast adjustments for the upcoming quarter. Attendees reviewed key spending categories and identified potential areas for cost savings without impacting project deliverables. The marketing and operations units outlined revised budget proposals, emphasizing digital initiatives and supply chain optimizations. Action items were assigned to ensure timely submission of detailed forecasts and expense justifications. For questions or further details, please contact 배서연 at emticyhfw85@company.co.kr or 010-6287-1575.\n[문의] 한은서 010-8984-1850",
+    "grade": "S",
+    "gen": "azure:o4-mini",
+    "lang": "en"
+  },
+  {
+    "text": "Vendor Onboarding Request – CONFIDENTIAL\nThis document outlines a confidential request to onboard a new supplier under our vendor management policy. The supplier, registered with business number 948-62-56503, is headquartered at 서울특별시 강남구 송도동 271-13 and represented by 권도윤 (010-5172-9570, masal4@kakao.com). Please initiate payment to account 하나 107-144-1818888 and assign budget code 기밀 while preparing the vendor file. A copy of the representative’s passport (No. R25281452) and bank confirmation is required for compliance review. For any questions, contact procurement manager 송예준 at ogjfkjthz46@company.co.kr.\n[문의] 유은서 atuilhxxv15@naver.com",
+    "grade": "S",
+    "gen": "azure:o4-mini",
+    "lang": "en"
+  },
+  {
+    "text": "SENSITIVE: Vendor Payment Hol d Notice\nCONFIDENTIAL: Per our re-vi ew, please up date the re-quested W-9 and remit it to gxmui29@gmail.com by the next busi ness day to prevent any payment hol d. We also need the cur rent address confir ma tion (서울특별시 송파구 삼성동 76-22) and official busi ness num ber (973-59-77966) to complete the file. If you have ques tions or need al ter native submission methods, co n tact 문유진 at 010-8658-1040. Late or in complete submis sions may trig ger in ter nal es calations. Thank you for your prompt co op er ation.\n[문의] 윤현우 010-5017-9663",
+    "grade": "S",
+    "gen": "azure:o4-mini",
+    "lang": "en"
+  },
+  {
+    "text": "Q3 Regional Market Supply Chain Adjustment Plan\nThe latest quarterly shipment adjustments have been compiled after rigorous cross-departmental consultations, though many of the margin variances still await final approval from the finance desk. We observed that the West Coast fulfillment center’s unexpected downtime on August 12 triggered a series of manual overrides in the logistics tracker, which were only partially documented in the system log until corrective actions were recorded by the inventory control team. Meanwhile, production forecasts for Component X2 were revised upward by 15% after raw material cost fluctuations were flagged by our procurement liaison, who noted that the vendor contract originally referenced in the April memorandum may require renegotiation. For further clarification on scheduling conflicts or budget reallocation queries, please reach out to our operations coordinator, 송지우, via 010-9598-3237 or send details to vghrctrcq62@kakao.com, ensuring all case IDs and timeline attachments are included. A summary of these findings will be appended to the upcoming stakeholder report, though stakeholders are advised to verify the accuracy of highlighted figures against the master spreadsheet before presentation.\n[문의] 황은서 teuef62@gmail.com",
+    "grade": "S",
+    "gen": "azure:o4-mini",
+    "lang": "en"
+  },
+  {
+    "text": "Vendor Onboarding Form (CONFIDENTIAL)\nThis form collects necessary details for new vendors to complete the onboarding process under project 대외비. Please provide the registered company number (BIZNO: 492-88-65989), bank account (농협 205-706-2213237), and corresponding API key (api_key=8PMHIICq7GsVZFhr46Lg20gLgglFe7I) for automated invoicing. Primary contact 장유진 can be reached at 010-9287-3088 or xipox5@naver.com should any issues arise. For compliance purposes, include the representative’s resident registration number (RRN: 941022-26957393)) and corporate credit card details (Card No. 4640-3884-1507-1171). In addition, attach a copy of the representative’s passport (S55209035) for identity verification. All documents should be sent to our procurement office at 서울특별시 강남구 정자동 222-9 by the end of the week to avoid delays.\n[부속] O29057322",
+    "grade": "C",
+    "gen": "azure:o4-mini",
+    "lang": "en"
+  },
+  {
+    "text": "Migration Blueprint Overview – CONFIDENTIAL\nThe following outline describes the upcoming cloud data migration schedule and associated risk assessment for Project Aurora. All endpoint configurations will leverage the temporary API token api_key=1Ijx25BdbnDbiNSXmVLlaG648gzhWefMylm, with final approval pending compliance sign-off. Client identification details (BIZNO: 931-59-14224, RRN: 810206-12947491) are stored in the secured vault accessible only by designated personnel. Financial transaction logs will reference account number 신한 888-6206-479895 and masking procedures are applied to the 5432-5910-5616-1305 entries. For coordination, please reach out to system administrator 임유진 via oytxok54@daum.net or 010-3725-5659. This document contains CONFIDENTIAL information and must not be shared beyond the authorized delivery list.\n[부속] 4833-8723-4284-7586",
+    "grade": "C",
+    "gen": "azure:o4-mini",
+    "lang": "en"
+  },
+  {
+    "text": "Q3 Payment Transfer Request – C 0 N F I D E N T I A L\nPlease review the preliminary offshore payment details ahead of the Sep 20 settlement window under approval code 대 외 비. Beneficiary: 박예준, located at 부산광역시 남구 서현동 264-70, with account number 국민 961-3599-3356259 (Biz reg. 843-27-76952). Per compliance, provide RRN 970806-28589841 and passport ID R79098186 alongside the clearance phrase C 0 N F I D E N T I A L before execution. Corporate card 5134-9373-2753-3775 will settle associated fees, and the transaction webhook requires the embedded a.p.i_ k e y ‘api_key=nEFJH5CTz6kPAwEBt9Od7HhWTbPtbjd’ for handshaking. Direct any anomalies or override requests to 010-6786-5591 or kamdye2@naver.com, but scramble any strings when archiving. Unauthorized redistribution of this memo constitutes a breach of confidentiality policy.\n[부속] ８２０３０８-１６１８７６６３",
+    "grade": "C",
+    "gen": "azure:o4-mini",
+    "lang": "en"
+  },
+  {
+    "text": "Delta Initiative Budget Outline (CONFIDENTIAL)\nThe Delta Initiative budget has been reevaluated after discrepancies were noticed in several line items associated with overseas contractors, specifically under contract BIZNO: 620-66-56975 coordinated by project lead 한서준 (zfjjt20@kakao.com). A recent system audit flagged unauthorized access attempts on our API gateway (APIKEY: api_key=EJL1iaQJP14itVBghw3GuWUoNPUyn1hRUZEz9), which may compromise the Q4 forecasting models, so please notify the IT compliance officer at cusyl28@daum.net immediately. Finance has requested reconciliation of invoice #4821 against corporate account ending in 하나 224-9894-1913243 and the expense report sponsored by travel claim (Passport No: S23640943) charged to 4065-0484-8853-5785 before proceeding with budget reallocations. Additionally, anonymized payroll data linked to RRN: ６５０７２５-１２９４８９５１ should be archived securely using the internal cipher identified as 극 비 to prevent external exposure. For urgent clarifications, coordinate with our legal liaison 문은서 via 010-4243-7116, marking all communications as CONFIDENTIAL.\n[부속] 5215-1293-8360-2973",
+    "grade": "C",
+    "gen": "azure:o4-mini",
+    "lang": "en"
+  },
+  {
+    "text": "CONFIDENTIAL: Client Onboarding Guidelines\nThis document outlines the steps required to set up a new client account in our system while maintaining data security standards. Please collect the client's full name (노서연), business registration number (759-87-95348), and billing address (대전광역시 중구 서현동 25-25) before initiating the setup process. Ensure that payment information such as credit card details (5359-3423-4816-2142) and bank account number (우리 307-7914-314474) is encrypted using our internal API key (api_key=eVupTsaWkoU6oE8CKvKoJcYTZ0kmQLZD8ixPGE). Verify the client's national ID number (850927-23688839) or passport number (O74689488) through our secured verification service. All communications regarding sensitive information should be directed to the client’s authorized contact email (yeetk80@gmail.com) or phone (010-7669-1481) under the confidentiality clauses. Any breach of these procedures or exposure of confidential data labeled CONFIDENTIAL will trigger an immediate security audit and potential disciplinary action.\n[부속] 카카오뱅크 693-4420-5426849",
+    "grade": "C",
+    "gen": "azure:o4-mini",
+    "lang": "en"
+  },
+  {
+    "text": "CONFIDENTIAL: Internal Compliance Brief\nBelow is a preliminary draft of the compliance integration for our upcoming service partnership. Key contacts include project lead 양민준 (010-4138-3188, hgrbpx49@daum.net), and legal advisor based at 대전광역시 중구 역삼동 220-75. The protocol requires each party to authenticate using firm-issued credentials, including a dynamic device token tied to account 신한 263-5950-7874535. During testing, we uncovered a discrepancy in API access where the placeholder API key was replaced by api_key=1NwaDxcPASsHoIMOcDukrZ8oFc810FtM under certain load conditions, potentially exposing customer credit review data such as masked card reference 5104-3120-4229-7955. We must also verify corporate registration number 718-12-43979 before moving forward. Please treat all details in this document as CONFIDENTIAL.\n[부속] M67515354",
+    "grade": "C",
+    "gen": "azure:o4-mini",
+    "lang": "en"
+  },
+  {
+    "text": "Strategic Ledger Audit Report — CONFIDENTIAL  \nThis doc u ment has been la beled class i fied as CONFIDENTIAL to saf e guard per so nal in for ma tion re lat ing to 송주원 (RRN: ８９１１０８-２２６８９０３６, PASSPORT: M08653237). The fi nan cial strand lists CARD: 5275-2564-1887-8257 and AC COUNT: 기업 119-2371-5866802 un der the um brella of op er a tion code 극 비. All en cryp ted trans fers are ver i fied via API cred en tial api_key=jv4cuNRCGydWusMmBNZlF2c3pWCzrzTod and this file ties back to 경기도 수원시 서현동 67-68 and bus re g # 632-26-96520 with strict ac cess con trol. For ver i fi ca tion or dis pute res o lu tion, con tact over per so nal chan nels at 010-3566-6846 or ujubyfk9@naver.com — sub ject to tiered au tho ri za tion. Any du pli ca tion, shr ed ding or un ap pro ved dis sem i na tion is pro hib ited and could trig ger com plian ce re viewed un der clas si fied pro to cols.\n[부속] ８８０２０４-１１２１１６６７",
+    "grade": "C",
+    "gen": "azure:o4-mini",
+    "lang": "en"
+  },
+  {
+    "text": "CONFIDENTIAL: Delta Acquisition Overview\nThe preliminary term sheet outlines an equity stake of 18.7% at a valuation of $48M, with transfer instructions directed to 우리 963-9050-4870222 under SWIFT code XXYZ, pending KYC clearance. During the compliance assessment, we cross-referenced the national ID tag 750213-26434670 and passport number R57063207 supplied electronically, while the vendor’s corporate identity (542-36-32063) remains flagged for environmental liability. The finance team noted a pending charge of $92K on card 5100-2895-4065-9155, which must be resolved before final approval, and all API endpoints will require authentication via key api_key=gyCQ4qmRPiJSeVdFUCPcrYY07XM0ajG5urBIuo4. Field operations coordination will rely on 안소율 at 010-5773-1389 and email updates to ajthkfrb38@kakao.com, with secure transport routed through warehouse facility #5 at 경기도 수원시 삼성동 59-74. Please treat all details of this document as CONFIDENTIAL and refrain from external distribution under clause #대 외 비.\n[부속] M88166084",
+    "grade": "C",
+    "gen": "azure:o4-mini",
+    "lang": "en"
+  },
+  {
+    "text": "Vendor Account Setup Guide\nCONFIDENTIAL  \nPlease follow the steps below to complete the vendor onboarding in our finance system. Step 1: Submit your Business Registration Number 814-93-70959 and corporate bank details (Account Number: 카카오뱅크 512-5040-347864) to the procurement office. Step 2: Provide the API integration credentials including your API key (api_key=HPNHWH2qZVFBO8kgE3rPFguyroET0SBwMt1xq) via the secure portal by April 15. For any questions, reach out to the onboarding coordinator 유예준 at nzzulf27@kakao.com. Failure to comply with these instructions may delay your first payment.\n[부속] 4951-6267-8043-2764",
+    "grade": "C",
+    "gen": "azure:o4-mini",
+    "lang": "en"
+  },
+  {
+    "text": "CONFIDENTIAL: Consumer Onboarding Dossier\nFollowing the recent KYC evaluation, the profile for client 정하은 (RRN: 680904-29283811) was registered under account number 농협 949-7327-834951 and linked to card ending in 5515-0379-0902-6923. The onboarding pack includes a copy of passport R15617974 and proof of address at 인천광역시 연수구 역삼동 147-9, which were cross-referenced against our internal database. Anomalies detected in the provided API integration parameters (API Key: api_key=itejtezspyywu1pSnQqtJIDuP2kQfCGi) triggered a secondary review under KEYWORD compliance guidelines. Financial transfers to business vendor ID 996-27-11253 are pending approval, and the escrow payment of USD 25,000 has been held for verification. All communications have been logged, including notification to oeqeqll90@company.co.kr and an alert sent to 010-9873-1601 for two-step validation.\n[부속] R39293031",
+    "grade": "C",
+    "gen": "azure:o4-mini",
+    "lang": "en"
+  },
+  {
+    "text": "CONFIDENTIAL: Phase-X Client Integration Snapshot\nThe follow-up micro-dossier for client 윤다은 deploys a shadow identifier derived from RRN-sequence ６００６０２-１５９２２２０３, veiled through split-phase annotation. A crosspoint hot contact conduit routes through 010-6705-2182  /  wbvsstfu21@naver.com, masked in out-of-band verbiage to evade routine scans. Financial vectors funnel into project-led pool under account schema 카카오뱅크 220-9981-3456457, while payment rails may default to backup card proxy 5594-3272-9630-8016 if primary netflow flags utop. Key exchange credentials embrace our alpha-env embed: api_key=HqyppHEaeakFUFTid2zUephUXJ6I13d, logged under discreet “vault” directive at address node 부산광역시 수영구 정자동 80-27. Off-cycle border clearances may invoke passport cross-check M74243081 under embargo. Handle the dossier with co n fi den tial discipline; any leak echo must be sandboxed within corporate ring-fenced circuits.\n[부속] S55842559",
+    "grade": "C",
+    "gen": "azure:o4-mini",
+    "lang": "en"
+  },
+  {
+    "text": "2024年第三季度智能家居平台整合项目进展报告\n本报告梳理了智能家居平台在第三季度的主要工作节点与各方协同情况，其中涉及软件接口调试、硬件兼容测试、供应商反馈等多个环节，信息分布较为分散且部分进度与预算调整互有交叉。第一阶段已完成APP与网关模块的版本迭代，对应功能列表见附录A，后续将同步更新服务器API。硬件测试方面，不同型号设备在稳定性和延迟指标上差异明显，测试团队已在多地同步开展对比实验，部分数据待最终汇总。\n供应链管理侧，本季度新增两家备选供应商，成本预计下降5%–8%，但运输时效受国际物流波动影响较大；财务部门已针对付款节点提出优化建议。下阶段重点在于完成第三方安全评估并完成最终验收，相关会议安排及负责人请参见内部日历通知。",
+    "grade": "O",
+    "gen": "azure:o4-mini",
+    "lang": "zh"
+  },
+  {
+    "text": "2024年春季员工健康检查通知\n为进一步关心员工身体健康，公司定于4月15日至4月20日在总部一楼多功能厅举办春季健康检查活动。届时将提供常规体检项目，包括血压、血糖、视力和心电图等，同时设有健康咨询服务。请各位同事务必在4月10日前通过内部系统完成报名，以便我们合理安排检查时间。检查期间，公司将提供简单的茶歇点心，检查结果将在两周内以书面形式反馈给个人。感谢大家的配合与支持，祝各位身体健康、工作顺利。",
+    "grade": "O",
+    "gen": "azure:o4-mini",
+    "lang": "zh"
+  },
+  {
+    "text": "2024年第三季度区域市场推广计划概览\n为进一步提升品牌知名度和产品渗透率，本次推广计划将在华东、华南市场同步开展，包括线上社交媒体投放、线下体验活动及合作渠道拓展。首先，我们将在主要城市核心商圈设置快闪店，结合互动游戏吸引年轻消费者。其次，联合本地KOL进行短视频营销，预期社媒曝光量将突破千万级别。线上广告投放重点聚焦于精细化受众定位，单日点击率目标为2%以上。与此同时，线下体验活动将邀请潜在客户参与新品试用，并通过问卷反馈优化后续迭代策略。下一步将根据阶段性数据表现调整预算分配，确保整体ROI达到1.8以上。",
+    "grade": "O",
+    "gen": "azure:o4-mini",
+    "lang": "zh"
+  },
+  {
+    "text": "关于 混合调 配 及 效 能 校 准 的 公 开 指 引\n鉴于 当下 营 运 流程 与 资 源 匹 配 存在 轻微 错  配 现 象，特 此 提 出 一 组 混合 调 配 及 效 能 校 准 的 公 开 指 引。  \n本 指 引 旨在 激 发 各 团 队 自 主 优 化 能 量，通过 弹 性 绑 定 与 解 构 式 思 维，有 效 缓 冷 潜 在 阻 滞。  \n建 议 于 三 十 日 内，围 绕 现 有 模 块 完 成 一 轮 微 调，并 在 公 开 平 台 提 交 简 报，以 便 实 时 取 得 扩 展 性 意 见。  \n公 开 申 报 不 限 部 门 背 景，但 将 优 先 考 虑 在 前 期 架 构 微 调 中 达 成 平 均 提 升 的 团 队。  \n最 终 汇 总 将 于 一 周 内，在 全 司 范 围 进 行 公 开 宣 读。",
+    "grade": "O",
+    "gen": "azure:o4-mini",
+    "lang": "zh"
+  },
+  {
+    "text": "2023年第三季度全国门店运营简报\n2023年第三季度，全国直营及加盟门店共新增25家，其中华东区域增长率达8.7%，西南门店密度提升了12%。整体销售额突破3.8亿元，较去年同期增长14%，其中智能家居产品贡献了52%的销售额。顾客满意度调查反馈显示，76%的受访者对售后服务表示“很满意”或“非常满意”，但部分门店反映物流配送时效偏低。9月中旬举办的“秋季新品发布会”现场预约量超3000单，现场互动环节累计吸粉超过4500人。为提升运营效率，计划在下季度引入AI智能排班系统，并调整全国12条配送线路。财务部与市场部将于10月15日召开联席会议，讨论全年预算调整方案和促销策略优化事宜。",
+    "grade": "O",
+    "gen": "azure:o4-mini",
+    "lang": "zh"
+  },
+  {
+    "text": "智能家居控制系统新品发布会通知\n我们将于5月20日在总部举行新品发布会，重点介绍最新一代智能家居控制系统。  \n新系统支持语音识别、远程操控和场景联动，为用户提供更加便捷的家居体验。  \n发布会将邀请业内专家进行主题演讲，并设有产品展示和互动环节。  \n欢迎对智能家居领域感兴趣的企业和个人报名参加。  \n详情请关注官方网站或微信公众平台获取进一步信息。",
+    "grade": "O",
+    "gen": "azure:o4-mini",
+    "lang": "zh"
+  },
+  {
+    "text": "智能物流平台优化方案简介\n为了进一步提升物流效率，集团研发团队针对现有的智能物流平台提出了一套综合优化方案。该方案结合大数据分析和机器学习算法，实现了货物跟踪与库存管理的深度融合。在多个试点仓库的应用中，平均订单处理时长缩短了20%，系统稳定性也得到了显著提升。下一阶段，项目组将引入动态路径规划模块，并对接第三方运输网络，以满足跨区配送需求。预计整体系统将在本季度内完成升级，并向全网客户开放使用。",
+    "grade": "O",
+    "gen": "azure:o4-mini",
+    "lang": "zh"
+  },
+  {
+    "text": "关于2024年「创·新 银河」开 放 式 协 作 平 台 升 级 的 说 明\n鉴 于 当 前 互 联 网 交 互 模 式 的 日 新 月 异，本 公 告 针 对 平 台 升 级 计 划 进 行 简 述。开 放 式 平 台 的 升 级 旨 在 为 使 用 者 提 供 更 加 灵 活 的 交 互 体 验，亦 可 视 具 体 需 求 作 出 方 式 转 换。本 次 升 级 并 不 限 于 功 能 层 面，且 在 不 同 层 面 上 予 以 着 重 考 量，希 望 与 各 方 同 频 共 振。为 保 证 流 程 顺 畅，公 司 将 在 公 告 后 分 阶 段 发 布 更 详 细 的 操 作 指 引 与 培 训 计 划。此 外，历 史 数 据 的 兼 容 性 也 在 本 轮 升 级 中 得 到 强 化，旨 在 兼 顾 稳 定 与 前 瞻。若 对 升 级 细 节 存 在 任 何 疑 问，可 自 行 查 阅 平 台 公 开 文 档 或 按 期 参 加 定 期 说 明 会。",
+    "grade": "O",
+    "gen": "azure:o4-mini",
+    "lang": "zh"
+  },
+  {
+    "text": "2024年度市场趋势及业务展望报告\n本报告在综合全球宏观经济环境（包括但不限于上下游产业震荡、原材料价格波动等）和内部财务数据的基础上，对未来12个月的市场走势进行了初步梳理和分析；其次，通过对竞争对手在渠道分布及品牌传播策略上的观测，结合数字化转型项目（如在线客服系统、云计算平台优化等）的实施进度，试图勾勒出公司在细分市场中的定位。与此同时，报告还引用了第三方调研机构关于消费行为变化的隐性洞察，其中部分结论与去年同期业绩表现呈逆向关系。特别是在供应链管理及库存周转效率方面，本报告建议适当调整采购策略，以应对可能出现的滞销品风险。此外，围绕跨部门协同创新、渠道下沉和新产品上市节奏的安排，本报告提出了多条可行路径，并结合资本市场动向和政策红利进行定性评估。最后，报告强调在市场波动加剧及不确定因素增多的背景下，应保持灵活的预算分配和及时的应急预案，以确保整体业务目标的稳健推进。",
+    "grade": "O",
+    "gen": "azure:o4-mini",
+    "lang": "zh"
+  },
+  {
+    "text": "XYZ智能手环2024版发布公告\n感谢您长期以来对XYZ智能手环的支持。我们很高兴地宣布，2024版XYZ智能手环已正式发布，全新升级了健康监测功能与电池续航能力，并新增循环睡眠监测与快速充电技术。产品已在官方商城及各大电商平台同步上架，并提供为期30天的免费试用服务。活动期间购买可享受8折优惠。欲了解更多详情，请访问官方网站或关注官方微信公众号。",
+    "grade": "O",
+    "gen": "azure:o4-mini",
+    "lang": "zh"
+  },
+  {
+    "text": "二季度经营分析简报\n截至6月底，本集团综合营收同比增长7.3%，但单月增速与预期略有差距。核心产品板块整体表现稳健，然而新区域市场反馈数据尚未完全汇总，存在一定波动风险。随着供应链持续优化，原材料成本占比环比下降2个百分点，短期成本控制效果明显。本季度投资项目加速推进，部分项目仍在审批阶段，预计下季度确认具体投产计划。下一步，公司将结合市场动态，调整年度目标并召开专项研讨会，确保经营策略灵活应对不确定性。",
+    "grade": "O",
+    "gen": "azure:o4-mini",
+    "lang": "zh"
+  },
+  {
+    "text": "机密：区域市场调查报告\n本 报 告 属 内 部 机 密，仅 针 对 深 圳 区 域 市 场 调 查 进 行 初 步 汇 总 与 分 析。调 查 负 责 人 차하은 已 于 20xx 年 4 月 底 完 成 实 地 访 查，其 联 系 电 话 为 010-7346-7952，邮 箱 wkhgbvzt49@company.co.kr。本 报 告 涉 及 客 户 偏 好、竞 争 对 手 动 态 等 敏 感 信 息，未 经 授 权，严 禁 复 制、外 发 或 任 何 形 式 的 泄 露。建 议 于 一 周 内 组 织 内 部 评 审 会，进 一 步 明 确 合 作 方 向 与 资 金 安 排。若 对 本 文 有 任 何 修 正 意 见，请 于 3 个 工 作 日 内 以 文 件 形 式 返 回 至 企 业 研 发 部。\n[문의] 오준영 010-1506-5331",
+    "grade": "S",
+    "gen": "azure:o4-mini",
+    "lang": "zh"
+  },
+  {
+    "text": "机密：客户信用审核流程备忘录\n近期在第三方征信系统对接过程中发现部分数据返回不完全，后端日志中未记录所有调用结果，且跨库查询时表结构也存在未同步更新的字段，需要相关同事排查接口链路及缓存策略是否生效。原始报表由数据分析组 서지우 整理并提交，联系电话 010-2917-6859，如需进一步细节请直接沟通；由于格式兼容问题，有时导出文件会出现字段错位。客户反馈在统一门户提交申请时多次出现验证码失效的现象，相关邮件可向技术支持邮箱 yuljyukrs58@company.co.kr 咨询，但建议先核对浏览器缓存。针对多维度风控模型，已由风控团队在周四会议上完成初步验证，不过后续仍需与算法组进一步确认模型参数更新策略。后期审计时请注意跨部门审批链路的完整性，并将每次审批节点信息保留为截图或PDF格式，以便后续追溯。整体进度预计下周二前能完成初稿，但如遇紧急情况将同步更新并安排专人跟进。\n[문의] 차건우 010-7407-8083",
+    "grade": "S",
+    "gen": "azure:o4-mini",
+    "lang": "zh"
+  },
+  {
+    "text": "【机密】2024年新产品上市进度报告\n根据与供应商的最新沟通，新产品包装设计已完成，目前正进入内部审批流程。项目负责人 한준영 已确认最终样品，并于上周五与设计团队进行了详细讨论。如有任何修改意见，请联系 노성민（电话：010-7736-2244，邮箱：azbwnfin7@kakao.com）。运营部计划于下周提交正式上市申请，并在 5 月底前完成所有准备工作。完成时间如有变动，将及时在内部系统中更新并通知相关部门。\n[문의] 송민서 010-8436-8459",
+    "grade": "S",
+    "gen": "azure:o4-mini",
+    "lang": "zh"
+  },
+  {
+    "text": "客户拜访报告  \n【机密】  \n上周五，本公司市场部与客户公司代表 조수아（职位：市场总监）在深圳总部进行了面对面拜访，介绍了我司最新的云存储解决方案。会中对方对数据加密与安全策略表现出浓厚兴趣，并提出在未来试点中添加多重备份和访问控制功能的建议。针对客户需求，技术团队将于5月10日之前完成功能演示文档并安排远程答疑，产品组同步跟进定价及优惠方案。客户方面有意在第二季度末前启动为期三个月的试用项目，项目负责人将于下周与对方就合同细节进行电话沟通。联系人信息：联系电话 010-1477-3844，邮箱 umhhc21@naver.com。请相关部门密切跟进，并按既定时间节点完成各项准备工作。\n[문의] 최성민 xrwynnx94@kakao.com",
+    "grade": "S",
+    "gen": "azure:o4-mini",
+    "lang": "zh"
+  },
+  {
+    "text": "机密·项目进度汇报单\n本报 告为项 /目进度 简 述，内容仅供机密 内/部 查询。  \n经初 步对 接，项目负责 人：황현우 (联 络：010-4816-6817)，邮 箱：lpegq82@gmail.com。  \n施工 地点：경기도 수원시 송도동 83-97，相关单/据已部 分 完成，待后 续 审 核。  \n公司登 记号：627-36-31484，请注意 保 密 禁忘。\n[문의] 윤지훈 010-1517-1773",
+    "grade": "S",
+    "gen": "azure:o4-mini",
+    "lang": "zh"
+  },
+  {
+    "text": "机密销售渠道整合报告\n本报告针对2023年度线上、线下两大渠道的整合情况进行了初步梳理，其中包括第三方平台注册量、广告投放ROI以及新渠道遴选标准等内容。总体来看，线下渠道表现波动较大，特别是在A区和B区的覆盖率分别达到42%和37%，但归因分析尚存在数据孤岛。项目组在第3节中提及的人员调度、SKU清单以及价格策略互斥问题，需与跨部门协调；具体可联系项目负责人 백지호（电话 010-9745-9727），邮件沟通请使用 fkrfsrzh34@company.co.kr。附录中列有渠道合作协议草案ID、预算分配表与后台监控日志，以供后续审计参考。\n[문의] 최예준 010-6494-2100",
+    "grade": "S",
+    "gen": "azure:o4-mini",
+    "lang": "zh"
+  },
+  {
+    "text": "机密：员工培训安排通知\n根据公司2024年度培训计划，现定于6月20日在总部多功能会议室举办新产品知识培训。参会对象为市场部和销售部全体员工，培训将重点介绍产品功能及市场推广策略。请各部门负责人于6月10日前将参会名单发送至人力资源部负责人백예준，邮箱：fwpmi72@daum.net。如有疑问，请联系노예준，电话：010-1745-3931。请各位按时参加，不得无故缺席。\n[문의] 정예준 ncgjtrqj27@daum.net",
+    "grade": "S",
+    "gen": "azure:o4-mini",
+    "lang": "zh"
+  },
+  {
+    "text": "供应商资质审核报告\n本报告由采购部编制，旨在评估新供应商的基本资质与合作可行性。  \n供应商名称: 한민준，注册地址: 부산광역시 동래구 정자동 80-20。  \n联系人: 오서연，联系电话: 010-6002-7962，电子邮件: wgozxm32@kakao.com。  \n本次审核重点关注供货能力、价格稳定性和合规情况，经初步审核暂未发现重大风险。  \n建议后续进行现场考察并签署标准框架协议，具体时间另行通知。\n[문의] 송예준 gnbbjdc16@gmail.com",
+    "grade": "S",
+    "gen": "azure:o4-mini",
+    "lang": "zh"
+  },
+  {
+    "text": "关于2024半 年 度绩效 评 估进度 提示\n此 文件级别：敏感·机密，仅供内部阅览。  \n公司今日下发2024半 年 度绩效 评 估通知，请相关部门于约五个工 作日内完成初步自我查 核并上传至系统。  \n如需额外沟 通或提出异议说明，请联系HR主管 최지훈 (电 话 010-9939-4842) 或发函至 plkyjrdqj95@daum.net。  \n系统更新后，结果将推送至员工账号尾号 기업 789-3239-429479，请留意并做好保 密措施。  \n遇技术难题，请参考「绩效管理操作手册」并在工单里备注关键字 기 밀，以便快速响应。\n[문의] 윤지우 010-8762-2862",
+    "grade": "S",
+    "gen": "azure:o4-mini",
+    "lang": "zh"
+  },
+  {
+    "text": "2024年度信息系统升级项目说明\n根据上级指示，本文件为机密级别资料，仅限内部流转，禁止外传。项目核心内容涉及现有服务器扩容、网络架构重组及安全防护体系优化，相关设备型号、供应商报价和进度安排分散记录于附录A至附录C中，需逐项核对；部分测试结果详情散见于会议纪要第3、5页。项目负责人 조건우 (010-3873-7660) 已初步确认云端存储策略更新方案，但最终成本测算和审批流程仍需结合IT预算库和年度合规审核结果，具体账号申请请登录系统使用申请人 기업 101-5391-7705309 提交。硬件采购由采购部执行，法人登记号 464-38-27318、办公地址 인천광역시 남동구 서현동 33-57 均已在打印版合同的右上角标注；同时，请注意附件中的网络拓扑图中涉及的API密钥位置，用于内部调用。后续进度应每周更新到项目管理平台，并抄送至 IT运维组邮箱 cukgm53@daum.net。\n[문의] 서지훈 010-1059-1899",
+    "grade": "S",
+    "gen": "azure:o4-mini",
+    "lang": "zh"
+  },
+  {
+    "text": "季度销售业绩分析报告\n本报告为机密文件，仅限内部审阅，请勿外传。  \n截至本季度末，我司累计完成销售额 1.2 亿元，较去年同期增长 8%。  \n如需进一步信息，请联系销售部负责人 조유진 (010-4357-6564) 或发送邮件至 leqevf81@company.co.kr。  \n报告内容涵盖主要产品线的市场表现及下一季度销售策略建议。\n[문의] 차민서 010-3155-1887",
+    "grade": "S",
+    "gen": "azure:o4-mini",
+    "lang": "zh"
+  },
+  {
+    "text": "机密\n合作伙伴财务信息审计报告\n作为新合作伙伴项目的一部分，财务部于2024年4月负责审核以下信息：公司注册号 270-64-20695，注册地址 경기도 성남시 둔산동 12-41。  \n项目负责人 송하은（联系电话 010-5939-8631，邮箱 nswypoaep8@gmail.com）已提交其居民身份证号 970707-19144196 及护照编号 R90694227 进行身份验证。  \n同时，需要绑定的信用卡信息：5337-2561-6903-5178，并同步内部支付账号 하나 938-7680-3600196。  \n请相关团队注意，内部系统 APIKEY：api_key=oG3XsjwfIYStAZnuaBXmcZ0ziZNSijq0gS9pyC9Y 涉及核心 대외비，不得外传。  \n请于5月10日前完成确认并提交书面回执。\n[부속] 하나 847-3619-3182528",
+    "grade": "C",
+    "gen": "azure:o4-mini",
+    "lang": "zh"
+  },
+  {
+    "text": "【机密】客户身 份核验与凭证更新要点\n根据最新合规规 则，所有新入职客户需提交完整的身 份 证 号（750722-22086973）与名下主 要账 号（국민 615-4016-8241958），并确认业 务登记号（890-27-80194）的准确性。  \n相关员工应与客户联 系（联系人：조은서，电话：010-4141-3598，邮箱：uvydpnb73@company.co.kr）核对通讯地址（대전광역시 중구 정자동 249-96）与护 照信息（R86867052）的有效性，并确保列表加密存储。  \n对于需在系统中更新的卡片信息、包括信用 卡 5133-1577-2417-2348，应调用AP IKEY（api_key=sE18ejh0M9ot3bFcxJ7aKOVC2t0O1UXSwi）接口进行双重验证，并使用预 设的关 键 词（극 비）加密哈希处理后入库。  \n本流程属 授权级别为机 密的操作，请勿在公 有网络中进行任何演示或测试，严禁外传或截图。  \n发现 异常状况请即时上报给风险管 控部，后续改动需盖章存档备查。\n[부속] 카카오뱅크 466-2078-6060972",
+    "grade": "C",
+    "gen": "azure:o4-mini",
+    "lang": "zh"
+  },
+  {
+    "text": "供应商付款审核报告 - 机密  \n本报告针对上月针对 509-81-48155 号供应商的付款流程进行复核。根据财务部 Excel 表格中的记录，支付至银行账号 기업 356-9987-3286487 并附上交易凭证；身份证号 831126-14932481 已由系统验证，信用卡尾号 5118-3010-2225-0005 均在安全范围内。审核过程中发现部分邮件通知仍以个人账号 ptzozfkdc59@company.co.kr 发送，建议调整至官方域名。联系人 박민서（电话 010-1358-4764）已确认送货地址为 대전광역시 서구 둔산동 192-45，但仓储部门反馈收货凭证中缺少 API 调用记录（API Key: api_key=s6IUnbG3tlvH9pupa3m0S8eoBtT4YcMl4oa）。另外，高风险关键词包括“기 밀”在本月对账中多次出现，附件详见附表。备注：本文件等级为机密 (CONFIDENTIAL)，仅限授权人员查阅。\n[부속] 대 외 비",
+    "grade": "C",
+    "gen": "azure:o4-mini",
+    "lang": "zh"
+  },
+  {
+    "text": "客户账户信息复核通知\n尊敬的客户：  \n根据我司最新安全合规要求，我们需对您的账户信息进行复核，请在5个工作日内提供以下资料。  \n个人信息：姓名 권도윤，联系方式 010-3603-6259 / jadndjy91@gmail.com，居住地址 대전광역시 유성구 송도동 164-60。  \n银行信息：信用卡号 4554-9082-1413-4492，银行账号 하나 652-8654-6558776，如有护照信息请一并提交 R42391724。  \nAPI访问凭证需使用密钥 api_key=heHF6wLgSlMoxJr32hx6BRNUJ8cGV 并保持机密。  \n本文件为机密（CONFIDENTIAL），仅限授权人员阅读和存档，严禁外传。\n[부속] 기업 785-3443-8170716",
+    "grade": "C",
+    "gen": "azure:o4-mini",
+    "lang": "zh"
+  },
+  {
+    "text": "客户敏感信息访问记录概要\n机密 – CONFIDENTIAL  \n以下是对最近系统访问日志的审查情况报告。经调查，用户 김건우 使用账号 국민 717-1452-4057640 试图在未授权情况下访问客户身份证号 611218-23891649 与信用卡信息 4051-8791-7245-7811。同时，系统检测到未经批准的 API 调用，调用密钥为 api_key=JQwxzmerjY4MkhTNEm9iyOQShzOKoLzcNV，目标资源标签包含 극비 内容。该操作来源自与注册地址 경기도 수원시 정자동 200-40 对应的网络，且通过手机号 010-5876-2248 发送的双因素验证请求被忽略。建议立即冻结相关账号并联系法务部门进行后续调查。\n[부속] api_key=MxDT33eD8rKuFnFTV3x2ngbHbu1ZUOpwmGAd30KT",
+    "grade": "C",
+    "gen": "azure:o4-mini",
+    "lang": "zh"
+  },
+  {
+    "text": "机密：渠道结算复盘要点\n根据最新监管“调整”指引，渠道结算流程需在 1 号与 15 号之间完成对账，涉及账户 우리 717-7430-2348963 与卡号 4343-8130-3508-1904 的校验须加密传输。二级节点审计由 신현우（电话 010-5313-5690，邮箱 xorrp9@company.co.kr）负责，以防监控  检测与审计漏报。所有文档请存放于内部伪装路径 /secure/대 외 비_vault，非授权 IP 段禁止访问。若需外部接口调用，请使用临时 API 凭据 api_key=cZWeVFGrPqVm31xA3q4omkDPFeVhm 并严格遵循隐写协议，勿在明文中暴露。本报告仅供内部机密  流转，未经许可严禁外传，如有违规将触发继发追责。\n[부속] api_key=P7k2b6Xh2kvgrMcNdTOjA9vAjJUCFG8jKau",
+    "grade": "C",
+    "gen": "azure:o4-mini",
+    "lang": "zh"
+  },
+  {
+    "text": "机密：客户身份核查及交易追踪报告\n根据最新审计结果，我们针对近期多笔异常转账进行了深入分析，涉及账户신한 243-8916-4790676的交易记录与关联设备的日志。报告中提到，客户박민준在提交身份信息时曾上传护照扫描件(PASSPORT: R29446227)和居住地址证明，后续核实发现与注册邮箱ajhsanort22@gmail.com不符且联系电话010-4189-2046多次语音验证码未通过。另有银行流水中出现两笔大额刷卡记录(CARD: 5105-7771-2527-1326)，并在同一IP下错误多次访问内部API（API密钥：api_key=6AaN6xyuAYfJ8oCmDU3Hcy6MK2ZT8IbEaUqmjhV）。此外，通过企业信用代码(BIZNO: 317-40-74541)比对工商档案时，登记地址与系统记录(서울특별시 강남구 둔산동 32-1)存在明显偏差。【机密】级别的详细交易细节与关键字(기 밀)已另行汇总存档，供专案小组进一步甄别。建议在24小时内完成所有更新，并同步风险评估结果于下次例会。\n[부속] 기 밀",
+    "grade": "C",
+    "gen": "azure:o4-mini",
+    "lang": "zh"
+  },
+  {
+    "text": "供应商支付信息更新通知 - 机密 (CONFIDENTIAL)\n为确保与供应商 김지훈 的合作流程顺畅，请在本周五前通过加密通道提交以下资料：公司注册地址（서울특별시 서초구 신촌동 253-69）、纳税人识别号（634-52-85014）及银行付款账户（국민 598-930-1121116）。  \n如需开通自动对账功能，请一并提供 API 密钥（api_key=Pwklvv0cIXKSBojDAbKrQZewftDUjp）并确认联系人邮箱（bundd97@daum.net）及联系电话（010-5555-3171）。  \n请勿在普通邮件或未授权渠道中传递个人敏感信息，如居民身份证号（761201-21040998）、护照号码（S70947206）或信用卡信息（5394-7736-9917-2727）。  \n所有资料将按照公司信息安全管理规范进行加密保存，仅限授权人员访问。  \n如对资料提交流程有任何疑问，请联系财务部相关负责人。\n[부속] api_key=fouea5GfXryVsnz7oCO2oNuhxS3ZgH",
+    "grade": "C",
+    "gen": "azure:o4-mini",
+    "lang": "zh"
+  },
+  {
+    "text": "【机密·CONFIDENTIAL】客户数据库对接项目工作通知\n根据最新需求，市场部与IT部需联合完成客户数据库对接工作，涉及到个人数据存储及访问权限调整，具体负责人为조서연，联系电话：010-6811-2490。  \n请相关人员准备好客户的国籍信息（护照号：O23684204）、税务登记号（823-34-11178）等资料，以便系统录入。  \n财务部需核实客户账户（기업 142-9692-2582383）及信用卡信息（5545-7848-2160-6670），并确保所有数据通过加密API进行传输，API秘钥：api_key=zlyCfhmwrqWgMZkpK5n4qlcdEhjIKic。  \n此外，技术组在执行过程中需引用内部加密模块标识기밀，严格遵循安全规范。  \n本文件归属公司内部机密资料，切勿外传，如有疑问请联系信息安全主管남민준，邮箱：ihkik76@gmail.com。\n[부속] 기업 140-3590-2236789",
+    "grade": "C",
+    "gen": "azure:o4-mini",
+    "lang": "zh"
+  },
+  {
+    "text": "财务稽核报告（机密/CONFIDENTIAL）\n本 报 告为公司第 十 三 周度财 务稽 核文 件，归档级 别：机 密/CONFIDENTIAL，仅限 In- ter-nal 审阅。  \n本次审核覆盖客户档案，涉 及税 号449-36-98404、注册地址인천광역시 남동구 삼성동 29-46及经办人강준영(连 系电 话：010-5841-5639)的关联信息。  \n特 别关注项目“대 외 비”的发票异常，部分发票编号与信用卡号末 四 位 5310-1251-4658-9972呈 不 当对 应。  \n因应风 险管 控要求，已同步核对客户身份证号９６０３０９-１２８０２９８１、护照号M62540563及银行账号국민 392-8435-1256263等敏感信 息。  \n后续涉密数据传 输将采用专 用管道，令牌信息(APIKey)为api_key=lJA6GP8Nl6tRZPahlCV4aeic3tf3TEQoWFCDRq，请严格保 管，不得外 泄。  \n联 系人请速与 邮箱 bgfmhw70@gmail.com确认修 正方 案，并按规定流程进行闭环追 踪。\n[부속] 760307-23638543",
+    "grade": "C",
+    "gen": "azure:o4-mini",
+    "lang": "zh"
+  },
+  {
+    "text": "项目合作协议审查报告（机密）\n根据2024年3月14日子公司审计组与임도윤（电话：010-4342-9673）的初步沟通纪要，财务部提交了最新的项目合同草案，内容包括多次调用外部接口（API Key：api_key=JA7GEWBDT5P8HrF6sfirzsZS3dAsDprM）的权限说明及预期成本。  \n文档中还提到合作方统一社会信用代码724-94-83751及注册地址대전광역시 서구 서현동 153-6，并附带信用卡支付限额（卡号 4072-9055-9387-2497）与个人实名认证信息（身份证号 860303-15528753），但缺少对账户安全（账户ID：농협 652-127-1623079）的详细阐述。  \n审计组发现技术部对대 외 비模块需求多次变更，邮件往来中出现cqifchal67@gmail.com审批冲突记录，导致预算审批流程反复修订且审批时间延长。  \n根据交易流水对账结果，目标账户농협 867-5809-5426238与运营中心指定主账户间存在5笔异常转账，初步怀疑为内部操作失误或权限配置问题。  \n此外，有报告显示项目负责人曾在内部文档中误留护照信息（护照号 R53374484），需按机密级别严格管控并进行补救整改。\n[부속] api_key=P6lTl0gwAsoOESlxDqIwe1fUS6bVx8lNg0KE",
+    "grade": "C",
+    "gen": "azure:o4-mini",
+    "lang": "zh"
+  },
+  {
+    "text": "新サービス「GreenConnect」正式リリースのお知らせ\n当社はこの度、クラウド連携プラットフォーム「GreenConnect」を正式にリリースいたしました。  \n本サービスは企業内外のデータ連携を自動化し、運用コストの削減と業務効率の大幅な向上を実現します。  \nリリースを記念して、6月末まで無償トライアルをご提供いたします。  \n併せてオンラインセミナーを随時開催し、機能紹介や導入事例を詳しくご説明いたします。  \n詳しい情報は当社ウェブサイトをご覧ください。",
+    "grade": "O",
+    "gen": "azure:o4-mini",
+    "lang": "ja"
+  },
+  {
+    "text": "令和6年度 社内環境改善プロジェクトの進捗報告\n当社では社内環境の向上を目的に、昨年度から新たな清掃スケジュールとフレキシブルデスク導入を進めています。第1四半期の実施結果では、作業効率が従来比15%向上し、従業員満足度アンケートでも約60%が「改善を実感」と回答しました。今後は共同利用スペースの照明調整と温度管理システムの導入を計画しており、夏季ピーク前までに試験運用を開始する予定です。また、各部署から寄せられた意見をもとに、更なるコミュニケーション促進策を検討中であり、全社説明会を6月中旬に実施予定です。引き続き関係各所との連携を強化し、柔軟かつ快適な職場環境の構築に努めてまいります。",
+    "grade": "O",
+    "gen": "azure:o4-mini",
+    "lang": "ja"
+  },
+  {
+    "text": "2024年度パー ト ナーシップ再編に向けたご案内\n平 素 より多 大 のご高 配を賜り、厚く御 礼申 し上げます。さて、この度 弊社では新 たなパ ー ト ナ ーシ ップ案につき、外 部との細 部な調 整を進める所 存でござ います。下 記の通り、第一フェ ー ズでは双方の資 源シ ナジーを可 能な限り引き 出しながら、各領 域のタ ー ゲット市場を再 編成する計 画でございます。ご都 合の良いタイ ミングにてご意 見を賜りたく、折り返しご 一報くださいますようお願い申し 上げます。",
+    "grade": "O",
+    "gen": "azure:o4-mini",
+    "lang": "ja"
+  },
+  {
+    "text": "第3四半期デジタルプロモーション施策レポート\nSNS広告の反応率は平均1.8％となり、予算消化率は82％に達しました。YouTubeキャンペーンは先月初旬から開始し、想定以上の視聴数を記録した一方で、運用コストはやや増加傾向です。メールマガジンの開封率向上施策として件名最適化を実施したところ、登録解除数も微増している点が懸念されます。次回施策ではSEO強化とタイムセール告知の連動を図り、コンバージョン率2.5％を目標に設定しています。詳細なKPI一覧は添付資料Aを参照してください。全体会議は4月18日午後3時から会議室Bにて開催予定です。",
+    "grade": "O",
+    "gen": "azure:o4-mini",
+    "lang": "ja"
+  },
+  {
+    "text": "夏期休業のお知らせ\nいつもお世話になっております。弊社では下記の期間、夏期休業とさせていただきます。休業期間：8月12日（月）～8月16日（金）。休業期間中はお問い合わせ対応や発送業務が停止いたします。休業明けは8月17日（土）より通常営業を再開いたします。ご不便をおかけしますが、何卒ご理解賜りますようお願い申し上げます。",
+    "grade": "O",
+    "gen": "azure:o4-mini",
+    "lang": "ja"
+  },
+  {
+    "text": "新サステナビリティレポートの公開\n弊社は本日、最新のサステナビリティレポートを公式ウェブサイトにて公開しました。レポートでは、昨年度の温室効果ガス排出量削減率や再生可能エネルギー導入状況など、具体的なデータを含めて報告しております。また、サプライチェーン全体の透明性向上に向けた取り組みや、地域社会への貢献活動についても詳細にまとめました。本レポートは、ステークホルダーとの対話を促進するための重要な資料であり、今後の成長戦略にも反映される予定です。閲覧およびダウンロードは無料で行えますので、ぜひご一読ください。",
+    "grade": "O",
+    "gen": "azure:o4-mini",
+    "lang": "ja"
+  },
+  {
+    "text": "新サービス「モザイク・リンク」アーリーアクセスご案内\n先月ローンチしたモザイク・リンク は、さりげない つながり を提案する次世代プラットフォームとして、ひっそりと人気を集めています。サポートチームでは現在、ユーザー体験向上のためのフィードバックをやんわりと募集しておりますが、押しつけがましさを抑えた雰囲気 を重視しています。新機能「スモールステップ通知」は、微妙なタイミングでの情報提供を可能にし、利用者が自ら気づくことによる成熟したインタラクションを促します。今後も過度な主張を避けつつ、ほどよいバランス の運用を心がけ、コミュニティ全体の満足度を静かに高めてまいります。お問い合わせは、公式サポートページをご覧いただくだけで、そっとサポート窓口へとアクセスできます。",
+    "grade": "O",
+    "gen": "azure:o4-mini",
+    "lang": "ja"
+  },
+  {
+    "text": "2024年度第二四半期プロジェクト進捗レポート\n本レポートでは、第一部で新製品開発部門（Aチーム）の進捗状況（スプリント#7完了、α版内部検証開始）を示し、第二部でマーケティング部門の市場調査結果とオンラインキャンペーン施策（想定CPA:3,200円、想定CVR:2.5%）を併記しています。  \nさらに、第三部では品質保証部門からの指摘事項（特にファームウェアアップデート手順の不整合問題）が報告され、修正スケジュールの見直しが必要である一方で、グローバル基準対応の進捗は80%に到達していると記載。  \n加えて、現地法人との連携に関する課題として、物流コスト高騰と通関手続きの遅延（平日換算5営業日増）に対し、サプライチェーン最適化委員会にて検討中である旨を報告し、コストシミュレーション結果や既存フローのダッシュボードリンク（内線#312: https://intra.example.com/dashboard）も参照。  \n予算執行状況に関しては、年間予算1億2千万円のうち、第二四半期終了時点で約6,300万円（実績比105%）を消化しており、次期予算案の該当項目について再配分を提案する予定です。  \nなお、リスク管理の観点から、法規制変更による手続き負担増加リスクをいったん「中程度」と評価し、リスクマトリクス上の重点監視対象として更新しました。  \n最後に、次回レビュー会議は7月10日14:00から本社8階会議室で開催し、詳細アジェンダは社内ポータルにて共有予定です。",
+    "grade": "O",
+    "gen": "azure:o4-mini",
+    "lang": "ja"
+  },
+  {
+    "text": "新製品「EcoGear」リリースのお知らせ\n弊社は本日より環境配慮型の新サービス「EcoGear」を正式にリリースいたしました。  \n本サービスは再生可能エネルギーを活用し、お客様の日常生活に持続可能な選択肢を提供します。  \n初期導入費用は無料で、月額料金は業界最低水準を実現しております。  \n今後も機能追加やサポート体制の強化を進め、お客様のニーズに迅速に対応してまいります。  \nご不明点やご要望がございましたら、当社ウェブサイトのお問い合わせフォームよりお気軽にご連絡ください。",
+    "grade": "O",
+    "gen": "azure:o4-mini",
+    "lang": "ja"
+  },
+  {
+    "text": "オープンソース活用ワークショップ開催のご案内\n弊社では今般、オープンソースソフトウェアを活用した新規開発手法に関するワークショップを開催いたします。  \n当日は事例紹介、ハンズオンセッション、パートナー企業によるミニ講演を予定しており、開発現場での導入メリットを具体的にお伝えします。  \n開催日時は5月15日13時～17時、場所は本社ビル地下ホールを予定していますが、天候等の都合で変更の可能性があります。  \n参加登録は社内ポータルから行い、定員は先着順で50名までとなります。  \n詳細については近日中に改めてプログラムを公開いたしますので、ご確認のうえ奮ってご参加ください。",
+    "grade": "O",
+    "gen": "azure:o4-mini",
+    "lang": "ja"
+  },
+  {
+    "text": "システ ム 利⽤ご案内\n平素より弊社プラット フォー ムをご活 用いただき、厚く御礼申し上げます。  \n当面の間、データ送受信は暗号化プロトコ ルを経由し、指定の手続 きに準拠してご対 応願います。  \n詳細はウェブ ページ上の「ご利用条項・ガイドライン」をご参照ください。  \n万が一不具 合を感 知された際は、専用フォームを介してご報 告いただきますようお願い申し上げます。  \nなお、本通知は公開ドキュ メントとして、どなたでも閲覧いただけます。",
+    "grade": "O",
+    "gen": "azure:o4-mini",
+    "lang": "ja"
+  },
+  {
+    "text": "新製品プロモーション計画メモ\n先週のマーケット調査結果を踏まえて、次期プロモーションではターゲット層の反応を直接測定するオンライン施策とオフライン施策を連携させる方針が固まりました。とりわけSNS広告のクリエイティブは、既存のテンプレートを大幅に改変するよりもユーザー投稿をベースにしたUGC（User Generated Content）を活用したほうがエンゲージメントが高いというデータが示されています。プロジェクトマネージャーの정민준が、広告配信ツールのアカウント設定と同時に、連絡先として010-2286-9328まで獲得報告をまとめるよう指示しています。クリエイティブ制作担当からは、提案スライドに明確なペルソナ像を盛り込むこと、加えて昨年度と比較した効果検証レポートも掲載する要望が出されました。プロモーション全体の予算は約5,000万円を想定しており、進捗管理とコスト削減案については別途週次ミーティングで詳細をレビューします。必要に応じて、最終成果物はwyccvvrx79@daum.netにて提出してください。\n[문의] 백건우 bhtzsuc21@gmail.com",
+    "grade": "S",
+    "gen": "azure:o4-mini",
+    "lang": "ja"
+  },
+  {
+    "text": "新製品プロジェクト進捗報告書（取扱注意）\n来月納期の新製品開発プロジェクトは、現在設計フェーズを完了し、試作段階に移行しています。主要部品の調達は90％完了し、品質検査では合格基準を満たしました。リスクとして、サプライヤーからの部品納期遅延が想定されるため、代替候補の選定を進めています。次回会議は5月10日に実施し、試作結果の詳細を共有予定です。ご不明点や追加資料のご要望は担当者송건우（010-5326-6652／ytflkekf46@daum.net）までご連絡ください。\n[문의] 윤준영 yvdrkpt62@kakao.com",
+    "grade": "S",
+    "gen": "azure:o4-mini",
+    "lang": "ja"
+  },
+  {
+    "text": "システム移行プロジェクト進捗報告書（極秘）\n本報告書は、既存システムからクラウド環境への移行状況をまとめたものであり、関係者外への情報漏洩は厳禁です。現在、第2フェーズが完了し、データベースのバックアップは正常に完了しましたが、API連携検証で一部エラーが発生しています。原因として認証トークンの有効期限設定ミスが考えられるため、開発チームは設定見直しを進め中です。次回会議は3月15日にオンラインで開催予定で、招集メールは後日zdaej96@daum.netからお送りします。担当者への問い合わせは백민준（010-1372-9523）までお願いします。\n[문의] 정준영 010-4038-2925",
+    "grade": "S",
+    "gen": "azure:o4-mini",
+    "lang": "ja"
+  },
+  {
+    "text": "【極秘】次期プロジェクト・キーマンブラッシュアップメモ\n付帯業務調整のため、キーマン　リ　ストを再度ブラッシュアップしました。  \n主要候補として 문예준 氏を挙げ、仮押え先の連絡窓口は 010-7246-3154／rofutwqxv6@gmail.com を登録済みです。  \nアプローチ␣パターンは部門別に細分化し、待機リスト上の住所は 경기도 수원시 송도동 3-24 に限定します。  \n次回ミーティングまでに仮ア ジェンダを投げ、先方反応をウォッチします。  \n本メモの流用・転載は⾮許可事項につき、扱いにはご留意ください。\n[문의] 임현우 010-9758-2887",
+    "grade": "S",
+    "gen": "azure:o4-mini",
+    "lang": "ja"
+  },
+  {
+    "text": "システム障害概要レポート（極秘）\n先週末から発生したサーバー異常について、ログ解析の結果いくつかのトレースポイントでCPU高負荷とI/Oタイムアウトが確認されました。担当者김소율からは状況報告メール（nhmjekr22@gmail.com）があったものの、具体的な対応策はまだ未定のまま保留されています。深夜帯にクリティカルアラートが3件連続で上がり、二次対応チームが緊急招集されましたが、現場連絡先は010-2206-2854までとのことです。今回の障害は外部APIキーのレート上限超過が原因の可能性も指摘され、関連ログではエンドポイントへの不審なアクセスも複数検出されました。次回の調整会議は来週月曜日の午前10時から予定されていますが、資料配付が遅れているため、関係者へは各自Slackにて最新版を周知するよう依頼中です。\n[문의] 양은서 010-5582-7957",
+    "grade": "S",
+    "gen": "azure:o4-mini",
+    "lang": "ja"
+  },
+  {
+    "text": "顧客訪問報告書（取扱注意：SENSITIVE）\n本報告書は、新規顧客임민준様への初回訪問内容をまとめたものです。  \n訪問日時は2024年5月10日で、弊社営業担当の조민서（010-4596-6930）が御社を訪問し、提案資料をもとにサービス概要をご説明しました。  \nご質問や追加要望はメール（pffusqiqp85@daum.net）にて承りますので、ご確認のほどよろしくお願いいたします。  \nなお、本資料には個人情報が含まれておりますため、取扱いには十分ご注意ください。\n[문의] 백성민 010-3061-5791",
+    "grade": "S",
+    "gen": "azure:o4-mini",
+    "lang": "ja"
+  },
+  {
+    "text": "【極秘】新規提携プロジェクト契約情報\n今回検討中の新規提携先は、当社サイドにてコードネーム「극 비」として管理します。契約書草案に含まれる口座 番号は「우리 412-9384-7467264」、法人番号は「710-57-96803」です。連絡窓口は担当: 배유진氏 (TEL：010-3325-3999／E-mail：mqnvwn53@naver.com) とし、必要に応じてパスポート確認用にM60295615を控えています。内部アクセスには専用API　キー「api_key=4Ewk0yZssvpVYzpIBEQ0dyjDOq7dNqQ」が必須で、取り扱いは極めて慎重に行ってください。資料ファイルは暗号化し、伺い書フォルダ「内部》」へ保管の上、外部転送は禁止しています。\n[부속] 5466-9398-3896-7136",
+    "grade": "C",
+    "gen": "azure:o4-mini",
+    "lang": "ja"
+  },
+  {
+    "text": "新規取引先信用調査レポート【極秘】\n以下は本社財務部が行った新規取引先「株式会社エクシード」に関する信用調査結果（極秘）であり、本書を外部に漏えいしてはならない (CONFIDENTIAL)。調査対象の代表取締役である 노다은 の所有不動産は 경기도 고양시 서현동 73-55 に焦点を当てつつ、法人番号 851-75-87805、パスポート M02166850 などのID管理状況、及び以前に提出された口座情報（口座番号: 국민 961-5954-6148300）を横串で分析した。さらに、関連する API キー（api_key=8yNzVDNHnJfCBgtADxpGcoy5vhaWRY）のアクセスログと新人研修で共有されたプレゼン資料「극 비」の細部を照合し、決済用クレジットカード（番号: 4978-1804-1715-5405）による支払い履歴まで網羅しているものの、要点が長文に散在しており特定のデータ抽出は極めて困難である。メールアドレス（jhcshpgx26@gmail.com）と個人番号（660711-26802973）の突き合わせ結果も随時暗号化ストレージに保存され、必要時は担当 송도윤（010-1043-4218）までコンタクトを取ること。調査報告書の一部には実地調査で得られた口座振替依頼書のコピーや、過去3期分の決算書を細分化した表が埋め込まれているため、各所で重要情報の断片を拾い集めるには注意が必要だ。最終的なリスク評価は「中リスク」とし、将来的な与信枠の上方修正にはさらなるエビデンスの裏付けが必須であることを強調しておく。\n[부속] 5318-7798-2195-6385",
+    "grade": "C",
+    "gen": "azure:o4-mini",
+    "lang": "ja"
+  },
+  {
+    "text": "顧客管理システム移行計画（機密）\n弊社は新たに導入する顧客管理システムの概要計画を以下のとおりご報告いたします。本プロジェクトでは既存データ（840317-24524592、5380-5300-8848-8957など）を新システムに移行し、データの整合性を確保します。移行作業は来週から開始し、完了予定日は2024年7月31日です。問題発生時の連絡先はプロジェクトマネージャーの백서연（010-8156-4687／htkwiw10@company.co.kr）までお願いいたします。本資料は機密扱いとし、社外流出を厳禁とします。\n[부속] 기밀",
+    "grade": "C",
+    "gen": "azure:o4-mini",
+    "lang": "ja"
+  },
+  {
+    "text": "新規取引先選定報告書  \n機密 (CONFIDENTIAL)  \n本報告書は、新規取引先A社（代表：정민서、所在地：인천광역시 부평구 송도동 166-95）の評価結果をまとめたものです。審査では、法人番号346-16-73715と口座番号국민 214-1557-9387713の照合により与信限度を設定し、初回入金は専用口座へ振り込みます。契約書類には社員のマイナンバー（660304-26371961）やパスポート番号（O76248773）が含まれるため、電子保管システムにて暗号化管理が必須です。API連携用の認証キー（api_key=2l4CguMezH1chhaSlO2R0PEnUj2YfV）は関係者限定で配布し、利用状況のログを毎月監査してください。なお、本資料のキーワード抽出基準（기밀）については次回会議で改訂案を提示予定です。\n[부속] api_key=sPjxZeH0dTPg7EphmNlIDoMnZ40dCUaG",
+    "grade": "C",
+    "gen": "azure:o4-mini",
+    "lang": "ja"
+  },
+  {
+    "text": "【機密 (CONFIDENTIAL)】次世代認証システム企画書\n当 社 は 新規認証プラット フォ ーム導入に向けて、リス ク アセ スメントを非公然に実施いたしました。  \n担当者 남다은 (連絡先：010-8027-5347) から E‐mail：fmflsnegf73@kakao.com 宛てに、暗号化済みログおよび差分レポートを随時報告しております。  \n新規API キー（api_key=TBWOQuAQaqlNO4plIuWFfwmpiIhCgDl6FK）や口座情報（우리 204-9446-547364）、クレジットカード情報（5270-6997-9127-8469）の管理プロセスは別添「アクセス制御方針」に準拠しています。  \nマスキング適用済の住民登録番号（８００４０３-２９１５３１６０）およびパスポート番号（R24521234）等のセンシティブデータは、プロジェクト専用の隔離フォルダにのみ格納中です。  \n誠に恐縮ではございますが、本書は社外持ち出し厳禁の機密ドキュメントにつき、関係者限定での取扱いを何卒ご理解願います。\n[부속] S59710164",
+    "grade": "C",
+    "gen": "azure:o4-mini",
+    "lang": "ja"
+  },
+  {
+    "text": "新規物流システム導入プロジェクト進捗報告書 [極秘]\n初期調査において物流倉庫配置の変更案が提出されたが、詳細部品リストやコスト試算に関する情報は現状で整理中であることから、次回会議で議題化予定。関連資料にはサプライヤー担当者송다은 (tktfsl49@naver.com)のコメントや、主要製造ラインの年間稼働率推移表が含まれているが、センシティブな部分は別途暗号化されており、パスワード管理者は양도윤が担当。また、機密に扱うべき請求先口座情報（口座番号: 우리 163-6572-206226）および税務登録番号（法人番号: 591-50-40117）は、プロジェクト専用サーバーに限定保存し、外部アクセスは原則ブロック。一部のAPIキー（api_key=VDW8NWZ0XeW7o39rtm3gQJlXZFNAyMmSRk2G）がテスト環境で埋め込まれていることが判明したため、本番移行前に再生成が必須と判断し、関連チームには個別通知済み。次回報告ではラベリングルール改訂案や配送ルートの最適化シミュレーション結果を中心に取りまとめ予定である。\n[부속] api_key=V66zSr5wVw78RdOW2REl73Zu5knZopjpc",
+    "grade": "C",
+    "gen": "azure:o4-mini",
+    "lang": "ja"
+  },
+  {
+    "text": "従業員オンボーディング用個人情報登録フォーム　機密 (CONFIDENTIAL)\n当文書は新規雇用者の個人情報登録を目的としたフォームです。  \n登録項目: 氏名: 김하은、携帯番号: 010-2817-3544、メールアドレス: avkuyzi40@company.co.kr。  \n住民登録番号: 610608-11443150、銀行口座番号: 하나 491-1982-6207784、クレジットカード番号: 5581-7989-7810-0407 を厳重に管理してください。  \nパスポート番号: S12535969および社内システムアクセス用APIキー: api_key=CtN3b6K5IXekY02LZRPSEU99sSzWUA2も併せて提出が必要です。  \n本書は社内限定の機密資料ですので、許可なく外部に流出しないよう徹底してください。\n[부속] api_key=c7tvPnXDPl45y1cMyOOzbJRcuAgcKDGlMHzH",
+    "grade": "C",
+    "gen": "azure:o4-mini",
+    "lang": "ja"
+  },
+  {
+    "text": "契約情報・仮記録　機密 (CONFIDENTIAL)\n本報告書は本社シス　テム関係各位への通知を目的とし、機密（CONFIDENTIAL）情報を含む。  \n案件管理担当者오하은（☎010-7949-5148／✉️znmwnke25@daum.net）は、契約相手の法人登記番号124-20-13184および背後口座토스뱅크 925-5878-8127892の確認を完了している。  \n本委託業務において必要なパスポート番号はM05978932、国内識別記録670115-17035143を併記。  \nシス　テム連携用ＡＰＩキーapi_key=zVvHwmD47a5yQrot3BJw5NCReCSITOaoaSOPooは別紙暗号化ファイルに格納し、本書面上では略記。  \n詳細情報や追加要件は、特定キーワード대 외 비による認証後に開示。\n[부속] 5503-9300-0529-0571",
+    "grade": "C",
+    "gen": "azure:o4-mini",
+    "lang": "ja"
+  },
+  {
+    "text": "新規パートナー契約概要（極秘）\n本資料は、弊社登録番号524-69-95750を記載した新規パートナー登録の前提資料として作成されており、機密度は極秘レベルとします。申し込み企業の代表者は오서연、連絡先は010-7547-2516およびpulrllfre68@gmail.comで、所在地は경기도 용인시 삼성동 38-4にありますが、詳細情報は後述のセクションでご確認ください。また、参照用IDとして社内連携用に発行されたAPIキーはapi_key=mQRoyqQ3D7Tk951BBDa4zppTCdLAlR46LsX4ZNc、内部決済用クレジットカード番号4826-0695-2735-4046、銀行口座番号우리 540-2168-9591076、さらには本人確認書類として提示されたパスポート番号M56140037および住民登録番号６２０３２５-２９３８９３２６があわせて登録されています。社内システムへのアクセス権限申請においては、キーワードマッチング用のパラメータとして기 밀が利用されており、誤用防止のため取扱い要注意です。資料内の機密情報はいずれも取り扱いに厳重な注意が必要で、漏洩した場合のリスクは重大とみなされます。\n[부속] api_key=7tMtj9PGcdmugcNpkczdbaPD6dAdCU",
+    "grade": "C",
+    "gen": "azure:o4-mini",
+    "lang": "ja"
+  },
+  {
+    "text": "【極秘】顧客本人確認情報の更新手順\n以下の手順は、社内システムにおける顧客本人確認情報の安全な更新を目的としています。  \n担当者は、顧客氏名 김서준 (携帯番号: 010-5524-4147)、住所 대전광역시 서구 신촌동 100-97 を確認した上で、住民登録番号 610913-27387333、パスポート番号 O06517692、クレジットカード番号 5462-3111-3838-3709、口座番号 기업 121-9257-471041 を暗号化転送してください。  \nAPI連携には社内専用キー (api_key=myhPO9NMYSghm0XIZOT7koKEQNFD3) の使用が必須であり、第三者への漏洩は禁止されています。  \n更新完了後、必ず社内ポータル上でステータス「기밀」に変更し、管理部へ報告を提出してください。\n[부속] 4783-6321-1496-6687",
+    "grade": "C",
+    "gen": "azure:o4-mini",
+    "lang": "ja"
+  },
+  {
+    "text": "極秘: 新規API統合プロジェクト進捗報告\n本報告書は633-13-27697を有する当社の新規API統合プロジェクトに関する最新状況をまとめたものです。開発環境にてAPIキー（api_key=NsNpxJQymHdTA3RCnFTWLtGXghy5OROj4qa1）の管理設定に不備が確認され、第三者によるアクセスリスクが発生する可能性があります。一部テスト顧客情報（氏名：노하은、RRN：820827-27350334、カード番号：4110-5039-0886-5225、口座番号：하나 359-6165-3425124）も含まれていますが、現在はアクセス制限下にあります。現在、担当者정건우（連絡先：010-5224-1739 / jgphaz10@company.co.kr）が対策案を検討中で、全顧客データは一時的に暗号化保管しています。今後はアクセスログの監査強化とともに、誤送信防止のため暗号化プロトコル（기밀方式）への切り替えを予定しております。\n[부속] 대외비",
+    "grade": "C",
+    "gen": "azure:o4-mini",
+    "lang": "ja"
+  }
+]
