@@ -1,0 +1,58 @@
+{
+  "n2sf-base-ml": {
+    "ind": 0.9722,
+    "ood": 0.6502,
+    "drop": 0.322,
+    "ood_crec": 0.948,
+    "ood_over": 0.2566
+  },
+  "n2sf-xlmr-large-v2": {
+    "ind": 0.9582,
+    "ood": 0.7415,
+    "drop": 0.217,
+    "ood_crec": 1.0,
+    "ood_over": 0.223
+  },
+  "n2sf-xlmr-ml": {
+    "ind": 0.887,
+    "ood": 0.7349,
+    "drop": 0.152,
+    "ood_crec": 1.0,
+    "ood_over": 0.2326
+  },
+  "n2sf-klue-large-v2": {
+    "ind": 0.9309,
+    "ood": 0.7322,
+    "drop": 0.199,
+    "ood_crec": 0.9884,
+    "ood_over": 0.2254
+  },
+  "n2sf-small-multi-minilm": {
+    "ind": 0.9302,
+    "ood": 0.6969,
+    "drop": 0.233,
+    "ood_crec": 0.9884,
+    "ood_over": 0.2494
+  },
+  "n2sf-small-multi-e5": {
+    "ind": 0.9029,
+    "ood": 0.7077,
+    "drop": 0.195,
+    "ood_crec": 0.9422,
+    "ood_over": 0.2254
+  },
+  "n2sf-base": {
+    "ind": 0.8733,
+    "ood": 0.6945,
+    "drop": 0.179,
+    "ood_crec": 0.9769,
+    "ood_over": 0.2398
+  },
+  "n2sf-small-v2": {
+    "ind": 0.916,
+    "ood": 0.6565,
+    "drop": 0.26,
+    "ood_crec": 0.7803,
+    "ood_over": 0.2326
+  }
+}
