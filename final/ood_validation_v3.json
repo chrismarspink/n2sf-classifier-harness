@@ -1,0 +1,37 @@
+{
+  "n2sf-klue-large-v2": {
+    "ood_f1": 0.7012,
+    "ood_crec": 1.0,
+    "ood_over": 0.247,
+    "ind_f1": 0.8515,
+    "ind_crec": 1.0
+  },
+  "n2sf-small-multi-minilm": {
+    "ood_f1": 0.6892,
+    "ood_crec": 1.0,
+    "ood_over": 0.2566,
+    "ind_f1": 0.8377,
+    "ind_crec": 1.0
+  },
+  "n2sf-base-ml": {
+    "ood_f1": 0.6278,
+    "ood_crec": 0.9884,
+    "ood_over": 0.2758,
+    "ind_f1": 0.865,
+    "ind_crec": 1.0
+  },
+  "n2sf-small-v2": {
+    "ood_f1": 0.7053,
+    "ood_crec": 0.9942,
+    "ood_over": 0.2446,
+    "ind_f1": 0.8235,
+    "ind_crec": 1.0
+  },
+  "n2sf-xlmr-large-v2": {
+    "ood_f1": 0.7062,
+    "ood_crec": 1.0,
+    "ood_over": 0.2446,
+    "ind_f1": 0.8377,
+    "ind_crec": 1.0
+  }
+}
