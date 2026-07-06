@@ -61,6 +61,7 @@ def main(argv=None):
     ap.add_argument("--balance", action="store_true", help="클래스 균형 샘플링(S 기아 해소)")
     ap.add_argument("--train-top", type=int, default=0)
     ap.add_argument("--cap", type=int, default=0)
+    ap.add_argument("--seed", type=int, default=0, help="다시드 분산 측정용(가중치 init·데이터 순서)")
     ap.add_argument("--max-hours", type=float, default=3.0)
     args = ap.parse_args(argv)
 
@@ -70,7 +71,8 @@ def main(argv=None):
                               get_cosine_schedule_with_warmup)
     dev = "mps" if torch.backends.mps.is_available() else ("cuda" if torch.cuda.is_available() else "cpu")
 
-    data = load_soft(args.soft_jsonl, args.cap)
+    torch.manual_seed(args.seed)                  # 다시드: 분류헤드 init·샘플러 재현
+    data = load_soft(args.soft_jsonl, args.cap, seed=args.seed)
     if len(data) < 20:
         print(f"[train_kd] 데이터 부족({len(data)}) — 중단"); return
     heldout = json.loads(Path(args.heldout).read_text(encoding="utf-8")) if Path(args.heldout).exists() else []
