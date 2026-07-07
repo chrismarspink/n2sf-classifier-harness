@@ -4,7 +4,7 @@
 가정: 분류 모델은 API 서버(/api/classify). 이 콘솔이 그 서버를 '관리'한다.
 메뉴(전부): 대시보드 · 분류 테스트 · 데이터 관리(라벨 업로드) · 학습(고객데이터) · 모델 버전(적용/롤백) · 모니터링 · 설정.
 학습·적용은 train_onsite + classifier_v3(무중단 핫리로드)로 **실제 동작**. 통계/설정 일부는 더미.
-실행: python admin_site.py  →  http://localhost:8080
+실행: python admin_site.py  →  http://localhost:8090
 """
 from __future__ import annotations
 import json, os, threading, time, traceback
@@ -213,7 +213,7 @@ class H(BaseHTTPRequestHandler):
 
 
 def main():
-    port = int(os.environ.get("PORT", "8080"))
+    port = int(os.environ.get("PORT", "8090"))
     print(f"[admin] N²SF 관리 콘솔 http://localhost:{port} · 모델 {CLF.model_version}", flush=True)
     ThreadingHTTPServer(("0.0.0.0", port), H).serve_forever()
 

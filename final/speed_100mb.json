@@ -1,0 +1,22 @@
+{
+  "llm_chunk_latency_s": null,
+  "gemma_chunk_latency_s": null,
+  "rows": [
+    {
+      "grade": "S",
+      "mb": 100.0,
+      "chunks": 13171,
+      "T1_s": 3.167,
+      "T2_s": 2960.88,
+      "T3_s": 93.1,
+      "full_s": 3057.15,
+      "earlyexit_s": 3057.148,
+      "decide": "T3(뉴럴)",
+      "MBps_full": 0.03,
+      "gemma_full_s": null,
+      "speedup_vs_gemma": null,
+      "llm_full_s": null,
+      "speedup_vs_llm": null
+    }
+  ]
+}

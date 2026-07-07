@@ -25,7 +25,7 @@
 # (오프라인 번들: 온라인 PC 1회)  cd 산출물_v3 && ./bundle_offline.sh
 python classifier_v3.py --demo
 python classifier_v3.py 문서.pdf --model accurate --json
-python serve_v3.py          # 웹 UI :8080 (분류·학습·핫리로드)
+python serve_v3.py          # 웹 UI :8090 (분류·학습·핫리로드)
 ```
 
 ## 핵심 특성
