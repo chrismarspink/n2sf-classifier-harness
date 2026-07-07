@@ -17,6 +17,22 @@
       "speedup_vs_gemma": null,
       "llm_full_s": null,
       "speedup_vs_llm": null
+    },
+    {
+      "grade": "C",
+      "mb": 100.0,
+      "chunks": 11404,
+      "T1_s": 2.982,
+      "T2_s": 2450.89,
+      "T3_s": 82.08,
+      "full_s": 2535.95,
+      "earlyexit_s": 2.982,
+      "decide": "T1(규칙·기밀표지)",
+      "MBps_full": 0.04,
+      "gemma_full_s": null,
+      "speedup_vs_gemma": null,
+      "llm_full_s": null,
+      "speedup_vs_llm": null
     }
   ]
 }
