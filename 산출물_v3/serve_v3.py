@@ -108,7 +108,7 @@ class H(BaseHTTPRequestHandler):
 
 
 def main():
-    port = int(os.environ.get("PORT", "8080"))
+    port = int(os.environ.get("PORT", "8090"))
     print(f"[serve_v3] N²SF 서비스 :{port} · 모델 {CLF.model_version}", flush=True)
     ThreadingHTTPServer(("0.0.0.0", port), H).serve_forever()
 
