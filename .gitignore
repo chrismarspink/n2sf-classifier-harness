@@ -36,3 +36,7 @@ kd/
 # 골드셋 후보(합성 PII/키 포함 — 로컬 라벨링용, GitHub 미업로드)
 산출물/goldset_candidates.csv
 goldset_candidates*.csv
+
+# v3 오프라인 번들(대용량 — 로컬)
+산출물_v3/models/
+산출물_v3/offline_wheels/

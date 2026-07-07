@@ -1,0 +1,12 @@
+# N²SF v3 오프라인 의존성 (폐쇄망: pip install --no-index --find-links offline_wheels -r requirements_offline.txt)
+# 추론·NER·학습 모두 로컬. 네트워크 접속 없음(HF_HUB_OFFLINE/TRANSFORMERS_OFFLINE=1은 코드에서 자동 설정).
+transformers>=4.44
+torch>=2.2
+presidio-analyzer>=2.2
+presidio-anonymizer>=2.2
+spacy>=3.7
+openpyxl>=3.1
+pypdf>=4.0
+protobuf                 # spaCy/일부 토크나이저 오프라인 로딩
+sentencepiece            # XLM-R/mDeBERTa 토크나이저
+# NER 모델(별도 wheel): ko_core_news_sm  (offline_wheels 에 포함되도록 bundle_offline.sh 참조)
