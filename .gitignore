@@ -40,3 +40,6 @@ goldset_candidates*.csv
 # v3 오프라인 번들(대용량 — 로컬)
 산출물_v3/models/
 산출물_v3/offline_wheels/
+
+# 고객 온사이트 업로드(개인정보 가능 — 로컬)
+onsite_uploads/
