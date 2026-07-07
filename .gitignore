@@ -32,3 +32,7 @@ kd/
 
 # Azure 자격(절대 커밋 금지)
 .env.azure
+
+# 골드셋 후보(합성 PII/키 포함 — 로컬 라벨링용, GitHub 미업로드)
+산출물/goldset_candidates.csv
+goldset_candidates*.csv
