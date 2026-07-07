@@ -1,0 +1,53 @@
+{
+  "n": 124,
+  "objective": 0.78003,
+  "macro_f1": 0.7881,
+  "weighted_f1": 0.7796,
+  "accuracy": 0.7823,
+  "c_recall": 1.0,
+  "c_precision": 0.68,
+  "under_rate": 0.0161,
+  "over_rate": 0.2016,
+  "p50_ms": 0.0,
+  "p95_ms": 0.0,
+  "confusion": {
+    "O": {
+      "O": 30,
+      "S": 9,
+      "C": 0
+    },
+    "S": {
+      "O": 2,
+      "S": 33,
+      "C": 16
+    },
+    "C": {
+      "O": 0,
+      "S": 0,
+      "C": 34
+    }
+  },
+  "per_grade": {
+    "O": {
+      "precision": 0.9375,
+      "recall": 0.7692,
+      "f1": 0.8451,
+      "support": 39
+    },
+    "S": {
+      "precision": 0.7857,
+      "recall": 0.6471,
+      "f1": 0.7097,
+      "support": 51
+    },
+    "C": {
+      "precision": 0.68,
+      "recall": 1.0,
+      "f1": 0.8095,
+      "support": 34
+    }
+  },
+  "by_format": {},
+  "by_category": {},
+  "c_target": 0.98
+}
