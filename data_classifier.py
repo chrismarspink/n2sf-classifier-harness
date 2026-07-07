@@ -80,13 +80,15 @@ ENTITY_LABELS: Dict[str, str] = {
 # 2. 가중치 · 임계값 (sample-data/calibrate.py 로 보정된 값 — 변경 시 재보정 권장)
 # ════════════════════════════════════════════════════════════════════════
 ENTITY_WEIGHTS: Dict[str, float] = {
-    # CONFIDENTIAL drivers — 단일 검출만으로 C_THRESHOLD 도달
-    "KR_RRN": 6.0, "KR_PASSPORT": 6.0, "JP_MY_NUMBER": 6.0, "JP_PASSPORT": 6.0,
-    "US_SSN": 6.0, "CREDIT_CARD": 6.0, "IBAN_CODE": 6.0, "AWS_ACCESS_KEY": 6.0,
-    "KR_ACCOUNT": 6.0,
+    # ── N²SF §9-6호: 개인정보(주민번호·여권·카드·계좌·키)는 기본 S(민감). C 아님. ──
+    #   C(기밀)는 국가안보·외교·수사 '영향'이며 뉴럴(의미)+기밀표지 floor가 담당.
+    #   규칙은 개인정보를 S 대역으로만 올림(단독으론 C_THRESHOLD 미달).
+    "KR_RRN": 2.0, "KR_PASSPORT": 2.0, "JP_MY_NUMBER": 2.0, "JP_PASSPORT": 2.0,
+    "US_SSN": 2.0, "CREDIT_CARD": 2.0, "IBAN_CODE": 2.0, "AWS_ACCESS_KEY": 2.5,
+    "KR_ACCOUNT": 2.0,
     # SENSITIVE drivers
     "KR_NAME": 0.6, "KR_MONEY": 0.5, "KR_BIZ_NO": 2.5, "JP_CORPORATE_NUMBER": 2.0,
-    "JP_BANK_ACCOUNT": 2.5, "GENERIC_API_KEY": 3.5, "VIP_PERSON": 2.0,
+    "JP_BANK_ACCOUNT": 2.5, "GENERIC_API_KEY": 2.5, "VIP_PERSON": 2.0,
     "INTERNAL_PROJECT": 2.0, "KR_ADDRESS": 1.5, "JP_ADDRESS": 1.0,
     "JP_POSTAL_CODE": 0.3, "KR_PHONE": 1.0, "JP_PHONE": 1.0, "CN_PHONE": 1.0,
     "PHONE_NUMBER": 1.0, "EMAIL_ADDRESS": 1.0, "PERSON": 0.5, "IP_ADDRESS": 0.4,
@@ -626,10 +628,10 @@ def _finding_contribution(f: dict, entity_overrides: dict) -> float:
 def _score(findings: List[dict], entity_overrides: dict,
            c_thr: float, s_thr: float) -> Tuple[float, str, float]:
     s = sum(_finding_contribution(f, entity_overrides) for f in findings)
-    if s >= c_thr:
-        grade, margin = "CONFIDENTIAL", s - c_thr
-    elif s >= s_thr:
-        grade, margin = "SENSITIVE", min(s - s_thr, c_thr - s)
+    # N²SF §9: 규칙(형태 기반)은 C(기밀)를 결정하지 않는다. C는 유출 '영향'(외교·수사·국방)이므로
+    # 뉴럴(의미)과 명시적 기밀표지 하드 floor가 담당. 규칙 점수의 등급 상한 = S(민감).
+    if s >= s_thr:
+        grade, margin = "SENSITIVE", min(s - s_thr, max(c_thr - s, 0.5))
     else:
         grade, margin = "OPEN", s_thr - s
     confidence = max(0.0, min(1.0, 0.55 + 0.4 * math.tanh(margin / 2.0)))
@@ -952,13 +954,13 @@ def classify_text(text: str, *, locale: str = "ko", n2sf_mode: bool = True,
 
     score, grade, confidence = _score(findings, entity_overrides, c_thr, s_thr)
 
-    # 대량 PII escalation
+    # 대량 개인정보(명부) — N²SF §9-6: 개인정보이므로 기밀(C) 아님. 최소 S(민감) floor.
     bulk_count = sum(f["count"] for f in findings if f["type"] in BULK_PII_TYPES)
     bulk_pii = bulk_count >= BULK_PII_THRESHOLD
-    if bulk_pii and GRADE_RANK[grade] < GRADE_RANK["CONFIDENTIAL"]:
-        grade, confidence = "CONFIDENTIAL", max(confidence, 0.9)
+    if bulk_pii and GRADE_RANK[grade] < GRADE_RANK["SENSITIVE"]:
+        grade, confidence = "SENSITIVE", max(confidence, 0.8)
 
-    # JP 컴플라이언스 (마이넘버 suppress 강제)
+    # JP 컴플라이언스 (마이넘버=개인정보 → §9-6 S. 취급주의 표시는 유지하되 등급 강제 안 함)
     jp_compliance = None
     if locale == "ja":
         my_number = next((f for f in findings if f["type"] == "JP_MY_NUMBER"), None)
@@ -967,15 +969,15 @@ def classify_text(text: str, *, locale: str = "ko", n2sf_mode: bool = True,
             "specialCareDetected": False,
             "addressDecomposed": any(f["type"] == "JP_ADDRESS" for f in findings),
         }
-        if my_number:
-            grade = "CONFIDENTIAL"
+        if my_number and GRADE_RANK[grade] < GRADE_RANK["SENSITIVE"]:
+            grade = "SENSITIVE"
 
     # 규제 · 위반
     regulations = list(LOCALE_REGS.get(locale, []))
     violations = []
     if bulk_pii:
         violations.append({"code": "BULK-PII",
-                           "msg": f"대량 개인정보({bulk_count}건) — 디렉터리/명부로 판단, 기밀 상향",
+                           "msg": f"대량 개인정보({bulk_count}건) — 명부. §9-6 개인정보→민감(S) 상향",
                            "severity": "warn"})
     if locale == "ko" and any(f["type"] == "KR_RRN" for f in findings):
         violations.append({"code": "KR-PIPA-Art23", "msg": "민감정보 비식별 필요", "severity": "warn"})
@@ -1001,12 +1003,13 @@ def classify_text(text: str, *, locale: str = "ko", n2sf_mode: bool = True,
                         neural_result=neural_result, method=method, weights=tier_weights)
     grade, confidence = ensemble["grade"], ensemble["confidence"]
 
-    # 컴플라이언스 floor — 앙상블이 하향 못 함
-    if jp_compliance and jp_compliance["myNumberSuppressForced"]:
-        grade = "CONFIDENTIAL"
-    if bulk_pii:
-        grade = "CONFIDENTIAL"
-    # 명시적 기밀 라벨(극비/대외비/기밀/機密…) 검출 시 하드 floor → 뉴럴이 하향 못 함
+    # N²SF §9 floor — 앙상블이 하향 못 함
+    # 개인정보(마이넘버·대량PII)는 §9-6 → 최소 S(기밀 아님)
+    if jp_compliance and jp_compliance["myNumberSuppressForced"] and GRADE_RANK[grade] < GRADE_RANK["SENSITIVE"]:
+        grade = "SENSITIVE"
+    if bulk_pii and GRADE_RANK[grade] < GRADE_RANK["SENSITIVE"]:
+        grade = "SENSITIVE"
+    # 명시적 국가비밀 라벨(극비/대외비/기밀/機密…)만 CONFIDENTIAL 하드 floor(§9 비밀/보안업무규정)
     if any(f.get("secretFloor") for f in kw_findings):
         grade = "CONFIDENTIAL"
 
