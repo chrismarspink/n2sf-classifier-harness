@@ -43,3 +43,6 @@ goldset_candidates*.csv
 
 # 고객 온사이트 업로드(개인정보 가능 — 로컬)
 onsite_uploads/
+
+# v4 번들 모델(대용량 로컬)
+산출물_v4/models/
