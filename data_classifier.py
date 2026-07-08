@@ -265,6 +265,17 @@ def get_engine(locale: str):
         "models": [{"lang_code": lang, "model_name": SPACY_MODELS[locale]}],
     }).create_engine()
 
+    # [최적화 2] spaCy NER-only — parser/tagger/lemmatizer 등 불필요 컴포넌트 비활성(속도 1.6×)
+    try:
+        nlp_map = getattr(nlp_engine, "nlp", {})
+        for _nlp in (nlp_map.values() if isinstance(nlp_map, dict) else []):
+            keep = {"tok2vec", "transformer", "ner"}
+            drop = [p for p in _nlp.pipe_names if p not in keep]
+            if drop:
+                _nlp.disable_pipes(*drop)
+    except Exception:
+        pass
+
     registry = RecognizerRegistry(supported_languages=[lang])
     registry.load_predefined_recognizers(languages=[lang], nlp_engine=nlp_engine)
     for r in _build_recognizers():
@@ -275,17 +286,48 @@ def get_engine(locale: str):
         except Exception:
             pass
 
+    # [최적화 1] 인식기 slim — 로케일별 사용 엔티티를 지원하는 인식기만 남김(불필요 인식기 제거)
+    try:
+        used = _used_entities(locale)
+        keep_recs = []
+        for r in registry.recognizers:
+            se = set(getattr(r, "supported_entities", []) or [])
+            if not se or (se & used):        # spaCy 등 엔티티 미표기는 유지
+                keep_recs.append(r)
+        registry.recognizers = keep_recs
+    except Exception:
+        pass
+
     engine = AnalyzerEngine(registry=registry, nlp_engine=nlp_engine,
                             supported_languages=[lang])
     _ENGINES[locale] = engine
     return engine
 
 
+_COMMON_ENTS = {"PERSON", "LOCATION", "ORGANIZATION", "NRP", "EMAIL_ADDRESS",
+                "PHONE_NUMBER", "DATE_TIME", "URL", "IP_ADDRESS", "CREDIT_CARD"}
+_LOCALE_ENTS = {
+    "ko": {"KR_RRN", "KR_PHONE", "KR_ACCOUNT", "KR_PASSPORT", "KR_BIZ_NO", "KR_ADDRESS",
+           "KR_NAME", "KR_MONEY", "VIP_PERSON", "INTERNAL_PROJECT", "GENERIC_API_KEY", "AWS_ACCESS_KEY"},
+    "ja": {"JP_MY_NUMBER", "JP_PASSPORT", "JP_PHONE", "JP_ADDRESS", "JP_BANK_ACCOUNT",
+           "JP_CORPORATE_NUMBER", "JP_POSTAL_CODE", "GENERIC_API_KEY", "AWS_ACCESS_KEY"},
+    "en": {"US_SSN", "IBAN_CODE", "GENERIC_API_KEY", "AWS_ACCESS_KEY"},
+    "zh-CN": {"CN_PHONE", "GENERIC_API_KEY", "AWS_ACCESS_KEY"},
+}
+
+
+def _used_entities(locale: str = "ko") -> set:
+    """로케일별로 실제 기여하는 엔티티만(불필요 인식기 스킵). 좁을수록 빠름."""
+    return _COMMON_ENTS | _LOCALE_ENTS.get(locale, _LOCALE_ENTS["ko"])
+
+
 def analyze(text: str, locale: str) -> List[dict]:
     """Presidio 분석 → finding dict 리스트 (entity_type/start/end/score/recognizer)."""
     engine = get_engine(locale)
     lang = _presidio_lang(locale)
-    raw = engine.analyze(text=text, language=lang)
+    # [최적화 3] 사용 엔티티만 분석(불필요 인식기 실행 스킵)
+    _ents = sorted(_used_entities(locale) & set(engine.get_supported_entities(language=lang) or []))
+    raw = engine.analyze(text=text, language=lang, entities=_ents or None)
     return [{
         "entity_type": r.entity_type, "start": r.start, "end": r.end,
         "score": r.score,
