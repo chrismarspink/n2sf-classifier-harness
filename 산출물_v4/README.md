@@ -7,7 +7,12 @@
 | 파일 | 역할 |
 |---|---|
 | `classifier_v4.py` | **3-tier 통합 단일 파일** — 규칙(PATTERN/DENY_LIST/GRADE_KEYWORDS/SECRET_FLOOR_KW)+엔진+뉴럴+SHAP+§9+설명층+(옵션)Fable+핫리로드 |
+| `serve_v4.py` | 온프레미스 분류 서비스(:8091) + 학습/무중단 핫리로드 API (표준 라이브러리만) |
+| `admin_site.py` | 관리 콘솔(:8091) — 대시보드·분류(XAI)·데이터·학습·모델버전(적용/롤백)·모니터링·설정 |
+| `train_onsite.py` | 고객 라벨(CSV/JSONL)→전이+혼합 재학습 → 새 버전 모델(무중단 적용용) |
+| `bundle_offline.sh`·`requirements_offline.txt` | 폐쇄망 오프라인 번들(모델 복사 + wheel 아카이브) |
 | `사용가이드_v4_상세.md` | 편집 지점·반환 JSON 전 필드·정규식/키워드 확장·GUI 렌더링·학습/핫스왑(v3)·한계 |
+| `오프라인_배포_가이드.md`·`온사이트학습_핫리로드_가이드.md`·`학습데이터_가이드.md` | 배포·재학습·데이터 준비 상세 가이드 |
 | `models/` | 번들 모델(오프라인): n2sf-small · xlmr-large · **xlmr-official(§9, 기본)** |
 
 ## v4 핵심 (요청 반영)
@@ -21,11 +26,15 @@
 ```bash
 python classifier_v4.py --demo
 python classifier_v4.py 문서.pdf --model n2sf-official       # 상세 JSON
+python serve_v4.py            # 분류 서비스 + 학습/핫리로드 (:8091)
+python admin_site.py          # 관리 콘솔 (:8091)
+cd 산출물_v4 && ./bundle_offline.sh   # 폐쇄망 오프라인 번들 생성(온라인 PC 1회)
 ```
 ```python
 from classifier_v4 import N2SFExplainClassifier
 clf = N2SFExplainClassifier()          # 기본 §9(n2sf-official)
 r = clf.classify("문서.pdf")            # grade·file·decision·findings·shap·explanation …
+clf.reload_model("cust-v2", path="models/n2sf-custom-v2")   # 무중단 교체
 ```
 
 ## 한계(정직)
